@@ -59,7 +59,7 @@ const handleMessage = (obj, name) => {
 
 const messages = {}
 
-let out = ['syntax = "proto3";', '', 'namespace swapi;', '']
+let out = ['syntax = "proto3";', '', 'package swapi;', '']
 handleMessage(obj, 'SWAPI')
 Object.keys(messages).forEach(key => {
   out.push(`message ${key} {`)
