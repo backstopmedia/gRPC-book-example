@@ -67,7 +67,7 @@ message Species {
   string hair_colors = 6;
   string eye_colors = 7;
   string average_lifespan = 8;
-  string homeworld = 9;
+  Planet homeworld = 9;
   string language = 10;
   repeated Person people = 11;
   repeated Film films = 12;
@@ -102,7 +102,7 @@ message Person {
   string eye_color = 6;
   string birth_year = 7;
   string gender = 8;
-  string homeworld = 9;
+  Planet homeworld = 9;
   repeated Film films = 10;
   repeated Species species = 11;
   repeated Vehicle vehicles = 12;
