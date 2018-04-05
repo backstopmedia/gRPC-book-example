@@ -1,0 +1,13 @@
+# tools
+
+This is just some quick tooling I made to document how I designed the protos and got the data.
+
+It can totally be deleted once we have all our definitions & data in place.
+
+
+
+```bash
+npm i       # install dependencies
+./get_data  # get all the data from th API
+./gen_proto # generate the gRPC protobuf that matches the API
+```
