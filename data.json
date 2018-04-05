@@ -57,7 +57,7 @@
       ],
       "created": "2014-12-10T14:23:31.880000Z",
       "edited": "2015-04-11T09:46:52.774897Z",
-      "url": "https://swapi.co/api/films/1/"
+      "id": 1
     },
     {
       "title": "Attack of the Clones",
@@ -157,7 +157,7 @@
       ],
       "created": "2014-12-20T10:57:57.886000Z",
       "edited": "2015-04-11T09:45:01.623982Z",
-      "url": "https://swapi.co/api/films/5/"
+      "id": 5
     },
     {
       "title": "The Phantom Menace",
@@ -247,7 +247,7 @@
       ],
       "created": "2014-12-19T16:52:55.740000Z",
       "edited": "2015-04-11T09:45:18.689301Z",
-      "url": "https://swapi.co/api/films/4/"
+      "id": 4
     },
     {
       "title": "Revenge of the Sith",
@@ -360,7 +360,7 @@
       ],
       "created": "2014-12-20T18:49:38.403000Z",
       "edited": "2015-04-11T09:45:44.862122Z",
-      "url": "https://swapi.co/api/films/6/"
+      "id": 6
     },
     {
       "title": "Return of the Jedi",
@@ -435,7 +435,7 @@
       ],
       "created": "2014-12-18T10:39:33.255000Z",
       "edited": "2015-04-11T09:46:05.220365Z",
-      "url": "https://swapi.co/api/films/3/"
+      "id": 3
     },
     {
       "title": "The Empire Strikes Back",
@@ -496,7 +496,7 @@
       ],
       "created": "2014-12-12T11:26:24.656000Z",
       "edited": "2017-04-19T10:57:29.544256Z",
-      "url": "https://swapi.co/api/films/2/"
+      "id": 2
     },
     {
       "title": "The Force Awakens",
@@ -533,7 +533,1685 @@
       ],
       "created": "2015-04-17T06:51:30.504780Z",
       "edited": "2015-12-17T14:31:47.617768Z",
-      "url": "https://swapi.co/api/films/7/"
+      "id": 7
+    }
+  ],
+  "species": [
+    {
+      "name": "Hutt",
+      "classification": "gastropod",
+      "designation": "sentient",
+      "average_height": "300",
+      "skin_colors": "green, brown, tan",
+      "hair_colors": "n/a",
+      "eye_colors": "yellow, red",
+      "average_lifespan": "1000",
+      "homeworld": 24,
+      "language": "Huttese",
+      "people": [
+        16
+      ],
+      "films": [
+        3,
+        1
+      ],
+      "created": "2014-12-10T17:12:50.410000Z",
+      "edited": "2014-12-20T21:36:42.146000Z",
+      "id": 5
+    },
+    {
+      "name": "Yoda's species",
+      "classification": "mammal",
+      "designation": "sentient",
+      "average_height": "66",
+      "skin_colors": "green, yellow",
+      "hair_colors": "brown, white",
+      "eye_colors": "brown, green, yellow",
+      "average_lifespan": "900",
+      "homeworld": 28,
+      "language": "Galactic basic",
+      "people": [
+        20
+      ],
+      "films": [
+        2,
+        5,
+        4,
+        6,
+        3
+      ],
+      "created": "2014-12-15T12:27:22.877000Z",
+      "edited": "2014-12-20T21:36:42.148000Z",
+      "id": 6
+    },
+    {
+      "name": "Trandoshan",
+      "classification": "reptile",
+      "designation": "sentient",
+      "average_height": "200",
+      "skin_colors": "brown, green",
+      "hair_colors": "none",
+      "eye_colors": "yellow, orange",
+      "average_lifespan": "unknown",
+      "homeworld": 29,
+      "language": "Dosh",
+      "people": [
+        24
+      ],
+      "films": [
+        2
+      ],
+      "created": "2014-12-15T13:07:47.704000Z",
+      "edited": "2014-12-20T21:36:42.151000Z",
+      "id": 7
+    },
+    {
+      "name": "Mon Calamari",
+      "classification": "amphibian",
+      "designation": "sentient",
+      "average_height": "160",
+      "skin_colors": "red, blue, brown, magenta",
+      "hair_colors": "none",
+      "eye_colors": "yellow",
+      "average_lifespan": "unknown",
+      "homeworld": 31,
+      "language": "Mon Calamarian",
+      "people": [
+        27
+      ],
+      "films": [
+        3
+      ],
+      "created": "2014-12-18T11:09:52.263000Z",
+      "edited": "2014-12-20T21:36:42.153000Z",
+      "id": 8
+    },
+    {
+      "name": "Ewok",
+      "classification": "mammal",
+      "designation": "sentient",
+      "average_height": "100",
+      "skin_colors": "brown",
+      "hair_colors": "white, brown, black",
+      "eye_colors": "orange, brown",
+      "average_lifespan": "unknown",
+      "homeworld": 7,
+      "language": "Ewokese",
+      "people": [
+        30
+      ],
+      "films": [
+        3
+      ],
+      "created": "2014-12-18T11:22:00.285000Z",
+      "edited": "2014-12-20T21:36:42.155000Z",
+      "id": 9
+    },
+    {
+      "name": "Sullustan",
+      "classification": "mammal",
+      "designation": "sentient",
+      "average_height": "180",
+      "skin_colors": "pale",
+      "hair_colors": "none",
+      "eye_colors": "black",
+      "average_lifespan": "unknown",
+      "homeworld": 33,
+      "language": "Sullutese",
+      "people": [
+        31
+      ],
+      "films": [
+        3
+      ],
+      "created": "2014-12-18T11:26:20.103000Z",
+      "edited": "2014-12-20T21:36:42.157000Z",
+      "id": 10
+    },
+    {
+      "name": "Neimodian",
+      "classification": "unknown",
+      "designation": "sentient",
+      "average_height": "180",
+      "skin_colors": "grey, green",
+      "hair_colors": "none",
+      "eye_colors": "red, pink",
+      "average_lifespan": "unknown",
+      "homeworld": 18,
+      "language": "Neimoidia",
+      "people": [
+        33
+      ],
+      "films": [
+        4
+      ],
+      "created": "2014-12-19T17:07:31.319000Z",
+      "edited": "2014-12-20T21:36:42.160000Z",
+      "id": 11
+    },
+    {
+      "name": "Gungan",
+      "classification": "amphibian",
+      "designation": "sentient",
+      "average_height": "190",
+      "skin_colors": "brown, green",
+      "hair_colors": "none",
+      "eye_colors": "orange",
+      "average_lifespan": "unknown",
+      "homeworld": 8,
+      "language": "Gungan basic",
+      "people": [
+        36,
+        37,
+        38
+      ],
+      "films": [
+        5,
+        4
+      ],
+      "created": "2014-12-19T17:30:37.341000Z",
+      "edited": "2014-12-20T21:36:42.163000Z",
+      "id": 12
+    },
+    {
+      "name": "Toydarian",
+      "classification": "mammal",
+      "designation": "sentient",
+      "average_height": "120",
+      "skin_colors": "blue, green, grey",
+      "hair_colors": "none",
+      "eye_colors": "yellow",
+      "average_lifespan": "91",
+      "homeworld": 34,
+      "language": "Toydarian",
+      "people": [
+        40
+      ],
+      "films": [
+        5,
+        4
+      ],
+      "created": "2014-12-19T17:48:56.893000Z",
+      "edited": "2014-12-20T21:36:42.165000Z",
+      "id": 13
+    },
+    {
+      "name": "Dug",
+      "classification": "mammal",
+      "designation": "sentient",
+      "average_height": "100",
+      "skin_colors": "brown, purple, grey, red",
+      "hair_colors": "none",
+      "eye_colors": "yellow, blue",
+      "average_lifespan": "unknown",
+      "homeworld": 35,
+      "language": "Dugese",
+      "people": [
+        41
+      ],
+      "films": [
+        4
+      ],
+      "created": "2014-12-19T17:53:11.214000Z",
+      "edited": "2014-12-20T21:36:42.167000Z",
+      "id": 14
+    },
+    {
+      "name": "Twi'lek",
+      "classification": "mammals",
+      "designation": "sentient",
+      "average_height": "200",
+      "skin_colors": "orange, yellow, blue, green, pink, purple, tan",
+      "hair_colors": "none",
+      "eye_colors": "blue, brown, orange, pink",
+      "average_lifespan": "unknown",
+      "homeworld": 37,
+      "language": "Twi'leki",
+      "people": [
+        45,
+        46
+      ],
+      "films": [
+        5,
+        4,
+        6,
+        3
+      ],
+      "created": "2014-12-20T09:48:02.406000Z",
+      "edited": "2014-12-20T21:36:42.169000Z",
+      "id": 15
+    },
+    {
+      "name": "Aleena",
+      "classification": "reptile",
+      "designation": "sentient",
+      "average_height": "80",
+      "skin_colors": "blue, gray",
+      "hair_colors": "none",
+      "eye_colors": "unknown",
+      "average_lifespan": "79",
+      "homeworld": 38,
+      "language": "Aleena",
+      "people": [
+        47
+      ],
+      "films": [
+        4
+      ],
+      "created": "2014-12-20T09:53:16.481000Z",
+      "edited": "2014-12-20T21:36:42.171000Z",
+      "id": 16
+    },
+    {
+      "name": "Vulptereen",
+      "classification": "unknown",
+      "designation": "sentient",
+      "average_height": "100",
+      "skin_colors": "grey",
+      "hair_colors": "none",
+      "eye_colors": "yellow",
+      "average_lifespan": "unknown",
+      "homeworld": 39,
+      "language": "vulpterish",
+      "people": [
+        48
+      ],
+      "films": [
+        4
+      ],
+      "created": "2014-12-20T09:57:33.128000Z",
+      "edited": "2014-12-20T21:36:42.173000Z",
+      "id": 17
+    },
+    {
+      "name": "Xexto",
+      "classification": "unknown",
+      "designation": "sentient",
+      "average_height": "125",
+      "skin_colors": "grey, yellow, purple",
+      "hair_colors": "none",
+      "eye_colors": "black",
+      "average_lifespan": "unknown",
+      "homeworld": 40,
+      "language": "Xextese",
+      "people": [
+        49
+      ],
+      "films": [
+        4
+      ],
+      "created": "2014-12-20T10:02:13.915000Z",
+      "edited": "2014-12-20T21:36:42.175000Z",
+      "id": 18
+    },
+    {
+      "name": "Toong",
+      "classification": "unknown",
+      "designation": "sentient",
+      "average_height": "200",
+      "skin_colors": "grey, green, yellow",
+      "hair_colors": "none",
+      "eye_colors": "orange",
+      "average_lifespan": "unknown",
+      "homeworld": 41,
+      "language": "Tundan",
+      "people": [
+        50
+      ],
+      "films": [
+        4,
+        6
+      ],
+      "created": "2014-12-20T10:08:36.795000Z",
+      "edited": "2014-12-20T21:36:42.177000Z",
+      "id": 19
+    },
+    {
+      "name": "Cerean",
+      "classification": "mammal",
+      "designation": "sentient",
+      "average_height": "200",
+      "skin_colors": "pale pink",
+      "hair_colors": "red, blond, black, white",
+      "eye_colors": "hazel",
+      "average_lifespan": "unknown",
+      "homeworld": 43,
+      "language": "Cerean",
+      "people": [
+        52
+      ],
+      "films": [
+        4,
+        6
+      ],
+      "created": "2014-12-20T10:15:33.765000Z",
+      "edited": "2014-12-20T21:36:42.179000Z",
+      "id": 20
+    },
+    {
+      "name": "Nautolan",
+      "classification": "amphibian",
+      "designation": "sentient",
+      "average_height": "180",
+      "skin_colors": "green, blue, brown, red",
+      "hair_colors": "none",
+      "eye_colors": "black",
+      "average_lifespan": "70",
+      "homeworld": 44,
+      "language": "Nautila",
+      "people": [
+        53
+      ],
+      "films": [
+        4
+      ],
+      "created": "2014-12-20T10:18:58.610000Z",
+      "edited": "2014-12-20T21:36:42.181000Z",
+      "id": 21
+    },
+    {
+      "name": "Zabrak",
+      "classification": "mammal",
+      "designation": "sentient",
+      "average_height": "180",
+      "skin_colors": "pale, brown, red, orange, yellow",
+      "hair_colors": "black",
+      "eye_colors": "brown, orange",
+      "average_lifespan": "unknown",
+      "homeworld": 45,
+      "language": "Zabraki",
+      "people": [
+        44,
+        54
+      ],
+      "films": [
+        4
+      ],
+      "created": "2014-12-20T10:26:59.894000Z",
+      "edited": "2014-12-20T21:36:42.183000Z",
+      "id": 22
+    },
+    {
+      "name": "Tholothian",
+      "classification": "mammal",
+      "designation": "sentient",
+      "average_height": "unknown",
+      "skin_colors": "dark",
+      "hair_colors": "unknown",
+      "eye_colors": "blue, indigo",
+      "average_lifespan": "unknown",
+      "homeworld": 46,
+      "language": "unknown",
+      "people": [
+        55
+      ],
+      "films": [
+        4,
+        6
+      ],
+      "created": "2014-12-20T10:29:13.798000Z",
+      "edited": "2014-12-20T21:36:42.186000Z",
+      "id": 23
+    },
+    {
+      "name": "Iktotchi",
+      "classification": "unknown",
+      "designation": "sentient",
+      "average_height": "180",
+      "skin_colors": "pink",
+      "hair_colors": "none",
+      "eye_colors": "orange",
+      "average_lifespan": "unknown",
+      "homeworld": 47,
+      "language": "Iktotchese",
+      "people": [
+        56
+      ],
+      "films": [
+        4,
+        6
+      ],
+      "created": "2014-12-20T10:32:13.046000Z",
+      "edited": "2014-12-20T21:36:42.188000Z",
+      "id": 24
+    },
+    {
+      "name": "Quermian",
+      "classification": "mammal",
+      "designation": "sentient",
+      "average_height": "240",
+      "skin_colors": "white",
+      "hair_colors": "none",
+      "eye_colors": "yellow",
+      "average_lifespan": "86",
+      "homeworld": 48,
+      "language": "Quermian",
+      "people": [
+        57
+      ],
+      "films": [
+        4,
+        6
+      ],
+      "created": "2014-12-20T10:34:50.827000Z",
+      "edited": "2014-12-20T21:36:42.189000Z",
+      "id": 25
+    },
+    {
+      "name": "Kel Dor",
+      "classification": "unknown",
+      "designation": "sentient",
+      "average_height": "180",
+      "skin_colors": "peach, orange, red",
+      "hair_colors": "none",
+      "eye_colors": "black, silver",
+      "average_lifespan": "70",
+      "homeworld": 49,
+      "language": "Kel Dor",
+      "people": [
+        58
+      ],
+      "films": [
+        4,
+        6
+      ],
+      "created": "2014-12-20T10:49:21.692000Z",
+      "edited": "2014-12-20T21:36:42.191000Z",
+      "id": 26
+    },
+    {
+      "name": "Chagrian",
+      "classification": "amphibian",
+      "designation": "sentient",
+      "average_height": "190",
+      "skin_colors": "blue",
+      "hair_colors": "none",
+      "eye_colors": "blue",
+      "average_lifespan": "unknown",
+      "homeworld": 50,
+      "language": "Chagria",
+      "people": [
+        59
+      ],
+      "films": [
+        4,
+        6
+      ],
+      "created": "2014-12-20T10:53:28.795000Z",
+      "edited": "2014-12-20T21:36:42.193000Z",
+      "id": 27
+    },
+    {
+      "name": "Geonosian",
+      "classification": "insectoid",
+      "designation": "sentient",
+      "average_height": "178",
+      "skin_colors": "green, brown",
+      "hair_colors": "none",
+      "eye_colors": "green, hazel",
+      "average_lifespan": "unknown",
+      "homeworld": 11,
+      "language": "Geonosian",
+      "people": [
+        63
+      ],
+      "films": [
+        5,
+        6
+      ],
+      "created": "2014-12-20T16:40:45.618000Z",
+      "edited": "2014-12-20T21:36:42.195000Z",
+      "id": 28
+    },
+    {
+      "name": "Mirialan",
+      "classification": "mammal",
+      "designation": "sentient",
+      "average_height": "180",
+      "skin_colors": "yellow, green",
+      "hair_colors": "black, brown",
+      "eye_colors": "blue, green, red, yellow, brown, orange",
+      "average_lifespan": "unknown",
+      "homeworld": 51,
+      "language": "Mirialan",
+      "people": [
+        64,
+        65
+      ],
+      "films": [
+        5,
+        6
+      ],
+      "created": "2014-12-20T16:46:48.290000Z",
+      "edited": "2014-12-20T21:36:42.197000Z",
+      "id": 29
+    },
+    {
+      "name": "Clawdite",
+      "classification": "reptilian",
+      "designation": "sentient",
+      "average_height": "180",
+      "skin_colors": "green, yellow",
+      "hair_colors": "none",
+      "eye_colors": "yellow",
+      "average_lifespan": "70",
+      "homeworld": 54,
+      "language": "Clawdite",
+      "people": [
+        70
+      ],
+      "films": [
+        5,
+        6
+      ],
+      "created": "2014-12-20T16:57:46.171000Z",
+      "edited": "2014-12-20T21:36:42.199000Z",
+      "id": 30
+    },
+    {
+      "name": "Besalisk",
+      "classification": "amphibian",
+      "designation": "sentient",
+      "average_height": "178",
+      "skin_colors": "brown",
+      "hair_colors": "none",
+      "eye_colors": "yellow",
+      "average_lifespan": "75",
+      "homeworld": 55,
+      "language": "besalisk",
+      "people": [
+        71
+      ],
+      "films": [
+        5
+      ],
+      "created": "2014-12-20T17:28:28.821000Z",
+      "edited": "2014-12-20T21:36:42.200000Z",
+      "id": 31
+    },
+    {
+      "name": "Kaminoan",
+      "classification": "amphibian",
+      "designation": "sentient",
+      "average_height": "220",
+      "skin_colors": "grey, blue",
+      "hair_colors": "none",
+      "eye_colors": "black",
+      "average_lifespan": "80",
+      "homeworld": 10,
+      "language": "Kaminoan",
+      "people": [
+        72,
+        73
+      ],
+      "films": [
+        5
+      ],
+      "created": "2014-12-20T17:31:24.838000Z",
+      "edited": "2014-12-20T21:36:42.202000Z",
+      "id": 32
+    },
+    {
+      "name": "Skakoan",
+      "classification": "mammal",
+      "designation": "sentient",
+      "average_height": "unknown",
+      "skin_colors": "grey, green",
+      "hair_colors": "none",
+      "eye_colors": "unknown",
+      "average_lifespan": "unknown",
+      "homeworld": 56,
+      "language": "Skakoan",
+      "people": [
+        76
+      ],
+      "films": [
+        5,
+        6
+      ],
+      "created": "2014-12-20T17:53:54.515000Z",
+      "edited": "2014-12-20T21:36:42.204000Z",
+      "id": 33
+    },
+    {
+      "name": "Muun",
+      "classification": "mammal",
+      "designation": "sentient",
+      "average_height": "190",
+      "skin_colors": "grey, white",
+      "hair_colors": "none",
+      "eye_colors": "black",
+      "average_lifespan": "100",
+      "homeworld": 57,
+      "language": "Muun",
+      "people": [
+        77
+      ],
+      "films": [
+        5,
+        6
+      ],
+      "created": "2014-12-20T17:58:19.088000Z",
+      "edited": "2014-12-20T21:36:42.207000Z",
+      "id": 34
+    },
+    {
+      "name": "Togruta",
+      "classification": "mammal",
+      "designation": "sentient",
+      "average_height": "180",
+      "skin_colors": "red, white, orange, yellow, green, blue",
+      "hair_colors": "none",
+      "eye_colors": "red, orange, yellow, green, blue, black",
+      "average_lifespan": "94",
+      "homeworld": 58,
+      "language": "Togruti",
+      "people": [
+        78
+      ],
+      "films": [
+        5,
+        6
+      ],
+      "created": "2014-12-20T18:44:03.246000Z",
+      "edited": "2014-12-20T21:36:42.209000Z",
+      "id": 35
+    },
+    {
+      "name": "Kaleesh",
+      "classification": "reptile",
+      "designation": "sentient",
+      "average_height": "170",
+      "skin_colors": "brown, orange, tan",
+      "hair_colors": "none",
+      "eye_colors": "yellow",
+      "average_lifespan": "80",
+      "homeworld": 59,
+      "language": "Kaleesh",
+      "people": [
+        79
+      ],
+      "films": [
+        6
+      ],
+      "created": "2014-12-20T19:45:42.537000Z",
+      "edited": "2014-12-20T21:36:42.210000Z",
+      "id": 36
+    },
+    {
+      "name": "Pau'an",
+      "classification": "mammal",
+      "designation": "sentient",
+      "average_height": "190",
+      "skin_colors": "grey",
+      "hair_colors": "none",
+      "eye_colors": "black",
+      "average_lifespan": "700",
+      "homeworld": 12,
+      "language": "Utapese",
+      "people": [
+        83
+      ],
+      "films": [
+        6
+      ],
+      "created": "2014-12-20T20:35:06.777000Z",
+      "edited": "2014-12-20T21:36:42.212000Z",
+      "id": 37
+    },
+    {
+      "name": "Wookiee",
+      "classification": "mammal",
+      "designation": "sentient",
+      "average_height": "210",
+      "skin_colors": "gray",
+      "hair_colors": "black, brown",
+      "eye_colors": "blue, green, yellow, brown, golden, red",
+      "average_lifespan": "400",
+      "homeworld": 14,
+      "language": "Shyriiwook",
+      "people": [
+        13,
+        80
+      ],
+      "films": [
+        2,
+        7,
+        6,
+        3,
+        1
+      ],
+      "created": "2014-12-10T16:44:31.486000Z",
+      "edited": "2015-01-30T21:23:03.074598Z",
+      "id": 3
+    },
+    {
+      "name": "Droid",
+      "classification": "artificial",
+      "designation": "sentient",
+      "average_height": "n/a",
+      "skin_colors": "n/a",
+      "hair_colors": "n/a",
+      "eye_colors": "n/a",
+      "average_lifespan": "indefinite",
+      "homeworld": null,
+      "language": "n/a",
+      "people": [
+        2,
+        3,
+        8,
+        23,
+        87
+      ],
+      "films": [
+        2,
+        7,
+        5,
+        4,
+        6,
+        3,
+        1
+      ],
+      "created": "2014-12-10T15:16:16.259000Z",
+      "edited": "2015-04-17T06:59:43.869528Z",
+      "id": 2
+    },
+    {
+      "name": "Human",
+      "classification": "mammal",
+      "designation": "sentient",
+      "average_height": "180",
+      "skin_colors": "caucasian, black, asian, hispanic",
+      "hair_colors": "blonde, brown, black, red",
+      "eye_colors": "brown, blue, green, hazel, grey, amber",
+      "average_lifespan": "120",
+      "homeworld": 9,
+      "language": "Galactic Basic",
+      "people": [
+        1,
+        4,
+        5,
+        6,
+        7,
+        9,
+        10,
+        11,
+        12,
+        14,
+        18,
+        19,
+        21,
+        22,
+        25,
+        26,
+        28,
+        29,
+        32,
+        34,
+        43,
+        51,
+        60,
+        61,
+        62,
+        66,
+        67,
+        68,
+        69,
+        74,
+        81,
+        84,
+        85,
+        86,
+        35
+      ],
+      "films": [
+        2,
+        7,
+        5,
+        4,
+        6,
+        3,
+        1
+      ],
+      "created": "2014-12-10T13:52:11.567000Z",
+      "edited": "2015-04-17T06:59:55.850671Z",
+      "id": 1
+    },
+    {
+      "name": "Rodian",
+      "classification": "sentient",
+      "designation": "reptilian",
+      "average_height": "170",
+      "skin_colors": "green, blue",
+      "hair_colors": "n/a",
+      "eye_colors": "black",
+      "average_lifespan": "unknown",
+      "homeworld": 23,
+      "language": "Galactic Basic",
+      "people": [
+        15
+      ],
+      "films": [
+        1
+      ],
+      "created": "2014-12-10T17:05:26.471000Z",
+      "edited": "2016-07-19T13:27:03.156498Z",
+      "id": 4
+    }
+  ],
+  "vehicles": [
+    {
+      "name": "Sand Crawler",
+      "model": "Digger Crawler",
+      "manufacturer": "Corellia Mining Corporation",
+      "cost_in_credits": "150000",
+      "length": "36.8",
+      "max_atmosphering_speed": "30",
+      "crew": "46",
+      "passengers": "30",
+      "cargo_capacity": "50000",
+      "consumables": "2 months",
+      "vehicle_class": "wheeled",
+      "pilots": [],
+      "films": [
+        5,
+        1
+      ],
+      "created": "2014-12-10T15:36:25.724000Z",
+      "edited": "2014-12-22T18:21:15.523587Z",
+      "id": 4
+    },
+    {
+      "name": "T-16 skyhopper",
+      "model": "T-16 skyhopper",
+      "manufacturer": "Incom Corporation",
+      "cost_in_credits": "14500",
+      "length": "10.4",
+      "max_atmosphering_speed": "1200",
+      "crew": "1",
+      "passengers": "1",
+      "cargo_capacity": "50",
+      "consumables": "0",
+      "vehicle_class": "repulsorcraft",
+      "pilots": [],
+      "films": [
+        1
+      ],
+      "created": "2014-12-10T16:01:52.434000Z",
+      "edited": "2014-12-22T18:21:15.552614Z",
+      "id": 6
+    },
+    {
+      "name": "X-34 landspeeder",
+      "model": "X-34 landspeeder",
+      "manufacturer": "SoroSuub Corporation",
+      "cost_in_credits": "10550",
+      "length": "3.4",
+      "max_atmosphering_speed": "250",
+      "crew": "1",
+      "passengers": "1",
+      "cargo_capacity": "5",
+      "consumables": "unknown",
+      "vehicle_class": "repulsorcraft",
+      "pilots": [],
+      "films": [
+        1
+      ],
+      "created": "2014-12-10T16:13:52.586000Z",
+      "edited": "2014-12-22T18:21:15.583700Z",
+      "id": 7
+    },
+    {
+      "name": "TIE/LN starfighter",
+      "model": "Twin Ion Engine/Ln Starfighter",
+      "manufacturer": "Sienar Fleet Systems",
+      "cost_in_credits": "unknown",
+      "length": "6.4",
+      "max_atmosphering_speed": "1200",
+      "crew": "1",
+      "passengers": "0",
+      "cargo_capacity": "65",
+      "consumables": "2 days",
+      "vehicle_class": "starfighter",
+      "pilots": [],
+      "films": [
+        2,
+        3,
+        1
+      ],
+      "created": "2014-12-10T16:33:52.860000Z",
+      "edited": "2014-12-22T18:21:15.606149Z",
+      "id": 8
+    },
+    {
+      "name": "Snowspeeder",
+      "model": "t-47 airspeeder",
+      "manufacturer": "Incom corporation",
+      "cost_in_credits": "unknown",
+      "length": "4.5",
+      "max_atmosphering_speed": "650",
+      "crew": "2",
+      "passengers": "0",
+      "cargo_capacity": "10",
+      "consumables": "none",
+      "vehicle_class": "airspeeder",
+      "pilots": [
+        1,
+        18
+      ],
+      "films": [
+        2
+      ],
+      "created": "2014-12-15T12:22:12Z",
+      "edited": "2014-12-22T18:21:15.623033Z",
+      "id": 14
+    },
+    {
+      "name": "TIE bomber",
+      "model": "TIE/sa bomber",
+      "manufacturer": "Sienar Fleet Systems",
+      "cost_in_credits": "unknown",
+      "length": "7.8",
+      "max_atmosphering_speed": "850",
+      "crew": "1",
+      "passengers": "0",
+      "cargo_capacity": "none",
+      "consumables": "2 days",
+      "vehicle_class": "space/planetary bomber",
+      "pilots": [],
+      "films": [
+        2,
+        3
+      ],
+      "created": "2014-12-15T12:33:15.838000Z",
+      "edited": "2014-12-22T18:21:15.667730Z",
+      "id": 16
+    },
+    {
+      "name": "AT-AT",
+      "model": "All Terrain Armored Transport",
+      "manufacturer": "Kuat Drive Yards, Imperial Department of Military Research",
+      "cost_in_credits": "unknown",
+      "length": "20",
+      "max_atmosphering_speed": "60",
+      "crew": "5",
+      "passengers": "40",
+      "cargo_capacity": "1000",
+      "consumables": "unknown",
+      "vehicle_class": "assault walker",
+      "pilots": [],
+      "films": [
+        2,
+        3
+      ],
+      "created": "2014-12-15T12:38:25.937000Z",
+      "edited": "2014-12-22T18:21:15.714673Z",
+      "id": 18
+    },
+    {
+      "name": "AT-ST",
+      "model": "All Terrain Scout Transport",
+      "manufacturer": "Kuat Drive Yards, Imperial Department of Military Research",
+      "cost_in_credits": "unknown",
+      "length": "2",
+      "max_atmosphering_speed": "90",
+      "crew": "2",
+      "passengers": "0",
+      "cargo_capacity": "200",
+      "consumables": "none",
+      "vehicle_class": "walker",
+      "pilots": [
+        13
+      ],
+      "films": [
+        2,
+        3
+      ],
+      "created": "2014-12-15T12:46:42.384000Z",
+      "edited": "2014-12-22T18:21:15.761584Z",
+      "id": 19
+    },
+    {
+      "name": "Storm IV Twin-Pod cloud car",
+      "model": "Storm IV Twin-Pod",
+      "manufacturer": "Bespin Motors",
+      "cost_in_credits": "75000",
+      "length": "7",
+      "max_atmosphering_speed": "1500",
+      "crew": "2",
+      "passengers": "0",
+      "cargo_capacity": "10",
+      "consumables": "1 day",
+      "vehicle_class": "repulsorcraft",
+      "pilots": [],
+      "films": [
+        2
+      ],
+      "created": "2014-12-15T12:58:50.530000Z",
+      "edited": "2014-12-22T18:21:15.783232Z",
+      "id": 20
+    },
+    {
+      "name": "Sail barge",
+      "model": "Modified Luxury Sail Barge",
+      "manufacturer": "Ubrikkian Industries Custom Vehicle Division",
+      "cost_in_credits": "285000",
+      "length": "30",
+      "max_atmosphering_speed": "100",
+      "crew": "26",
+      "passengers": "500",
+      "cargo_capacity": "2000000",
+      "consumables": "Live food tanks",
+      "vehicle_class": "sail barge",
+      "pilots": [],
+      "films": [
+        3
+      ],
+      "created": "2014-12-18T10:44:14.217000Z",
+      "edited": "2014-12-22T18:21:15.807906Z",
+      "id": 24
+    },
+    {
+      "name": "Bantha-II cargo skiff",
+      "model": "Bantha-II",
+      "manufacturer": "Ubrikkian Industries",
+      "cost_in_credits": "8000",
+      "length": "9.5",
+      "max_atmosphering_speed": "250",
+      "crew": "5",
+      "passengers": "16",
+      "cargo_capacity": "135000",
+      "consumables": "1 day",
+      "vehicle_class": "repulsorcraft cargo skiff",
+      "pilots": [],
+      "films": [
+        3
+      ],
+      "created": "2014-12-18T10:48:03.208000Z",
+      "edited": "2014-12-22T18:21:15.845988Z",
+      "id": 25
+    },
+    {
+      "name": "TIE/IN interceptor",
+      "model": "Twin Ion Engine Interceptor",
+      "manufacturer": "Sienar Fleet Systems",
+      "cost_in_credits": "unknown",
+      "length": "9.6",
+      "max_atmosphering_speed": "1250",
+      "crew": "1",
+      "passengers": "0",
+      "cargo_capacity": "75",
+      "consumables": "2 days",
+      "vehicle_class": "starfighter",
+      "pilots": [],
+      "films": [
+        3
+      ],
+      "created": "2014-12-18T10:50:28.225000Z",
+      "edited": "2014-12-22T18:21:15.882388Z",
+      "id": 26
+    },
+    {
+      "name": "Imperial Speeder Bike",
+      "model": "74-Z speeder bike",
+      "manufacturer": "Aratech Repulsor Company",
+      "cost_in_credits": "8000",
+      "length": "3",
+      "max_atmosphering_speed": "360",
+      "crew": "1",
+      "passengers": "1",
+      "cargo_capacity": "4",
+      "consumables": "1 day",
+      "vehicle_class": "speeder",
+      "pilots": [
+        1,
+        5
+      ],
+      "films": [
+        3
+      ],
+      "created": "2014-12-18T11:20:04.625000Z",
+      "edited": "2014-12-22T18:21:15.920537Z",
+      "id": 30
+    },
+    {
+      "name": "Vulture Droid",
+      "model": "Vulture-class droid starfighter",
+      "manufacturer": "Haor Chall Engineering, Baktoid Armor Workshop",
+      "cost_in_credits": "unknown",
+      "length": "3.5",
+      "max_atmosphering_speed": "1200",
+      "crew": "0",
+      "passengers": "0",
+      "cargo_capacity": "0",
+      "consumables": "none",
+      "vehicle_class": "starfighter",
+      "pilots": [],
+      "films": [
+        4,
+        6
+      ],
+      "created": "2014-12-19T17:09:53.584000Z",
+      "edited": "2014-12-22T18:21:15.953870Z",
+      "id": 33
+    },
+    {
+      "name": "Multi-Troop Transport",
+      "model": "Multi-Troop Transport",
+      "manufacturer": "Baktoid Armor Workshop",
+      "cost_in_credits": "138000",
+      "length": "31",
+      "max_atmosphering_speed": "35",
+      "crew": "4",
+      "passengers": "112",
+      "cargo_capacity": "12000",
+      "consumables": "unknown",
+      "vehicle_class": "repulsorcraft",
+      "pilots": [],
+      "films": [
+        4
+      ],
+      "created": "2014-12-19T17:12:04.400000Z",
+      "edited": "2014-12-22T18:21:15.975171Z",
+      "id": 34
+    },
+    {
+      "name": "Armored Assault Tank",
+      "model": "Armoured Assault Tank",
+      "manufacturer": "Baktoid Armor Workshop",
+      "cost_in_credits": "unknown",
+      "length": "9.75",
+      "max_atmosphering_speed": "55",
+      "crew": "4",
+      "passengers": "6",
+      "cargo_capacity": "unknown",
+      "consumables": "unknown",
+      "vehicle_class": "repulsorcraft",
+      "pilots": [],
+      "films": [
+        4
+      ],
+      "created": "2014-12-19T17:13:29.799000Z",
+      "edited": "2014-12-22T18:21:15.984817Z",
+      "id": 35
+    },
+    {
+      "name": "Single Trooper Aerial Platform",
+      "model": "Single Trooper Aerial Platform",
+      "manufacturer": "Baktoid Armor Workshop",
+      "cost_in_credits": "2500",
+      "length": "2",
+      "max_atmosphering_speed": "400",
+      "crew": "1",
+      "passengers": "0",
+      "cargo_capacity": "none",
+      "consumables": "none",
+      "vehicle_class": "repulsorcraft",
+      "pilots": [],
+      "films": [
+        4
+      ],
+      "created": "2014-12-19T17:15:09.511000Z",
+      "edited": "2014-12-22T18:21:16.008594Z",
+      "id": 36
+    },
+    {
+      "name": "C-9979 landing craft",
+      "model": "C-9979 landing craft",
+      "manufacturer": "Haor Chall Engineering",
+      "cost_in_credits": "200000",
+      "length": "210",
+      "max_atmosphering_speed": "587",
+      "crew": "140",
+      "passengers": "284",
+      "cargo_capacity": "1800000",
+      "consumables": "1 day",
+      "vehicle_class": "landing craft",
+      "pilots": [],
+      "films": [
+        4
+      ],
+      "created": "2014-12-19T17:20:36.373000Z",
+      "edited": "2014-12-22T18:21:16.033738Z",
+      "id": 37
+    },
+    {
+      "name": "Tribubble bongo",
+      "model": "Tribubble bongo",
+      "manufacturer": "Otoh Gunga Bongameken Cooperative",
+      "cost_in_credits": "unknown",
+      "length": "15",
+      "max_atmosphering_speed": "85",
+      "crew": "1",
+      "passengers": "2",
+      "cargo_capacity": "1600",
+      "consumables": "unknown",
+      "vehicle_class": "submarine",
+      "pilots": [
+        10,
+        32
+      ],
+      "films": [
+        4
+      ],
+      "created": "2014-12-19T17:37:37.924000Z",
+      "edited": "2014-12-22T18:21:16.072083Z",
+      "id": 38
+    },
+    {
+      "name": "Sith speeder",
+      "model": "FC-20 speeder bike",
+      "manufacturer": "Razalon",
+      "cost_in_credits": "4000",
+      "length": "1.5",
+      "max_atmosphering_speed": "180",
+      "crew": "1",
+      "passengers": "0",
+      "cargo_capacity": "2",
+      "consumables": "unknown",
+      "vehicle_class": "speeder",
+      "pilots": [
+        44
+      ],
+      "films": [
+        4
+      ],
+      "created": "2014-12-20T10:09:56.095000Z",
+      "edited": "2014-12-22T18:21:16.095041Z",
+      "id": 42
+    },
+    {
+      "name": "Zephyr-G swoop bike",
+      "model": "Zephyr-G swoop bike",
+      "manufacturer": "Mobquet Swoops and Speeders",
+      "cost_in_credits": "5750",
+      "length": "3.68",
+      "max_atmosphering_speed": "350",
+      "crew": "1",
+      "passengers": "1",
+      "cargo_capacity": "200",
+      "consumables": "none",
+      "vehicle_class": "repulsorcraft",
+      "pilots": [
+        11
+      ],
+      "films": [
+        5
+      ],
+      "created": "2014-12-20T16:24:16.026000Z",
+      "edited": "2014-12-22T18:21:16.117652Z",
+      "id": 44
+    },
+    {
+      "name": "Koro-2 Exodrive airspeeder",
+      "model": "Koro-2 Exodrive airspeeder",
+      "manufacturer": "Desler Gizh Outworld Mobility Corporation",
+      "cost_in_credits": "unknown",
+      "length": "6.6",
+      "max_atmosphering_speed": "800",
+      "crew": "1",
+      "passengers": "1",
+      "cargo_capacity": "80",
+      "consumables": "unknown",
+      "vehicle_class": "airspeeder",
+      "pilots": [
+        70
+      ],
+      "films": [
+        5
+      ],
+      "created": "2014-12-20T17:17:33.526000Z",
+      "edited": "2014-12-22T18:21:16.140018Z",
+      "id": 45
+    },
+    {
+      "name": "XJ-6 airspeeder",
+      "model": "XJ-6 airspeeder",
+      "manufacturer": "Narglatch AirTech prefabricated kit",
+      "cost_in_credits": "unknown",
+      "length": "6.23",
+      "max_atmosphering_speed": "720",
+      "crew": "1",
+      "passengers": "1",
+      "cargo_capacity": "unknown",
+      "consumables": "unknown",
+      "vehicle_class": "airspeeder",
+      "pilots": [
+        11
+      ],
+      "films": [
+        5
+      ],
+      "created": "2014-12-20T17:19:19.991000Z",
+      "edited": "2014-12-22T18:21:16.150194Z",
+      "id": 46
+    },
+    {
+      "name": "LAAT/i",
+      "model": "Low Altitude Assault Transport/infrantry",
+      "manufacturer": "Rothana Heavy Engineering",
+      "cost_in_credits": "unknown",
+      "length": "17.4",
+      "max_atmosphering_speed": "620",
+      "crew": "6",
+      "passengers": "30",
+      "cargo_capacity": "170",
+      "consumables": "unknown",
+      "vehicle_class": "gunship",
+      "pilots": [],
+      "films": [
+        5,
+        6
+      ],
+      "created": "2014-12-20T18:01:21.014000Z",
+      "edited": "2014-12-22T18:21:16.181363Z",
+      "id": 50
+    },
+    {
+      "name": "LAAT/c",
+      "model": "Low Altitude Assault Transport/carrier",
+      "manufacturer": "Rothana Heavy Engineering",
+      "cost_in_credits": "unknown",
+      "length": "28.82",
+      "max_atmosphering_speed": "620",
+      "crew": "1",
+      "passengers": "0",
+      "cargo_capacity": "40000",
+      "consumables": "unknown",
+      "vehicle_class": "gunship",
+      "pilots": [],
+      "films": [
+        5
+      ],
+      "created": "2014-12-20T18:02:46.802000Z",
+      "edited": "2014-12-22T18:21:16.229733Z",
+      "id": 51
+    },
+    {
+      "name": "Tsmeu-6 personal wheel bike",
+      "model": "Tsmeu-6 personal wheel bike",
+      "manufacturer": "Z-Gomot Ternbuell Guppat Corporation",
+      "cost_in_credits": "15000",
+      "length": "3.5",
+      "max_atmosphering_speed": "330",
+      "crew": "1",
+      "passengers": "1",
+      "cargo_capacity": "10",
+      "consumables": "none",
+      "vehicle_class": "wheeled walker",
+      "pilots": [
+        79
+      ],
+      "films": [
+        6
+      ],
+      "created": "2014-12-20T19:43:54.870000Z",
+      "edited": "2014-12-22T18:21:16.422662Z",
+      "id": 60
+    },
+    {
+      "name": "Emergency Firespeeder",
+      "model": "Fire suppression speeder",
+      "manufacturer": "unknown",
+      "cost_in_credits": "unknown",
+      "length": "unknown",
+      "max_atmosphering_speed": "unknown",
+      "crew": "2",
+      "passengers": "unknown",
+      "cargo_capacity": "unknown",
+      "consumables": "unknown",
+      "vehicle_class": "fire suppression ship",
+      "pilots": [],
+      "films": [
+        6
+      ],
+      "created": "2014-12-20T19:50:58.559000Z",
+      "edited": "2014-12-22T18:21:16.450655Z",
+      "id": 62
+    },
+    {
+      "name": "Droid tri-fighter",
+      "model": "tri-fighter",
+      "manufacturer": "Colla Designs, Phlac-Arphocc Automata Industries",
+      "cost_in_credits": "20000",
+      "length": "5.4",
+      "max_atmosphering_speed": "1180",
+      "crew": "1",
+      "passengers": "0",
+      "cargo_capacity": "0",
+      "consumables": "none",
+      "vehicle_class": "droid starfighter",
+      "pilots": [],
+      "films": [
+        6
+      ],
+      "created": "2014-12-20T20:05:19.992000Z",
+      "edited": "2014-12-22T18:21:16.478901Z",
+      "id": 67
+    },
+    {
+      "name": "Oevvaor jet catamaran",
+      "model": "Oevvaor jet catamaran",
+      "manufacturer": "Appazanna Engineering Works",
+      "cost_in_credits": "12125",
+      "length": "15.1",
+      "max_atmosphering_speed": "420",
+      "crew": "2",
+      "passengers": "2",
+      "cargo_capacity": "50",
+      "consumables": "3 days",
+      "vehicle_class": "airspeeder",
+      "pilots": [],
+      "films": [
+        6
+      ],
+      "created": "2014-12-20T20:20:53.931000Z",
+      "edited": "2014-12-22T18:21:16.517049Z",
+      "id": 69
+    },
+    {
+      "name": "Raddaugh Gnasp fluttercraft",
+      "model": "Raddaugh Gnasp fluttercraft",
+      "manufacturer": "Appazanna Engineering Works",
+      "cost_in_credits": "14750",
+      "length": "7",
+      "max_atmosphering_speed": "310",
+      "crew": "2",
+      "passengers": "0",
+      "cargo_capacity": "20",
+      "consumables": "none",
+      "vehicle_class": "air speeder",
+      "pilots": [],
+      "films": [
+        6
+      ],
+      "created": "2014-12-20T20:21:55.648000Z",
+      "edited": "2014-12-22T18:21:16.547708Z",
+      "id": 70
+    },
+    {
+      "name": "Clone turbo tank",
+      "model": "HAVw A6 Juggernaut",
+      "manufacturer": "Kuat Drive Yards",
+      "cost_in_credits": "350000",
+      "length": "49.4",
+      "max_atmosphering_speed": "160",
+      "crew": "20",
+      "passengers": "300",
+      "cargo_capacity": "30000",
+      "consumables": "20 days",
+      "vehicle_class": "wheeled walker",
+      "pilots": [],
+      "films": [
+        6
+      ],
+      "created": "2014-12-20T20:24:45.587000Z",
+      "edited": "2014-12-22T18:21:16.571079Z",
+      "id": 71
+    },
+    {
+      "name": "Corporate Alliance tank droid",
+      "model": "NR-N99 Persuader-class droid enforcer",
+      "manufacturer": "Techno Union",
+      "cost_in_credits": "49000",
+      "length": "10.96",
+      "max_atmosphering_speed": "100",
+      "crew": "0",
+      "passengers": "4",
+      "cargo_capacity": "none",
+      "consumables": "none",
+      "vehicle_class": "droid tank",
+      "pilots": [],
+      "films": [
+        6
+      ],
+      "created": "2014-12-20T20:26:55.522000Z",
+      "edited": "2014-12-22T18:21:16.612902Z",
+      "id": 72
+    },
+    {
+      "name": "Droid gunship",
+      "model": "HMP droid gunship",
+      "manufacturer": "Baktoid Fleet Ordnance, Haor Chall Engineering",
+      "cost_in_credits": "60000",
+      "length": "12.3",
+      "max_atmosphering_speed": "820",
+      "crew": "0",
+      "passengers": "0",
+      "cargo_capacity": "0",
+      "consumables": "none",
+      "vehicle_class": "airspeeder",
+      "pilots": [],
+      "films": [
+        6
+      ],
+      "created": "2014-12-20T20:32:05.687000Z",
+      "edited": "2014-12-22T18:21:16.643329Z",
+      "id": 73
+    },
+    {
+      "name": "AT-RT",
+      "model": "All Terrain Recon Transport",
+      "manufacturer": "Kuat Drive Yards",
+      "cost_in_credits": "40000",
+      "length": "3.2",
+      "max_atmosphering_speed": "90",
+      "crew": "1",
+      "passengers": "0",
+      "cargo_capacity": "20",
+      "consumables": "1 day",
+      "vehicle_class": "walker",
+      "pilots": [],
+      "films": [
+        6
+      ],
+      "created": "2014-12-20T20:47:49.189000Z",
+      "edited": "2014-12-22T18:21:16.672821Z",
+      "id": 76
+    },
+    {
+      "name": "AT-TE",
+      "model": "All Terrain Tactical Enforcer",
+      "manufacturer": "Rothana Heavy Engineering, Kuat Drive Yards",
+      "cost_in_credits": "unknown",
+      "length": "13.2",
+      "max_atmosphering_speed": "60",
+      "crew": "6",
+      "passengers": "36",
+      "cargo_capacity": "10000",
+      "consumables": "21 days",
+      "vehicle_class": "walker",
+      "pilots": [],
+      "films": [
+        5,
+        6
+      ],
+      "created": "2014-12-20T18:10:07.560000Z",
+      "edited": "2014-12-22T18:21:16.293771Z",
+      "id": 53
+    },
+    {
+      "name": "SPHA",
+      "model": "Self-Propelled Heavy Artillery",
+      "manufacturer": "Rothana Heavy Engineering",
+      "cost_in_credits": "unknown",
+      "length": "140",
+      "max_atmosphering_speed": "35",
+      "crew": "25",
+      "passengers": "30",
+      "cargo_capacity": "500",
+      "consumables": "7 days",
+      "vehicle_class": "walker",
+      "pilots": [],
+      "films": [
+        5
+      ],
+      "created": "2014-12-20T18:12:32.315000Z",
+      "edited": "2014-12-22T18:21:16.311761Z",
+      "id": 54
+    },
+    {
+      "name": "Flitknot speeder",
+      "model": "Flitknot speeder",
+      "manufacturer": "Huppla Pasa Tisc Shipwrights Collective",
+      "cost_in_credits": "8000",
+      "length": "2",
+      "max_atmosphering_speed": "634",
+      "crew": "1",
+      "passengers": "0",
+      "cargo_capacity": "unknown",
+      "consumables": "unknown",
+      "vehicle_class": "speeder",
+      "pilots": [
+        67
+      ],
+      "films": [
+        5
+      ],
+      "created": "2014-12-20T18:15:20.312000Z",
+      "edited": "2014-12-22T18:21:16.335005Z",
+      "id": 55
+    },
+    {
+      "name": "Neimoidian shuttle",
+      "model": "Sheathipede-class transport shuttle",
+      "manufacturer": "Haor Chall Engineering",
+      "cost_in_credits": "unknown",
+      "length": "20",
+      "max_atmosphering_speed": "880",
+      "crew": "2",
+      "passengers": "6",
+      "cargo_capacity": "1000",
+      "consumables": "7 days",
+      "vehicle_class": "transport",
+      "pilots": [],
+      "films": [
+        5,
+        6
+      ],
+      "created": "2014-12-20T18:25:44.912000Z",
+      "edited": "2014-12-22T18:21:16.366134Z",
+      "id": 56
+    },
+    {
+      "name": "Geonosian starfighter",
+      "model": "Nantex-class territorial defense",
+      "manufacturer": "Huppla Pasa Tisc Shipwrights Collective",
+      "cost_in_credits": "unknown",
+      "length": "9.8",
+      "max_atmosphering_speed": "20000",
+      "crew": "1",
+      "passengers": "0",
+      "cargo_capacity": "unknown",
+      "consumables": "unknown",
+      "vehicle_class": "starfighter",
+      "pilots": [],
+      "films": [
+        5
+      ],
+      "created": "2014-12-20T18:34:12.541000Z",
+      "edited": "2014-12-22T18:21:16.390980Z",
+      "id": 57
     }
   ],
   "starships": [
@@ -553,12 +2231,12 @@
       "starship_class": "Star dreadnought",
       "pilots": [],
       "films": [
-        "https://swapi.co/api/films/2/",
-        "https://swapi.co/api/films/3/"
+        2,
+        3
       ],
       "created": "2014-12-15T12:31:42.547000Z",
       "edited": "2017-04-19T10:56:06.685592Z",
-      "url": "https://swapi.co/api/starships/15/"
+      "id": 15
     },
     {
       "name": "Sentinel-class landing craft",
@@ -576,11 +2254,11 @@
       "starship_class": "landing craft",
       "pilots": [],
       "films": [
-        "https://swapi.co/api/films/1/"
+        1
       ],
       "created": "2014-12-10T15:48:00.586000Z",
       "edited": "2014-12-22T17:35:44.431407Z",
-      "url": "https://swapi.co/api/starships/5/"
+      "id": 5
     },
     {
       "name": "Death Star",
@@ -598,11 +2276,11 @@
       "starship_class": "Deep Space Mobile Battlestation",
       "pilots": [],
       "films": [
-        "https://swapi.co/api/films/1/"
+        1
       ],
       "created": "2014-12-10T16:36:50.509000Z",
       "edited": "2014-12-22T17:35:44.452589Z",
-      "url": "https://swapi.co/api/starships/9/"
+      "id": 9
     },
     {
       "name": "Millennium Falcon",
@@ -619,20 +2297,20 @@
       "MGLT": "75",
       "starship_class": "Light freighter",
       "pilots": [
-        "https://swapi.co/api/people/13/",
-        "https://swapi.co/api/people/14/",
-        "https://swapi.co/api/people/25/",
-        "https://swapi.co/api/people/31/"
+        13,
+        14,
+        25,
+        31
       ],
       "films": [
-        "https://swapi.co/api/films/2/",
-        "https://swapi.co/api/films/7/",
-        "https://swapi.co/api/films/3/",
-        "https://swapi.co/api/films/1/"
+        2,
+        7,
+        3,
+        1
       ],
       "created": "2014-12-10T16:59:45.094000Z",
       "edited": "2014-12-22T17:35:44.464156Z",
-      "url": "https://swapi.co/api/starships/10/"
+      "id": 10
     },
     {
       "name": "Y-wing",
@@ -650,13 +2328,13 @@
       "starship_class": "assault starfighter",
       "pilots": [],
       "films": [
-        "https://swapi.co/api/films/2/",
-        "https://swapi.co/api/films/3/",
-        "https://swapi.co/api/films/1/"
+        2,
+        3,
+        1
       ],
       "created": "2014-12-12T11:00:39.817000Z",
       "edited": "2014-12-22T17:35:44.479706Z",
-      "url": "https://swapi.co/api/starships/11/"
+      "id": 11
     },
     {
       "name": "X-wing",
@@ -673,19 +2351,19 @@
       "MGLT": "100",
       "starship_class": "Starfighter",
       "pilots": [
-        "https://swapi.co/api/people/1/",
-        "https://swapi.co/api/people/9/",
-        "https://swapi.co/api/people/18/",
-        "https://swapi.co/api/people/19/"
+        1,
+        9,
+        18,
+        19
       ],
       "films": [
-        "https://swapi.co/api/films/2/",
-        "https://swapi.co/api/films/3/",
-        "https://swapi.co/api/films/1/"
+        2,
+        3,
+        1
       ],
       "created": "2014-12-12T11:19:05.340000Z",
       "edited": "2014-12-22T17:35:44.491233Z",
-      "url": "https://swapi.co/api/starships/12/"
+      "id": 12
     },
     {
       "name": "TIE Advanced x1",
@@ -702,14 +2380,14 @@
       "MGLT": "105",
       "starship_class": "Starfighter",
       "pilots": [
-        "https://swapi.co/api/people/4/"
+        4
       ],
       "films": [
-        "https://swapi.co/api/films/1/"
+        1
       ],
       "created": "2014-12-12T11:21:32.991000Z",
       "edited": "2014-12-22T17:35:44.549047Z",
-      "url": "https://swapi.co/api/starships/13/"
+      "id": 13
     },
     {
       "name": "Slave 1",
@@ -726,15 +2404,15 @@
       "MGLT": "70",
       "starship_class": "Patrol craft",
       "pilots": [
-        "https://swapi.co/api/people/22/"
+        22
       ],
       "films": [
-        "https://swapi.co/api/films/2/",
-        "https://swapi.co/api/films/5/"
+        2,
+        5
       ],
       "created": "2014-12-15T13:00:56.332000Z",
       "edited": "2014-12-22T17:35:44.716273Z",
-      "url": "https://swapi.co/api/starships/21/"
+      "id": 21
     },
     {
       "name": "Imperial shuttle",
@@ -751,17 +2429,17 @@
       "MGLT": "50",
       "starship_class": "Armed government transport",
       "pilots": [
-        "https://swapi.co/api/people/1/",
-        "https://swapi.co/api/people/13/",
-        "https://swapi.co/api/people/14/"
+        1,
+        13,
+        14
       ],
       "films": [
-        "https://swapi.co/api/films/2/",
-        "https://swapi.co/api/films/3/"
+        2,
+        3
       ],
       "created": "2014-12-15T13:04:47.235000Z",
       "edited": "2014-12-22T17:35:44.795405Z",
-      "url": "https://swapi.co/api/starships/22/"
+      "id": 22
     },
     {
       "name": "EF76 Nebulon-B escort frigate",
@@ -779,12 +2457,12 @@
       "starship_class": "Escort ship",
       "pilots": [],
       "films": [
-        "https://swapi.co/api/films/2/",
-        "https://swapi.co/api/films/3/"
+        2,
+        3
       ],
       "created": "2014-12-15T13:06:30.813000Z",
       "edited": "2014-12-22T17:35:44.848329Z",
-      "url": "https://swapi.co/api/starships/23/"
+      "id": 23
     },
     {
       "name": "Calamari Cruiser",
@@ -802,11 +2480,11 @@
       "starship_class": "Star Cruiser",
       "pilots": [],
       "films": [
-        "https://swapi.co/api/films/3/"
+        3
       ],
       "created": "2014-12-18T10:54:57.804000Z",
       "edited": "2014-12-22T17:35:44.957852Z",
-      "url": "https://swapi.co/api/starships/27/"
+      "id": 27
     },
     {
       "name": "A-wing",
@@ -823,14 +2501,14 @@
       "MGLT": "120",
       "starship_class": "Starfighter",
       "pilots": [
-        "https://swapi.co/api/people/29/"
+        29
       ],
       "films": [
-        "https://swapi.co/api/films/3/"
+        3
       ],
       "created": "2014-12-18T11:16:34.542000Z",
       "edited": "2014-12-22T17:35:44.978754Z",
-      "url": "https://swapi.co/api/starships/28/"
+      "id": 28
     },
     {
       "name": "B-wing",
@@ -848,11 +2526,11 @@
       "starship_class": "Assault Starfighter",
       "pilots": [],
       "films": [
-        "https://swapi.co/api/films/3/"
+        3
       ],
       "created": "2014-12-18T11:18:04.763000Z",
       "edited": "2014-12-22T17:35:45.011193Z",
-      "url": "https://swapi.co/api/starships/29/"
+      "id": 29
     },
     {
       "name": "Republic Cruiser",
@@ -870,11 +2548,11 @@
       "starship_class": "Space cruiser",
       "pilots": [],
       "films": [
-        "https://swapi.co/api/films/4/"
+        4
       ],
       "created": "2014-12-19T17:01:31.488000Z",
       "edited": "2014-12-22T17:35:45.027308Z",
-      "url": "https://swapi.co/api/starships/31/"
+      "id": 31
     },
     {
       "name": "Naboo fighter",
@@ -891,17 +2569,17 @@
       "MGLT": "unknown",
       "starship_class": "Starfighter",
       "pilots": [
-        "https://swapi.co/api/people/11/",
-        "https://swapi.co/api/people/60/",
-        "https://swapi.co/api/people/35/"
+        11,
+        60,
+        35
       ],
       "films": [
-        "https://swapi.co/api/films/5/",
-        "https://swapi.co/api/films/4/"
+        5,
+        4
       ],
       "created": "2014-12-19T17:39:17.582000Z",
       "edited": "2014-12-22T17:35:45.079452Z",
-      "url": "https://swapi.co/api/starships/39/"
+      "id": 39
     },
     {
       "name": "Naboo Royal Starship",
@@ -918,14 +2596,14 @@
       "MGLT": "unknown",
       "starship_class": "yacht",
       "pilots": [
-        "https://swapi.co/api/people/39/"
+        39
       ],
       "films": [
-        "https://swapi.co/api/films/4/"
+        4
       ],
       "created": "2014-12-19T17:45:03.506000Z",
       "edited": "2014-12-22T17:35:45.091925Z",
-      "url": "https://swapi.co/api/starships/40/"
+      "id": 40
     },
     {
       "name": "Scimitar",
@@ -942,14 +2620,14 @@
       "MGLT": "unknown",
       "starship_class": "Space Transport",
       "pilots": [
-        "https://swapi.co/api/people/44/"
+        44
       ],
       "films": [
-        "https://swapi.co/api/films/4/"
+        4
       ],
       "created": "2014-12-20T09:39:56.116000Z",
       "edited": "2014-12-22T17:35:45.105522Z",
-      "url": "https://swapi.co/api/starships/41/"
+      "id": 41
     },
     {
       "name": "J-type diplomatic barge",
@@ -967,11 +2645,11 @@
       "starship_class": "Diplomatic barge",
       "pilots": [],
       "films": [
-        "https://swapi.co/api/films/5/"
+        5
       ],
       "created": "2014-12-20T11:05:51.237000Z",
       "edited": "2014-12-22T17:35:45.124386Z",
-      "url": "https://swapi.co/api/starships/43/"
+      "id": 43
     },
     {
       "name": "AA-9 Coruscant freighter",
@@ -989,11 +2667,11 @@
       "starship_class": "freighter",
       "pilots": [],
       "films": [
-        "https://swapi.co/api/films/5/"
+        5
       ],
       "created": "2014-12-20T17:24:23.509000Z",
       "edited": "2014-12-22T17:35:45.135987Z",
-      "url": "https://swapi.co/api/starships/47/"
+      "id": 47
     },
     {
       "name": "Jedi starfighter",
@@ -1010,16 +2688,16 @@
       "MGLT": "unknown",
       "starship_class": "Starfighter",
       "pilots": [
-        "https://swapi.co/api/people/10/",
-        "https://swapi.co/api/people/58/"
+        10,
+        58
       ],
       "films": [
-        "https://swapi.co/api/films/5/",
-        "https://swapi.co/api/films/6/"
+        5,
+        6
       ],
       "created": "2014-12-20T17:35:23.906000Z",
       "edited": "2014-12-22T17:35:45.147746Z",
-      "url": "https://swapi.co/api/starships/48/"
+      "id": 48
     },
     {
       "name": "H-type Nubian yacht",
@@ -1036,14 +2714,14 @@
       "MGLT": "unknown",
       "starship_class": "yacht",
       "pilots": [
-        "https://swapi.co/api/people/35/"
+        35
       ],
       "films": [
-        "https://swapi.co/api/films/5/"
+        5
       ],
       "created": "2014-12-20T17:46:46.847000Z",
       "edited": "2014-12-22T17:35:45.158969Z",
-      "url": "https://swapi.co/api/starships/49/"
+      "id": 49
     },
     {
       "name": "Star Destroyer",
@@ -1061,13 +2739,13 @@
       "starship_class": "Star Destroyer",
       "pilots": [],
       "films": [
-        "https://swapi.co/api/films/2/",
-        "https://swapi.co/api/films/3/",
-        "https://swapi.co/api/films/1/"
+        2,
+        3,
+        1
       ],
       "created": "2014-12-10T15:08:19.848000Z",
       "edited": "2014-12-22T17:35:44.410941Z",
-      "url": "https://swapi.co/api/starships/3/"
+      "id": 3
     },
     {
       "name": "Trade Federation cruiser",
@@ -1084,15 +2762,15 @@
       "MGLT": "unknown",
       "starship_class": "capital ship",
       "pilots": [
-        "https://swapi.co/api/people/10/",
-        "https://swapi.co/api/people/11/"
+        10,
+        11
       ],
       "films": [
-        "https://swapi.co/api/films/6/"
+        6
       ],
       "created": "2014-12-20T19:40:21.902000Z",
       "edited": "2014-12-22T17:35:45.195165Z",
-      "url": "https://swapi.co/api/starships/59/"
+      "id": 59
     },
     {
       "name": "Theta-class T-2c shuttle",
@@ -1110,11 +2788,11 @@
       "starship_class": "transport",
       "pilots": [],
       "films": [
-        "https://swapi.co/api/films/6/"
+        6
       ],
       "created": "2014-12-20T19:48:40.409000Z",
       "edited": "2014-12-22T17:35:45.208584Z",
-      "url": "https://swapi.co/api/starships/61/"
+      "id": 61
     },
     {
       "name": "T-70 X-wing fighter",
@@ -1131,14 +2809,14 @@
       "MGLT": "unknown",
       "starship_class": "fighter",
       "pilots": [
-        "https://swapi.co/api/people/86/"
+        86
       ],
       "films": [
-        "https://swapi.co/api/films/7/"
+        7
       ],
       "created": "2015-04-17T06:58:50.614475Z",
       "edited": "2015-04-17T06:58:50.614528Z",
-      "url": "https://swapi.co/api/starships/77/"
+      "id": 77
     },
     {
       "name": "Rebel transport",
@@ -1156,12 +2834,12 @@
       "starship_class": "Medium transport",
       "pilots": [],
       "films": [
-        "https://swapi.co/api/films/2/",
-        "https://swapi.co/api/films/3/"
+        2,
+        3
       ],
       "created": "2014-12-15T12:34:52.264000Z",
       "edited": "2014-12-22T17:35:44.680838Z",
-      "url": "https://swapi.co/api/starships/17/"
+      "id": 17
     },
     {
       "name": "Droid control ship",
@@ -1179,13 +2857,13 @@
       "starship_class": "Droid control ship",
       "pilots": [],
       "films": [
-        "https://swapi.co/api/films/5/",
-        "https://swapi.co/api/films/4/",
-        "https://swapi.co/api/films/6/"
+        5,
+        4,
+        6
       ],
       "created": "2014-12-19T17:04:06.323000Z",
       "edited": "2014-12-22T17:35:45.042900Z",
-      "url": "https://swapi.co/api/starships/32/"
+      "id": 32
     },
     {
       "name": "Republic Assault ship",
@@ -1203,11 +2881,11 @@
       "starship_class": "assault ship",
       "pilots": [],
       "films": [
-        "https://swapi.co/api/films/5/"
+        5
       ],
       "created": "2014-12-20T18:08:42.926000Z",
       "edited": "2014-12-22T17:35:45.171653Z",
-      "url": "https://swapi.co/api/starships/52/"
+      "id": 52
     },
     {
       "name": "Solar Sailer",
@@ -1225,11 +2903,11 @@
       "starship_class": "yacht",
       "pilots": [],
       "films": [
-        "https://swapi.co/api/films/5/"
+        5
       ],
       "created": "2014-12-20T18:37:56.969000Z",
       "edited": "2014-12-22T17:35:45.183075Z",
-      "url": "https://swapi.co/api/starships/58/"
+      "id": 58
     },
     {
       "name": "Republic attack cruiser",
@@ -1247,11 +2925,11 @@
       "starship_class": "star destroyer",
       "pilots": [],
       "films": [
-        "https://swapi.co/api/films/6/"
+        6
       ],
       "created": "2014-12-20T19:52:56.232000Z",
       "edited": "2014-12-22T17:35:45.224540Z",
-      "url": "https://swapi.co/api/starships/63/"
+      "id": 63
     },
     {
       "name": "Naboo star skiff",
@@ -1268,15 +2946,15 @@
       "MGLT": "unknown",
       "starship_class": "yacht",
       "pilots": [
-        "https://swapi.co/api/people/10/",
-        "https://swapi.co/api/people/35/"
+        10,
+        35
       ],
       "films": [
-        "https://swapi.co/api/films/6/"
+        6
       ],
       "created": "2014-12-20T19:55:15.396000Z",
       "edited": "2014-12-22T17:35:45.258859Z",
-      "url": "https://swapi.co/api/starships/64/"
+      "id": 64
     },
     {
       "name": "Jedi Interceptor",
@@ -1293,15 +2971,15 @@
       "MGLT": "unknown",
       "starship_class": "starfighter",
       "pilots": [
-        "https://swapi.co/api/people/10/",
-        "https://swapi.co/api/people/11/"
+        10,
+        11
       ],
       "films": [
-        "https://swapi.co/api/films/6/"
+        6
       ],
       "created": "2014-12-20T19:56:57.468000Z",
       "edited": "2014-12-22T17:35:45.272349Z",
-      "url": "https://swapi.co/api/starships/65/"
+      "id": 65
     },
     {
       "name": "arc-170",
@@ -1319,11 +2997,11 @@
       "starship_class": "starfighter",
       "pilots": [],
       "films": [
-        "https://swapi.co/api/films/6/"
+        6
       ],
       "created": "2014-12-20T20:03:48.603000Z",
       "edited": "2014-12-22T17:35:45.287214Z",
-      "url": "https://swapi.co/api/starships/66/"
+      "id": 66
     },
     {
       "name": "Belbullab-22 starfighter",
@@ -1340,15 +3018,15 @@
       "MGLT": "unknown",
       "starship_class": "starfighter",
       "pilots": [
-        "https://swapi.co/api/people/10/",
-        "https://swapi.co/api/people/79/"
+        10,
+        79
       ],
       "films": [
-        "https://swapi.co/api/films/6/"
+        6
       ],
       "created": "2014-12-20T20:38:05.031000Z",
       "edited": "2014-12-22T17:35:45.381900Z",
-      "url": "https://swapi.co/api/starships/74/"
+      "id": 74
     },
     {
       "name": "V-wing",
@@ -1366,11 +3044,11 @@
       "starship_class": "starfighter",
       "pilots": [],
       "films": [
-        "https://swapi.co/api/films/6/"
+        6
       ],
       "created": "2014-12-20T20:43:04.349000Z",
       "edited": "2014-12-22T17:35:45.396711Z",
-      "url": "https://swapi.co/api/starships/75/"
+      "id": 75
     },
     {
       "name": "CR90 corvette",
@@ -1388,13 +3066,13 @@
       "starship_class": "corvette",
       "pilots": [],
       "films": [
-        "https://swapi.co/api/films/6/",
-        "https://swapi.co/api/films/3/",
-        "https://swapi.co/api/films/1/"
+        6,
+        3,
+        1
       ],
       "created": "2014-12-10T14:20:33.369000Z",
       "edited": "2014-12-22T17:35:45.408368Z",
-      "url": "https://swapi.co/api/starships/2/"
+      "id": 2
     },
     {
       "name": "Banking clan frigate",
@@ -1412,1689 +3090,11 @@
       "starship_class": "cruiser",
       "pilots": [],
       "films": [
-        "https://swapi.co/api/films/6/"
+        6
       ],
       "created": "2014-12-20T20:07:11.538000Z",
       "edited": "2017-04-19T10:53:32.700283Z",
-      "url": "https://swapi.co/api/starships/68/"
-    }
-  ],
-  "vehicles": [
-    {
-      "name": "Sand Crawler",
-      "model": "Digger Crawler",
-      "manufacturer": "Corellia Mining Corporation",
-      "cost_in_credits": "150000",
-      "length": "36.8",
-      "max_atmosphering_speed": "30",
-      "crew": "46",
-      "passengers": "30",
-      "cargo_capacity": "50000",
-      "consumables": "2 months",
-      "vehicle_class": "wheeled",
-      "pilots": [],
-      "films": [
-        "https://swapi.co/api/films/5/",
-        "https://swapi.co/api/films/1/"
-      ],
-      "created": "2014-12-10T15:36:25.724000Z",
-      "edited": "2014-12-22T18:21:15.523587Z",
-      "url": "https://swapi.co/api/vehicles/4/"
-    },
-    {
-      "name": "T-16 skyhopper",
-      "model": "T-16 skyhopper",
-      "manufacturer": "Incom Corporation",
-      "cost_in_credits": "14500",
-      "length": "10.4",
-      "max_atmosphering_speed": "1200",
-      "crew": "1",
-      "passengers": "1",
-      "cargo_capacity": "50",
-      "consumables": "0",
-      "vehicle_class": "repulsorcraft",
-      "pilots": [],
-      "films": [
-        "https://swapi.co/api/films/1/"
-      ],
-      "created": "2014-12-10T16:01:52.434000Z",
-      "edited": "2014-12-22T18:21:15.552614Z",
-      "url": "https://swapi.co/api/vehicles/6/"
-    },
-    {
-      "name": "X-34 landspeeder",
-      "model": "X-34 landspeeder",
-      "manufacturer": "SoroSuub Corporation",
-      "cost_in_credits": "10550",
-      "length": "3.4",
-      "max_atmosphering_speed": "250",
-      "crew": "1",
-      "passengers": "1",
-      "cargo_capacity": "5",
-      "consumables": "unknown",
-      "vehicle_class": "repulsorcraft",
-      "pilots": [],
-      "films": [
-        "https://swapi.co/api/films/1/"
-      ],
-      "created": "2014-12-10T16:13:52.586000Z",
-      "edited": "2014-12-22T18:21:15.583700Z",
-      "url": "https://swapi.co/api/vehicles/7/"
-    },
-    {
-      "name": "TIE/LN starfighter",
-      "model": "Twin Ion Engine/Ln Starfighter",
-      "manufacturer": "Sienar Fleet Systems",
-      "cost_in_credits": "unknown",
-      "length": "6.4",
-      "max_atmosphering_speed": "1200",
-      "crew": "1",
-      "passengers": "0",
-      "cargo_capacity": "65",
-      "consumables": "2 days",
-      "vehicle_class": "starfighter",
-      "pilots": [],
-      "films": [
-        "https://swapi.co/api/films/2/",
-        "https://swapi.co/api/films/3/",
-        "https://swapi.co/api/films/1/"
-      ],
-      "created": "2014-12-10T16:33:52.860000Z",
-      "edited": "2014-12-22T18:21:15.606149Z",
-      "url": "https://swapi.co/api/vehicles/8/"
-    },
-    {
-      "name": "Snowspeeder",
-      "model": "t-47 airspeeder",
-      "manufacturer": "Incom corporation",
-      "cost_in_credits": "unknown",
-      "length": "4.5",
-      "max_atmosphering_speed": "650",
-      "crew": "2",
-      "passengers": "0",
-      "cargo_capacity": "10",
-      "consumables": "none",
-      "vehicle_class": "airspeeder",
-      "pilots": [
-        "https://swapi.co/api/people/1/",
-        "https://swapi.co/api/people/18/"
-      ],
-      "films": [
-        "https://swapi.co/api/films/2/"
-      ],
-      "created": "2014-12-15T12:22:12Z",
-      "edited": "2014-12-22T18:21:15.623033Z",
-      "url": "https://swapi.co/api/vehicles/14/"
-    },
-    {
-      "name": "TIE bomber",
-      "model": "TIE/sa bomber",
-      "manufacturer": "Sienar Fleet Systems",
-      "cost_in_credits": "unknown",
-      "length": "7.8",
-      "max_atmosphering_speed": "850",
-      "crew": "1",
-      "passengers": "0",
-      "cargo_capacity": "none",
-      "consumables": "2 days",
-      "vehicle_class": "space/planetary bomber",
-      "pilots": [],
-      "films": [
-        "https://swapi.co/api/films/2/",
-        "https://swapi.co/api/films/3/"
-      ],
-      "created": "2014-12-15T12:33:15.838000Z",
-      "edited": "2014-12-22T18:21:15.667730Z",
-      "url": "https://swapi.co/api/vehicles/16/"
-    },
-    {
-      "name": "AT-AT",
-      "model": "All Terrain Armored Transport",
-      "manufacturer": "Kuat Drive Yards, Imperial Department of Military Research",
-      "cost_in_credits": "unknown",
-      "length": "20",
-      "max_atmosphering_speed": "60",
-      "crew": "5",
-      "passengers": "40",
-      "cargo_capacity": "1000",
-      "consumables": "unknown",
-      "vehicle_class": "assault walker",
-      "pilots": [],
-      "films": [
-        "https://swapi.co/api/films/2/",
-        "https://swapi.co/api/films/3/"
-      ],
-      "created": "2014-12-15T12:38:25.937000Z",
-      "edited": "2014-12-22T18:21:15.714673Z",
-      "url": "https://swapi.co/api/vehicles/18/"
-    },
-    {
-      "name": "AT-ST",
-      "model": "All Terrain Scout Transport",
-      "manufacturer": "Kuat Drive Yards, Imperial Department of Military Research",
-      "cost_in_credits": "unknown",
-      "length": "2",
-      "max_atmosphering_speed": "90",
-      "crew": "2",
-      "passengers": "0",
-      "cargo_capacity": "200",
-      "consumables": "none",
-      "vehicle_class": "walker",
-      "pilots": [
-        "https://swapi.co/api/people/13/"
-      ],
-      "films": [
-        "https://swapi.co/api/films/2/",
-        "https://swapi.co/api/films/3/"
-      ],
-      "created": "2014-12-15T12:46:42.384000Z",
-      "edited": "2014-12-22T18:21:15.761584Z",
-      "url": "https://swapi.co/api/vehicles/19/"
-    },
-    {
-      "name": "Storm IV Twin-Pod cloud car",
-      "model": "Storm IV Twin-Pod",
-      "manufacturer": "Bespin Motors",
-      "cost_in_credits": "75000",
-      "length": "7",
-      "max_atmosphering_speed": "1500",
-      "crew": "2",
-      "passengers": "0",
-      "cargo_capacity": "10",
-      "consumables": "1 day",
-      "vehicle_class": "repulsorcraft",
-      "pilots": [],
-      "films": [
-        "https://swapi.co/api/films/2/"
-      ],
-      "created": "2014-12-15T12:58:50.530000Z",
-      "edited": "2014-12-22T18:21:15.783232Z",
-      "url": "https://swapi.co/api/vehicles/20/"
-    },
-    {
-      "name": "Sail barge",
-      "model": "Modified Luxury Sail Barge",
-      "manufacturer": "Ubrikkian Industries Custom Vehicle Division",
-      "cost_in_credits": "285000",
-      "length": "30",
-      "max_atmosphering_speed": "100",
-      "crew": "26",
-      "passengers": "500",
-      "cargo_capacity": "2000000",
-      "consumables": "Live food tanks",
-      "vehicle_class": "sail barge",
-      "pilots": [],
-      "films": [
-        "https://swapi.co/api/films/3/"
-      ],
-      "created": "2014-12-18T10:44:14.217000Z",
-      "edited": "2014-12-22T18:21:15.807906Z",
-      "url": "https://swapi.co/api/vehicles/24/"
-    },
-    {
-      "name": "Bantha-II cargo skiff",
-      "model": "Bantha-II",
-      "manufacturer": "Ubrikkian Industries",
-      "cost_in_credits": "8000",
-      "length": "9.5",
-      "max_atmosphering_speed": "250",
-      "crew": "5",
-      "passengers": "16",
-      "cargo_capacity": "135000",
-      "consumables": "1 day",
-      "vehicle_class": "repulsorcraft cargo skiff",
-      "pilots": [],
-      "films": [
-        "https://swapi.co/api/films/3/"
-      ],
-      "created": "2014-12-18T10:48:03.208000Z",
-      "edited": "2014-12-22T18:21:15.845988Z",
-      "url": "https://swapi.co/api/vehicles/25/"
-    },
-    {
-      "name": "TIE/IN interceptor",
-      "model": "Twin Ion Engine Interceptor",
-      "manufacturer": "Sienar Fleet Systems",
-      "cost_in_credits": "unknown",
-      "length": "9.6",
-      "max_atmosphering_speed": "1250",
-      "crew": "1",
-      "passengers": "0",
-      "cargo_capacity": "75",
-      "consumables": "2 days",
-      "vehicle_class": "starfighter",
-      "pilots": [],
-      "films": [
-        "https://swapi.co/api/films/3/"
-      ],
-      "created": "2014-12-18T10:50:28.225000Z",
-      "edited": "2014-12-22T18:21:15.882388Z",
-      "url": "https://swapi.co/api/vehicles/26/"
-    },
-    {
-      "name": "Imperial Speeder Bike",
-      "model": "74-Z speeder bike",
-      "manufacturer": "Aratech Repulsor Company",
-      "cost_in_credits": "8000",
-      "length": "3",
-      "max_atmosphering_speed": "360",
-      "crew": "1",
-      "passengers": "1",
-      "cargo_capacity": "4",
-      "consumables": "1 day",
-      "vehicle_class": "speeder",
-      "pilots": [
-        "https://swapi.co/api/people/1/",
-        "https://swapi.co/api/people/5/"
-      ],
-      "films": [
-        "https://swapi.co/api/films/3/"
-      ],
-      "created": "2014-12-18T11:20:04.625000Z",
-      "edited": "2014-12-22T18:21:15.920537Z",
-      "url": "https://swapi.co/api/vehicles/30/"
-    },
-    {
-      "name": "Vulture Droid",
-      "model": "Vulture-class droid starfighter",
-      "manufacturer": "Haor Chall Engineering, Baktoid Armor Workshop",
-      "cost_in_credits": "unknown",
-      "length": "3.5",
-      "max_atmosphering_speed": "1200",
-      "crew": "0",
-      "passengers": "0",
-      "cargo_capacity": "0",
-      "consumables": "none",
-      "vehicle_class": "starfighter",
-      "pilots": [],
-      "films": [
-        "https://swapi.co/api/films/4/",
-        "https://swapi.co/api/films/6/"
-      ],
-      "created": "2014-12-19T17:09:53.584000Z",
-      "edited": "2014-12-22T18:21:15.953870Z",
-      "url": "https://swapi.co/api/vehicles/33/"
-    },
-    {
-      "name": "Multi-Troop Transport",
-      "model": "Multi-Troop Transport",
-      "manufacturer": "Baktoid Armor Workshop",
-      "cost_in_credits": "138000",
-      "length": "31",
-      "max_atmosphering_speed": "35",
-      "crew": "4",
-      "passengers": "112",
-      "cargo_capacity": "12000",
-      "consumables": "unknown",
-      "vehicle_class": "repulsorcraft",
-      "pilots": [],
-      "films": [
-        "https://swapi.co/api/films/4/"
-      ],
-      "created": "2014-12-19T17:12:04.400000Z",
-      "edited": "2014-12-22T18:21:15.975171Z",
-      "url": "https://swapi.co/api/vehicles/34/"
-    },
-    {
-      "name": "Armored Assault Tank",
-      "model": "Armoured Assault Tank",
-      "manufacturer": "Baktoid Armor Workshop",
-      "cost_in_credits": "unknown",
-      "length": "9.75",
-      "max_atmosphering_speed": "55",
-      "crew": "4",
-      "passengers": "6",
-      "cargo_capacity": "unknown",
-      "consumables": "unknown",
-      "vehicle_class": "repulsorcraft",
-      "pilots": [],
-      "films": [
-        "https://swapi.co/api/films/4/"
-      ],
-      "created": "2014-12-19T17:13:29.799000Z",
-      "edited": "2014-12-22T18:21:15.984817Z",
-      "url": "https://swapi.co/api/vehicles/35/"
-    },
-    {
-      "name": "Single Trooper Aerial Platform",
-      "model": "Single Trooper Aerial Platform",
-      "manufacturer": "Baktoid Armor Workshop",
-      "cost_in_credits": "2500",
-      "length": "2",
-      "max_atmosphering_speed": "400",
-      "crew": "1",
-      "passengers": "0",
-      "cargo_capacity": "none",
-      "consumables": "none",
-      "vehicle_class": "repulsorcraft",
-      "pilots": [],
-      "films": [
-        "https://swapi.co/api/films/4/"
-      ],
-      "created": "2014-12-19T17:15:09.511000Z",
-      "edited": "2014-12-22T18:21:16.008594Z",
-      "url": "https://swapi.co/api/vehicles/36/"
-    },
-    {
-      "name": "C-9979 landing craft",
-      "model": "C-9979 landing craft",
-      "manufacturer": "Haor Chall Engineering",
-      "cost_in_credits": "200000",
-      "length": "210",
-      "max_atmosphering_speed": "587",
-      "crew": "140",
-      "passengers": "284",
-      "cargo_capacity": "1800000",
-      "consumables": "1 day",
-      "vehicle_class": "landing craft",
-      "pilots": [],
-      "films": [
-        "https://swapi.co/api/films/4/"
-      ],
-      "created": "2014-12-19T17:20:36.373000Z",
-      "edited": "2014-12-22T18:21:16.033738Z",
-      "url": "https://swapi.co/api/vehicles/37/"
-    },
-    {
-      "name": "Tribubble bongo",
-      "model": "Tribubble bongo",
-      "manufacturer": "Otoh Gunga Bongameken Cooperative",
-      "cost_in_credits": "unknown",
-      "length": "15",
-      "max_atmosphering_speed": "85",
-      "crew": "1",
-      "passengers": "2",
-      "cargo_capacity": "1600",
-      "consumables": "unknown",
-      "vehicle_class": "submarine",
-      "pilots": [
-        "https://swapi.co/api/people/10/",
-        "https://swapi.co/api/people/32/"
-      ],
-      "films": [
-        "https://swapi.co/api/films/4/"
-      ],
-      "created": "2014-12-19T17:37:37.924000Z",
-      "edited": "2014-12-22T18:21:16.072083Z",
-      "url": "https://swapi.co/api/vehicles/38/"
-    },
-    {
-      "name": "Sith speeder",
-      "model": "FC-20 speeder bike",
-      "manufacturer": "Razalon",
-      "cost_in_credits": "4000",
-      "length": "1.5",
-      "max_atmosphering_speed": "180",
-      "crew": "1",
-      "passengers": "0",
-      "cargo_capacity": "2",
-      "consumables": "unknown",
-      "vehicle_class": "speeder",
-      "pilots": [
-        "https://swapi.co/api/people/44/"
-      ],
-      "films": [
-        "https://swapi.co/api/films/4/"
-      ],
-      "created": "2014-12-20T10:09:56.095000Z",
-      "edited": "2014-12-22T18:21:16.095041Z",
-      "url": "https://swapi.co/api/vehicles/42/"
-    },
-    {
-      "name": "Zephyr-G swoop bike",
-      "model": "Zephyr-G swoop bike",
-      "manufacturer": "Mobquet Swoops and Speeders",
-      "cost_in_credits": "5750",
-      "length": "3.68",
-      "max_atmosphering_speed": "350",
-      "crew": "1",
-      "passengers": "1",
-      "cargo_capacity": "200",
-      "consumables": "none",
-      "vehicle_class": "repulsorcraft",
-      "pilots": [
-        "https://swapi.co/api/people/11/"
-      ],
-      "films": [
-        "https://swapi.co/api/films/5/"
-      ],
-      "created": "2014-12-20T16:24:16.026000Z",
-      "edited": "2014-12-22T18:21:16.117652Z",
-      "url": "https://swapi.co/api/vehicles/44/"
-    },
-    {
-      "name": "Koro-2 Exodrive airspeeder",
-      "model": "Koro-2 Exodrive airspeeder",
-      "manufacturer": "Desler Gizh Outworld Mobility Corporation",
-      "cost_in_credits": "unknown",
-      "length": "6.6",
-      "max_atmosphering_speed": "800",
-      "crew": "1",
-      "passengers": "1",
-      "cargo_capacity": "80",
-      "consumables": "unknown",
-      "vehicle_class": "airspeeder",
-      "pilots": [
-        "https://swapi.co/api/people/70/"
-      ],
-      "films": [
-        "https://swapi.co/api/films/5/"
-      ],
-      "created": "2014-12-20T17:17:33.526000Z",
-      "edited": "2014-12-22T18:21:16.140018Z",
-      "url": "https://swapi.co/api/vehicles/45/"
-    },
-    {
-      "name": "XJ-6 airspeeder",
-      "model": "XJ-6 airspeeder",
-      "manufacturer": "Narglatch AirTech prefabricated kit",
-      "cost_in_credits": "unknown",
-      "length": "6.23",
-      "max_atmosphering_speed": "720",
-      "crew": "1",
-      "passengers": "1",
-      "cargo_capacity": "unknown",
-      "consumables": "unknown",
-      "vehicle_class": "airspeeder",
-      "pilots": [
-        "https://swapi.co/api/people/11/"
-      ],
-      "films": [
-        "https://swapi.co/api/films/5/"
-      ],
-      "created": "2014-12-20T17:19:19.991000Z",
-      "edited": "2014-12-22T18:21:16.150194Z",
-      "url": "https://swapi.co/api/vehicles/46/"
-    },
-    {
-      "name": "LAAT/i",
-      "model": "Low Altitude Assault Transport/infrantry",
-      "manufacturer": "Rothana Heavy Engineering",
-      "cost_in_credits": "unknown",
-      "length": "17.4",
-      "max_atmosphering_speed": "620",
-      "crew": "6",
-      "passengers": "30",
-      "cargo_capacity": "170",
-      "consumables": "unknown",
-      "vehicle_class": "gunship",
-      "pilots": [],
-      "films": [
-        "https://swapi.co/api/films/5/",
-        "https://swapi.co/api/films/6/"
-      ],
-      "created": "2014-12-20T18:01:21.014000Z",
-      "edited": "2014-12-22T18:21:16.181363Z",
-      "url": "https://swapi.co/api/vehicles/50/"
-    },
-    {
-      "name": "LAAT/c",
-      "model": "Low Altitude Assault Transport/carrier",
-      "manufacturer": "Rothana Heavy Engineering",
-      "cost_in_credits": "unknown",
-      "length": "28.82",
-      "max_atmosphering_speed": "620",
-      "crew": "1",
-      "passengers": "0",
-      "cargo_capacity": "40000",
-      "consumables": "unknown",
-      "vehicle_class": "gunship",
-      "pilots": [],
-      "films": [
-        "https://swapi.co/api/films/5/"
-      ],
-      "created": "2014-12-20T18:02:46.802000Z",
-      "edited": "2014-12-22T18:21:16.229733Z",
-      "url": "https://swapi.co/api/vehicles/51/"
-    },
-    {
-      "name": "Tsmeu-6 personal wheel bike",
-      "model": "Tsmeu-6 personal wheel bike",
-      "manufacturer": "Z-Gomot Ternbuell Guppat Corporation",
-      "cost_in_credits": "15000",
-      "length": "3.5",
-      "max_atmosphering_speed": "330",
-      "crew": "1",
-      "passengers": "1",
-      "cargo_capacity": "10",
-      "consumables": "none",
-      "vehicle_class": "wheeled walker",
-      "pilots": [
-        "https://swapi.co/api/people/79/"
-      ],
-      "films": [
-        "https://swapi.co/api/films/6/"
-      ],
-      "created": "2014-12-20T19:43:54.870000Z",
-      "edited": "2014-12-22T18:21:16.422662Z",
-      "url": "https://swapi.co/api/vehicles/60/"
-    },
-    {
-      "name": "Emergency Firespeeder",
-      "model": "Fire suppression speeder",
-      "manufacturer": "unknown",
-      "cost_in_credits": "unknown",
-      "length": "unknown",
-      "max_atmosphering_speed": "unknown",
-      "crew": "2",
-      "passengers": "unknown",
-      "cargo_capacity": "unknown",
-      "consumables": "unknown",
-      "vehicle_class": "fire suppression ship",
-      "pilots": [],
-      "films": [
-        "https://swapi.co/api/films/6/"
-      ],
-      "created": "2014-12-20T19:50:58.559000Z",
-      "edited": "2014-12-22T18:21:16.450655Z",
-      "url": "https://swapi.co/api/vehicles/62/"
-    },
-    {
-      "name": "Droid tri-fighter",
-      "model": "tri-fighter",
-      "manufacturer": "Colla Designs, Phlac-Arphocc Automata Industries",
-      "cost_in_credits": "20000",
-      "length": "5.4",
-      "max_atmosphering_speed": "1180",
-      "crew": "1",
-      "passengers": "0",
-      "cargo_capacity": "0",
-      "consumables": "none",
-      "vehicle_class": "droid starfighter",
-      "pilots": [],
-      "films": [
-        "https://swapi.co/api/films/6/"
-      ],
-      "created": "2014-12-20T20:05:19.992000Z",
-      "edited": "2014-12-22T18:21:16.478901Z",
-      "url": "https://swapi.co/api/vehicles/67/"
-    },
-    {
-      "name": "Oevvaor jet catamaran",
-      "model": "Oevvaor jet catamaran",
-      "manufacturer": "Appazanna Engineering Works",
-      "cost_in_credits": "12125",
-      "length": "15.1",
-      "max_atmosphering_speed": "420",
-      "crew": "2",
-      "passengers": "2",
-      "cargo_capacity": "50",
-      "consumables": "3 days",
-      "vehicle_class": "airspeeder",
-      "pilots": [],
-      "films": [
-        "https://swapi.co/api/films/6/"
-      ],
-      "created": "2014-12-20T20:20:53.931000Z",
-      "edited": "2014-12-22T18:21:16.517049Z",
-      "url": "https://swapi.co/api/vehicles/69/"
-    },
-    {
-      "name": "Raddaugh Gnasp fluttercraft",
-      "model": "Raddaugh Gnasp fluttercraft",
-      "manufacturer": "Appazanna Engineering Works",
-      "cost_in_credits": "14750",
-      "length": "7",
-      "max_atmosphering_speed": "310",
-      "crew": "2",
-      "passengers": "0",
-      "cargo_capacity": "20",
-      "consumables": "none",
-      "vehicle_class": "air speeder",
-      "pilots": [],
-      "films": [
-        "https://swapi.co/api/films/6/"
-      ],
-      "created": "2014-12-20T20:21:55.648000Z",
-      "edited": "2014-12-22T18:21:16.547708Z",
-      "url": "https://swapi.co/api/vehicles/70/"
-    },
-    {
-      "name": "Clone turbo tank",
-      "model": "HAVw A6 Juggernaut",
-      "manufacturer": "Kuat Drive Yards",
-      "cost_in_credits": "350000",
-      "length": "49.4",
-      "max_atmosphering_speed": "160",
-      "crew": "20",
-      "passengers": "300",
-      "cargo_capacity": "30000",
-      "consumables": "20 days",
-      "vehicle_class": "wheeled walker",
-      "pilots": [],
-      "films": [
-        "https://swapi.co/api/films/6/"
-      ],
-      "created": "2014-12-20T20:24:45.587000Z",
-      "edited": "2014-12-22T18:21:16.571079Z",
-      "url": "https://swapi.co/api/vehicles/71/"
-    },
-    {
-      "name": "Corporate Alliance tank droid",
-      "model": "NR-N99 Persuader-class droid enforcer",
-      "manufacturer": "Techno Union",
-      "cost_in_credits": "49000",
-      "length": "10.96",
-      "max_atmosphering_speed": "100",
-      "crew": "0",
-      "passengers": "4",
-      "cargo_capacity": "none",
-      "consumables": "none",
-      "vehicle_class": "droid tank",
-      "pilots": [],
-      "films": [
-        "https://swapi.co/api/films/6/"
-      ],
-      "created": "2014-12-20T20:26:55.522000Z",
-      "edited": "2014-12-22T18:21:16.612902Z",
-      "url": "https://swapi.co/api/vehicles/72/"
-    },
-    {
-      "name": "Droid gunship",
-      "model": "HMP droid gunship",
-      "manufacturer": "Baktoid Fleet Ordnance, Haor Chall Engineering",
-      "cost_in_credits": "60000",
-      "length": "12.3",
-      "max_atmosphering_speed": "820",
-      "crew": "0",
-      "passengers": "0",
-      "cargo_capacity": "0",
-      "consumables": "none",
-      "vehicle_class": "airspeeder",
-      "pilots": [],
-      "films": [
-        "https://swapi.co/api/films/6/"
-      ],
-      "created": "2014-12-20T20:32:05.687000Z",
-      "edited": "2014-12-22T18:21:16.643329Z",
-      "url": "https://swapi.co/api/vehicles/73/"
-    },
-    {
-      "name": "AT-RT",
-      "model": "All Terrain Recon Transport",
-      "manufacturer": "Kuat Drive Yards",
-      "cost_in_credits": "40000",
-      "length": "3.2",
-      "max_atmosphering_speed": "90",
-      "crew": "1",
-      "passengers": "0",
-      "cargo_capacity": "20",
-      "consumables": "1 day",
-      "vehicle_class": "walker",
-      "pilots": [],
-      "films": [
-        "https://swapi.co/api/films/6/"
-      ],
-      "created": "2014-12-20T20:47:49.189000Z",
-      "edited": "2014-12-22T18:21:16.672821Z",
-      "url": "https://swapi.co/api/vehicles/76/"
-    },
-    {
-      "name": "AT-TE",
-      "model": "All Terrain Tactical Enforcer",
-      "manufacturer": "Rothana Heavy Engineering, Kuat Drive Yards",
-      "cost_in_credits": "unknown",
-      "length": "13.2",
-      "max_atmosphering_speed": "60",
-      "crew": "6",
-      "passengers": "36",
-      "cargo_capacity": "10000",
-      "consumables": "21 days",
-      "vehicle_class": "walker",
-      "pilots": [],
-      "films": [
-        "https://swapi.co/api/films/5/",
-        "https://swapi.co/api/films/6/"
-      ],
-      "created": "2014-12-20T18:10:07.560000Z",
-      "edited": "2014-12-22T18:21:16.293771Z",
-      "url": "https://swapi.co/api/vehicles/53/"
-    },
-    {
-      "name": "SPHA",
-      "model": "Self-Propelled Heavy Artillery",
-      "manufacturer": "Rothana Heavy Engineering",
-      "cost_in_credits": "unknown",
-      "length": "140",
-      "max_atmosphering_speed": "35",
-      "crew": "25",
-      "passengers": "30",
-      "cargo_capacity": "500",
-      "consumables": "7 days",
-      "vehicle_class": "walker",
-      "pilots": [],
-      "films": [
-        "https://swapi.co/api/films/5/"
-      ],
-      "created": "2014-12-20T18:12:32.315000Z",
-      "edited": "2014-12-22T18:21:16.311761Z",
-      "url": "https://swapi.co/api/vehicles/54/"
-    },
-    {
-      "name": "Flitknot speeder",
-      "model": "Flitknot speeder",
-      "manufacturer": "Huppla Pasa Tisc Shipwrights Collective",
-      "cost_in_credits": "8000",
-      "length": "2",
-      "max_atmosphering_speed": "634",
-      "crew": "1",
-      "passengers": "0",
-      "cargo_capacity": "unknown",
-      "consumables": "unknown",
-      "vehicle_class": "speeder",
-      "pilots": [
-        "https://swapi.co/api/people/67/"
-      ],
-      "films": [
-        "https://swapi.co/api/films/5/"
-      ],
-      "created": "2014-12-20T18:15:20.312000Z",
-      "edited": "2014-12-22T18:21:16.335005Z",
-      "url": "https://swapi.co/api/vehicles/55/"
-    },
-    {
-      "name": "Neimoidian shuttle",
-      "model": "Sheathipede-class transport shuttle",
-      "manufacturer": "Haor Chall Engineering",
-      "cost_in_credits": "unknown",
-      "length": "20",
-      "max_atmosphering_speed": "880",
-      "crew": "2",
-      "passengers": "6",
-      "cargo_capacity": "1000",
-      "consumables": "7 days",
-      "vehicle_class": "transport",
-      "pilots": [],
-      "films": [
-        "https://swapi.co/api/films/5/",
-        "https://swapi.co/api/films/6/"
-      ],
-      "created": "2014-12-20T18:25:44.912000Z",
-      "edited": "2014-12-22T18:21:16.366134Z",
-      "url": "https://swapi.co/api/vehicles/56/"
-    },
-    {
-      "name": "Geonosian starfighter",
-      "model": "Nantex-class territorial defense",
-      "manufacturer": "Huppla Pasa Tisc Shipwrights Collective",
-      "cost_in_credits": "unknown",
-      "length": "9.8",
-      "max_atmosphering_speed": "20000",
-      "crew": "1",
-      "passengers": "0",
-      "cargo_capacity": "unknown",
-      "consumables": "unknown",
-      "vehicle_class": "starfighter",
-      "pilots": [],
-      "films": [
-        "https://swapi.co/api/films/5/"
-      ],
-      "created": "2014-12-20T18:34:12.541000Z",
-      "edited": "2014-12-22T18:21:16.390980Z",
-      "url": "https://swapi.co/api/vehicles/57/"
-    }
-  ],
-  "species": [
-    {
-      "name": "Hutt",
-      "classification": "gastropod",
-      "designation": "sentient",
-      "average_height": "300",
-      "skin_colors": "green, brown, tan",
-      "hair_colors": "n/a",
-      "eye_colors": "yellow, red",
-      "average_lifespan": "1000",
-      "homeworld": "https://swapi.co/api/planets/24/",
-      "language": "Huttese",
-      "people": [
-        "https://swapi.co/api/people/16/"
-      ],
-      "films": [
-        "https://swapi.co/api/films/3/",
-        "https://swapi.co/api/films/1/"
-      ],
-      "created": "2014-12-10T17:12:50.410000Z",
-      "edited": "2014-12-20T21:36:42.146000Z",
-      "url": "https://swapi.co/api/species/5/"
-    },
-    {
-      "name": "Yoda's species",
-      "classification": "mammal",
-      "designation": "sentient",
-      "average_height": "66",
-      "skin_colors": "green, yellow",
-      "hair_colors": "brown, white",
-      "eye_colors": "brown, green, yellow",
-      "average_lifespan": "900",
-      "homeworld": "https://swapi.co/api/planets/28/",
-      "language": "Galactic basic",
-      "people": [
-        "https://swapi.co/api/people/20/"
-      ],
-      "films": [
-        "https://swapi.co/api/films/2/",
-        "https://swapi.co/api/films/5/",
-        "https://swapi.co/api/films/4/",
-        "https://swapi.co/api/films/6/",
-        "https://swapi.co/api/films/3/"
-      ],
-      "created": "2014-12-15T12:27:22.877000Z",
-      "edited": "2014-12-20T21:36:42.148000Z",
-      "url": "https://swapi.co/api/species/6/"
-    },
-    {
-      "name": "Trandoshan",
-      "classification": "reptile",
-      "designation": "sentient",
-      "average_height": "200",
-      "skin_colors": "brown, green",
-      "hair_colors": "none",
-      "eye_colors": "yellow, orange",
-      "average_lifespan": "unknown",
-      "homeworld": "https://swapi.co/api/planets/29/",
-      "language": "Dosh",
-      "people": [
-        "https://swapi.co/api/people/24/"
-      ],
-      "films": [
-        "https://swapi.co/api/films/2/"
-      ],
-      "created": "2014-12-15T13:07:47.704000Z",
-      "edited": "2014-12-20T21:36:42.151000Z",
-      "url": "https://swapi.co/api/species/7/"
-    },
-    {
-      "name": "Mon Calamari",
-      "classification": "amphibian",
-      "designation": "sentient",
-      "average_height": "160",
-      "skin_colors": "red, blue, brown, magenta",
-      "hair_colors": "none",
-      "eye_colors": "yellow",
-      "average_lifespan": "unknown",
-      "homeworld": "https://swapi.co/api/planets/31/",
-      "language": "Mon Calamarian",
-      "people": [
-        "https://swapi.co/api/people/27/"
-      ],
-      "films": [
-        "https://swapi.co/api/films/3/"
-      ],
-      "created": "2014-12-18T11:09:52.263000Z",
-      "edited": "2014-12-20T21:36:42.153000Z",
-      "url": "https://swapi.co/api/species/8/"
-    },
-    {
-      "name": "Ewok",
-      "classification": "mammal",
-      "designation": "sentient",
-      "average_height": "100",
-      "skin_colors": "brown",
-      "hair_colors": "white, brown, black",
-      "eye_colors": "orange, brown",
-      "average_lifespan": "unknown",
-      "homeworld": "https://swapi.co/api/planets/7/",
-      "language": "Ewokese",
-      "people": [
-        "https://swapi.co/api/people/30/"
-      ],
-      "films": [
-        "https://swapi.co/api/films/3/"
-      ],
-      "created": "2014-12-18T11:22:00.285000Z",
-      "edited": "2014-12-20T21:36:42.155000Z",
-      "url": "https://swapi.co/api/species/9/"
-    },
-    {
-      "name": "Sullustan",
-      "classification": "mammal",
-      "designation": "sentient",
-      "average_height": "180",
-      "skin_colors": "pale",
-      "hair_colors": "none",
-      "eye_colors": "black",
-      "average_lifespan": "unknown",
-      "homeworld": "https://swapi.co/api/planets/33/",
-      "language": "Sullutese",
-      "people": [
-        "https://swapi.co/api/people/31/"
-      ],
-      "films": [
-        "https://swapi.co/api/films/3/"
-      ],
-      "created": "2014-12-18T11:26:20.103000Z",
-      "edited": "2014-12-20T21:36:42.157000Z",
-      "url": "https://swapi.co/api/species/10/"
-    },
-    {
-      "name": "Neimodian",
-      "classification": "unknown",
-      "designation": "sentient",
-      "average_height": "180",
-      "skin_colors": "grey, green",
-      "hair_colors": "none",
-      "eye_colors": "red, pink",
-      "average_lifespan": "unknown",
-      "homeworld": "https://swapi.co/api/planets/18/",
-      "language": "Neimoidia",
-      "people": [
-        "https://swapi.co/api/people/33/"
-      ],
-      "films": [
-        "https://swapi.co/api/films/4/"
-      ],
-      "created": "2014-12-19T17:07:31.319000Z",
-      "edited": "2014-12-20T21:36:42.160000Z",
-      "url": "https://swapi.co/api/species/11/"
-    },
-    {
-      "name": "Gungan",
-      "classification": "amphibian",
-      "designation": "sentient",
-      "average_height": "190",
-      "skin_colors": "brown, green",
-      "hair_colors": "none",
-      "eye_colors": "orange",
-      "average_lifespan": "unknown",
-      "homeworld": "https://swapi.co/api/planets/8/",
-      "language": "Gungan basic",
-      "people": [
-        "https://swapi.co/api/people/36/",
-        "https://swapi.co/api/people/37/",
-        "https://swapi.co/api/people/38/"
-      ],
-      "films": [
-        "https://swapi.co/api/films/5/",
-        "https://swapi.co/api/films/4/"
-      ],
-      "created": "2014-12-19T17:30:37.341000Z",
-      "edited": "2014-12-20T21:36:42.163000Z",
-      "url": "https://swapi.co/api/species/12/"
-    },
-    {
-      "name": "Toydarian",
-      "classification": "mammal",
-      "designation": "sentient",
-      "average_height": "120",
-      "skin_colors": "blue, green, grey",
-      "hair_colors": "none",
-      "eye_colors": "yellow",
-      "average_lifespan": "91",
-      "homeworld": "https://swapi.co/api/planets/34/",
-      "language": "Toydarian",
-      "people": [
-        "https://swapi.co/api/people/40/"
-      ],
-      "films": [
-        "https://swapi.co/api/films/5/",
-        "https://swapi.co/api/films/4/"
-      ],
-      "created": "2014-12-19T17:48:56.893000Z",
-      "edited": "2014-12-20T21:36:42.165000Z",
-      "url": "https://swapi.co/api/species/13/"
-    },
-    {
-      "name": "Dug",
-      "classification": "mammal",
-      "designation": "sentient",
-      "average_height": "100",
-      "skin_colors": "brown, purple, grey, red",
-      "hair_colors": "none",
-      "eye_colors": "yellow, blue",
-      "average_lifespan": "unknown",
-      "homeworld": "https://swapi.co/api/planets/35/",
-      "language": "Dugese",
-      "people": [
-        "https://swapi.co/api/people/41/"
-      ],
-      "films": [
-        "https://swapi.co/api/films/4/"
-      ],
-      "created": "2014-12-19T17:53:11.214000Z",
-      "edited": "2014-12-20T21:36:42.167000Z",
-      "url": "https://swapi.co/api/species/14/"
-    },
-    {
-      "name": "Twi'lek",
-      "classification": "mammals",
-      "designation": "sentient",
-      "average_height": "200",
-      "skin_colors": "orange, yellow, blue, green, pink, purple, tan",
-      "hair_colors": "none",
-      "eye_colors": "blue, brown, orange, pink",
-      "average_lifespan": "unknown",
-      "homeworld": "https://swapi.co/api/planets/37/",
-      "language": "Twi'leki",
-      "people": [
-        "https://swapi.co/api/people/45/",
-        "https://swapi.co/api/people/46/"
-      ],
-      "films": [
-        "https://swapi.co/api/films/5/",
-        "https://swapi.co/api/films/4/",
-        "https://swapi.co/api/films/6/",
-        "https://swapi.co/api/films/3/"
-      ],
-      "created": "2014-12-20T09:48:02.406000Z",
-      "edited": "2014-12-20T21:36:42.169000Z",
-      "url": "https://swapi.co/api/species/15/"
-    },
-    {
-      "name": "Aleena",
-      "classification": "reptile",
-      "designation": "sentient",
-      "average_height": "80",
-      "skin_colors": "blue, gray",
-      "hair_colors": "none",
-      "eye_colors": "unknown",
-      "average_lifespan": "79",
-      "homeworld": "https://swapi.co/api/planets/38/",
-      "language": "Aleena",
-      "people": [
-        "https://swapi.co/api/people/47/"
-      ],
-      "films": [
-        "https://swapi.co/api/films/4/"
-      ],
-      "created": "2014-12-20T09:53:16.481000Z",
-      "edited": "2014-12-20T21:36:42.171000Z",
-      "url": "https://swapi.co/api/species/16/"
-    },
-    {
-      "name": "Vulptereen",
-      "classification": "unknown",
-      "designation": "sentient",
-      "average_height": "100",
-      "skin_colors": "grey",
-      "hair_colors": "none",
-      "eye_colors": "yellow",
-      "average_lifespan": "unknown",
-      "homeworld": "https://swapi.co/api/planets/39/",
-      "language": "vulpterish",
-      "people": [
-        "https://swapi.co/api/people/48/"
-      ],
-      "films": [
-        "https://swapi.co/api/films/4/"
-      ],
-      "created": "2014-12-20T09:57:33.128000Z",
-      "edited": "2014-12-20T21:36:42.173000Z",
-      "url": "https://swapi.co/api/species/17/"
-    },
-    {
-      "name": "Xexto",
-      "classification": "unknown",
-      "designation": "sentient",
-      "average_height": "125",
-      "skin_colors": "grey, yellow, purple",
-      "hair_colors": "none",
-      "eye_colors": "black",
-      "average_lifespan": "unknown",
-      "homeworld": "https://swapi.co/api/planets/40/",
-      "language": "Xextese",
-      "people": [
-        "https://swapi.co/api/people/49/"
-      ],
-      "films": [
-        "https://swapi.co/api/films/4/"
-      ],
-      "created": "2014-12-20T10:02:13.915000Z",
-      "edited": "2014-12-20T21:36:42.175000Z",
-      "url": "https://swapi.co/api/species/18/"
-    },
-    {
-      "name": "Toong",
-      "classification": "unknown",
-      "designation": "sentient",
-      "average_height": "200",
-      "skin_colors": "grey, green, yellow",
-      "hair_colors": "none",
-      "eye_colors": "orange",
-      "average_lifespan": "unknown",
-      "homeworld": "https://swapi.co/api/planets/41/",
-      "language": "Tundan",
-      "people": [
-        "https://swapi.co/api/people/50/"
-      ],
-      "films": [
-        "https://swapi.co/api/films/4/",
-        "https://swapi.co/api/films/6/"
-      ],
-      "created": "2014-12-20T10:08:36.795000Z",
-      "edited": "2014-12-20T21:36:42.177000Z",
-      "url": "https://swapi.co/api/species/19/"
-    },
-    {
-      "name": "Cerean",
-      "classification": "mammal",
-      "designation": "sentient",
-      "average_height": "200",
-      "skin_colors": "pale pink",
-      "hair_colors": "red, blond, black, white",
-      "eye_colors": "hazel",
-      "average_lifespan": "unknown",
-      "homeworld": "https://swapi.co/api/planets/43/",
-      "language": "Cerean",
-      "people": [
-        "https://swapi.co/api/people/52/"
-      ],
-      "films": [
-        "https://swapi.co/api/films/4/",
-        "https://swapi.co/api/films/6/"
-      ],
-      "created": "2014-12-20T10:15:33.765000Z",
-      "edited": "2014-12-20T21:36:42.179000Z",
-      "url": "https://swapi.co/api/species/20/"
-    },
-    {
-      "name": "Nautolan",
-      "classification": "amphibian",
-      "designation": "sentient",
-      "average_height": "180",
-      "skin_colors": "green, blue, brown, red",
-      "hair_colors": "none",
-      "eye_colors": "black",
-      "average_lifespan": "70",
-      "homeworld": "https://swapi.co/api/planets/44/",
-      "language": "Nautila",
-      "people": [
-        "https://swapi.co/api/people/53/"
-      ],
-      "films": [
-        "https://swapi.co/api/films/4/"
-      ],
-      "created": "2014-12-20T10:18:58.610000Z",
-      "edited": "2014-12-20T21:36:42.181000Z",
-      "url": "https://swapi.co/api/species/21/"
-    },
-    {
-      "name": "Zabrak",
-      "classification": "mammal",
-      "designation": "sentient",
-      "average_height": "180",
-      "skin_colors": "pale, brown, red, orange, yellow",
-      "hair_colors": "black",
-      "eye_colors": "brown, orange",
-      "average_lifespan": "unknown",
-      "homeworld": "https://swapi.co/api/planets/45/",
-      "language": "Zabraki",
-      "people": [
-        "https://swapi.co/api/people/44/",
-        "https://swapi.co/api/people/54/"
-      ],
-      "films": [
-        "https://swapi.co/api/films/4/"
-      ],
-      "created": "2014-12-20T10:26:59.894000Z",
-      "edited": "2014-12-20T21:36:42.183000Z",
-      "url": "https://swapi.co/api/species/22/"
-    },
-    {
-      "name": "Tholothian",
-      "classification": "mammal",
-      "designation": "sentient",
-      "average_height": "unknown",
-      "skin_colors": "dark",
-      "hair_colors": "unknown",
-      "eye_colors": "blue, indigo",
-      "average_lifespan": "unknown",
-      "homeworld": "https://swapi.co/api/planets/46/",
-      "language": "unknown",
-      "people": [
-        "https://swapi.co/api/people/55/"
-      ],
-      "films": [
-        "https://swapi.co/api/films/4/",
-        "https://swapi.co/api/films/6/"
-      ],
-      "created": "2014-12-20T10:29:13.798000Z",
-      "edited": "2014-12-20T21:36:42.186000Z",
-      "url": "https://swapi.co/api/species/23/"
-    },
-    {
-      "name": "Iktotchi",
-      "classification": "unknown",
-      "designation": "sentient",
-      "average_height": "180",
-      "skin_colors": "pink",
-      "hair_colors": "none",
-      "eye_colors": "orange",
-      "average_lifespan": "unknown",
-      "homeworld": "https://swapi.co/api/planets/47/",
-      "language": "Iktotchese",
-      "people": [
-        "https://swapi.co/api/people/56/"
-      ],
-      "films": [
-        "https://swapi.co/api/films/4/",
-        "https://swapi.co/api/films/6/"
-      ],
-      "created": "2014-12-20T10:32:13.046000Z",
-      "edited": "2014-12-20T21:36:42.188000Z",
-      "url": "https://swapi.co/api/species/24/"
-    },
-    {
-      "name": "Quermian",
-      "classification": "mammal",
-      "designation": "sentient",
-      "average_height": "240",
-      "skin_colors": "white",
-      "hair_colors": "none",
-      "eye_colors": "yellow",
-      "average_lifespan": "86",
-      "homeworld": "https://swapi.co/api/planets/48/",
-      "language": "Quermian",
-      "people": [
-        "https://swapi.co/api/people/57/"
-      ],
-      "films": [
-        "https://swapi.co/api/films/4/",
-        "https://swapi.co/api/films/6/"
-      ],
-      "created": "2014-12-20T10:34:50.827000Z",
-      "edited": "2014-12-20T21:36:42.189000Z",
-      "url": "https://swapi.co/api/species/25/"
-    },
-    {
-      "name": "Kel Dor",
-      "classification": "unknown",
-      "designation": "sentient",
-      "average_height": "180",
-      "skin_colors": "peach, orange, red",
-      "hair_colors": "none",
-      "eye_colors": "black, silver",
-      "average_lifespan": "70",
-      "homeworld": "https://swapi.co/api/planets/49/",
-      "language": "Kel Dor",
-      "people": [
-        "https://swapi.co/api/people/58/"
-      ],
-      "films": [
-        "https://swapi.co/api/films/4/",
-        "https://swapi.co/api/films/6/"
-      ],
-      "created": "2014-12-20T10:49:21.692000Z",
-      "edited": "2014-12-20T21:36:42.191000Z",
-      "url": "https://swapi.co/api/species/26/"
-    },
-    {
-      "name": "Chagrian",
-      "classification": "amphibian",
-      "designation": "sentient",
-      "average_height": "190",
-      "skin_colors": "blue",
-      "hair_colors": "none",
-      "eye_colors": "blue",
-      "average_lifespan": "unknown",
-      "homeworld": "https://swapi.co/api/planets/50/",
-      "language": "Chagria",
-      "people": [
-        "https://swapi.co/api/people/59/"
-      ],
-      "films": [
-        "https://swapi.co/api/films/4/",
-        "https://swapi.co/api/films/6/"
-      ],
-      "created": "2014-12-20T10:53:28.795000Z",
-      "edited": "2014-12-20T21:36:42.193000Z",
-      "url": "https://swapi.co/api/species/27/"
-    },
-    {
-      "name": "Geonosian",
-      "classification": "insectoid",
-      "designation": "sentient",
-      "average_height": "178",
-      "skin_colors": "green, brown",
-      "hair_colors": "none",
-      "eye_colors": "green, hazel",
-      "average_lifespan": "unknown",
-      "homeworld": "https://swapi.co/api/planets/11/",
-      "language": "Geonosian",
-      "people": [
-        "https://swapi.co/api/people/63/"
-      ],
-      "films": [
-        "https://swapi.co/api/films/5/",
-        "https://swapi.co/api/films/6/"
-      ],
-      "created": "2014-12-20T16:40:45.618000Z",
-      "edited": "2014-12-20T21:36:42.195000Z",
-      "url": "https://swapi.co/api/species/28/"
-    },
-    {
-      "name": "Mirialan",
-      "classification": "mammal",
-      "designation": "sentient",
-      "average_height": "180",
-      "skin_colors": "yellow, green",
-      "hair_colors": "black, brown",
-      "eye_colors": "blue, green, red, yellow, brown, orange",
-      "average_lifespan": "unknown",
-      "homeworld": "https://swapi.co/api/planets/51/",
-      "language": "Mirialan",
-      "people": [
-        "https://swapi.co/api/people/64/",
-        "https://swapi.co/api/people/65/"
-      ],
-      "films": [
-        "https://swapi.co/api/films/5/",
-        "https://swapi.co/api/films/6/"
-      ],
-      "created": "2014-12-20T16:46:48.290000Z",
-      "edited": "2014-12-20T21:36:42.197000Z",
-      "url": "https://swapi.co/api/species/29/"
-    },
-    {
-      "name": "Clawdite",
-      "classification": "reptilian",
-      "designation": "sentient",
-      "average_height": "180",
-      "skin_colors": "green, yellow",
-      "hair_colors": "none",
-      "eye_colors": "yellow",
-      "average_lifespan": "70",
-      "homeworld": "https://swapi.co/api/planets/54/",
-      "language": "Clawdite",
-      "people": [
-        "https://swapi.co/api/people/70/"
-      ],
-      "films": [
-        "https://swapi.co/api/films/5/",
-        "https://swapi.co/api/films/6/"
-      ],
-      "created": "2014-12-20T16:57:46.171000Z",
-      "edited": "2014-12-20T21:36:42.199000Z",
-      "url": "https://swapi.co/api/species/30/"
-    },
-    {
-      "name": "Besalisk",
-      "classification": "amphibian",
-      "designation": "sentient",
-      "average_height": "178",
-      "skin_colors": "brown",
-      "hair_colors": "none",
-      "eye_colors": "yellow",
-      "average_lifespan": "75",
-      "homeworld": "https://swapi.co/api/planets/55/",
-      "language": "besalisk",
-      "people": [
-        "https://swapi.co/api/people/71/"
-      ],
-      "films": [
-        "https://swapi.co/api/films/5/"
-      ],
-      "created": "2014-12-20T17:28:28.821000Z",
-      "edited": "2014-12-20T21:36:42.200000Z",
-      "url": "https://swapi.co/api/species/31/"
-    },
-    {
-      "name": "Kaminoan",
-      "classification": "amphibian",
-      "designation": "sentient",
-      "average_height": "220",
-      "skin_colors": "grey, blue",
-      "hair_colors": "none",
-      "eye_colors": "black",
-      "average_lifespan": "80",
-      "homeworld": "https://swapi.co/api/planets/10/",
-      "language": "Kaminoan",
-      "people": [
-        "https://swapi.co/api/people/72/",
-        "https://swapi.co/api/people/73/"
-      ],
-      "films": [
-        "https://swapi.co/api/films/5/"
-      ],
-      "created": "2014-12-20T17:31:24.838000Z",
-      "edited": "2014-12-20T21:36:42.202000Z",
-      "url": "https://swapi.co/api/species/32/"
-    },
-    {
-      "name": "Skakoan",
-      "classification": "mammal",
-      "designation": "sentient",
-      "average_height": "unknown",
-      "skin_colors": "grey, green",
-      "hair_colors": "none",
-      "eye_colors": "unknown",
-      "average_lifespan": "unknown",
-      "homeworld": "https://swapi.co/api/planets/56/",
-      "language": "Skakoan",
-      "people": [
-        "https://swapi.co/api/people/76/"
-      ],
-      "films": [
-        "https://swapi.co/api/films/5/",
-        "https://swapi.co/api/films/6/"
-      ],
-      "created": "2014-12-20T17:53:54.515000Z",
-      "edited": "2014-12-20T21:36:42.204000Z",
-      "url": "https://swapi.co/api/species/33/"
-    },
-    {
-      "name": "Muun",
-      "classification": "mammal",
-      "designation": "sentient",
-      "average_height": "190",
-      "skin_colors": "grey, white",
-      "hair_colors": "none",
-      "eye_colors": "black",
-      "average_lifespan": "100",
-      "homeworld": "https://swapi.co/api/planets/57/",
-      "language": "Muun",
-      "people": [
-        "https://swapi.co/api/people/77/"
-      ],
-      "films": [
-        "https://swapi.co/api/films/5/",
-        "https://swapi.co/api/films/6/"
-      ],
-      "created": "2014-12-20T17:58:19.088000Z",
-      "edited": "2014-12-20T21:36:42.207000Z",
-      "url": "https://swapi.co/api/species/34/"
-    },
-    {
-      "name": "Togruta",
-      "classification": "mammal",
-      "designation": "sentient",
-      "average_height": "180",
-      "skin_colors": "red, white, orange, yellow, green, blue",
-      "hair_colors": "none",
-      "eye_colors": "red, orange, yellow, green, blue, black",
-      "average_lifespan": "94",
-      "homeworld": "https://swapi.co/api/planets/58/",
-      "language": "Togruti",
-      "people": [
-        "https://swapi.co/api/people/78/"
-      ],
-      "films": [
-        "https://swapi.co/api/films/5/",
-        "https://swapi.co/api/films/6/"
-      ],
-      "created": "2014-12-20T18:44:03.246000Z",
-      "edited": "2014-12-20T21:36:42.209000Z",
-      "url": "https://swapi.co/api/species/35/"
-    },
-    {
-      "name": "Kaleesh",
-      "classification": "reptile",
-      "designation": "sentient",
-      "average_height": "170",
-      "skin_colors": "brown, orange, tan",
-      "hair_colors": "none",
-      "eye_colors": "yellow",
-      "average_lifespan": "80",
-      "homeworld": "https://swapi.co/api/planets/59/",
-      "language": "Kaleesh",
-      "people": [
-        "https://swapi.co/api/people/79/"
-      ],
-      "films": [
-        "https://swapi.co/api/films/6/"
-      ],
-      "created": "2014-12-20T19:45:42.537000Z",
-      "edited": "2014-12-20T21:36:42.210000Z",
-      "url": "https://swapi.co/api/species/36/"
-    },
-    {
-      "name": "Pau'an",
-      "classification": "mammal",
-      "designation": "sentient",
-      "average_height": "190",
-      "skin_colors": "grey",
-      "hair_colors": "none",
-      "eye_colors": "black",
-      "average_lifespan": "700",
-      "homeworld": "https://swapi.co/api/planets/12/",
-      "language": "Utapese",
-      "people": [
-        "https://swapi.co/api/people/83/"
-      ],
-      "films": [
-        "https://swapi.co/api/films/6/"
-      ],
-      "created": "2014-12-20T20:35:06.777000Z",
-      "edited": "2014-12-20T21:36:42.212000Z",
-      "url": "https://swapi.co/api/species/37/"
-    },
-    {
-      "name": "Wookiee",
-      "classification": "mammal",
-      "designation": "sentient",
-      "average_height": "210",
-      "skin_colors": "gray",
-      "hair_colors": "black, brown",
-      "eye_colors": "blue, green, yellow, brown, golden, red",
-      "average_lifespan": "400",
-      "homeworld": "https://swapi.co/api/planets/14/",
-      "language": "Shyriiwook",
-      "people": [
-        "https://swapi.co/api/people/13/",
-        "https://swapi.co/api/people/80/"
-      ],
-      "films": [
-        "https://swapi.co/api/films/2/",
-        "https://swapi.co/api/films/7/",
-        "https://swapi.co/api/films/6/",
-        "https://swapi.co/api/films/3/",
-        "https://swapi.co/api/films/1/"
-      ],
-      "created": "2014-12-10T16:44:31.486000Z",
-      "edited": "2015-01-30T21:23:03.074598Z",
-      "url": "https://swapi.co/api/species/3/"
-    },
-    {
-      "name": "Droid",
-      "classification": "artificial",
-      "designation": "sentient",
-      "average_height": "n/a",
-      "skin_colors": "n/a",
-      "hair_colors": "n/a",
-      "eye_colors": "n/a",
-      "average_lifespan": "indefinite",
-      "homeworld": null,
-      "language": "n/a",
-      "people": [
-        "https://swapi.co/api/people/2/",
-        "https://swapi.co/api/people/3/",
-        "https://swapi.co/api/people/8/",
-        "https://swapi.co/api/people/23/",
-        "https://swapi.co/api/people/87/"
-      ],
-      "films": [
-        "https://swapi.co/api/films/2/",
-        "https://swapi.co/api/films/7/",
-        "https://swapi.co/api/films/5/",
-        "https://swapi.co/api/films/4/",
-        "https://swapi.co/api/films/6/",
-        "https://swapi.co/api/films/3/",
-        "https://swapi.co/api/films/1/"
-      ],
-      "created": "2014-12-10T15:16:16.259000Z",
-      "edited": "2015-04-17T06:59:43.869528Z",
-      "url": "https://swapi.co/api/species/2/"
-    },
-    {
-      "name": "Human",
-      "classification": "mammal",
-      "designation": "sentient",
-      "average_height": "180",
-      "skin_colors": "caucasian, black, asian, hispanic",
-      "hair_colors": "blonde, brown, black, red",
-      "eye_colors": "brown, blue, green, hazel, grey, amber",
-      "average_lifespan": "120",
-      "homeworld": "https://swapi.co/api/planets/9/",
-      "language": "Galactic Basic",
-      "people": [
-        "https://swapi.co/api/people/1/",
-        "https://swapi.co/api/people/4/",
-        "https://swapi.co/api/people/5/",
-        "https://swapi.co/api/people/6/",
-        "https://swapi.co/api/people/7/",
-        "https://swapi.co/api/people/9/",
-        "https://swapi.co/api/people/10/",
-        "https://swapi.co/api/people/11/",
-        "https://swapi.co/api/people/12/",
-        "https://swapi.co/api/people/14/",
-        "https://swapi.co/api/people/18/",
-        "https://swapi.co/api/people/19/",
-        "https://swapi.co/api/people/21/",
-        "https://swapi.co/api/people/22/",
-        "https://swapi.co/api/people/25/",
-        "https://swapi.co/api/people/26/",
-        "https://swapi.co/api/people/28/",
-        "https://swapi.co/api/people/29/",
-        "https://swapi.co/api/people/32/",
-        "https://swapi.co/api/people/34/",
-        "https://swapi.co/api/people/43/",
-        "https://swapi.co/api/people/51/",
-        "https://swapi.co/api/people/60/",
-        "https://swapi.co/api/people/61/",
-        "https://swapi.co/api/people/62/",
-        "https://swapi.co/api/people/66/",
-        "https://swapi.co/api/people/67/",
-        "https://swapi.co/api/people/68/",
-        "https://swapi.co/api/people/69/",
-        "https://swapi.co/api/people/74/",
-        "https://swapi.co/api/people/81/",
-        "https://swapi.co/api/people/84/",
-        "https://swapi.co/api/people/85/",
-        "https://swapi.co/api/people/86/",
-        "https://swapi.co/api/people/35/"
-      ],
-      "films": [
-        "https://swapi.co/api/films/2/",
-        "https://swapi.co/api/films/7/",
-        "https://swapi.co/api/films/5/",
-        "https://swapi.co/api/films/4/",
-        "https://swapi.co/api/films/6/",
-        "https://swapi.co/api/films/3/",
-        "https://swapi.co/api/films/1/"
-      ],
-      "created": "2014-12-10T13:52:11.567000Z",
-      "edited": "2015-04-17T06:59:55.850671Z",
-      "url": "https://swapi.co/api/species/1/"
-    },
-    {
-      "name": "Rodian",
-      "classification": "sentient",
-      "designation": "reptilian",
-      "average_height": "170",
-      "skin_colors": "green, blue",
-      "hair_colors": "n/a",
-      "eye_colors": "black",
-      "average_lifespan": "unknown",
-      "homeworld": "https://swapi.co/api/planets/23/",
-      "language": "Galactic Basic",
-      "people": [
-        "https://swapi.co/api/people/15/"
-      ],
-      "films": [
-        "https://swapi.co/api/films/1/"
-      ],
-      "created": "2014-12-10T17:05:26.471000Z",
-      "edited": "2016-07-19T13:27:03.156498Z",
-      "url": "https://swapi.co/api/species/4/"
+      "id": 68
     }
   ],
   "planets": [
@@ -3109,17 +3109,17 @@
       "surface_water": "40",
       "population": "2000000000",
       "residents": [
-        "https://swapi.co/api/people/5/",
-        "https://swapi.co/api/people/68/",
-        "https://swapi.co/api/people/81/"
+        5,
+        68,
+        81
       ],
       "films": [
-        "https://swapi.co/api/films/6/",
-        "https://swapi.co/api/films/1/"
+        6,
+        1
       ],
       "created": "2014-12-10T11:35:48.479000Z",
       "edited": "2014-12-20T20:58:18.420000Z",
-      "url": "https://swapi.co/api/planets/2/"
+      "id": 2
     },
     {
       "name": "Yavin IV",
@@ -3133,11 +3133,11 @@
       "population": "1000",
       "residents": [],
       "films": [
-        "https://swapi.co/api/films/1/"
+        1
       ],
       "created": "2014-12-10T11:37:19.144000Z",
       "edited": "2014-12-20T20:58:18.421000Z",
-      "url": "https://swapi.co/api/planets/3/"
+      "id": 3
     },
     {
       "name": "Hoth",
@@ -3151,11 +3151,11 @@
       "population": "unknown",
       "residents": [],
       "films": [
-        "https://swapi.co/api/films/2/"
+        2
       ],
       "created": "2014-12-10T11:39:13.934000Z",
       "edited": "2014-12-20T20:58:18.423000Z",
-      "url": "https://swapi.co/api/planets/4/"
+      "id": 4
     },
     {
       "name": "Dagobah",
@@ -3169,13 +3169,13 @@
       "population": "unknown",
       "residents": [],
       "films": [
-        "https://swapi.co/api/films/2/",
-        "https://swapi.co/api/films/6/",
-        "https://swapi.co/api/films/3/"
+        2,
+        6,
+        3
       ],
       "created": "2014-12-10T11:42:22.590000Z",
       "edited": "2014-12-20T20:58:18.425000Z",
-      "url": "https://swapi.co/api/planets/5/"
+      "id": 5
     },
     {
       "name": "Bespin",
@@ -3188,14 +3188,14 @@
       "surface_water": "0",
       "population": "6000000",
       "residents": [
-        "https://swapi.co/api/people/26/"
+        26
       ],
       "films": [
-        "https://swapi.co/api/films/2/"
+        2
       ],
       "created": "2014-12-10T11:43:55.240000Z",
       "edited": "2014-12-20T20:58:18.427000Z",
-      "url": "https://swapi.co/api/planets/6/"
+      "id": 6
     },
     {
       "name": "Endor",
@@ -3208,14 +3208,14 @@
       "surface_water": "8",
       "population": "30000000",
       "residents": [
-        "https://swapi.co/api/people/30/"
+        30
       ],
       "films": [
-        "https://swapi.co/api/films/3/"
+        3
       ],
       "created": "2014-12-10T11:50:29.349000Z",
       "edited": "2014-12-20T20:58:18.429000Z",
-      "url": "https://swapi.co/api/planets/7/"
+      "id": 7
     },
     {
       "name": "Naboo",
@@ -3228,27 +3228,27 @@
       "surface_water": "12",
       "population": "4500000000",
       "residents": [
-        "https://swapi.co/api/people/3/",
-        "https://swapi.co/api/people/21/",
-        "https://swapi.co/api/people/36/",
-        "https://swapi.co/api/people/37/",
-        "https://swapi.co/api/people/38/",
-        "https://swapi.co/api/people/39/",
-        "https://swapi.co/api/people/42/",
-        "https://swapi.co/api/people/60/",
-        "https://swapi.co/api/people/61/",
-        "https://swapi.co/api/people/66/",
-        "https://swapi.co/api/people/35/"
+        3,
+        21,
+        36,
+        37,
+        38,
+        39,
+        42,
+        60,
+        61,
+        66,
+        35
       ],
       "films": [
-        "https://swapi.co/api/films/5/",
-        "https://swapi.co/api/films/4/",
-        "https://swapi.co/api/films/6/",
-        "https://swapi.co/api/films/3/"
+        5,
+        4,
+        6,
+        3
       ],
       "created": "2014-12-10T11:52:31.066000Z",
       "edited": "2014-12-20T20:58:18.430000Z",
-      "url": "https://swapi.co/api/planets/8/"
+      "id": 8
     },
     {
       "name": "Coruscant",
@@ -3261,19 +3261,19 @@
       "surface_water": "unknown",
       "population": "1000000000000",
       "residents": [
-        "https://swapi.co/api/people/34/",
-        "https://swapi.co/api/people/55/",
-        "https://swapi.co/api/people/74/"
+        34,
+        55,
+        74
       ],
       "films": [
-        "https://swapi.co/api/films/5/",
-        "https://swapi.co/api/films/4/",
-        "https://swapi.co/api/films/6/",
-        "https://swapi.co/api/films/3/"
+        5,
+        4,
+        6,
+        3
       ],
       "created": "2014-12-10T11:54:13.921000Z",
       "edited": "2014-12-20T20:58:18.432000Z",
-      "url": "https://swapi.co/api/planets/9/"
+      "id": 9
     },
     {
       "name": "Kamino",
@@ -3286,16 +3286,16 @@
       "surface_water": "100",
       "population": "1000000000",
       "residents": [
-        "https://swapi.co/api/people/22/",
-        "https://swapi.co/api/people/72/",
-        "https://swapi.co/api/people/73/"
+        22,
+        72,
+        73
       ],
       "films": [
-        "https://swapi.co/api/films/5/"
+        5
       ],
       "created": "2014-12-10T12:45:06.577000Z",
       "edited": "2014-12-20T20:58:18.434000Z",
-      "url": "https://swapi.co/api/planets/10/"
+      "id": 10
     },
     {
       "name": "Geonosis",
@@ -3308,14 +3308,14 @@
       "surface_water": "5",
       "population": "100000000000",
       "residents": [
-        "https://swapi.co/api/people/63/"
+        63
       ],
       "films": [
-        "https://swapi.co/api/films/5/"
+        5
       ],
       "created": "2014-12-10T12:47:22.350000Z",
       "edited": "2014-12-20T20:58:18.437000Z",
-      "url": "https://swapi.co/api/planets/11/"
+      "id": 11
     },
     {
       "name": "Utapau",
@@ -3328,14 +3328,14 @@
       "surface_water": "0.9",
       "population": "95000000",
       "residents": [
-        "https://swapi.co/api/people/83/"
+        83
       ],
       "films": [
-        "https://swapi.co/api/films/6/"
+        6
       ],
       "created": "2014-12-10T12:49:01.491000Z",
       "edited": "2014-12-20T20:58:18.439000Z",
-      "url": "https://swapi.co/api/planets/12/"
+      "id": 12
     },
     {
       "name": "Mustafar",
@@ -3349,11 +3349,11 @@
       "population": "20000",
       "residents": [],
       "films": [
-        "https://swapi.co/api/films/6/"
+        6
       ],
       "created": "2014-12-10T12:50:16.526000Z",
       "edited": "2014-12-20T20:58:18.440000Z",
-      "url": "https://swapi.co/api/planets/13/"
+      "id": 13
     },
     {
       "name": "Kashyyyk",
@@ -3366,15 +3366,15 @@
       "surface_water": "60",
       "population": "45000000",
       "residents": [
-        "https://swapi.co/api/people/13/",
-        "https://swapi.co/api/people/80/"
+        13,
+        80
       ],
       "films": [
-        "https://swapi.co/api/films/6/"
+        6
       ],
       "created": "2014-12-10T13:32:00.124000Z",
       "edited": "2014-12-20T20:58:18.442000Z",
-      "url": "https://swapi.co/api/planets/14/"
+      "id": 14
     },
     {
       "name": "Polis Massa",
@@ -3388,11 +3388,11 @@
       "population": "1000000",
       "residents": [],
       "films": [
-        "https://swapi.co/api/films/6/"
+        6
       ],
       "created": "2014-12-10T13:33:46.405000Z",
       "edited": "2014-12-20T20:58:18.444000Z",
-      "url": "https://swapi.co/api/planets/15/"
+      "id": 15
     },
     {
       "name": "Mygeeto",
@@ -3406,11 +3406,11 @@
       "population": "19000000",
       "residents": [],
       "films": [
-        "https://swapi.co/api/films/6/"
+        6
       ],
       "created": "2014-12-10T13:43:39.139000Z",
       "edited": "2014-12-20T20:58:18.446000Z",
-      "url": "https://swapi.co/api/planets/16/"
+      "id": 16
     },
     {
       "name": "Felucia",
@@ -3424,11 +3424,11 @@
       "population": "8500000",
       "residents": [],
       "films": [
-        "https://swapi.co/api/films/6/"
+        6
       ],
       "created": "2014-12-10T13:44:50.397000Z",
       "edited": "2014-12-20T20:58:18.447000Z",
-      "url": "https://swapi.co/api/planets/17/"
+      "id": 17
     },
     {
       "name": "Cato Neimoidia",
@@ -3441,14 +3441,14 @@
       "surface_water": "unknown",
       "population": "10000000",
       "residents": [
-        "https://swapi.co/api/people/33/"
+        33
       ],
       "films": [
-        "https://swapi.co/api/films/6/"
+        6
       ],
       "created": "2014-12-10T13:46:28.704000Z",
       "edited": "2014-12-20T20:58:18.449000Z",
-      "url": "https://swapi.co/api/planets/18/"
+      "id": 18
     },
     {
       "name": "Saleucami",
@@ -3462,11 +3462,11 @@
       "population": "1400000000",
       "residents": [],
       "films": [
-        "https://swapi.co/api/films/6/"
+        6
       ],
       "created": "2014-12-10T13:47:46.874000Z",
       "edited": "2014-12-20T20:58:18.450000Z",
-      "url": "https://swapi.co/api/planets/19/"
+      "id": 19
     },
     {
       "name": "Stewjon",
@@ -3479,12 +3479,12 @@
       "surface_water": "unknown",
       "population": "unknown",
       "residents": [
-        "https://swapi.co/api/people/10/"
+        10
       ],
       "films": [],
       "created": "2014-12-10T16:16:26.566000Z",
       "edited": "2014-12-20T20:58:18.452000Z",
-      "url": "https://swapi.co/api/planets/20/"
+      "id": 20
     },
     {
       "name": "Eriadu",
@@ -3497,12 +3497,12 @@
       "surface_water": "unknown",
       "population": "22000000000",
       "residents": [
-        "https://swapi.co/api/people/12/"
+        12
       ],
       "films": [],
       "created": "2014-12-10T16:26:54.384000Z",
       "edited": "2014-12-20T20:58:18.454000Z",
-      "url": "https://swapi.co/api/planets/21/"
+      "id": 21
     },
     {
       "name": "Corellia",
@@ -3515,13 +3515,13 @@
       "surface_water": "70",
       "population": "3000000000",
       "residents": [
-        "https://swapi.co/api/people/14/",
-        "https://swapi.co/api/people/18/"
+        14,
+        18
       ],
       "films": [],
       "created": "2014-12-10T16:49:12.453000Z",
       "edited": "2014-12-20T20:58:18.456000Z",
-      "url": "https://swapi.co/api/planets/22/"
+      "id": 22
     },
     {
       "name": "Rodia",
@@ -3534,12 +3534,12 @@
       "surface_water": "60",
       "population": "1300000000",
       "residents": [
-        "https://swapi.co/api/people/15/"
+        15
       ],
       "films": [],
       "created": "2014-12-10T17:03:28.110000Z",
       "edited": "2014-12-20T20:58:18.458000Z",
-      "url": "https://swapi.co/api/planets/23/"
+      "id": 23
     },
     {
       "name": "Nal Hutta",
@@ -3552,12 +3552,12 @@
       "surface_water": "unknown",
       "population": "7000000000",
       "residents": [
-        "https://swapi.co/api/people/16/"
+        16
       ],
       "films": [],
       "created": "2014-12-10T17:11:29.452000Z",
       "edited": "2014-12-20T20:58:18.460000Z",
-      "url": "https://swapi.co/api/planets/24/"
+      "id": 24
     },
     {
       "name": "Dantooine",
@@ -3573,7 +3573,7 @@
       "films": [],
       "created": "2014-12-10T17:23:29.896000Z",
       "edited": "2014-12-20T20:58:18.461000Z",
-      "url": "https://swapi.co/api/planets/25/"
+      "id": 25
     },
     {
       "name": "Bestine IV",
@@ -3586,12 +3586,12 @@
       "surface_water": "98",
       "population": "62000000",
       "residents": [
-        "https://swapi.co/api/people/19/"
+        19
       ],
       "films": [],
       "created": "2014-12-12T11:16:55.078000Z",
       "edited": "2014-12-20T20:58:18.463000Z",
-      "url": "https://swapi.co/api/planets/26/"
+      "id": 26
     },
     {
       "name": "Ord Mantell",
@@ -3605,11 +3605,11 @@
       "population": "4000000000",
       "residents": [],
       "films": [
-        "https://swapi.co/api/films/2/"
+        2
       ],
       "created": "2014-12-15T12:23:41.661000Z",
       "edited": "2014-12-20T20:58:18.464000Z",
-      "url": "https://swapi.co/api/planets/27/"
+      "id": 27
     },
     {
       "name": "unknown",
@@ -3622,21 +3622,21 @@
       "surface_water": "unknown",
       "population": "unknown",
       "residents": [
-        "https://swapi.co/api/people/20/",
-        "https://swapi.co/api/people/23/",
-        "https://swapi.co/api/people/29/",
-        "https://swapi.co/api/people/32/",
-        "https://swapi.co/api/people/75/",
-        "https://swapi.co/api/people/84/",
-        "https://swapi.co/api/people/85/",
-        "https://swapi.co/api/people/86/",
-        "https://swapi.co/api/people/87/",
-        "https://swapi.co/api/people/88/"
+        20,
+        23,
+        29,
+        32,
+        75,
+        84,
+        85,
+        86,
+        87,
+        88
       ],
       "films": [],
       "created": "2014-12-15T12:25:59.569000Z",
       "edited": "2014-12-20T20:58:18.466000Z",
-      "url": "https://swapi.co/api/planets/28/"
+      "id": 28
     },
     {
       "name": "Trandosha",
@@ -3649,12 +3649,12 @@
       "surface_water": "unknown",
       "population": "42000000",
       "residents": [
-        "https://swapi.co/api/people/24/"
+        24
       ],
       "films": [],
       "created": "2014-12-15T12:53:47.695000Z",
       "edited": "2014-12-20T20:58:18.468000Z",
-      "url": "https://swapi.co/api/planets/29/"
+      "id": 29
     },
     {
       "name": "Socorro",
@@ -3667,12 +3667,12 @@
       "surface_water": "unknown",
       "population": "300000000",
       "residents": [
-        "https://swapi.co/api/people/25/"
+        25
       ],
       "films": [],
       "created": "2014-12-15T12:56:31.121000Z",
       "edited": "2014-12-20T20:58:18.469000Z",
-      "url": "https://swapi.co/api/planets/30/"
+      "id": 30
     },
     {
       "name": "Mon Cala",
@@ -3685,12 +3685,12 @@
       "surface_water": "100",
       "population": "27000000000",
       "residents": [
-        "https://swapi.co/api/people/27/"
+        27
       ],
       "films": [],
       "created": "2014-12-18T11:07:01.792000Z",
       "edited": "2014-12-20T20:58:18.471000Z",
-      "url": "https://swapi.co/api/planets/31/"
+      "id": 31
     },
     {
       "name": "Chandrila",
@@ -3703,12 +3703,12 @@
       "surface_water": "40",
       "population": "1200000000",
       "residents": [
-        "https://swapi.co/api/people/28/"
+        28
       ],
       "films": [],
       "created": "2014-12-18T11:11:51.872000Z",
       "edited": "2014-12-20T20:58:18.472000Z",
-      "url": "https://swapi.co/api/planets/32/"
+      "id": 32
     },
     {
       "name": "Sullust",
@@ -3721,12 +3721,12 @@
       "surface_water": "5",
       "population": "18500000000",
       "residents": [
-        "https://swapi.co/api/people/31/"
+        31
       ],
       "films": [],
       "created": "2014-12-18T11:25:40.243000Z",
       "edited": "2014-12-20T20:58:18.474000Z",
-      "url": "https://swapi.co/api/planets/33/"
+      "id": 33
     },
     {
       "name": "Toydaria",
@@ -3739,12 +3739,12 @@
       "surface_water": "unknown",
       "population": "11000000",
       "residents": [
-        "https://swapi.co/api/people/40/"
+        40
       ],
       "films": [],
       "created": "2014-12-19T17:47:54.403000Z",
       "edited": "2014-12-20T20:58:18.476000Z",
-      "url": "https://swapi.co/api/planets/34/"
+      "id": 34
     },
     {
       "name": "Malastare",
@@ -3757,12 +3757,12 @@
       "surface_water": "unknown",
       "population": "2000000000",
       "residents": [
-        "https://swapi.co/api/people/41/"
+        41
       ],
       "films": [],
       "created": "2014-12-19T17:52:13.106000Z",
       "edited": "2014-12-20T20:58:18.478000Z",
-      "url": "https://swapi.co/api/planets/35/"
+      "id": 35
     },
     {
       "name": "Dathomir",
@@ -3775,12 +3775,12 @@
       "surface_water": "unknown",
       "population": "5200",
       "residents": [
-        "https://swapi.co/api/people/44/"
+        44
       ],
       "films": [],
       "created": "2014-12-19T18:00:40.142000Z",
       "edited": "2014-12-20T20:58:18.480000Z",
-      "url": "https://swapi.co/api/planets/36/"
+      "id": 36
     },
     {
       "name": "Ryloth",
@@ -3793,13 +3793,13 @@
       "surface_water": "5",
       "population": "1500000000",
       "residents": [
-        "https://swapi.co/api/people/45/",
-        "https://swapi.co/api/people/46/"
+        45,
+        46
       ],
       "films": [],
       "created": "2014-12-20T09:46:25.740000Z",
       "edited": "2014-12-20T20:58:18.481000Z",
-      "url": "https://swapi.co/api/planets/37/"
+      "id": 37
     },
     {
       "name": "Aleen Minor",
@@ -3812,12 +3812,12 @@
       "surface_water": "unknown",
       "population": "unknown",
       "residents": [
-        "https://swapi.co/api/people/47/"
+        47
       ],
       "films": [],
       "created": "2014-12-20T09:52:23.452000Z",
       "edited": "2014-12-20T20:58:18.483000Z",
-      "url": "https://swapi.co/api/planets/38/"
+      "id": 38
     },
     {
       "name": "Vulpter",
@@ -3830,12 +3830,12 @@
       "surface_water": "unknown",
       "population": "421000000",
       "residents": [
-        "https://swapi.co/api/people/48/"
+        48
       ],
       "films": [],
       "created": "2014-12-20T09:56:58.874000Z",
       "edited": "2014-12-20T20:58:18.485000Z",
-      "url": "https://swapi.co/api/planets/39/"
+      "id": 39
     },
     {
       "name": "Troiken",
@@ -3848,12 +3848,12 @@
       "surface_water": "unknown",
       "population": "unknown",
       "residents": [
-        "https://swapi.co/api/people/49/"
+        49
       ],
       "films": [],
       "created": "2014-12-20T10:01:37.395000Z",
       "edited": "2014-12-20T20:58:18.487000Z",
-      "url": "https://swapi.co/api/planets/40/"
+      "id": 40
     },
     {
       "name": "Tund",
@@ -3866,12 +3866,12 @@
       "surface_water": "unknown",
       "population": "0",
       "residents": [
-        "https://swapi.co/api/people/50/"
+        50
       ],
       "films": [],
       "created": "2014-12-20T10:07:29.578000Z",
       "edited": "2014-12-20T20:58:18.489000Z",
-      "url": "https://swapi.co/api/planets/41/"
+      "id": 41
     },
     {
       "name": "Haruun Kal",
@@ -3884,12 +3884,12 @@
       "surface_water": "unknown",
       "population": "705300",
       "residents": [
-        "https://swapi.co/api/people/51/"
+        51
       ],
       "films": [],
       "created": "2014-12-20T10:12:28.980000Z",
       "edited": "2014-12-20T20:58:18.491000Z",
-      "url": "https://swapi.co/api/planets/42/"
+      "id": 42
     },
     {
       "name": "Cerea",
@@ -3902,12 +3902,12 @@
       "surface_water": "20",
       "population": "450000000",
       "residents": [
-        "https://swapi.co/api/people/52/"
+        52
       ],
       "films": [],
       "created": "2014-12-20T10:14:48.178000Z",
       "edited": "2014-12-20T20:58:18.493000Z",
-      "url": "https://swapi.co/api/planets/43/"
+      "id": 43
     },
     {
       "name": "Glee Anselm",
@@ -3920,12 +3920,12 @@
       "surface_water": "80",
       "population": "500000000",
       "residents": [
-        "https://swapi.co/api/people/53/"
+        53
       ],
       "films": [],
       "created": "2014-12-20T10:18:26.110000Z",
       "edited": "2014-12-20T20:58:18.495000Z",
-      "url": "https://swapi.co/api/planets/44/"
+      "id": 44
     },
     {
       "name": "Iridonia",
@@ -3938,12 +3938,12 @@
       "surface_water": "unknown",
       "population": "unknown",
       "residents": [
-        "https://swapi.co/api/people/54/"
+        54
       ],
       "films": [],
       "created": "2014-12-20T10:26:05.788000Z",
       "edited": "2014-12-20T20:58:18.497000Z",
-      "url": "https://swapi.co/api/planets/45/"
+      "id": 45
     },
     {
       "name": "Tholoth",
@@ -3959,7 +3959,7 @@
       "films": [],
       "created": "2014-12-20T10:28:31.117000Z",
       "edited": "2014-12-20T20:58:18.498000Z",
-      "url": "https://swapi.co/api/planets/46/"
+      "id": 46
     },
     {
       "name": "Iktotch",
@@ -3972,12 +3972,12 @@
       "surface_water": "unknown",
       "population": "unknown",
       "residents": [
-        "https://swapi.co/api/people/56/"
+        56
       ],
       "films": [],
       "created": "2014-12-20T10:31:32.413000Z",
       "edited": "2014-12-20T20:58:18.500000Z",
-      "url": "https://swapi.co/api/planets/47/"
+      "id": 47
     },
     {
       "name": "Quermia",
@@ -3990,12 +3990,12 @@
       "surface_water": "unknown",
       "population": "unknown",
       "residents": [
-        "https://swapi.co/api/people/57/"
+        57
       ],
       "films": [],
       "created": "2014-12-20T10:34:08.249000Z",
       "edited": "2014-12-20T20:58:18.502000Z",
-      "url": "https://swapi.co/api/planets/48/"
+      "id": 48
     },
     {
       "name": "Dorin",
@@ -4008,12 +4008,12 @@
       "surface_water": "unknown",
       "population": "unknown",
       "residents": [
-        "https://swapi.co/api/people/58/"
+        58
       ],
       "films": [],
       "created": "2014-12-20T10:48:36.141000Z",
       "edited": "2014-12-20T20:58:18.504000Z",
-      "url": "https://swapi.co/api/planets/49/"
+      "id": 49
     },
     {
       "name": "Champala",
@@ -4026,12 +4026,12 @@
       "surface_water": "unknown",
       "population": "3500000000",
       "residents": [
-        "https://swapi.co/api/people/59/"
+        59
       ],
       "films": [],
       "created": "2014-12-20T10:52:51.524000Z",
       "edited": "2014-12-20T20:58:18.506000Z",
-      "url": "https://swapi.co/api/planets/50/"
+      "id": 50
     },
     {
       "name": "Mirial",
@@ -4044,13 +4044,13 @@
       "surface_water": "unknown",
       "population": "unknown",
       "residents": [
-        "https://swapi.co/api/people/64/",
-        "https://swapi.co/api/people/65/"
+        64,
+        65
       ],
       "films": [],
       "created": "2014-12-20T16:44:46.318000Z",
       "edited": "2014-12-20T20:58:18.508000Z",
-      "url": "https://swapi.co/api/planets/51/"
+      "id": 51
     },
     {
       "name": "Serenno",
@@ -4063,12 +4063,12 @@
       "surface_water": "unknown",
       "population": "unknown",
       "residents": [
-        "https://swapi.co/api/people/67/"
+        67
       ],
       "films": [],
       "created": "2014-12-20T16:52:13.357000Z",
       "edited": "2014-12-20T20:58:18.510000Z",
-      "url": "https://swapi.co/api/planets/52/"
+      "id": 52
     },
     {
       "name": "Concord Dawn",
@@ -4081,12 +4081,12 @@
       "surface_water": "unknown",
       "population": "unknown",
       "residents": [
-        "https://swapi.co/api/people/69/"
+        69
       ],
       "films": [],
       "created": "2014-12-20T16:54:39.909000Z",
       "edited": "2014-12-20T20:58:18.512000Z",
-      "url": "https://swapi.co/api/planets/53/"
+      "id": 53
     },
     {
       "name": "Zolan",
@@ -4099,12 +4099,12 @@
       "surface_water": "unknown",
       "population": "unknown",
       "residents": [
-        "https://swapi.co/api/people/70/"
+        70
       ],
       "films": [],
       "created": "2014-12-20T16:56:37.250000Z",
       "edited": "2014-12-20T20:58:18.514000Z",
-      "url": "https://swapi.co/api/planets/54/"
+      "id": 54
     },
     {
       "name": "Ojom",
@@ -4117,12 +4117,12 @@
       "surface_water": "100",
       "population": "500000000",
       "residents": [
-        "https://swapi.co/api/people/71/"
+        71
       ],
       "films": [],
       "created": "2014-12-20T17:27:41.286000Z",
       "edited": "2014-12-20T20:58:18.516000Z",
-      "url": "https://swapi.co/api/planets/55/"
+      "id": 55
     },
     {
       "name": "Skako",
@@ -4135,12 +4135,12 @@
       "surface_water": "unknown",
       "population": "500000000000",
       "residents": [
-        "https://swapi.co/api/people/76/"
+        76
       ],
       "films": [],
       "created": "2014-12-20T17:50:47.864000Z",
       "edited": "2014-12-20T20:58:18.517000Z",
-      "url": "https://swapi.co/api/planets/56/"
+      "id": 56
     },
     {
       "name": "Muunilinst",
@@ -4153,12 +4153,12 @@
       "surface_water": "25",
       "population": "5000000000",
       "residents": [
-        "https://swapi.co/api/people/77/"
+        77
       ],
       "films": [],
       "created": "2014-12-20T17:57:47.420000Z",
       "edited": "2014-12-20T20:58:18.519000Z",
-      "url": "https://swapi.co/api/planets/57/"
+      "id": 57
     },
     {
       "name": "Shili",
@@ -4171,12 +4171,12 @@
       "surface_water": "unknown",
       "population": "unknown",
       "residents": [
-        "https://swapi.co/api/people/78/"
+        78
       ],
       "films": [],
       "created": "2014-12-20T18:43:14.049000Z",
       "edited": "2014-12-20T20:58:18.521000Z",
-      "url": "https://swapi.co/api/planets/58/"
+      "id": 58
     },
     {
       "name": "Kalee",
@@ -4189,12 +4189,12 @@
       "surface_water": "unknown",
       "population": "4000000000",
       "residents": [
-        "https://swapi.co/api/people/79/"
+        79
       ],
       "films": [],
       "created": "2014-12-20T19:43:51.278000Z",
       "edited": "2014-12-20T20:58:18.523000Z",
-      "url": "https://swapi.co/api/planets/59/"
+      "id": 59
     },
     {
       "name": "Umbara",
@@ -4207,12 +4207,12 @@
       "surface_water": "unknown",
       "population": "unknown",
       "residents": [
-        "https://swapi.co/api/people/82/"
+        82
       ],
       "films": [],
       "created": "2014-12-20T20:18:36.256000Z",
       "edited": "2014-12-20T20:58:18.525000Z",
-      "url": "https://swapi.co/api/planets/60/"
+      "id": 60
     },
     {
       "name": "Tatooine",
@@ -4225,27 +4225,27 @@
       "surface_water": "1",
       "population": "200000",
       "residents": [
-        "https://swapi.co/api/people/1/",
-        "https://swapi.co/api/people/2/",
-        "https://swapi.co/api/people/4/",
-        "https://swapi.co/api/people/6/",
-        "https://swapi.co/api/people/7/",
-        "https://swapi.co/api/people/8/",
-        "https://swapi.co/api/people/9/",
-        "https://swapi.co/api/people/11/",
-        "https://swapi.co/api/people/43/",
-        "https://swapi.co/api/people/62/"
+        1,
+        2,
+        4,
+        6,
+        7,
+        8,
+        9,
+        11,
+        43,
+        62
       ],
       "films": [
-        "https://swapi.co/api/films/5/",
-        "https://swapi.co/api/films/4/",
-        "https://swapi.co/api/films/6/",
-        "https://swapi.co/api/films/3/",
-        "https://swapi.co/api/films/1/"
+        5,
+        4,
+        6,
+        3,
+        1
       ],
       "created": "2014-12-09T13:50:49.641000Z",
       "edited": "2014-12-21T20:48:04.175778Z",
-      "url": "https://swapi.co/api/planets/1/"
+      "id": 1
     },
     {
       "name": "Jakku",
@@ -4259,11 +4259,11 @@
       "population": "unknown",
       "residents": [],
       "films": [
-        "https://swapi.co/api/films/7/"
+        7
       ],
       "created": "2015-04-17T06:55:57.556495Z",
       "edited": "2015-04-17T06:55:57.556551Z",
-      "url": "https://swapi.co/api/planets/61/"
+      "id": 61
     }
   ],
   "people": [
@@ -4276,13 +4276,13 @@
       "eye_color": "blue",
       "birth_year": "19BBY",
       "gender": "male",
-      "homeworld": "https://swapi.co/api/planets/1/",
+      "homeworld": 1,
       "films": [
-        "https://swapi.co/api/films/2/",
-        "https://swapi.co/api/films/6/",
-        "https://swapi.co/api/films/3/",
-        "https://swapi.co/api/films/1/",
-        "https://swapi.co/api/films/7/"
+        2,
+        6,
+        3,
+        1,
+        7
       ],
       "species": [
         1
@@ -4297,7 +4297,7 @@
       ],
       "created": "2014-12-09T13:50:51.644000Z",
       "edited": "2014-12-20T21:17:56.891000Z",
-      "url": "https://swapi.co/api/people/1/"
+      "id": 1
     },
     {
       "name": "C-3PO",
@@ -4308,14 +4308,14 @@
       "eye_color": "yellow",
       "birth_year": "112BBY",
       "gender": "n/a",
-      "homeworld": "https://swapi.co/api/planets/1/",
+      "homeworld": 1,
       "films": [
-        "https://swapi.co/api/films/2/",
-        "https://swapi.co/api/films/5/",
-        "https://swapi.co/api/films/4/",
-        "https://swapi.co/api/films/6/",
-        "https://swapi.co/api/films/3/",
-        "https://swapi.co/api/films/1/"
+        2,
+        5,
+        4,
+        6,
+        3,
+        1
       ],
       "species": [
         2
@@ -4324,7 +4324,7 @@
       "starships": [],
       "created": "2014-12-10T15:10:51.357000Z",
       "edited": "2014-12-20T21:17:50.309000Z",
-      "url": "https://swapi.co/api/people/2/"
+      "id": 2
     },
     {
       "name": "R2-D2",
@@ -4335,15 +4335,15 @@
       "eye_color": "red",
       "birth_year": "33BBY",
       "gender": "n/a",
-      "homeworld": "https://swapi.co/api/planets/8/",
+      "homeworld": 8,
       "films": [
-        "https://swapi.co/api/films/2/",
-        "https://swapi.co/api/films/5/",
-        "https://swapi.co/api/films/4/",
-        "https://swapi.co/api/films/6/",
-        "https://swapi.co/api/films/3/",
-        "https://swapi.co/api/films/1/",
-        "https://swapi.co/api/films/7/"
+        2,
+        5,
+        4,
+        6,
+        3,
+        1,
+        7
       ],
       "species": [
         2
@@ -4352,7 +4352,7 @@
       "starships": [],
       "created": "2014-12-10T15:11:50.376000Z",
       "edited": "2014-12-20T21:17:50.311000Z",
-      "url": "https://swapi.co/api/people/3/"
+      "id": 3
     },
     {
       "name": "Darth Vader",
@@ -4363,12 +4363,12 @@
       "eye_color": "yellow",
       "birth_year": "41.9BBY",
       "gender": "male",
-      "homeworld": "https://swapi.co/api/planets/1/",
+      "homeworld": 1,
       "films": [
-        "https://swapi.co/api/films/2/",
-        "https://swapi.co/api/films/6/",
-        "https://swapi.co/api/films/3/",
-        "https://swapi.co/api/films/1/"
+        2,
+        6,
+        3,
+        1
       ],
       "species": [
         1
@@ -4379,7 +4379,7 @@
       ],
       "created": "2014-12-10T15:18:20.704000Z",
       "edited": "2014-12-20T21:17:50.313000Z",
-      "url": "https://swapi.co/api/people/4/"
+      "id": 4
     },
     {
       "name": "Leia Organa",
@@ -4390,13 +4390,13 @@
       "eye_color": "brown",
       "birth_year": "19BBY",
       "gender": "female",
-      "homeworld": "https://swapi.co/api/planets/2/",
+      "homeworld": 2,
       "films": [
-        "https://swapi.co/api/films/2/",
-        "https://swapi.co/api/films/6/",
-        "https://swapi.co/api/films/3/",
-        "https://swapi.co/api/films/1/",
-        "https://swapi.co/api/films/7/"
+        2,
+        6,
+        3,
+        1,
+        7
       ],
       "species": [
         1
@@ -4407,7 +4407,7 @@
       "starships": [],
       "created": "2014-12-10T15:20:09.791000Z",
       "edited": "2014-12-20T21:17:50.315000Z",
-      "url": "https://swapi.co/api/people/5/"
+      "id": 5
     },
     {
       "name": "Owen Lars",
@@ -4418,11 +4418,11 @@
       "eye_color": "blue",
       "birth_year": "52BBY",
       "gender": "male",
-      "homeworld": "https://swapi.co/api/planets/1/",
+      "homeworld": 1,
       "films": [
-        "https://swapi.co/api/films/5/",
-        "https://swapi.co/api/films/6/",
-        "https://swapi.co/api/films/1/"
+        5,
+        6,
+        1
       ],
       "species": [
         1
@@ -4431,7 +4431,7 @@
       "starships": [],
       "created": "2014-12-10T15:52:14.024000Z",
       "edited": "2014-12-20T21:17:50.317000Z",
-      "url": "https://swapi.co/api/people/6/"
+      "id": 6
     },
     {
       "name": "Beru Whitesun lars",
@@ -4442,11 +4442,11 @@
       "eye_color": "blue",
       "birth_year": "47BBY",
       "gender": "female",
-      "homeworld": "https://swapi.co/api/planets/1/",
+      "homeworld": 1,
       "films": [
-        "https://swapi.co/api/films/5/",
-        "https://swapi.co/api/films/6/",
-        "https://swapi.co/api/films/1/"
+        5,
+        6,
+        1
       ],
       "species": [
         1
@@ -4455,7 +4455,7 @@
       "starships": [],
       "created": "2014-12-10T15:53:41.121000Z",
       "edited": "2014-12-20T21:17:50.319000Z",
-      "url": "https://swapi.co/api/people/7/"
+      "id": 7
     },
     {
       "name": "R5-D4",
@@ -4466,9 +4466,9 @@
       "eye_color": "red",
       "birth_year": "unknown",
       "gender": "n/a",
-      "homeworld": "https://swapi.co/api/planets/1/",
+      "homeworld": 1,
       "films": [
-        "https://swapi.co/api/films/1/"
+        1
       ],
       "species": [
         2
@@ -4477,7 +4477,7 @@
       "starships": [],
       "created": "2014-12-10T15:57:50.959000Z",
       "edited": "2014-12-20T21:17:50.321000Z",
-      "url": "https://swapi.co/api/people/8/"
+      "id": 8
     },
     {
       "name": "Biggs Darklighter",
@@ -4488,9 +4488,9 @@
       "eye_color": "brown",
       "birth_year": "24BBY",
       "gender": "male",
-      "homeworld": "https://swapi.co/api/planets/1/",
+      "homeworld": 1,
       "films": [
-        "https://swapi.co/api/films/1/"
+        1
       ],
       "species": [
         1
@@ -4501,7 +4501,7 @@
       ],
       "created": "2014-12-10T15:59:50.509000Z",
       "edited": "2014-12-20T21:17:50.323000Z",
-      "url": "https://swapi.co/api/people/9/"
+      "id": 9
     },
     {
       "name": "Obi-Wan Kenobi",
@@ -4512,14 +4512,14 @@
       "eye_color": "blue-gray",
       "birth_year": "57BBY",
       "gender": "male",
-      "homeworld": "https://swapi.co/api/planets/20/",
+      "homeworld": 20,
       "films": [
-        "https://swapi.co/api/films/2/",
-        "https://swapi.co/api/films/5/",
-        "https://swapi.co/api/films/4/",
-        "https://swapi.co/api/films/6/",
-        "https://swapi.co/api/films/3/",
-        "https://swapi.co/api/films/1/"
+        2,
+        5,
+        4,
+        6,
+        3,
+        1
       ],
       "species": [
         1
@@ -4536,7 +4536,7 @@
       ],
       "created": "2014-12-10T16:16:29.192000Z",
       "edited": "2014-12-20T21:17:50.325000Z",
-      "url": "https://swapi.co/api/people/10/"
+      "id": 10
     },
     {
       "name": "Anakin Skywalker",
@@ -4547,11 +4547,11 @@
       "eye_color": "blue",
       "birth_year": "41.9BBY",
       "gender": "male",
-      "homeworld": "https://swapi.co/api/planets/1/",
+      "homeworld": 1,
       "films": [
-        "https://swapi.co/api/films/5/",
-        "https://swapi.co/api/films/4/",
-        "https://swapi.co/api/films/6/"
+        5,
+        4,
+        6
       ],
       "species": [
         1
@@ -4567,7 +4567,7 @@
       ],
       "created": "2014-12-10T16:20:44.310000Z",
       "edited": "2014-12-20T21:17:50.327000Z",
-      "url": "https://swapi.co/api/people/11/"
+      "id": 11
     },
     {
       "name": "Wilhuff Tarkin",
@@ -4578,10 +4578,10 @@
       "eye_color": "blue",
       "birth_year": "64BBY",
       "gender": "male",
-      "homeworld": "https://swapi.co/api/planets/21/",
+      "homeworld": 21,
       "films": [
-        "https://swapi.co/api/films/6/",
-        "https://swapi.co/api/films/1/"
+        6,
+        1
       ],
       "species": [
         1
@@ -4590,7 +4590,7 @@
       "starships": [],
       "created": "2014-12-10T16:26:56.138000Z",
       "edited": "2014-12-20T21:17:50.330000Z",
-      "url": "https://swapi.co/api/people/12/"
+      "id": 12
     },
     {
       "name": "Chewbacca",
@@ -4601,13 +4601,13 @@
       "eye_color": "blue",
       "birth_year": "200BBY",
       "gender": "male",
-      "homeworld": "https://swapi.co/api/planets/14/",
+      "homeworld": 14,
       "films": [
-        "https://swapi.co/api/films/2/",
-        "https://swapi.co/api/films/6/",
-        "https://swapi.co/api/films/3/",
-        "https://swapi.co/api/films/1/",
-        "https://swapi.co/api/films/7/"
+        2,
+        6,
+        3,
+        1,
+        7
       ],
       "species": [
         3
@@ -4621,7 +4621,7 @@
       ],
       "created": "2014-12-10T16:42:45.066000Z",
       "edited": "2014-12-20T21:17:50.332000Z",
-      "url": "https://swapi.co/api/people/13/"
+      "id": 13
     },
     {
       "name": "Han Solo",
@@ -4632,12 +4632,12 @@
       "eye_color": "brown",
       "birth_year": "29BBY",
       "gender": "male",
-      "homeworld": "https://swapi.co/api/planets/22/",
+      "homeworld": 22,
       "films": [
-        "https://swapi.co/api/films/2/",
-        "https://swapi.co/api/films/3/",
-        "https://swapi.co/api/films/1/",
-        "https://swapi.co/api/films/7/"
+        2,
+        3,
+        1,
+        7
       ],
       "species": [
         1
@@ -4649,7 +4649,7 @@
       ],
       "created": "2014-12-10T16:49:14.582000Z",
       "edited": "2014-12-20T21:17:50.334000Z",
-      "url": "https://swapi.co/api/people/14/"
+      "id": 14
     },
     {
       "name": "Greedo",
@@ -4660,9 +4660,9 @@
       "eye_color": "black",
       "birth_year": "44BBY",
       "gender": "male",
-      "homeworld": "https://swapi.co/api/planets/23/",
+      "homeworld": 23,
       "films": [
-        "https://swapi.co/api/films/1/"
+        1
       ],
       "species": [
         4
@@ -4671,7 +4671,7 @@
       "starships": [],
       "created": "2014-12-10T17:03:30.334000Z",
       "edited": "2014-12-20T21:17:50.336000Z",
-      "url": "https://swapi.co/api/people/15/"
+      "id": 15
     },
     {
       "name": "Jabba Desilijic Tiure",
@@ -4682,11 +4682,11 @@
       "eye_color": "orange",
       "birth_year": "600BBY",
       "gender": "hermaphrodite",
-      "homeworld": "https://swapi.co/api/planets/24/",
+      "homeworld": 24,
       "films": [
-        "https://swapi.co/api/films/4/",
-        "https://swapi.co/api/films/3/",
-        "https://swapi.co/api/films/1/"
+        4,
+        3,
+        1
       ],
       "species": [
         5
@@ -4695,7 +4695,7 @@
       "starships": [],
       "created": "2014-12-10T17:11:31.638000Z",
       "edited": "2014-12-20T21:17:50.338000Z",
-      "url": "https://swapi.co/api/people/16/"
+      "id": 16
     },
     {
       "name": "Wedge Antilles",
@@ -4706,11 +4706,11 @@
       "eye_color": "hazel",
       "birth_year": "21BBY",
       "gender": "male",
-      "homeworld": "https://swapi.co/api/planets/22/",
+      "homeworld": 22,
       "films": [
-        "https://swapi.co/api/films/2/",
-        "https://swapi.co/api/films/3/",
-        "https://swapi.co/api/films/1/"
+        2,
+        3,
+        1
       ],
       "species": [
         1
@@ -4723,7 +4723,7 @@
       ],
       "created": "2014-12-12T11:08:06.469000Z",
       "edited": "2014-12-20T21:17:50.341000Z",
-      "url": "https://swapi.co/api/people/18/"
+      "id": 18
     },
     {
       "name": "Jek Tono Porkins",
@@ -4734,9 +4734,9 @@
       "eye_color": "blue",
       "birth_year": "unknown",
       "gender": "male",
-      "homeworld": "https://swapi.co/api/planets/26/",
+      "homeworld": 26,
       "films": [
-        "https://swapi.co/api/films/1/"
+        1
       ],
       "species": [
         1
@@ -4747,7 +4747,7 @@
       ],
       "created": "2014-12-12T11:16:56.569000Z",
       "edited": "2014-12-20T21:17:50.343000Z",
-      "url": "https://swapi.co/api/people/19/"
+      "id": 19
     },
     {
       "name": "Yoda",
@@ -4758,13 +4758,13 @@
       "eye_color": "brown",
       "birth_year": "896BBY",
       "gender": "male",
-      "homeworld": "https://swapi.co/api/planets/28/",
+      "homeworld": 28,
       "films": [
-        "https://swapi.co/api/films/2/",
-        "https://swapi.co/api/films/5/",
-        "https://swapi.co/api/films/4/",
-        "https://swapi.co/api/films/6/",
-        "https://swapi.co/api/films/3/"
+        2,
+        5,
+        4,
+        6,
+        3
       ],
       "species": [
         6
@@ -4773,7 +4773,7 @@
       "starships": [],
       "created": "2014-12-15T12:26:01.042000Z",
       "edited": "2014-12-20T21:17:50.345000Z",
-      "url": "https://swapi.co/api/people/20/"
+      "id": 20
     },
     {
       "name": "Palpatine",
@@ -4784,13 +4784,13 @@
       "eye_color": "yellow",
       "birth_year": "82BBY",
       "gender": "male",
-      "homeworld": "https://swapi.co/api/planets/8/",
+      "homeworld": 8,
       "films": [
-        "https://swapi.co/api/films/2/",
-        "https://swapi.co/api/films/5/",
-        "https://swapi.co/api/films/4/",
-        "https://swapi.co/api/films/6/",
-        "https://swapi.co/api/films/3/"
+        2,
+        5,
+        4,
+        6,
+        3
       ],
       "species": [
         1
@@ -4799,7 +4799,7 @@
       "starships": [],
       "created": "2014-12-15T12:48:05.971000Z",
       "edited": "2014-12-20T21:17:50.347000Z",
-      "url": "https://swapi.co/api/people/21/"
+      "id": 21
     },
     {
       "name": "Boba Fett",
@@ -4810,11 +4810,11 @@
       "eye_color": "brown",
       "birth_year": "31.5BBY",
       "gender": "male",
-      "homeworld": "https://swapi.co/api/planets/10/",
+      "homeworld": 10,
       "films": [
-        "https://swapi.co/api/films/2/",
-        "https://swapi.co/api/films/5/",
-        "https://swapi.co/api/films/3/"
+        2,
+        5,
+        3
       ],
       "species": [
         1
@@ -4825,7 +4825,7 @@
       ],
       "created": "2014-12-15T12:49:32.457000Z",
       "edited": "2014-12-20T21:17:50.349000Z",
-      "url": "https://swapi.co/api/people/22/"
+      "id": 22
     },
     {
       "name": "IG-88",
@@ -4836,9 +4836,9 @@
       "eye_color": "red",
       "birth_year": "15BBY",
       "gender": "none",
-      "homeworld": "https://swapi.co/api/planets/28/",
+      "homeworld": 28,
       "films": [
-        "https://swapi.co/api/films/2/"
+        2
       ],
       "species": [
         2
@@ -4847,7 +4847,7 @@
       "starships": [],
       "created": "2014-12-15T12:51:10.076000Z",
       "edited": "2014-12-20T21:17:50.351000Z",
-      "url": "https://swapi.co/api/people/23/"
+      "id": 23
     },
     {
       "name": "Bossk",
@@ -4858,9 +4858,9 @@
       "eye_color": "red",
       "birth_year": "53BBY",
       "gender": "male",
-      "homeworld": "https://swapi.co/api/planets/29/",
+      "homeworld": 29,
       "films": [
-        "https://swapi.co/api/films/2/"
+        2
       ],
       "species": [
         7
@@ -4869,7 +4869,7 @@
       "starships": [],
       "created": "2014-12-15T12:53:49.297000Z",
       "edited": "2014-12-20T21:17:50.355000Z",
-      "url": "https://swapi.co/api/people/24/"
+      "id": 24
     },
     {
       "name": "Lando Calrissian",
@@ -4880,10 +4880,10 @@
       "eye_color": "brown",
       "birth_year": "31BBY",
       "gender": "male",
-      "homeworld": "https://swapi.co/api/planets/30/",
+      "homeworld": 30,
       "films": [
-        "https://swapi.co/api/films/2/",
-        "https://swapi.co/api/films/3/"
+        2,
+        3
       ],
       "species": [
         1
@@ -4894,7 +4894,7 @@
       ],
       "created": "2014-12-15T12:56:32.683000Z",
       "edited": "2014-12-20T21:17:50.357000Z",
-      "url": "https://swapi.co/api/people/25/"
+      "id": 25
     },
     {
       "name": "Lobot",
@@ -4905,9 +4905,9 @@
       "eye_color": "blue",
       "birth_year": "37BBY",
       "gender": "male",
-      "homeworld": "https://swapi.co/api/planets/6/",
+      "homeworld": 6,
       "films": [
-        "https://swapi.co/api/films/2/"
+        2
       ],
       "species": [
         1
@@ -4916,7 +4916,7 @@
       "starships": [],
       "created": "2014-12-15T13:01:57.178000Z",
       "edited": "2014-12-20T21:17:50.359000Z",
-      "url": "https://swapi.co/api/people/26/"
+      "id": 26
     },
     {
       "name": "Ackbar",
@@ -4927,10 +4927,10 @@
       "eye_color": "orange",
       "birth_year": "41BBY",
       "gender": "male",
-      "homeworld": "https://swapi.co/api/planets/31/",
+      "homeworld": 31,
       "films": [
-        "https://swapi.co/api/films/3/",
-        "https://swapi.co/api/films/7/"
+        3,
+        7
       ],
       "species": [
         8
@@ -4939,7 +4939,7 @@
       "starships": [],
       "created": "2014-12-18T11:07:50.584000Z",
       "edited": "2014-12-20T21:17:50.362000Z",
-      "url": "https://swapi.co/api/people/27/"
+      "id": 27
     },
     {
       "name": "Mon Mothma",
@@ -4950,9 +4950,9 @@
       "eye_color": "blue",
       "birth_year": "48BBY",
       "gender": "female",
-      "homeworld": "https://swapi.co/api/planets/32/",
+      "homeworld": 32,
       "films": [
-        "https://swapi.co/api/films/3/"
+        3
       ],
       "species": [
         1
@@ -4961,7 +4961,7 @@
       "starships": [],
       "created": "2014-12-18T11:12:38.895000Z",
       "edited": "2014-12-20T21:17:50.364000Z",
-      "url": "https://swapi.co/api/people/28/"
+      "id": 28
     },
     {
       "name": "Arvel Crynyd",
@@ -4972,9 +4972,9 @@
       "eye_color": "brown",
       "birth_year": "unknown",
       "gender": "male",
-      "homeworld": "https://swapi.co/api/planets/28/",
+      "homeworld": 28,
       "films": [
-        "https://swapi.co/api/films/3/"
+        3
       ],
       "species": [
         1
@@ -4985,7 +4985,7 @@
       ],
       "created": "2014-12-18T11:16:33.020000Z",
       "edited": "2014-12-20T21:17:50.367000Z",
-      "url": "https://swapi.co/api/people/29/"
+      "id": 29
     },
     {
       "name": "Wicket Systri Warrick",
@@ -4996,9 +4996,9 @@
       "eye_color": "brown",
       "birth_year": "8BBY",
       "gender": "male",
-      "homeworld": "https://swapi.co/api/planets/7/",
+      "homeworld": 7,
       "films": [
-        "https://swapi.co/api/films/3/"
+        3
       ],
       "species": [
         9
@@ -5007,7 +5007,7 @@
       "starships": [],
       "created": "2014-12-18T11:21:58.954000Z",
       "edited": "2014-12-20T21:17:50.369000Z",
-      "url": "https://swapi.co/api/people/30/"
+      "id": 30
     },
     {
       "name": "Nien Nunb",
@@ -5018,9 +5018,9 @@
       "eye_color": "black",
       "birth_year": "unknown",
       "gender": "male",
-      "homeworld": "https://swapi.co/api/planets/33/",
+      "homeworld": 33,
       "films": [
-        "https://swapi.co/api/films/3/"
+        3
       ],
       "species": [
         10
@@ -5031,7 +5031,7 @@
       ],
       "created": "2014-12-18T11:26:18.541000Z",
       "edited": "2014-12-20T21:17:50.371000Z",
-      "url": "https://swapi.co/api/people/31/"
+      "id": 31
     },
     {
       "name": "Qui-Gon Jinn",
@@ -5042,9 +5042,9 @@
       "eye_color": "blue",
       "birth_year": "92BBY",
       "gender": "male",
-      "homeworld": "https://swapi.co/api/planets/28/",
+      "homeworld": 28,
       "films": [
-        "https://swapi.co/api/films/4/"
+        4
       ],
       "species": [
         1
@@ -5055,7 +5055,7 @@
       "starships": [],
       "created": "2014-12-19T16:54:53.618000Z",
       "edited": "2014-12-20T21:17:50.375000Z",
-      "url": "https://swapi.co/api/people/32/"
+      "id": 32
     },
     {
       "name": "Nute Gunray",
@@ -5066,11 +5066,11 @@
       "eye_color": "red",
       "birth_year": "unknown",
       "gender": "male",
-      "homeworld": "https://swapi.co/api/planets/18/",
+      "homeworld": 18,
       "films": [
-        "https://swapi.co/api/films/5/",
-        "https://swapi.co/api/films/4/",
-        "https://swapi.co/api/films/6/"
+        5,
+        4,
+        6
       ],
       "species": [
         11
@@ -5079,7 +5079,7 @@
       "starships": [],
       "created": "2014-12-19T17:05:57.357000Z",
       "edited": "2014-12-20T21:17:50.377000Z",
-      "url": "https://swapi.co/api/people/33/"
+      "id": 33
     },
     {
       "name": "Finis Valorum",
@@ -5090,9 +5090,9 @@
       "eye_color": "blue",
       "birth_year": "91BBY",
       "gender": "male",
-      "homeworld": "https://swapi.co/api/planets/9/",
+      "homeworld": 9,
       "films": [
-        "https://swapi.co/api/films/4/"
+        4
       ],
       "species": [
         1
@@ -5101,7 +5101,7 @@
       "starships": [],
       "created": "2014-12-19T17:21:45.915000Z",
       "edited": "2014-12-20T21:17:50.379000Z",
-      "url": "https://swapi.co/api/people/34/"
+      "id": 34
     },
     {
       "name": "Jar Jar Binks",
@@ -5112,10 +5112,10 @@
       "eye_color": "orange",
       "birth_year": "52BBY",
       "gender": "male",
-      "homeworld": "https://swapi.co/api/planets/8/",
+      "homeworld": 8,
       "films": [
-        "https://swapi.co/api/films/5/",
-        "https://swapi.co/api/films/4/"
+        5,
+        4
       ],
       "species": [
         12
@@ -5124,7 +5124,7 @@
       "starships": [],
       "created": "2014-12-19T17:29:32.489000Z",
       "edited": "2014-12-20T21:17:50.383000Z",
-      "url": "https://swapi.co/api/people/36/"
+      "id": 36
     },
     {
       "name": "Roos Tarpals",
@@ -5135,9 +5135,9 @@
       "eye_color": "orange",
       "birth_year": "unknown",
       "gender": "male",
-      "homeworld": "https://swapi.co/api/planets/8/",
+      "homeworld": 8,
       "films": [
-        "https://swapi.co/api/films/4/"
+        4
       ],
       "species": [
         12
@@ -5146,7 +5146,7 @@
       "starships": [],
       "created": "2014-12-19T17:32:56.741000Z",
       "edited": "2014-12-20T21:17:50.385000Z",
-      "url": "https://swapi.co/api/people/37/"
+      "id": 37
     },
     {
       "name": "Rugor Nass",
@@ -5157,9 +5157,9 @@
       "eye_color": "orange",
       "birth_year": "unknown",
       "gender": "male",
-      "homeworld": "https://swapi.co/api/planets/8/",
+      "homeworld": 8,
       "films": [
-        "https://swapi.co/api/films/4/"
+        4
       ],
       "species": [
         12
@@ -5168,7 +5168,7 @@
       "starships": [],
       "created": "2014-12-19T17:33:38.909000Z",
       "edited": "2014-12-20T21:17:50.388000Z",
-      "url": "https://swapi.co/api/people/38/"
+      "id": 38
     },
     {
       "name": "Ric Olié",
@@ -5179,9 +5179,9 @@
       "eye_color": "blue",
       "birth_year": "unknown",
       "gender": "male",
-      "homeworld": "https://swapi.co/api/planets/8/",
+      "homeworld": 8,
       "films": [
-        "https://swapi.co/api/films/4/"
+        4
       ],
       "species": [],
       "vehicles": [],
@@ -5190,7 +5190,7 @@
       ],
       "created": "2014-12-19T17:45:01.522000Z",
       "edited": "2014-12-20T21:17:50.392000Z",
-      "url": "https://swapi.co/api/people/39/"
+      "id": 39
     },
     {
       "name": "Watto",
@@ -5201,10 +5201,10 @@
       "eye_color": "yellow",
       "birth_year": "unknown",
       "gender": "male",
-      "homeworld": "https://swapi.co/api/planets/34/",
+      "homeworld": 34,
       "films": [
-        "https://swapi.co/api/films/5/",
-        "https://swapi.co/api/films/4/"
+        5,
+        4
       ],
       "species": [
         13
@@ -5213,7 +5213,7 @@
       "starships": [],
       "created": "2014-12-19T17:48:54.647000Z",
       "edited": "2014-12-20T21:17:50.395000Z",
-      "url": "https://swapi.co/api/people/40/"
+      "id": 40
     },
     {
       "name": "Sebulba",
@@ -5224,9 +5224,9 @@
       "eye_color": "orange",
       "birth_year": "unknown",
       "gender": "male",
-      "homeworld": "https://swapi.co/api/planets/35/",
+      "homeworld": 35,
       "films": [
-        "https://swapi.co/api/films/4/"
+        4
       ],
       "species": [
         14
@@ -5235,7 +5235,7 @@
       "starships": [],
       "created": "2014-12-19T17:53:02.586000Z",
       "edited": "2014-12-20T21:17:50.397000Z",
-      "url": "https://swapi.co/api/people/41/"
+      "id": 41
     },
     {
       "name": "Quarsh Panaka",
@@ -5246,16 +5246,16 @@
       "eye_color": "brown",
       "birth_year": "62BBY",
       "gender": "male",
-      "homeworld": "https://swapi.co/api/planets/8/",
+      "homeworld": 8,
       "films": [
-        "https://swapi.co/api/films/4/"
+        4
       ],
       "species": [],
       "vehicles": [],
       "starships": [],
       "created": "2014-12-19T17:55:43.348000Z",
       "edited": "2014-12-20T21:17:50.399000Z",
-      "url": "https://swapi.co/api/people/42/"
+      "id": 42
     },
     {
       "name": "Shmi Skywalker",
@@ -5266,10 +5266,10 @@
       "eye_color": "brown",
       "birth_year": "72BBY",
       "gender": "female",
-      "homeworld": "https://swapi.co/api/planets/1/",
+      "homeworld": 1,
       "films": [
-        "https://swapi.co/api/films/5/",
-        "https://swapi.co/api/films/4/"
+        5,
+        4
       ],
       "species": [
         1
@@ -5278,7 +5278,7 @@
       "starships": [],
       "created": "2014-12-19T17:57:41.191000Z",
       "edited": "2014-12-20T21:17:50.401000Z",
-      "url": "https://swapi.co/api/people/43/"
+      "id": 43
     },
     {
       "name": "Darth Maul",
@@ -5289,9 +5289,9 @@
       "eye_color": "yellow",
       "birth_year": "54BBY",
       "gender": "male",
-      "homeworld": "https://swapi.co/api/planets/36/",
+      "homeworld": 36,
       "films": [
-        "https://swapi.co/api/films/4/"
+        4
       ],
       "species": [
         22
@@ -5304,7 +5304,7 @@
       ],
       "created": "2014-12-19T18:00:41.929000Z",
       "edited": "2014-12-20T21:17:50.403000Z",
-      "url": "https://swapi.co/api/people/44/"
+      "id": 44
     },
     {
       "name": "Bib Fortuna",
@@ -5315,9 +5315,9 @@
       "eye_color": "pink",
       "birth_year": "unknown",
       "gender": "male",
-      "homeworld": "https://swapi.co/api/planets/37/",
+      "homeworld": 37,
       "films": [
-        "https://swapi.co/api/films/3/"
+        3
       ],
       "species": [
         15
@@ -5326,7 +5326,7 @@
       "starships": [],
       "created": "2014-12-20T09:47:02.512000Z",
       "edited": "2014-12-20T21:17:50.407000Z",
-      "url": "https://swapi.co/api/people/45/"
+      "id": 45
     },
     {
       "name": "Ayla Secura",
@@ -5337,11 +5337,11 @@
       "eye_color": "hazel",
       "birth_year": "48BBY",
       "gender": "female",
-      "homeworld": "https://swapi.co/api/planets/37/",
+      "homeworld": 37,
       "films": [
-        "https://swapi.co/api/films/5/",
-        "https://swapi.co/api/films/4/",
-        "https://swapi.co/api/films/6/"
+        5,
+        4,
+        6
       ],
       "species": [
         15
@@ -5350,7 +5350,7 @@
       "starships": [],
       "created": "2014-12-20T09:48:01.172000Z",
       "edited": "2014-12-20T21:17:50.409000Z",
-      "url": "https://swapi.co/api/people/46/"
+      "id": 46
     },
     {
       "name": "Dud Bolt",
@@ -5361,9 +5361,9 @@
       "eye_color": "yellow",
       "birth_year": "unknown",
       "gender": "male",
-      "homeworld": "https://swapi.co/api/planets/39/",
+      "homeworld": 39,
       "films": [
-        "https://swapi.co/api/films/4/"
+        4
       ],
       "species": [
         17
@@ -5372,7 +5372,7 @@
       "starships": [],
       "created": "2014-12-20T09:57:31.858000Z",
       "edited": "2014-12-20T21:17:50.414000Z",
-      "url": "https://swapi.co/api/people/48/"
+      "id": 48
     },
     {
       "name": "Gasgano",
@@ -5383,9 +5383,9 @@
       "eye_color": "black",
       "birth_year": "unknown",
       "gender": "male",
-      "homeworld": "https://swapi.co/api/planets/40/",
+      "homeworld": 40,
       "films": [
-        "https://swapi.co/api/films/4/"
+        4
       ],
       "species": [
         18
@@ -5394,7 +5394,7 @@
       "starships": [],
       "created": "2014-12-20T10:02:12.223000Z",
       "edited": "2014-12-20T21:17:50.416000Z",
-      "url": "https://swapi.co/api/people/49/"
+      "id": 49
     },
     {
       "name": "Ben Quadinaros",
@@ -5405,9 +5405,9 @@
       "eye_color": "orange",
       "birth_year": "unknown",
       "gender": "male",
-      "homeworld": "https://swapi.co/api/planets/41/",
+      "homeworld": 41,
       "films": [
-        "https://swapi.co/api/films/4/"
+        4
       ],
       "species": [
         19
@@ -5416,7 +5416,7 @@
       "starships": [],
       "created": "2014-12-20T10:08:33.777000Z",
       "edited": "2014-12-20T21:17:50.417000Z",
-      "url": "https://swapi.co/api/people/50/"
+      "id": 50
     },
     {
       "name": "Mace Windu",
@@ -5427,11 +5427,11 @@
       "eye_color": "brown",
       "birth_year": "72BBY",
       "gender": "male",
-      "homeworld": "https://swapi.co/api/planets/42/",
+      "homeworld": 42,
       "films": [
-        "https://swapi.co/api/films/5/",
-        "https://swapi.co/api/films/4/",
-        "https://swapi.co/api/films/6/"
+        5,
+        4,
+        6
       ],
       "species": [
         1
@@ -5440,7 +5440,7 @@
       "starships": [],
       "created": "2014-12-20T10:12:30.846000Z",
       "edited": "2014-12-20T21:17:50.420000Z",
-      "url": "https://swapi.co/api/people/51/"
+      "id": 51
     },
     {
       "name": "Ki-Adi-Mundi",
@@ -5451,11 +5451,11 @@
       "eye_color": "yellow",
       "birth_year": "92BBY",
       "gender": "male",
-      "homeworld": "https://swapi.co/api/planets/43/",
+      "homeworld": 43,
       "films": [
-        "https://swapi.co/api/films/5/",
-        "https://swapi.co/api/films/4/",
-        "https://swapi.co/api/films/6/"
+        5,
+        4,
+        6
       ],
       "species": [
         20
@@ -5464,7 +5464,7 @@
       "starships": [],
       "created": "2014-12-20T10:15:32.293000Z",
       "edited": "2014-12-20T21:17:50.422000Z",
-      "url": "https://swapi.co/api/people/52/"
+      "id": 52
     },
     {
       "name": "Kit Fisto",
@@ -5475,11 +5475,11 @@
       "eye_color": "black",
       "birth_year": "unknown",
       "gender": "male",
-      "homeworld": "https://swapi.co/api/planets/44/",
+      "homeworld": 44,
       "films": [
-        "https://swapi.co/api/films/5/",
-        "https://swapi.co/api/films/4/",
-        "https://swapi.co/api/films/6/"
+        5,
+        4,
+        6
       ],
       "species": [
         21
@@ -5488,7 +5488,7 @@
       "starships": [],
       "created": "2014-12-20T10:18:57.202000Z",
       "edited": "2014-12-20T21:17:50.424000Z",
-      "url": "https://swapi.co/api/people/53/"
+      "id": 53
     },
     {
       "name": "Eeth Koth",
@@ -5499,10 +5499,10 @@
       "eye_color": "brown",
       "birth_year": "unknown",
       "gender": "male",
-      "homeworld": "https://swapi.co/api/planets/45/",
+      "homeworld": 45,
       "films": [
-        "https://swapi.co/api/films/4/",
-        "https://swapi.co/api/films/6/"
+        4,
+        6
       ],
       "species": [
         22
@@ -5511,7 +5511,7 @@
       "starships": [],
       "created": "2014-12-20T10:26:47.902000Z",
       "edited": "2014-12-20T21:17:50.427000Z",
-      "url": "https://swapi.co/api/people/54/"
+      "id": 54
     },
     {
       "name": "Adi Gallia",
@@ -5522,10 +5522,10 @@
       "eye_color": "blue",
       "birth_year": "unknown",
       "gender": "female",
-      "homeworld": "https://swapi.co/api/planets/9/",
+      "homeworld": 9,
       "films": [
-        "https://swapi.co/api/films/4/",
-        "https://swapi.co/api/films/6/"
+        4,
+        6
       ],
       "species": [
         23
@@ -5534,7 +5534,7 @@
       "starships": [],
       "created": "2014-12-20T10:29:11.661000Z",
       "edited": "2014-12-20T21:17:50.432000Z",
-      "url": "https://swapi.co/api/people/55/"
+      "id": 55
     },
     {
       "name": "Saesee Tiin",
@@ -5545,10 +5545,10 @@
       "eye_color": "orange",
       "birth_year": "unknown",
       "gender": "male",
-      "homeworld": "https://swapi.co/api/planets/47/",
+      "homeworld": 47,
       "films": [
-        "https://swapi.co/api/films/4/",
-        "https://swapi.co/api/films/6/"
+        4,
+        6
       ],
       "species": [
         24
@@ -5557,7 +5557,7 @@
       "starships": [],
       "created": "2014-12-20T10:32:11.669000Z",
       "edited": "2014-12-20T21:17:50.434000Z",
-      "url": "https://swapi.co/api/people/56/"
+      "id": 56
     },
     {
       "name": "Yarael Poof",
@@ -5568,9 +5568,9 @@
       "eye_color": "yellow",
       "birth_year": "unknown",
       "gender": "male",
-      "homeworld": "https://swapi.co/api/planets/48/",
+      "homeworld": 48,
       "films": [
-        "https://swapi.co/api/films/4/"
+        4
       ],
       "species": [
         25
@@ -5579,7 +5579,7 @@
       "starships": [],
       "created": "2014-12-20T10:34:48.725000Z",
       "edited": "2014-12-20T21:17:50.437000Z",
-      "url": "https://swapi.co/api/people/57/"
+      "id": 57
     },
     {
       "name": "Plo Koon",
@@ -5590,11 +5590,11 @@
       "eye_color": "black",
       "birth_year": "22BBY",
       "gender": "male",
-      "homeworld": "https://swapi.co/api/planets/49/",
+      "homeworld": 49,
       "films": [
-        "https://swapi.co/api/films/5/",
-        "https://swapi.co/api/films/4/",
-        "https://swapi.co/api/films/6/"
+        5,
+        4,
+        6
       ],
       "species": [
         26
@@ -5605,7 +5605,7 @@
       ],
       "created": "2014-12-20T10:49:19.859000Z",
       "edited": "2014-12-20T21:17:50.439000Z",
-      "url": "https://swapi.co/api/people/58/"
+      "id": 58
     },
     {
       "name": "Mas Amedda",
@@ -5616,10 +5616,10 @@
       "eye_color": "blue",
       "birth_year": "unknown",
       "gender": "male",
-      "homeworld": "https://swapi.co/api/planets/50/",
+      "homeworld": 50,
       "films": [
-        "https://swapi.co/api/films/5/",
-        "https://swapi.co/api/films/4/"
+        5,
+        4
       ],
       "species": [
         27
@@ -5628,7 +5628,7 @@
       "starships": [],
       "created": "2014-12-20T10:53:26.457000Z",
       "edited": "2014-12-20T21:17:50.442000Z",
-      "url": "https://swapi.co/api/people/59/"
+      "id": 59
     },
     {
       "name": "Gregar Typho",
@@ -5639,9 +5639,9 @@
       "eye_color": "brown",
       "birth_year": "unknown",
       "gender": "male",
-      "homeworld": "https://swapi.co/api/planets/8/",
+      "homeworld": 8,
       "films": [
-        "https://swapi.co/api/films/5/"
+        5
       ],
       "species": [
         1
@@ -5652,7 +5652,7 @@
       ],
       "created": "2014-12-20T11:10:10.381000Z",
       "edited": "2014-12-20T21:17:50.445000Z",
-      "url": "https://swapi.co/api/people/60/"
+      "id": 60
     },
     {
       "name": "Cordé",
@@ -5663,9 +5663,9 @@
       "eye_color": "brown",
       "birth_year": "unknown",
       "gender": "female",
-      "homeworld": "https://swapi.co/api/planets/8/",
+      "homeworld": 8,
       "films": [
-        "https://swapi.co/api/films/5/"
+        5
       ],
       "species": [
         1
@@ -5674,7 +5674,7 @@
       "starships": [],
       "created": "2014-12-20T11:11:39.630000Z",
       "edited": "2014-12-20T21:17:50.449000Z",
-      "url": "https://swapi.co/api/people/61/"
+      "id": 61
     },
     {
       "name": "Cliegg Lars",
@@ -5685,9 +5685,9 @@
       "eye_color": "blue",
       "birth_year": "82BBY",
       "gender": "male",
-      "homeworld": "https://swapi.co/api/planets/1/",
+      "homeworld": 1,
       "films": [
-        "https://swapi.co/api/films/5/"
+        5
       ],
       "species": [
         1
@@ -5696,7 +5696,7 @@
       "starships": [],
       "created": "2014-12-20T15:59:03.958000Z",
       "edited": "2014-12-20T21:17:50.451000Z",
-      "url": "https://swapi.co/api/people/62/"
+      "id": 62
     },
     {
       "name": "Poggle the Lesser",
@@ -5707,10 +5707,10 @@
       "eye_color": "yellow",
       "birth_year": "unknown",
       "gender": "male",
-      "homeworld": "https://swapi.co/api/planets/11/",
+      "homeworld": 11,
       "films": [
-        "https://swapi.co/api/films/5/",
-        "https://swapi.co/api/films/6/"
+        5,
+        6
       ],
       "species": [
         28
@@ -5719,7 +5719,7 @@
       "starships": [],
       "created": "2014-12-20T16:40:43.977000Z",
       "edited": "2014-12-20T21:17:50.453000Z",
-      "url": "https://swapi.co/api/people/63/"
+      "id": 63
     },
     {
       "name": "Luminara Unduli",
@@ -5730,10 +5730,10 @@
       "eye_color": "blue",
       "birth_year": "58BBY",
       "gender": "female",
-      "homeworld": "https://swapi.co/api/planets/51/",
+      "homeworld": 51,
       "films": [
-        "https://swapi.co/api/films/5/",
-        "https://swapi.co/api/films/6/"
+        5,
+        6
       ],
       "species": [
         29
@@ -5742,7 +5742,7 @@
       "starships": [],
       "created": "2014-12-20T16:45:53.668000Z",
       "edited": "2014-12-20T21:17:50.455000Z",
-      "url": "https://swapi.co/api/people/64/"
+      "id": 64
     },
     {
       "name": "Barriss Offee",
@@ -5753,9 +5753,9 @@
       "eye_color": "blue",
       "birth_year": "40BBY",
       "gender": "female",
-      "homeworld": "https://swapi.co/api/planets/51/",
+      "homeworld": 51,
       "films": [
-        "https://swapi.co/api/films/5/"
+        5
       ],
       "species": [
         29
@@ -5764,7 +5764,7 @@
       "starships": [],
       "created": "2014-12-20T16:46:40.440000Z",
       "edited": "2014-12-20T21:17:50.457000Z",
-      "url": "https://swapi.co/api/people/65/"
+      "id": 65
     },
     {
       "name": "Dormé",
@@ -5775,9 +5775,9 @@
       "eye_color": "brown",
       "birth_year": "unknown",
       "gender": "female",
-      "homeworld": "https://swapi.co/api/planets/8/",
+      "homeworld": 8,
       "films": [
-        "https://swapi.co/api/films/5/"
+        5
       ],
       "species": [
         1
@@ -5786,7 +5786,7 @@
       "starships": [],
       "created": "2014-12-20T16:49:14.640000Z",
       "edited": "2014-12-20T21:17:50.460000Z",
-      "url": "https://swapi.co/api/people/66/"
+      "id": 66
     },
     {
       "name": "Dooku",
@@ -5797,10 +5797,10 @@
       "eye_color": "brown",
       "birth_year": "102BBY",
       "gender": "male",
-      "homeworld": "https://swapi.co/api/planets/52/",
+      "homeworld": 52,
       "films": [
-        "https://swapi.co/api/films/5/",
-        "https://swapi.co/api/films/6/"
+        5,
+        6
       ],
       "species": [
         1
@@ -5811,7 +5811,7 @@
       "starships": [],
       "created": "2014-12-20T16:52:14.726000Z",
       "edited": "2014-12-20T21:17:50.462000Z",
-      "url": "https://swapi.co/api/people/67/"
+      "id": 67
     },
     {
       "name": "Bail Prestor Organa",
@@ -5822,10 +5822,10 @@
       "eye_color": "brown",
       "birth_year": "67BBY",
       "gender": "male",
-      "homeworld": "https://swapi.co/api/planets/2/",
+      "homeworld": 2,
       "films": [
-        "https://swapi.co/api/films/5/",
-        "https://swapi.co/api/films/6/"
+        5,
+        6
       ],
       "species": [
         1
@@ -5834,7 +5834,7 @@
       "starships": [],
       "created": "2014-12-20T16:53:08.575000Z",
       "edited": "2014-12-20T21:17:50.463000Z",
-      "url": "https://swapi.co/api/people/68/"
+      "id": 68
     },
     {
       "name": "Jango Fett",
@@ -5845,9 +5845,9 @@
       "eye_color": "brown",
       "birth_year": "66BBY",
       "gender": "male",
-      "homeworld": "https://swapi.co/api/planets/53/",
+      "homeworld": 53,
       "films": [
-        "https://swapi.co/api/films/5/"
+        5
       ],
       "species": [
         1
@@ -5856,7 +5856,7 @@
       "starships": [],
       "created": "2014-12-20T16:54:41.620000Z",
       "edited": "2014-12-20T21:17:50.465000Z",
-      "url": "https://swapi.co/api/people/69/"
+      "id": 69
     },
     {
       "name": "Zam Wesell",
@@ -5867,9 +5867,9 @@
       "eye_color": "yellow",
       "birth_year": "unknown",
       "gender": "female",
-      "homeworld": "https://swapi.co/api/planets/54/",
+      "homeworld": 54,
       "films": [
-        "https://swapi.co/api/films/5/"
+        5
       ],
       "species": [
         30
@@ -5880,7 +5880,7 @@
       "starships": [],
       "created": "2014-12-20T16:57:44.471000Z",
       "edited": "2014-12-20T21:17:50.468000Z",
-      "url": "https://swapi.co/api/people/70/"
+      "id": 70
     },
     {
       "name": "Dexter Jettster",
@@ -5891,9 +5891,9 @@
       "eye_color": "yellow",
       "birth_year": "unknown",
       "gender": "male",
-      "homeworld": "https://swapi.co/api/planets/55/",
+      "homeworld": 55,
       "films": [
-        "https://swapi.co/api/films/5/"
+        5
       ],
       "species": [
         31
@@ -5902,7 +5902,7 @@
       "starships": [],
       "created": "2014-12-20T17:28:27.248000Z",
       "edited": "2014-12-20T21:17:50.470000Z",
-      "url": "https://swapi.co/api/people/71/"
+      "id": 71
     },
     {
       "name": "Lama Su",
@@ -5913,9 +5913,9 @@
       "eye_color": "black",
       "birth_year": "unknown",
       "gender": "male",
-      "homeworld": "https://swapi.co/api/planets/10/",
+      "homeworld": 10,
       "films": [
-        "https://swapi.co/api/films/5/"
+        5
       ],
       "species": [
         32
@@ -5924,7 +5924,7 @@
       "starships": [],
       "created": "2014-12-20T17:30:50.416000Z",
       "edited": "2014-12-20T21:17:50.473000Z",
-      "url": "https://swapi.co/api/people/72/"
+      "id": 72
     },
     {
       "name": "Taun We",
@@ -5935,9 +5935,9 @@
       "eye_color": "black",
       "birth_year": "unknown",
       "gender": "female",
-      "homeworld": "https://swapi.co/api/planets/10/",
+      "homeworld": 10,
       "films": [
-        "https://swapi.co/api/films/5/"
+        5
       ],
       "species": [
         32
@@ -5946,7 +5946,7 @@
       "starships": [],
       "created": "2014-12-20T17:31:21.195000Z",
       "edited": "2014-12-20T21:17:50.474000Z",
-      "url": "https://swapi.co/api/people/73/"
+      "id": 73
     },
     {
       "name": "Jocasta Nu",
@@ -5957,9 +5957,9 @@
       "eye_color": "blue",
       "birth_year": "unknown",
       "gender": "female",
-      "homeworld": "https://swapi.co/api/planets/9/",
+      "homeworld": 9,
       "films": [
-        "https://swapi.co/api/films/5/"
+        5
       ],
       "species": [
         1
@@ -5968,7 +5968,7 @@
       "starships": [],
       "created": "2014-12-20T17:32:51.996000Z",
       "edited": "2014-12-20T21:17:50.476000Z",
-      "url": "https://swapi.co/api/people/74/"
+      "id": 74
     },
     {
       "name": "Ratts Tyerell",
@@ -5979,9 +5979,9 @@
       "eye_color": "unknown",
       "birth_year": "unknown",
       "gender": "male",
-      "homeworld": "https://swapi.co/api/planets/38/",
+      "homeworld": 38,
       "films": [
-        "https://swapi.co/api/films/4/"
+        4
       ],
       "species": [
         16
@@ -5990,7 +5990,7 @@
       "starships": [],
       "created": "2014-12-20T09:53:15.086000Z",
       "edited": "2016-06-30T12:52:19.604868Z",
-      "url": "https://swapi.co/api/people/47/"
+      "id": 47
     },
     {
       "name": "R4-P17",
@@ -6001,17 +6001,17 @@
       "eye_color": "red, blue",
       "birth_year": "unknown",
       "gender": "female",
-      "homeworld": "https://swapi.co/api/planets/28/",
+      "homeworld": 28,
       "films": [
-        "https://swapi.co/api/films/5/",
-        "https://swapi.co/api/films/6/"
+        5,
+        6
       ],
       "species": [],
       "vehicles": [],
       "starships": [],
       "created": "2014-12-20T17:43:36.409000Z",
       "edited": "2014-12-20T21:17:50.478000Z",
-      "url": "https://swapi.co/api/people/75/"
+      "id": 75
     },
     {
       "name": "Wat Tambor",
@@ -6022,9 +6022,9 @@
       "eye_color": "unknown",
       "birth_year": "unknown",
       "gender": "male",
-      "homeworld": "https://swapi.co/api/planets/56/",
+      "homeworld": 56,
       "films": [
-        "https://swapi.co/api/films/5/"
+        5
       ],
       "species": [
         33
@@ -6033,7 +6033,7 @@
       "starships": [],
       "created": "2014-12-20T17:53:52.607000Z",
       "edited": "2014-12-20T21:17:50.481000Z",
-      "url": "https://swapi.co/api/people/76/"
+      "id": 76
     },
     {
       "name": "San Hill",
@@ -6044,9 +6044,9 @@
       "eye_color": "gold",
       "birth_year": "unknown",
       "gender": "male",
-      "homeworld": "https://swapi.co/api/planets/57/",
+      "homeworld": 57,
       "films": [
-        "https://swapi.co/api/films/5/"
+        5
       ],
       "species": [
         34
@@ -6055,7 +6055,7 @@
       "starships": [],
       "created": "2014-12-20T17:58:17.049000Z",
       "edited": "2014-12-20T21:17:50.484000Z",
-      "url": "https://swapi.co/api/people/77/"
+      "id": 77
     },
     {
       "name": "Shaak Ti",
@@ -6066,10 +6066,10 @@
       "eye_color": "black",
       "birth_year": "unknown",
       "gender": "female",
-      "homeworld": "https://swapi.co/api/planets/58/",
+      "homeworld": 58,
       "films": [
-        "https://swapi.co/api/films/5/",
-        "https://swapi.co/api/films/6/"
+        5,
+        6
       ],
       "species": [
         35
@@ -6078,7 +6078,7 @@
       "starships": [],
       "created": "2014-12-20T18:44:01.103000Z",
       "edited": "2014-12-20T21:17:50.486000Z",
-      "url": "https://swapi.co/api/people/78/"
+      "id": 78
     },
     {
       "name": "Grievous",
@@ -6089,9 +6089,9 @@
       "eye_color": "green, yellow",
       "birth_year": "unknown",
       "gender": "male",
-      "homeworld": "https://swapi.co/api/planets/59/",
+      "homeworld": 59,
       "films": [
-        "https://swapi.co/api/films/6/"
+        6
       ],
       "species": [
         36
@@ -6104,7 +6104,7 @@
       ],
       "created": "2014-12-20T19:43:53.348000Z",
       "edited": "2014-12-20T21:17:50.488000Z",
-      "url": "https://swapi.co/api/people/79/"
+      "id": 79
     },
     {
       "name": "Tarfful",
@@ -6115,9 +6115,9 @@
       "eye_color": "blue",
       "birth_year": "unknown",
       "gender": "male",
-      "homeworld": "https://swapi.co/api/planets/14/",
+      "homeworld": 14,
       "films": [
-        "https://swapi.co/api/films/6/"
+        6
       ],
       "species": [
         3
@@ -6126,7 +6126,7 @@
       "starships": [],
       "created": "2014-12-20T19:46:34.209000Z",
       "edited": "2014-12-20T21:17:50.491000Z",
-      "url": "https://swapi.co/api/people/80/"
+      "id": 80
     },
     {
       "name": "Raymus Antilles",
@@ -6137,10 +6137,10 @@
       "eye_color": "brown",
       "birth_year": "unknown",
       "gender": "male",
-      "homeworld": "https://swapi.co/api/planets/2/",
+      "homeworld": 2,
       "films": [
-        "https://swapi.co/api/films/6/",
-        "https://swapi.co/api/films/1/"
+        6,
+        1
       ],
       "species": [
         1
@@ -6149,7 +6149,7 @@
       "starships": [],
       "created": "2014-12-20T19:49:35.583000Z",
       "edited": "2014-12-20T21:17:50.493000Z",
-      "url": "https://swapi.co/api/people/81/"
+      "id": 81
     },
     {
       "name": "Sly Moore",
@@ -6160,17 +6160,17 @@
       "eye_color": "white",
       "birth_year": "unknown",
       "gender": "female",
-      "homeworld": "https://swapi.co/api/planets/60/",
+      "homeworld": 60,
       "films": [
-        "https://swapi.co/api/films/5/",
-        "https://swapi.co/api/films/6/"
+        5,
+        6
       ],
       "species": [],
       "vehicles": [],
       "starships": [],
       "created": "2014-12-20T20:18:37.619000Z",
       "edited": "2014-12-20T21:17:50.496000Z",
-      "url": "https://swapi.co/api/people/82/"
+      "id": 82
     },
     {
       "name": "Tion Medon",
@@ -6181,9 +6181,9 @@
       "eye_color": "black",
       "birth_year": "unknown",
       "gender": "male",
-      "homeworld": "https://swapi.co/api/planets/12/",
+      "homeworld": 12,
       "films": [
-        "https://swapi.co/api/films/6/"
+        6
       ],
       "species": [
         37
@@ -6192,7 +6192,7 @@
       "starships": [],
       "created": "2014-12-20T20:35:04.260000Z",
       "edited": "2014-12-20T21:17:50.498000Z",
-      "url": "https://swapi.co/api/people/83/"
+      "id": 83
     },
     {
       "name": "Finn",
@@ -6203,9 +6203,9 @@
       "eye_color": "dark",
       "birth_year": "unknown",
       "gender": "male",
-      "homeworld": "https://swapi.co/api/planets/28/",
+      "homeworld": 28,
       "films": [
-        "https://swapi.co/api/films/7/"
+        7
       ],
       "species": [
         1
@@ -6214,7 +6214,7 @@
       "starships": [],
       "created": "2015-04-17T06:52:40.793621Z",
       "edited": "2015-04-17T06:52:40.793674Z",
-      "url": "https://swapi.co/api/people/84/"
+      "id": 84
     },
     {
       "name": "Rey",
@@ -6225,9 +6225,9 @@
       "eye_color": "hazel",
       "birth_year": "unknown",
       "gender": "female",
-      "homeworld": "https://swapi.co/api/planets/28/",
+      "homeworld": 28,
       "films": [
-        "https://swapi.co/api/films/7/"
+        7
       ],
       "species": [
         1
@@ -6236,7 +6236,7 @@
       "starships": [],
       "created": "2015-04-17T06:54:01.495077Z",
       "edited": "2015-04-17T06:54:01.495128Z",
-      "url": "https://swapi.co/api/people/85/"
+      "id": 85
     },
     {
       "name": "Poe Dameron",
@@ -6247,9 +6247,9 @@
       "eye_color": "brown",
       "birth_year": "unknown",
       "gender": "male",
-      "homeworld": "https://swapi.co/api/planets/28/",
+      "homeworld": 28,
       "films": [
-        "https://swapi.co/api/films/7/"
+        7
       ],
       "species": [
         1
@@ -6260,7 +6260,7 @@
       ],
       "created": "2015-04-17T06:55:21.622786Z",
       "edited": "2015-04-17T06:55:21.622835Z",
-      "url": "https://swapi.co/api/people/86/"
+      "id": 86
     },
     {
       "name": "BB8",
@@ -6271,9 +6271,9 @@
       "eye_color": "black",
       "birth_year": "unknown",
       "gender": "none",
-      "homeworld": "https://swapi.co/api/planets/28/",
+      "homeworld": 28,
       "films": [
-        "https://swapi.co/api/films/7/"
+        7
       ],
       "species": [
         2
@@ -6282,7 +6282,7 @@
       "starships": [],
       "created": "2015-04-17T06:57:38.061346Z",
       "edited": "2015-04-17T06:57:38.061453Z",
-      "url": "https://swapi.co/api/people/87/"
+      "id": 87
     },
     {
       "name": "Captain Phasma",
@@ -6293,16 +6293,16 @@
       "eye_color": "unknown",
       "birth_year": "unknown",
       "gender": "female",
-      "homeworld": "https://swapi.co/api/planets/28/",
+      "homeworld": 28,
       "films": [
-        "https://swapi.co/api/films/7/"
+        7
       ],
       "species": [],
       "vehicles": [],
       "starships": [],
       "created": "2015-10-13T10:35:39.229823Z",
       "edited": "2015-10-13T10:35:39.229894Z",
-      "url": "https://swapi.co/api/people/88/"
+      "id": 88
     },
     {
       "name": "Padmé Amidala",
@@ -6313,11 +6313,11 @@
       "eye_color": "brown",
       "birth_year": "46BBY",
       "gender": "female",
-      "homeworld": "https://swapi.co/api/planets/8/",
+      "homeworld": 8,
       "films": [
-        "https://swapi.co/api/films/5/",
-        "https://swapi.co/api/films/4/",
-        "https://swapi.co/api/films/6/"
+        5,
+        4,
+        6
       ],
       "species": [
         1
@@ -6330,7 +6330,7 @@
       ],
       "created": "2014-12-19T17:28:26.926000Z",
       "edited": "2016-04-20T17:06:31.502555Z",
-      "url": "https://swapi.co/api/people/35/"
+      "id": 35
     }
   ]
 }

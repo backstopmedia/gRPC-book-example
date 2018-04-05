@@ -4,7 +4,8 @@
   "description": "",
   "main": "gen_proto.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "get_data": "babel-node get_data.js",
+    "gen_proto": "babel-node gen_proto.js"
   },
   "keywords": [],
   "author": "David Konsumer <konsumer@jetboystudio.com> (http://konsumer.js.org)",
@@ -12,9 +13,12 @@
   "dependencies": {
     "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.6.1",
+    "inflection": "^1.12.0",
     "node-fetch": "^2.1.2"
   },
   "babel": {
-    "presets": ["env"]
+    "presets": [
+      "env"
+    ]
   }
 }
