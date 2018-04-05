@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+package swapi;
+
+/* I could also just use oneof, directly in parent models */
+message Character {
+  oneof info {
+    Human human = 1;
+    Droid droid = 2;
+  }
+}
+
+message Human {}
+
+message Droid {}
+
+message Starship {}
+
+message Episode {}
+
