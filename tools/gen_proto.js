@@ -68,11 +68,13 @@ let out = [
   'syntax = "proto3";',
   '',
   'import "google/api/annotations.proto";',
+  'import "google/protobuf/empty.proto";',
   '',
   'package swapi;',
   ''
 ]
 handleMessage(obj, 'SWAPI')
+delete messages.SWAPI
 Object.keys(messages).forEach(key => {
   out.push(`message ${key} {`)
   out.push(`  ${messages[key].join('\n  ')}`)
@@ -82,7 +84,6 @@ Object.keys(messages).forEach(key => {
 
 // generic reference to another noun for inputs
 out.push(`
-/* Used in RPCs to get an item */
 message Reference {
   string id = 1;
 }
@@ -90,8 +91,7 @@ message Reference {
 
 const nounClasses = ['Film', 'Starship', 'Vehicle', 'Species', 'Planet', 'Person']
 nounClasses.forEach(noun => {
-  out.push(`
-message ${pluralize(noun)}List {
+  out.push(`message ${pluralize(noun)}List {
   repeated ${noun} results = 1;
 }
 `)
@@ -114,5 +114,5 @@ nounClasses.forEach(noun => {
 })
 out.push('}')
 
-// if the array is empty, I can't figure out the type, which will just be int32
-writeFileSync('../proto/swapi.proto', out.join('\n').replace(/repeated undefined/g, 'repeated int32'))
+// if the array is empty, I can't figure out the type, which will just be [string]
+writeFileSync('../proto/swapi.proto', out.join('\n').replace(/repeated undefined/g, 'repeated string'))

@@ -34,6 +34,8 @@ const nounMap = {
   'films': 'films'
 }
 
+const rRemoveUrl = new RegExp('https://swapi.co/api/(.+)/')
+
 const main = async () => {
   const urls = await fetch('https://swapi.co/api/', {headers}).then(r => r.json())
   const getNoun = async (noun, params = {}) => {
@@ -43,15 +45,17 @@ const main = async () => {
       const r = await fetch(next).then(r => r.json())
       next = r.next
       const cleanedResults = r.results.map(result => {
-        result.id = parseInt(result.url.replace(new RegExp(`https://swapi.co/api/${noun}/([0-9]+)/`), '$1'))
+        result.id = result.url.replace(rRemoveUrl, '$1')
         delete result.url
+        delete result.created
+        delete result.edited
 
         Object.keys(nounMap).forEach(noun => {
           if (result[noun]) {
             if (Array.isArray(result[noun])) {
-              result[noun] = result[noun].map(c => parseInt(c.replace(new RegExp(`https://swapi.co/api/${nounMap[noun]}/([0-9]+)/`), '$1')))
+              result[noun] = result[noun].map(c => c.replace(rRemoveUrl, '$1'))
             } else {
-              result[noun] = parseInt(result[noun].replace(new RegExp(`https://swapi.co/api/${nounMap[noun]}/([0-9]+)/`), '$1'))
+              result[noun] = result[noun].replace(rRemoveUrl, '$1')
             }
           }
         })

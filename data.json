@@ -8,56 +8,54 @@
       "producer": "Gary Kurtz, Rick McCallum",
       "release_date": "1977-05-25",
       "characters": [
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7,
-        8,
-        9,
-        10,
-        12,
-        13,
-        14,
-        15,
-        16,
-        18,
-        19,
-        81
+        "people/1",
+        "people/2",
+        "people/3",
+        "people/4",
+        "people/5",
+        "people/6",
+        "people/7",
+        "people/8",
+        "people/9",
+        "people/10",
+        "people/12",
+        "people/13",
+        "people/14",
+        "people/15",
+        "people/16",
+        "people/18",
+        "people/19",
+        "people/81"
       ],
       "planets": [
-        2,
-        3,
-        1
+        "planets/2",
+        "planets/3",
+        "planets/1"
       ],
       "starships": [
-        2,
-        3,
-        5,
-        9,
-        10,
-        11,
-        12,
-        13
+        "starships/2",
+        "starships/3",
+        "starships/5",
+        "starships/9",
+        "starships/10",
+        "starships/11",
+        "starships/12",
+        "starships/13"
       ],
       "vehicles": [
-        4,
-        6,
-        7,
-        8
+        "vehicles/4",
+        "vehicles/6",
+        "vehicles/7",
+        "vehicles/8"
       ],
       "species": [
-        5,
-        3,
-        2,
-        1,
-        4
+        "species/5",
+        "species/3",
+        "species/2",
+        "species/1",
+        "species/4"
       ],
-      "created": "2014-12-10T14:23:31.880000Z",
-      "edited": "2015-04-11T09:46:52.774897Z",
-      "id": 1
+      "id": "films/1"
     },
     {
       "title": "Attack of the Clones",
@@ -67,97 +65,95 @@
       "producer": "Rick McCallum",
       "release_date": "2002-05-16",
       "characters": [
-        2,
-        3,
-        6,
-        7,
-        10,
-        11,
-        20,
-        21,
-        22,
-        33,
-        36,
-        40,
-        43,
-        46,
-        51,
-        52,
-        53,
-        58,
-        59,
-        60,
-        61,
-        62,
-        63,
-        64,
-        65,
-        66,
-        67,
-        68,
-        69,
-        70,
-        71,
-        72,
-        73,
-        74,
-        75,
-        76,
-        77,
-        78,
-        82,
-        35
+        "people/2",
+        "people/3",
+        "people/6",
+        "people/7",
+        "people/10",
+        "people/11",
+        "people/20",
+        "people/21",
+        "people/22",
+        "people/33",
+        "people/36",
+        "people/40",
+        "people/43",
+        "people/46",
+        "people/51",
+        "people/52",
+        "people/53",
+        "people/58",
+        "people/59",
+        "people/60",
+        "people/61",
+        "people/62",
+        "people/63",
+        "people/64",
+        "people/65",
+        "people/66",
+        "people/67",
+        "people/68",
+        "people/69",
+        "people/70",
+        "people/71",
+        "people/72",
+        "people/73",
+        "people/74",
+        "people/75",
+        "people/76",
+        "people/77",
+        "people/78",
+        "people/82",
+        "people/35"
       ],
       "planets": [
-        8,
-        9,
-        10,
-        11,
-        1
+        "planets/8",
+        "planets/9",
+        "planets/10",
+        "planets/11",
+        "planets/1"
       ],
       "starships": [
-        21,
-        39,
-        43,
-        47,
-        48,
-        49,
-        32,
-        52,
-        58
+        "starships/21",
+        "starships/39",
+        "starships/43",
+        "starships/47",
+        "starships/48",
+        "starships/49",
+        "starships/32",
+        "starships/52",
+        "starships/58"
       ],
       "vehicles": [
-        4,
-        44,
-        45,
-        46,
-        50,
-        51,
-        53,
-        54,
-        55,
-        56,
-        57
+        "vehicles/4",
+        "vehicles/44",
+        "vehicles/45",
+        "vehicles/46",
+        "vehicles/50",
+        "vehicles/51",
+        "vehicles/53",
+        "vehicles/54",
+        "vehicles/55",
+        "vehicles/56",
+        "vehicles/57"
       ],
       "species": [
-        32,
-        33,
-        2,
-        35,
-        6,
-        1,
-        12,
-        34,
-        13,
-        15,
-        28,
-        29,
-        30,
-        31
+        "species/32",
+        "species/33",
+        "species/2",
+        "species/35",
+        "species/6",
+        "species/1",
+        "species/12",
+        "species/34",
+        "species/13",
+        "species/15",
+        "species/28",
+        "species/29",
+        "species/30",
+        "species/31"
       ],
-      "created": "2014-12-20T10:57:57.886000Z",
-      "edited": "2015-04-11T09:45:01.623982Z",
-      "id": 5
+      "id": "films/5"
     },
     {
       "title": "The Phantom Menace",
@@ -167,87 +163,85 @@
       "producer": "Rick McCallum",
       "release_date": "1999-05-19",
       "characters": [
-        2,
-        3,
-        10,
-        11,
-        16,
-        20,
-        21,
-        32,
-        33,
-        34,
-        36,
-        37,
-        38,
-        39,
-        40,
-        41,
-        42,
-        43,
-        44,
-        46,
-        48,
-        49,
-        50,
-        51,
-        52,
-        53,
-        54,
-        55,
-        56,
-        57,
-        58,
-        59,
-        47,
-        35
+        "people/2",
+        "people/3",
+        "people/10",
+        "people/11",
+        "people/16",
+        "people/20",
+        "people/21",
+        "people/32",
+        "people/33",
+        "people/34",
+        "people/36",
+        "people/37",
+        "people/38",
+        "people/39",
+        "people/40",
+        "people/41",
+        "people/42",
+        "people/43",
+        "people/44",
+        "people/46",
+        "people/48",
+        "people/49",
+        "people/50",
+        "people/51",
+        "people/52",
+        "people/53",
+        "people/54",
+        "people/55",
+        "people/56",
+        "people/57",
+        "people/58",
+        "people/59",
+        "people/47",
+        "people/35"
       ],
       "planets": [
-        8,
-        9,
-        1
+        "planets/8",
+        "planets/9",
+        "planets/1"
       ],
       "starships": [
-        40,
-        41,
-        31,
-        32,
-        39
+        "starships/40",
+        "starships/41",
+        "starships/31",
+        "starships/32",
+        "starships/39"
       ],
       "vehicles": [
-        33,
-        34,
-        35,
-        36,
-        37,
-        38,
-        42
+        "vehicles/33",
+        "vehicles/34",
+        "vehicles/35",
+        "vehicles/36",
+        "vehicles/37",
+        "vehicles/38",
+        "vehicles/42"
       ],
       "species": [
-        1,
-        2,
-        6,
-        11,
-        12,
-        13,
-        14,
-        15,
-        16,
-        17,
-        18,
-        19,
-        20,
-        21,
-        22,
-        23,
-        24,
-        25,
-        26,
-        27
+        "species/1",
+        "species/2",
+        "species/6",
+        "species/11",
+        "species/12",
+        "species/13",
+        "species/14",
+        "species/15",
+        "species/16",
+        "species/17",
+        "species/18",
+        "species/19",
+        "species/20",
+        "species/21",
+        "species/22",
+        "species/23",
+        "species/24",
+        "species/25",
+        "species/26",
+        "species/27"
       ],
-      "created": "2014-12-19T16:52:55.740000Z",
-      "edited": "2015-04-11T09:45:18.689301Z",
-      "id": 4
+      "id": "films/4"
     },
     {
       "title": "Revenge of the Sith",
@@ -257,110 +251,108 @@
       "producer": "Rick McCallum",
       "release_date": "2005-05-19",
       "characters": [
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7,
-        10,
-        11,
-        12,
-        13,
-        20,
-        21,
-        33,
-        46,
-        51,
-        52,
-        53,
-        54,
-        55,
-        56,
-        58,
-        63,
-        64,
-        67,
-        68,
-        75,
-        78,
-        79,
-        80,
-        81,
-        82,
-        83,
-        35
+        "people/1",
+        "people/2",
+        "people/3",
+        "people/4",
+        "people/5",
+        "people/6",
+        "people/7",
+        "people/10",
+        "people/11",
+        "people/12",
+        "people/13",
+        "people/20",
+        "people/21",
+        "people/33",
+        "people/46",
+        "people/51",
+        "people/52",
+        "people/53",
+        "people/54",
+        "people/55",
+        "people/56",
+        "people/58",
+        "people/63",
+        "people/64",
+        "people/67",
+        "people/68",
+        "people/75",
+        "people/78",
+        "people/79",
+        "people/80",
+        "people/81",
+        "people/82",
+        "people/83",
+        "people/35"
       ],
       "planets": [
-        2,
-        5,
-        8,
-        9,
-        12,
-        13,
-        14,
-        15,
-        16,
-        17,
-        18,
-        19,
-        1
+        "planets/2",
+        "planets/5",
+        "planets/8",
+        "planets/9",
+        "planets/12",
+        "planets/13",
+        "planets/14",
+        "planets/15",
+        "planets/16",
+        "planets/17",
+        "planets/18",
+        "planets/19",
+        "planets/1"
       ],
       "starships": [
-        48,
-        59,
-        61,
-        32,
-        63,
-        64,
-        65,
-        66,
-        74,
-        75,
-        2,
-        68
+        "starships/48",
+        "starships/59",
+        "starships/61",
+        "starships/32",
+        "starships/63",
+        "starships/64",
+        "starships/65",
+        "starships/66",
+        "starships/74",
+        "starships/75",
+        "starships/2",
+        "starships/68"
       ],
       "vehicles": [
-        33,
-        50,
-        53,
-        56,
-        60,
-        62,
-        67,
-        69,
-        70,
-        71,
-        72,
-        73,
-        76
+        "vehicles/33",
+        "vehicles/50",
+        "vehicles/53",
+        "vehicles/56",
+        "vehicles/60",
+        "vehicles/62",
+        "vehicles/67",
+        "vehicles/69",
+        "vehicles/70",
+        "vehicles/71",
+        "vehicles/72",
+        "vehicles/73",
+        "vehicles/76"
       ],
       "species": [
-        19,
-        33,
-        2,
-        3,
-        36,
-        37,
-        6,
-        1,
-        34,
-        15,
-        35,
-        20,
-        23,
-        24,
-        25,
-        26,
-        27,
-        28,
-        29,
-        30
+        "species/19",
+        "species/33",
+        "species/2",
+        "species/3",
+        "species/36",
+        "species/37",
+        "species/6",
+        "species/1",
+        "species/34",
+        "species/15",
+        "species/35",
+        "species/20",
+        "species/23",
+        "species/24",
+        "species/25",
+        "species/26",
+        "species/27",
+        "species/28",
+        "species/29",
+        "species/30"
       ],
-      "created": "2014-12-20T18:49:38.403000Z",
-      "edited": "2015-04-11T09:45:44.862122Z",
-      "id": 6
+      "id": "films/6"
     },
     {
       "title": "Return of the Jedi",
@@ -370,72 +362,70 @@
       "producer": "Howard G. Kazanjian, George Lucas, Rick McCallum",
       "release_date": "1983-05-25",
       "characters": [
-        1,
-        2,
-        3,
-        4,
-        5,
-        10,
-        13,
-        14,
-        16,
-        18,
-        20,
-        21,
-        22,
-        25,
-        27,
-        28,
-        29,
-        30,
-        31,
-        45
+        "people/1",
+        "people/2",
+        "people/3",
+        "people/4",
+        "people/5",
+        "people/10",
+        "people/13",
+        "people/14",
+        "people/16",
+        "people/18",
+        "people/20",
+        "people/21",
+        "people/22",
+        "people/25",
+        "people/27",
+        "people/28",
+        "people/29",
+        "people/30",
+        "people/31",
+        "people/45"
       ],
       "planets": [
-        5,
-        7,
-        8,
-        9,
-        1
+        "planets/5",
+        "planets/7",
+        "planets/8",
+        "planets/9",
+        "planets/1"
       ],
       "starships": [
-        15,
-        10,
-        11,
-        12,
-        22,
-        23,
-        27,
-        28,
-        29,
-        3,
-        17,
-        2
+        "starships/15",
+        "starships/10",
+        "starships/11",
+        "starships/12",
+        "starships/22",
+        "starships/23",
+        "starships/27",
+        "starships/28",
+        "starships/29",
+        "starships/3",
+        "starships/17",
+        "starships/2"
       ],
       "vehicles": [
-        8,
-        16,
-        18,
-        19,
-        24,
-        25,
-        26,
-        30
+        "vehicles/8",
+        "vehicles/16",
+        "vehicles/18",
+        "vehicles/19",
+        "vehicles/24",
+        "vehicles/25",
+        "vehicles/26",
+        "vehicles/30"
       ],
       "species": [
-        1,
-        2,
-        3,
-        5,
-        6,
-        8,
-        9,
-        10,
-        15
+        "species/1",
+        "species/2",
+        "species/3",
+        "species/5",
+        "species/6",
+        "species/8",
+        "species/9",
+        "species/10",
+        "species/15"
       ],
-      "created": "2014-12-18T10:39:33.255000Z",
-      "edited": "2015-04-11T09:46:05.220365Z",
-      "id": 3
+      "id": "films/3"
     },
     {
       "title": "The Empire Strikes Back",
@@ -445,58 +435,56 @@
       "producer": "Gary Kurtz, Rick McCallum",
       "release_date": "1980-05-17",
       "characters": [
-        1,
-        2,
-        3,
-        4,
-        5,
-        10,
-        13,
-        14,
-        18,
-        20,
-        21,
-        22,
-        23,
-        24,
-        25,
-        26
+        "people/1",
+        "people/2",
+        "people/3",
+        "people/4",
+        "people/5",
+        "people/10",
+        "people/13",
+        "people/14",
+        "people/18",
+        "people/20",
+        "people/21",
+        "people/22",
+        "people/23",
+        "people/24",
+        "people/25",
+        "people/26"
       ],
       "planets": [
-        4,
-        5,
-        6,
-        27
+        "planets/4",
+        "planets/5",
+        "planets/6",
+        "planets/27"
       ],
       "starships": [
-        15,
-        10,
-        11,
-        12,
-        21,
-        22,
-        23,
-        3,
-        17
+        "starships/15",
+        "starships/10",
+        "starships/11",
+        "starships/12",
+        "starships/21",
+        "starships/22",
+        "starships/23",
+        "starships/3",
+        "starships/17"
       ],
       "vehicles": [
-        8,
-        14,
-        16,
-        18,
-        19,
-        20
+        "vehicles/8",
+        "vehicles/14",
+        "vehicles/16",
+        "vehicles/18",
+        "vehicles/19",
+        "vehicles/20"
       ],
       "species": [
-        6,
-        7,
-        3,
-        2,
-        1
+        "species/6",
+        "species/7",
+        "species/3",
+        "species/2",
+        "species/1"
       ],
-      "created": "2014-12-12T11:26:24.656000Z",
-      "edited": "2017-04-19T10:57:29.544256Z",
-      "id": 2
+      "id": "films/2"
     },
     {
       "title": "The Force Awakens",
@@ -506,34 +494,32 @@
       "producer": "Kathleen Kennedy, J. J. Abrams, Bryan Burk",
       "release_date": "2015-12-11",
       "characters": [
-        1,
-        3,
-        5,
-        13,
-        14,
-        27,
-        84,
-        85,
-        86,
-        87,
-        88
+        "people/1",
+        "people/3",
+        "people/5",
+        "people/13",
+        "people/14",
+        "people/27",
+        "people/84",
+        "people/85",
+        "people/86",
+        "people/87",
+        "people/88"
       ],
       "planets": [
-        61
+        "planets/61"
       ],
       "starships": [
-        77,
-        10
+        "starships/77",
+        "starships/10"
       ],
       "vehicles": [],
       "species": [
-        3,
-        2,
-        1
+        "species/3",
+        "species/2",
+        "species/1"
       ],
-      "created": "2015-04-17T06:51:30.504780Z",
-      "edited": "2015-12-17T14:31:47.617768Z",
-      "id": 7
+      "id": "films/7"
     }
   ],
   "starships": [
@@ -553,12 +539,10 @@
       "starship_class": "Star dreadnought",
       "pilots": [],
       "films": [
-        2,
-        3
+        "films/2",
+        "films/3"
       ],
-      "created": "2014-12-15T12:31:42.547000Z",
-      "edited": "2017-04-19T10:56:06.685592Z",
-      "id": 15
+      "id": "starships/15"
     },
     {
       "name": "Sentinel-class landing craft",
@@ -576,11 +560,9 @@
       "starship_class": "landing craft",
       "pilots": [],
       "films": [
-        1
+        "films/1"
       ],
-      "created": "2014-12-10T15:48:00.586000Z",
-      "edited": "2014-12-22T17:35:44.431407Z",
-      "id": 5
+      "id": "starships/5"
     },
     {
       "name": "Death Star",
@@ -598,11 +580,9 @@
       "starship_class": "Deep Space Mobile Battlestation",
       "pilots": [],
       "films": [
-        1
+        "films/1"
       ],
-      "created": "2014-12-10T16:36:50.509000Z",
-      "edited": "2014-12-22T17:35:44.452589Z",
-      "id": 9
+      "id": "starships/9"
     },
     {
       "name": "Millennium Falcon",
@@ -619,20 +599,18 @@
       "MGLT": "75",
       "starship_class": "Light freighter",
       "pilots": [
-        13,
-        14,
-        25,
-        31
+        "people/13",
+        "people/14",
+        "people/25",
+        "people/31"
       ],
       "films": [
-        2,
-        7,
-        3,
-        1
+        "films/2",
+        "films/7",
+        "films/3",
+        "films/1"
       ],
-      "created": "2014-12-10T16:59:45.094000Z",
-      "edited": "2014-12-22T17:35:44.464156Z",
-      "id": 10
+      "id": "starships/10"
     },
     {
       "name": "Y-wing",
@@ -650,13 +628,11 @@
       "starship_class": "assault starfighter",
       "pilots": [],
       "films": [
-        2,
-        3,
-        1
+        "films/2",
+        "films/3",
+        "films/1"
       ],
-      "created": "2014-12-12T11:00:39.817000Z",
-      "edited": "2014-12-22T17:35:44.479706Z",
-      "id": 11
+      "id": "starships/11"
     },
     {
       "name": "X-wing",
@@ -673,19 +649,17 @@
       "MGLT": "100",
       "starship_class": "Starfighter",
       "pilots": [
-        1,
-        9,
-        18,
-        19
+        "people/1",
+        "people/9",
+        "people/18",
+        "people/19"
       ],
       "films": [
-        2,
-        3,
-        1
+        "films/2",
+        "films/3",
+        "films/1"
       ],
-      "created": "2014-12-12T11:19:05.340000Z",
-      "edited": "2014-12-22T17:35:44.491233Z",
-      "id": 12
+      "id": "starships/12"
     },
     {
       "name": "TIE Advanced x1",
@@ -702,14 +676,12 @@
       "MGLT": "105",
       "starship_class": "Starfighter",
       "pilots": [
-        4
+        "people/4"
       ],
       "films": [
-        1
+        "films/1"
       ],
-      "created": "2014-12-12T11:21:32.991000Z",
-      "edited": "2014-12-22T17:35:44.549047Z",
-      "id": 13
+      "id": "starships/13"
     },
     {
       "name": "Slave 1",
@@ -726,15 +698,13 @@
       "MGLT": "70",
       "starship_class": "Patrol craft",
       "pilots": [
-        22
+        "people/22"
       ],
       "films": [
-        2,
-        5
+        "films/2",
+        "films/5"
       ],
-      "created": "2014-12-15T13:00:56.332000Z",
-      "edited": "2014-12-22T17:35:44.716273Z",
-      "id": 21
+      "id": "starships/21"
     },
     {
       "name": "Imperial shuttle",
@@ -751,17 +721,15 @@
       "MGLT": "50",
       "starship_class": "Armed government transport",
       "pilots": [
-        1,
-        13,
-        14
+        "people/1",
+        "people/13",
+        "people/14"
       ],
       "films": [
-        2,
-        3
+        "films/2",
+        "films/3"
       ],
-      "created": "2014-12-15T13:04:47.235000Z",
-      "edited": "2014-12-22T17:35:44.795405Z",
-      "id": 22
+      "id": "starships/22"
     },
     {
       "name": "EF76 Nebulon-B escort frigate",
@@ -779,12 +747,10 @@
       "starship_class": "Escort ship",
       "pilots": [],
       "films": [
-        2,
-        3
+        "films/2",
+        "films/3"
       ],
-      "created": "2014-12-15T13:06:30.813000Z",
-      "edited": "2014-12-22T17:35:44.848329Z",
-      "id": 23
+      "id": "starships/23"
     },
     {
       "name": "Calamari Cruiser",
@@ -802,11 +768,9 @@
       "starship_class": "Star Cruiser",
       "pilots": [],
       "films": [
-        3
+        "films/3"
       ],
-      "created": "2014-12-18T10:54:57.804000Z",
-      "edited": "2014-12-22T17:35:44.957852Z",
-      "id": 27
+      "id": "starships/27"
     },
     {
       "name": "A-wing",
@@ -823,14 +787,12 @@
       "MGLT": "120",
       "starship_class": "Starfighter",
       "pilots": [
-        29
+        "people/29"
       ],
       "films": [
-        3
+        "films/3"
       ],
-      "created": "2014-12-18T11:16:34.542000Z",
-      "edited": "2014-12-22T17:35:44.978754Z",
-      "id": 28
+      "id": "starships/28"
     },
     {
       "name": "B-wing",
@@ -848,11 +810,9 @@
       "starship_class": "Assault Starfighter",
       "pilots": [],
       "films": [
-        3
+        "films/3"
       ],
-      "created": "2014-12-18T11:18:04.763000Z",
-      "edited": "2014-12-22T17:35:45.011193Z",
-      "id": 29
+      "id": "starships/29"
     },
     {
       "name": "Republic Cruiser",
@@ -870,11 +830,9 @@
       "starship_class": "Space cruiser",
       "pilots": [],
       "films": [
-        4
+        "films/4"
       ],
-      "created": "2014-12-19T17:01:31.488000Z",
-      "edited": "2014-12-22T17:35:45.027308Z",
-      "id": 31
+      "id": "starships/31"
     },
     {
       "name": "Naboo fighter",
@@ -891,17 +849,15 @@
       "MGLT": "unknown",
       "starship_class": "Starfighter",
       "pilots": [
-        11,
-        60,
-        35
+        "people/11",
+        "people/60",
+        "people/35"
       ],
       "films": [
-        5,
-        4
+        "films/5",
+        "films/4"
       ],
-      "created": "2014-12-19T17:39:17.582000Z",
-      "edited": "2014-12-22T17:35:45.079452Z",
-      "id": 39
+      "id": "starships/39"
     },
     {
       "name": "Naboo Royal Starship",
@@ -918,14 +874,12 @@
       "MGLT": "unknown",
       "starship_class": "yacht",
       "pilots": [
-        39
+        "people/39"
       ],
       "films": [
-        4
+        "films/4"
       ],
-      "created": "2014-12-19T17:45:03.506000Z",
-      "edited": "2014-12-22T17:35:45.091925Z",
-      "id": 40
+      "id": "starships/40"
     },
     {
       "name": "Scimitar",
@@ -942,14 +896,12 @@
       "MGLT": "unknown",
       "starship_class": "Space Transport",
       "pilots": [
-        44
+        "people/44"
       ],
       "films": [
-        4
+        "films/4"
       ],
-      "created": "2014-12-20T09:39:56.116000Z",
-      "edited": "2014-12-22T17:35:45.105522Z",
-      "id": 41
+      "id": "starships/41"
     },
     {
       "name": "J-type diplomatic barge",
@@ -967,11 +919,9 @@
       "starship_class": "Diplomatic barge",
       "pilots": [],
       "films": [
-        5
+        "films/5"
       ],
-      "created": "2014-12-20T11:05:51.237000Z",
-      "edited": "2014-12-22T17:35:45.124386Z",
-      "id": 43
+      "id": "starships/43"
     },
     {
       "name": "AA-9 Coruscant freighter",
@@ -989,11 +939,9 @@
       "starship_class": "freighter",
       "pilots": [],
       "films": [
-        5
+        "films/5"
       ],
-      "created": "2014-12-20T17:24:23.509000Z",
-      "edited": "2014-12-22T17:35:45.135987Z",
-      "id": 47
+      "id": "starships/47"
     },
     {
       "name": "Jedi starfighter",
@@ -1010,16 +958,14 @@
       "MGLT": "unknown",
       "starship_class": "Starfighter",
       "pilots": [
-        10,
-        58
+        "people/10",
+        "people/58"
       ],
       "films": [
-        5,
-        6
+        "films/5",
+        "films/6"
       ],
-      "created": "2014-12-20T17:35:23.906000Z",
-      "edited": "2014-12-22T17:35:45.147746Z",
-      "id": 48
+      "id": "starships/48"
     },
     {
       "name": "H-type Nubian yacht",
@@ -1036,14 +982,12 @@
       "MGLT": "unknown",
       "starship_class": "yacht",
       "pilots": [
-        35
+        "people/35"
       ],
       "films": [
-        5
+        "films/5"
       ],
-      "created": "2014-12-20T17:46:46.847000Z",
-      "edited": "2014-12-22T17:35:45.158969Z",
-      "id": 49
+      "id": "starships/49"
     },
     {
       "name": "Star Destroyer",
@@ -1061,13 +1005,11 @@
       "starship_class": "Star Destroyer",
       "pilots": [],
       "films": [
-        2,
-        3,
-        1
+        "films/2",
+        "films/3",
+        "films/1"
       ],
-      "created": "2014-12-10T15:08:19.848000Z",
-      "edited": "2014-12-22T17:35:44.410941Z",
-      "id": 3
+      "id": "starships/3"
     },
     {
       "name": "Trade Federation cruiser",
@@ -1084,15 +1026,13 @@
       "MGLT": "unknown",
       "starship_class": "capital ship",
       "pilots": [
-        10,
-        11
+        "people/10",
+        "people/11"
       ],
       "films": [
-        6
+        "films/6"
       ],
-      "created": "2014-12-20T19:40:21.902000Z",
-      "edited": "2014-12-22T17:35:45.195165Z",
-      "id": 59
+      "id": "starships/59"
     },
     {
       "name": "Theta-class T-2c shuttle",
@@ -1110,11 +1050,9 @@
       "starship_class": "transport",
       "pilots": [],
       "films": [
-        6
+        "films/6"
       ],
-      "created": "2014-12-20T19:48:40.409000Z",
-      "edited": "2014-12-22T17:35:45.208584Z",
-      "id": 61
+      "id": "starships/61"
     },
     {
       "name": "T-70 X-wing fighter",
@@ -1131,14 +1069,12 @@
       "MGLT": "unknown",
       "starship_class": "fighter",
       "pilots": [
-        86
+        "people/86"
       ],
       "films": [
-        7
+        "films/7"
       ],
-      "created": "2015-04-17T06:58:50.614475Z",
-      "edited": "2015-04-17T06:58:50.614528Z",
-      "id": 77
+      "id": "starships/77"
     },
     {
       "name": "Rebel transport",
@@ -1156,12 +1092,10 @@
       "starship_class": "Medium transport",
       "pilots": [],
       "films": [
-        2,
-        3
+        "films/2",
+        "films/3"
       ],
-      "created": "2014-12-15T12:34:52.264000Z",
-      "edited": "2014-12-22T17:35:44.680838Z",
-      "id": 17
+      "id": "starships/17"
     },
     {
       "name": "Droid control ship",
@@ -1179,13 +1113,11 @@
       "starship_class": "Droid control ship",
       "pilots": [],
       "films": [
-        5,
-        4,
-        6
+        "films/5",
+        "films/4",
+        "films/6"
       ],
-      "created": "2014-12-19T17:04:06.323000Z",
-      "edited": "2014-12-22T17:35:45.042900Z",
-      "id": 32
+      "id": "starships/32"
     },
     {
       "name": "Republic Assault ship",
@@ -1203,11 +1135,9 @@
       "starship_class": "assault ship",
       "pilots": [],
       "films": [
-        5
+        "films/5"
       ],
-      "created": "2014-12-20T18:08:42.926000Z",
-      "edited": "2014-12-22T17:35:45.171653Z",
-      "id": 52
+      "id": "starships/52"
     },
     {
       "name": "Solar Sailer",
@@ -1225,11 +1155,9 @@
       "starship_class": "yacht",
       "pilots": [],
       "films": [
-        5
+        "films/5"
       ],
-      "created": "2014-12-20T18:37:56.969000Z",
-      "edited": "2014-12-22T17:35:45.183075Z",
-      "id": 58
+      "id": "starships/58"
     },
     {
       "name": "Republic attack cruiser",
@@ -1247,11 +1175,9 @@
       "starship_class": "star destroyer",
       "pilots": [],
       "films": [
-        6
+        "films/6"
       ],
-      "created": "2014-12-20T19:52:56.232000Z",
-      "edited": "2014-12-22T17:35:45.224540Z",
-      "id": 63
+      "id": "starships/63"
     },
     {
       "name": "Naboo star skiff",
@@ -1268,15 +1194,13 @@
       "MGLT": "unknown",
       "starship_class": "yacht",
       "pilots": [
-        10,
-        35
+        "people/10",
+        "people/35"
       ],
       "films": [
-        6
+        "films/6"
       ],
-      "created": "2014-12-20T19:55:15.396000Z",
-      "edited": "2014-12-22T17:35:45.258859Z",
-      "id": 64
+      "id": "starships/64"
     },
     {
       "name": "Jedi Interceptor",
@@ -1293,15 +1217,13 @@
       "MGLT": "unknown",
       "starship_class": "starfighter",
       "pilots": [
-        10,
-        11
+        "people/10",
+        "people/11"
       ],
       "films": [
-        6
+        "films/6"
       ],
-      "created": "2014-12-20T19:56:57.468000Z",
-      "edited": "2014-12-22T17:35:45.272349Z",
-      "id": 65
+      "id": "starships/65"
     },
     {
       "name": "arc-170",
@@ -1319,11 +1241,9 @@
       "starship_class": "starfighter",
       "pilots": [],
       "films": [
-        6
+        "films/6"
       ],
-      "created": "2014-12-20T20:03:48.603000Z",
-      "edited": "2014-12-22T17:35:45.287214Z",
-      "id": 66
+      "id": "starships/66"
     },
     {
       "name": "Belbullab-22 starfighter",
@@ -1340,15 +1260,13 @@
       "MGLT": "unknown",
       "starship_class": "starfighter",
       "pilots": [
-        10,
-        79
+        "people/10",
+        "people/79"
       ],
       "films": [
-        6
+        "films/6"
       ],
-      "created": "2014-12-20T20:38:05.031000Z",
-      "edited": "2014-12-22T17:35:45.381900Z",
-      "id": 74
+      "id": "starships/74"
     },
     {
       "name": "V-wing",
@@ -1366,11 +1284,9 @@
       "starship_class": "starfighter",
       "pilots": [],
       "films": [
-        6
+        "films/6"
       ],
-      "created": "2014-12-20T20:43:04.349000Z",
-      "edited": "2014-12-22T17:35:45.396711Z",
-      "id": 75
+      "id": "starships/75"
     },
     {
       "name": "CR90 corvette",
@@ -1388,13 +1304,11 @@
       "starship_class": "corvette",
       "pilots": [],
       "films": [
-        6,
-        3,
-        1
+        "films/6",
+        "films/3",
+        "films/1"
       ],
-      "created": "2014-12-10T14:20:33.369000Z",
-      "edited": "2014-12-22T17:35:45.408368Z",
-      "id": 2
+      "id": "starships/2"
     },
     {
       "name": "Banking clan frigate",
@@ -1412,11 +1326,798 @@
       "starship_class": "cruiser",
       "pilots": [],
       "films": [
-        6
+        "films/6"
       ],
-      "created": "2014-12-20T20:07:11.538000Z",
-      "edited": "2017-04-19T10:53:32.700283Z",
-      "id": 68
+      "id": "starships/68"
+    }
+  ],
+  "species": [
+    {
+      "name": "Hutt",
+      "classification": "gastropod",
+      "designation": "sentient",
+      "average_height": "300",
+      "skin_colors": "green, brown, tan",
+      "hair_colors": "n/a",
+      "eye_colors": "yellow, red",
+      "average_lifespan": "1000",
+      "homeworld": "planets/24",
+      "language": "Huttese",
+      "people": [
+        "people/16"
+      ],
+      "films": [
+        "films/3",
+        "films/1"
+      ],
+      "id": "species/5"
+    },
+    {
+      "name": "Yoda's species",
+      "classification": "mammal",
+      "designation": "sentient",
+      "average_height": "66",
+      "skin_colors": "green, yellow",
+      "hair_colors": "brown, white",
+      "eye_colors": "brown, green, yellow",
+      "average_lifespan": "900",
+      "homeworld": "planets/28",
+      "language": "Galactic basic",
+      "people": [
+        "people/20"
+      ],
+      "films": [
+        "films/2",
+        "films/5",
+        "films/4",
+        "films/6",
+        "films/3"
+      ],
+      "id": "species/6"
+    },
+    {
+      "name": "Trandoshan",
+      "classification": "reptile",
+      "designation": "sentient",
+      "average_height": "200",
+      "skin_colors": "brown, green",
+      "hair_colors": "none",
+      "eye_colors": "yellow, orange",
+      "average_lifespan": "unknown",
+      "homeworld": "planets/29",
+      "language": "Dosh",
+      "people": [
+        "people/24"
+      ],
+      "films": [
+        "films/2"
+      ],
+      "id": "species/7"
+    },
+    {
+      "name": "Mon Calamari",
+      "classification": "amphibian",
+      "designation": "sentient",
+      "average_height": "160",
+      "skin_colors": "red, blue, brown, magenta",
+      "hair_colors": "none",
+      "eye_colors": "yellow",
+      "average_lifespan": "unknown",
+      "homeworld": "planets/31",
+      "language": "Mon Calamarian",
+      "people": [
+        "people/27"
+      ],
+      "films": [
+        "films/3"
+      ],
+      "id": "species/8"
+    },
+    {
+      "name": "Ewok",
+      "classification": "mammal",
+      "designation": "sentient",
+      "average_height": "100",
+      "skin_colors": "brown",
+      "hair_colors": "white, brown, black",
+      "eye_colors": "orange, brown",
+      "average_lifespan": "unknown",
+      "homeworld": "planets/7",
+      "language": "Ewokese",
+      "people": [
+        "people/30"
+      ],
+      "films": [
+        "films/3"
+      ],
+      "id": "species/9"
+    },
+    {
+      "name": "Sullustan",
+      "classification": "mammal",
+      "designation": "sentient",
+      "average_height": "180",
+      "skin_colors": "pale",
+      "hair_colors": "none",
+      "eye_colors": "black",
+      "average_lifespan": "unknown",
+      "homeworld": "planets/33",
+      "language": "Sullutese",
+      "people": [
+        "people/31"
+      ],
+      "films": [
+        "films/3"
+      ],
+      "id": "species/10"
+    },
+    {
+      "name": "Neimodian",
+      "classification": "unknown",
+      "designation": "sentient",
+      "average_height": "180",
+      "skin_colors": "grey, green",
+      "hair_colors": "none",
+      "eye_colors": "red, pink",
+      "average_lifespan": "unknown",
+      "homeworld": "planets/18",
+      "language": "Neimoidia",
+      "people": [
+        "people/33"
+      ],
+      "films": [
+        "films/4"
+      ],
+      "id": "species/11"
+    },
+    {
+      "name": "Gungan",
+      "classification": "amphibian",
+      "designation": "sentient",
+      "average_height": "190",
+      "skin_colors": "brown, green",
+      "hair_colors": "none",
+      "eye_colors": "orange",
+      "average_lifespan": "unknown",
+      "homeworld": "planets/8",
+      "language": "Gungan basic",
+      "people": [
+        "people/36",
+        "people/37",
+        "people/38"
+      ],
+      "films": [
+        "films/5",
+        "films/4"
+      ],
+      "id": "species/12"
+    },
+    {
+      "name": "Toydarian",
+      "classification": "mammal",
+      "designation": "sentient",
+      "average_height": "120",
+      "skin_colors": "blue, green, grey",
+      "hair_colors": "none",
+      "eye_colors": "yellow",
+      "average_lifespan": "91",
+      "homeworld": "planets/34",
+      "language": "Toydarian",
+      "people": [
+        "people/40"
+      ],
+      "films": [
+        "films/5",
+        "films/4"
+      ],
+      "id": "species/13"
+    },
+    {
+      "name": "Dug",
+      "classification": "mammal",
+      "designation": "sentient",
+      "average_height": "100",
+      "skin_colors": "brown, purple, grey, red",
+      "hair_colors": "none",
+      "eye_colors": "yellow, blue",
+      "average_lifespan": "unknown",
+      "homeworld": "planets/35",
+      "language": "Dugese",
+      "people": [
+        "people/41"
+      ],
+      "films": [
+        "films/4"
+      ],
+      "id": "species/14"
+    },
+    {
+      "name": "Twi'lek",
+      "classification": "mammals",
+      "designation": "sentient",
+      "average_height": "200",
+      "skin_colors": "orange, yellow, blue, green, pink, purple, tan",
+      "hair_colors": "none",
+      "eye_colors": "blue, brown, orange, pink",
+      "average_lifespan": "unknown",
+      "homeworld": "planets/37",
+      "language": "Twi'leki",
+      "people": [
+        "people/45",
+        "people/46"
+      ],
+      "films": [
+        "films/5",
+        "films/4",
+        "films/6",
+        "films/3"
+      ],
+      "id": "species/15"
+    },
+    {
+      "name": "Aleena",
+      "classification": "reptile",
+      "designation": "sentient",
+      "average_height": "80",
+      "skin_colors": "blue, gray",
+      "hair_colors": "none",
+      "eye_colors": "unknown",
+      "average_lifespan": "79",
+      "homeworld": "planets/38",
+      "language": "Aleena",
+      "people": [
+        "people/47"
+      ],
+      "films": [
+        "films/4"
+      ],
+      "id": "species/16"
+    },
+    {
+      "name": "Vulptereen",
+      "classification": "unknown",
+      "designation": "sentient",
+      "average_height": "100",
+      "skin_colors": "grey",
+      "hair_colors": "none",
+      "eye_colors": "yellow",
+      "average_lifespan": "unknown",
+      "homeworld": "planets/39",
+      "language": "vulpterish",
+      "people": [
+        "people/48"
+      ],
+      "films": [
+        "films/4"
+      ],
+      "id": "species/17"
+    },
+    {
+      "name": "Xexto",
+      "classification": "unknown",
+      "designation": "sentient",
+      "average_height": "125",
+      "skin_colors": "grey, yellow, purple",
+      "hair_colors": "none",
+      "eye_colors": "black",
+      "average_lifespan": "unknown",
+      "homeworld": "planets/40",
+      "language": "Xextese",
+      "people": [
+        "people/49"
+      ],
+      "films": [
+        "films/4"
+      ],
+      "id": "species/18"
+    },
+    {
+      "name": "Toong",
+      "classification": "unknown",
+      "designation": "sentient",
+      "average_height": "200",
+      "skin_colors": "grey, green, yellow",
+      "hair_colors": "none",
+      "eye_colors": "orange",
+      "average_lifespan": "unknown",
+      "homeworld": "planets/41",
+      "language": "Tundan",
+      "people": [
+        "people/50"
+      ],
+      "films": [
+        "films/4",
+        "films/6"
+      ],
+      "id": "species/19"
+    },
+    {
+      "name": "Cerean",
+      "classification": "mammal",
+      "designation": "sentient",
+      "average_height": "200",
+      "skin_colors": "pale pink",
+      "hair_colors": "red, blond, black, white",
+      "eye_colors": "hazel",
+      "average_lifespan": "unknown",
+      "homeworld": "planets/43",
+      "language": "Cerean",
+      "people": [
+        "people/52"
+      ],
+      "films": [
+        "films/4",
+        "films/6"
+      ],
+      "id": "species/20"
+    },
+    {
+      "name": "Nautolan",
+      "classification": "amphibian",
+      "designation": "sentient",
+      "average_height": "180",
+      "skin_colors": "green, blue, brown, red",
+      "hair_colors": "none",
+      "eye_colors": "black",
+      "average_lifespan": "70",
+      "homeworld": "planets/44",
+      "language": "Nautila",
+      "people": [
+        "people/53"
+      ],
+      "films": [
+        "films/4"
+      ],
+      "id": "species/21"
+    },
+    {
+      "name": "Zabrak",
+      "classification": "mammal",
+      "designation": "sentient",
+      "average_height": "180",
+      "skin_colors": "pale, brown, red, orange, yellow",
+      "hair_colors": "black",
+      "eye_colors": "brown, orange",
+      "average_lifespan": "unknown",
+      "homeworld": "planets/45",
+      "language": "Zabraki",
+      "people": [
+        "people/44",
+        "people/54"
+      ],
+      "films": [
+        "films/4"
+      ],
+      "id": "species/22"
+    },
+    {
+      "name": "Tholothian",
+      "classification": "mammal",
+      "designation": "sentient",
+      "average_height": "unknown",
+      "skin_colors": "dark",
+      "hair_colors": "unknown",
+      "eye_colors": "blue, indigo",
+      "average_lifespan": "unknown",
+      "homeworld": "planets/46",
+      "language": "unknown",
+      "people": [
+        "people/55"
+      ],
+      "films": [
+        "films/4",
+        "films/6"
+      ],
+      "id": "species/23"
+    },
+    {
+      "name": "Iktotchi",
+      "classification": "unknown",
+      "designation": "sentient",
+      "average_height": "180",
+      "skin_colors": "pink",
+      "hair_colors": "none",
+      "eye_colors": "orange",
+      "average_lifespan": "unknown",
+      "homeworld": "planets/47",
+      "language": "Iktotchese",
+      "people": [
+        "people/56"
+      ],
+      "films": [
+        "films/4",
+        "films/6"
+      ],
+      "id": "species/24"
+    },
+    {
+      "name": "Quermian",
+      "classification": "mammal",
+      "designation": "sentient",
+      "average_height": "240",
+      "skin_colors": "white",
+      "hair_colors": "none",
+      "eye_colors": "yellow",
+      "average_lifespan": "86",
+      "homeworld": "planets/48",
+      "language": "Quermian",
+      "people": [
+        "people/57"
+      ],
+      "films": [
+        "films/4",
+        "films/6"
+      ],
+      "id": "species/25"
+    },
+    {
+      "name": "Kel Dor",
+      "classification": "unknown",
+      "designation": "sentient",
+      "average_height": "180",
+      "skin_colors": "peach, orange, red",
+      "hair_colors": "none",
+      "eye_colors": "black, silver",
+      "average_lifespan": "70",
+      "homeworld": "planets/49",
+      "language": "Kel Dor",
+      "people": [
+        "people/58"
+      ],
+      "films": [
+        "films/4",
+        "films/6"
+      ],
+      "id": "species/26"
+    },
+    {
+      "name": "Chagrian",
+      "classification": "amphibian",
+      "designation": "sentient",
+      "average_height": "190",
+      "skin_colors": "blue",
+      "hair_colors": "none",
+      "eye_colors": "blue",
+      "average_lifespan": "unknown",
+      "homeworld": "planets/50",
+      "language": "Chagria",
+      "people": [
+        "people/59"
+      ],
+      "films": [
+        "films/4",
+        "films/6"
+      ],
+      "id": "species/27"
+    },
+    {
+      "name": "Geonosian",
+      "classification": "insectoid",
+      "designation": "sentient",
+      "average_height": "178",
+      "skin_colors": "green, brown",
+      "hair_colors": "none",
+      "eye_colors": "green, hazel",
+      "average_lifespan": "unknown",
+      "homeworld": "planets/11",
+      "language": "Geonosian",
+      "people": [
+        "people/63"
+      ],
+      "films": [
+        "films/5",
+        "films/6"
+      ],
+      "id": "species/28"
+    },
+    {
+      "name": "Mirialan",
+      "classification": "mammal",
+      "designation": "sentient",
+      "average_height": "180",
+      "skin_colors": "yellow, green",
+      "hair_colors": "black, brown",
+      "eye_colors": "blue, green, red, yellow, brown, orange",
+      "average_lifespan": "unknown",
+      "homeworld": "planets/51",
+      "language": "Mirialan",
+      "people": [
+        "people/64",
+        "people/65"
+      ],
+      "films": [
+        "films/5",
+        "films/6"
+      ],
+      "id": "species/29"
+    },
+    {
+      "name": "Clawdite",
+      "classification": "reptilian",
+      "designation": "sentient",
+      "average_height": "180",
+      "skin_colors": "green, yellow",
+      "hair_colors": "none",
+      "eye_colors": "yellow",
+      "average_lifespan": "70",
+      "homeworld": "planets/54",
+      "language": "Clawdite",
+      "people": [
+        "people/70"
+      ],
+      "films": [
+        "films/5",
+        "films/6"
+      ],
+      "id": "species/30"
+    },
+    {
+      "name": "Besalisk",
+      "classification": "amphibian",
+      "designation": "sentient",
+      "average_height": "178",
+      "skin_colors": "brown",
+      "hair_colors": "none",
+      "eye_colors": "yellow",
+      "average_lifespan": "75",
+      "homeworld": "planets/55",
+      "language": "besalisk",
+      "people": [
+        "people/71"
+      ],
+      "films": [
+        "films/5"
+      ],
+      "id": "species/31"
+    },
+    {
+      "name": "Kaminoan",
+      "classification": "amphibian",
+      "designation": "sentient",
+      "average_height": "220",
+      "skin_colors": "grey, blue",
+      "hair_colors": "none",
+      "eye_colors": "black",
+      "average_lifespan": "80",
+      "homeworld": "planets/10",
+      "language": "Kaminoan",
+      "people": [
+        "people/72",
+        "people/73"
+      ],
+      "films": [
+        "films/5"
+      ],
+      "id": "species/32"
+    },
+    {
+      "name": "Skakoan",
+      "classification": "mammal",
+      "designation": "sentient",
+      "average_height": "unknown",
+      "skin_colors": "grey, green",
+      "hair_colors": "none",
+      "eye_colors": "unknown",
+      "average_lifespan": "unknown",
+      "homeworld": "planets/56",
+      "language": "Skakoan",
+      "people": [
+        "people/76"
+      ],
+      "films": [
+        "films/5",
+        "films/6"
+      ],
+      "id": "species/33"
+    },
+    {
+      "name": "Muun",
+      "classification": "mammal",
+      "designation": "sentient",
+      "average_height": "190",
+      "skin_colors": "grey, white",
+      "hair_colors": "none",
+      "eye_colors": "black",
+      "average_lifespan": "100",
+      "homeworld": "planets/57",
+      "language": "Muun",
+      "people": [
+        "people/77"
+      ],
+      "films": [
+        "films/5",
+        "films/6"
+      ],
+      "id": "species/34"
+    },
+    {
+      "name": "Togruta",
+      "classification": "mammal",
+      "designation": "sentient",
+      "average_height": "180",
+      "skin_colors": "red, white, orange, yellow, green, blue",
+      "hair_colors": "none",
+      "eye_colors": "red, orange, yellow, green, blue, black",
+      "average_lifespan": "94",
+      "homeworld": "planets/58",
+      "language": "Togruti",
+      "people": [
+        "people/78"
+      ],
+      "films": [
+        "films/5",
+        "films/6"
+      ],
+      "id": "species/35"
+    },
+    {
+      "name": "Kaleesh",
+      "classification": "reptile",
+      "designation": "sentient",
+      "average_height": "170",
+      "skin_colors": "brown, orange, tan",
+      "hair_colors": "none",
+      "eye_colors": "yellow",
+      "average_lifespan": "80",
+      "homeworld": "planets/59",
+      "language": "Kaleesh",
+      "people": [
+        "people/79"
+      ],
+      "films": [
+        "films/6"
+      ],
+      "id": "species/36"
+    },
+    {
+      "name": "Pau'an",
+      "classification": "mammal",
+      "designation": "sentient",
+      "average_height": "190",
+      "skin_colors": "grey",
+      "hair_colors": "none",
+      "eye_colors": "black",
+      "average_lifespan": "700",
+      "homeworld": "planets/12",
+      "language": "Utapese",
+      "people": [
+        "people/83"
+      ],
+      "films": [
+        "films/6"
+      ],
+      "id": "species/37"
+    },
+    {
+      "name": "Wookiee",
+      "classification": "mammal",
+      "designation": "sentient",
+      "average_height": "210",
+      "skin_colors": "gray",
+      "hair_colors": "black, brown",
+      "eye_colors": "blue, green, yellow, brown, golden, red",
+      "average_lifespan": "400",
+      "homeworld": "planets/14",
+      "language": "Shyriiwook",
+      "people": [
+        "people/13",
+        "people/80"
+      ],
+      "films": [
+        "films/2",
+        "films/7",
+        "films/6",
+        "films/3",
+        "films/1"
+      ],
+      "id": "species/3"
+    },
+    {
+      "name": "Droid",
+      "classification": "artificial",
+      "designation": "sentient",
+      "average_height": "n/a",
+      "skin_colors": "n/a",
+      "hair_colors": "n/a",
+      "eye_colors": "n/a",
+      "average_lifespan": "indefinite",
+      "homeworld": null,
+      "language": "n/a",
+      "people": [
+        "people/2",
+        "people/3",
+        "people/8",
+        "people/23",
+        "people/87"
+      ],
+      "films": [
+        "films/2",
+        "films/7",
+        "films/5",
+        "films/4",
+        "films/6",
+        "films/3",
+        "films/1"
+      ],
+      "id": "species/2"
+    },
+    {
+      "name": "Human",
+      "classification": "mammal",
+      "designation": "sentient",
+      "average_height": "180",
+      "skin_colors": "caucasian, black, asian, hispanic",
+      "hair_colors": "blonde, brown, black, red",
+      "eye_colors": "brown, blue, green, hazel, grey, amber",
+      "average_lifespan": "120",
+      "homeworld": "planets/9",
+      "language": "Galactic Basic",
+      "people": [
+        "people/1",
+        "people/4",
+        "people/5",
+        "people/6",
+        "people/7",
+        "people/9",
+        "people/10",
+        "people/11",
+        "people/12",
+        "people/14",
+        "people/18",
+        "people/19",
+        "people/21",
+        "people/22",
+        "people/25",
+        "people/26",
+        "people/28",
+        "people/29",
+        "people/32",
+        "people/34",
+        "people/43",
+        "people/51",
+        "people/60",
+        "people/61",
+        "people/62",
+        "people/66",
+        "people/67",
+        "people/68",
+        "people/69",
+        "people/74",
+        "people/81",
+        "people/84",
+        "people/85",
+        "people/86",
+        "people/35"
+      ],
+      "films": [
+        "films/2",
+        "films/7",
+        "films/5",
+        "films/4",
+        "films/6",
+        "films/3",
+        "films/1"
+      ],
+      "id": "species/1"
+    },
+    {
+      "name": "Rodian",
+      "classification": "sentient",
+      "designation": "reptilian",
+      "average_height": "170",
+      "skin_colors": "green, blue",
+      "hair_colors": "n/a",
+      "eye_colors": "black",
+      "average_lifespan": "unknown",
+      "homeworld": "planets/23",
+      "language": "Galactic Basic",
+      "people": [
+        "people/15"
+      ],
+      "films": [
+        "films/1"
+      ],
+      "id": "species/4"
     }
   ],
   "vehicles": [
@@ -1434,12 +2135,10 @@
       "vehicle_class": "wheeled",
       "pilots": [],
       "films": [
-        5,
-        1
+        "films/5",
+        "films/1"
       ],
-      "created": "2014-12-10T15:36:25.724000Z",
-      "edited": "2014-12-22T18:21:15.523587Z",
-      "id": 4
+      "id": "vehicles/4"
     },
     {
       "name": "T-16 skyhopper",
@@ -1455,11 +2154,9 @@
       "vehicle_class": "repulsorcraft",
       "pilots": [],
       "films": [
-        1
+        "films/1"
       ],
-      "created": "2014-12-10T16:01:52.434000Z",
-      "edited": "2014-12-22T18:21:15.552614Z",
-      "id": 6
+      "id": "vehicles/6"
     },
     {
       "name": "X-34 landspeeder",
@@ -1475,11 +2172,9 @@
       "vehicle_class": "repulsorcraft",
       "pilots": [],
       "films": [
-        1
+        "films/1"
       ],
-      "created": "2014-12-10T16:13:52.586000Z",
-      "edited": "2014-12-22T18:21:15.583700Z",
-      "id": 7
+      "id": "vehicles/7"
     },
     {
       "name": "TIE/LN starfighter",
@@ -1495,13 +2190,11 @@
       "vehicle_class": "starfighter",
       "pilots": [],
       "films": [
-        2,
-        3,
-        1
+        "films/2",
+        "films/3",
+        "films/1"
       ],
-      "created": "2014-12-10T16:33:52.860000Z",
-      "edited": "2014-12-22T18:21:15.606149Z",
-      "id": 8
+      "id": "vehicles/8"
     },
     {
       "name": "Snowspeeder",
@@ -1516,15 +2209,13 @@
       "consumables": "none",
       "vehicle_class": "airspeeder",
       "pilots": [
-        1,
-        18
+        "people/1",
+        "people/18"
       ],
       "films": [
-        2
+        "films/2"
       ],
-      "created": "2014-12-15T12:22:12Z",
-      "edited": "2014-12-22T18:21:15.623033Z",
-      "id": 14
+      "id": "vehicles/14"
     },
     {
       "name": "TIE bomber",
@@ -1540,12 +2231,10 @@
       "vehicle_class": "space/planetary bomber",
       "pilots": [],
       "films": [
-        2,
-        3
+        "films/2",
+        "films/3"
       ],
-      "created": "2014-12-15T12:33:15.838000Z",
-      "edited": "2014-12-22T18:21:15.667730Z",
-      "id": 16
+      "id": "vehicles/16"
     },
     {
       "name": "AT-AT",
@@ -1561,12 +2250,10 @@
       "vehicle_class": "assault walker",
       "pilots": [],
       "films": [
-        2,
-        3
+        "films/2",
+        "films/3"
       ],
-      "created": "2014-12-15T12:38:25.937000Z",
-      "edited": "2014-12-22T18:21:15.714673Z",
-      "id": 18
+      "id": "vehicles/18"
     },
     {
       "name": "AT-ST",
@@ -1581,15 +2268,13 @@
       "consumables": "none",
       "vehicle_class": "walker",
       "pilots": [
-        13
+        "people/13"
       ],
       "films": [
-        2,
-        3
+        "films/2",
+        "films/3"
       ],
-      "created": "2014-12-15T12:46:42.384000Z",
-      "edited": "2014-12-22T18:21:15.761584Z",
-      "id": 19
+      "id": "vehicles/19"
     },
     {
       "name": "Storm IV Twin-Pod cloud car",
@@ -1605,11 +2290,9 @@
       "vehicle_class": "repulsorcraft",
       "pilots": [],
       "films": [
-        2
+        "films/2"
       ],
-      "created": "2014-12-15T12:58:50.530000Z",
-      "edited": "2014-12-22T18:21:15.783232Z",
-      "id": 20
+      "id": "vehicles/20"
     },
     {
       "name": "Sail barge",
@@ -1625,11 +2308,9 @@
       "vehicle_class": "sail barge",
       "pilots": [],
       "films": [
-        3
+        "films/3"
       ],
-      "created": "2014-12-18T10:44:14.217000Z",
-      "edited": "2014-12-22T18:21:15.807906Z",
-      "id": 24
+      "id": "vehicles/24"
     },
     {
       "name": "Bantha-II cargo skiff",
@@ -1645,11 +2326,9 @@
       "vehicle_class": "repulsorcraft cargo skiff",
       "pilots": [],
       "films": [
-        3
+        "films/3"
       ],
-      "created": "2014-12-18T10:48:03.208000Z",
-      "edited": "2014-12-22T18:21:15.845988Z",
-      "id": 25
+      "id": "vehicles/25"
     },
     {
       "name": "TIE/IN interceptor",
@@ -1665,11 +2344,9 @@
       "vehicle_class": "starfighter",
       "pilots": [],
       "films": [
-        3
+        "films/3"
       ],
-      "created": "2014-12-18T10:50:28.225000Z",
-      "edited": "2014-12-22T18:21:15.882388Z",
-      "id": 26
+      "id": "vehicles/26"
     },
     {
       "name": "Imperial Speeder Bike",
@@ -1684,15 +2361,13 @@
       "consumables": "1 day",
       "vehicle_class": "speeder",
       "pilots": [
-        1,
-        5
+        "people/1",
+        "people/5"
       ],
       "films": [
-        3
+        "films/3"
       ],
-      "created": "2014-12-18T11:20:04.625000Z",
-      "edited": "2014-12-22T18:21:15.920537Z",
-      "id": 30
+      "id": "vehicles/30"
     },
     {
       "name": "Vulture Droid",
@@ -1708,12 +2383,10 @@
       "vehicle_class": "starfighter",
       "pilots": [],
       "films": [
-        4,
-        6
+        "films/4",
+        "films/6"
       ],
-      "created": "2014-12-19T17:09:53.584000Z",
-      "edited": "2014-12-22T18:21:15.953870Z",
-      "id": 33
+      "id": "vehicles/33"
     },
     {
       "name": "Multi-Troop Transport",
@@ -1729,11 +2402,9 @@
       "vehicle_class": "repulsorcraft",
       "pilots": [],
       "films": [
-        4
+        "films/4"
       ],
-      "created": "2014-12-19T17:12:04.400000Z",
-      "edited": "2014-12-22T18:21:15.975171Z",
-      "id": 34
+      "id": "vehicles/34"
     },
     {
       "name": "Armored Assault Tank",
@@ -1749,11 +2420,9 @@
       "vehicle_class": "repulsorcraft",
       "pilots": [],
       "films": [
-        4
+        "films/4"
       ],
-      "created": "2014-12-19T17:13:29.799000Z",
-      "edited": "2014-12-22T18:21:15.984817Z",
-      "id": 35
+      "id": "vehicles/35"
     },
     {
       "name": "Single Trooper Aerial Platform",
@@ -1769,11 +2438,9 @@
       "vehicle_class": "repulsorcraft",
       "pilots": [],
       "films": [
-        4
+        "films/4"
       ],
-      "created": "2014-12-19T17:15:09.511000Z",
-      "edited": "2014-12-22T18:21:16.008594Z",
-      "id": 36
+      "id": "vehicles/36"
     },
     {
       "name": "C-9979 landing craft",
@@ -1789,11 +2456,9 @@
       "vehicle_class": "landing craft",
       "pilots": [],
       "films": [
-        4
+        "films/4"
       ],
-      "created": "2014-12-19T17:20:36.373000Z",
-      "edited": "2014-12-22T18:21:16.033738Z",
-      "id": 37
+      "id": "vehicles/37"
     },
     {
       "name": "Tribubble bongo",
@@ -1808,15 +2473,13 @@
       "consumables": "unknown",
       "vehicle_class": "submarine",
       "pilots": [
-        10,
-        32
+        "people/10",
+        "people/32"
       ],
       "films": [
-        4
+        "films/4"
       ],
-      "created": "2014-12-19T17:37:37.924000Z",
-      "edited": "2014-12-22T18:21:16.072083Z",
-      "id": 38
+      "id": "vehicles/38"
     },
     {
       "name": "Sith speeder",
@@ -1831,14 +2494,12 @@
       "consumables": "unknown",
       "vehicle_class": "speeder",
       "pilots": [
-        44
+        "people/44"
       ],
       "films": [
-        4
+        "films/4"
       ],
-      "created": "2014-12-20T10:09:56.095000Z",
-      "edited": "2014-12-22T18:21:16.095041Z",
-      "id": 42
+      "id": "vehicles/42"
     },
     {
       "name": "Zephyr-G swoop bike",
@@ -1853,14 +2514,12 @@
       "consumables": "none",
       "vehicle_class": "repulsorcraft",
       "pilots": [
-        11
+        "people/11"
       ],
       "films": [
-        5
+        "films/5"
       ],
-      "created": "2014-12-20T16:24:16.026000Z",
-      "edited": "2014-12-22T18:21:16.117652Z",
-      "id": 44
+      "id": "vehicles/44"
     },
     {
       "name": "Koro-2 Exodrive airspeeder",
@@ -1875,14 +2534,12 @@
       "consumables": "unknown",
       "vehicle_class": "airspeeder",
       "pilots": [
-        70
+        "people/70"
       ],
       "films": [
-        5
+        "films/5"
       ],
-      "created": "2014-12-20T17:17:33.526000Z",
-      "edited": "2014-12-22T18:21:16.140018Z",
-      "id": 45
+      "id": "vehicles/45"
     },
     {
       "name": "XJ-6 airspeeder",
@@ -1897,14 +2554,12 @@
       "consumables": "unknown",
       "vehicle_class": "airspeeder",
       "pilots": [
-        11
+        "people/11"
       ],
       "films": [
-        5
+        "films/5"
       ],
-      "created": "2014-12-20T17:19:19.991000Z",
-      "edited": "2014-12-22T18:21:16.150194Z",
-      "id": 46
+      "id": "vehicles/46"
     },
     {
       "name": "LAAT/i",
@@ -1920,12 +2575,10 @@
       "vehicle_class": "gunship",
       "pilots": [],
       "films": [
-        5,
-        6
+        "films/5",
+        "films/6"
       ],
-      "created": "2014-12-20T18:01:21.014000Z",
-      "edited": "2014-12-22T18:21:16.181363Z",
-      "id": 50
+      "id": "vehicles/50"
     },
     {
       "name": "LAAT/c",
@@ -1941,11 +2594,9 @@
       "vehicle_class": "gunship",
       "pilots": [],
       "films": [
-        5
+        "films/5"
       ],
-      "created": "2014-12-20T18:02:46.802000Z",
-      "edited": "2014-12-22T18:21:16.229733Z",
-      "id": 51
+      "id": "vehicles/51"
     },
     {
       "name": "Tsmeu-6 personal wheel bike",
@@ -1960,14 +2611,12 @@
       "consumables": "none",
       "vehicle_class": "wheeled walker",
       "pilots": [
-        79
+        "people/79"
       ],
       "films": [
-        6
+        "films/6"
       ],
-      "created": "2014-12-20T19:43:54.870000Z",
-      "edited": "2014-12-22T18:21:16.422662Z",
-      "id": 60
+      "id": "vehicles/60"
     },
     {
       "name": "Emergency Firespeeder",
@@ -1983,11 +2632,9 @@
       "vehicle_class": "fire suppression ship",
       "pilots": [],
       "films": [
-        6
+        "films/6"
       ],
-      "created": "2014-12-20T19:50:58.559000Z",
-      "edited": "2014-12-22T18:21:16.450655Z",
-      "id": 62
+      "id": "vehicles/62"
     },
     {
       "name": "Droid tri-fighter",
@@ -2003,11 +2650,9 @@
       "vehicle_class": "droid starfighter",
       "pilots": [],
       "films": [
-        6
+        "films/6"
       ],
-      "created": "2014-12-20T20:05:19.992000Z",
-      "edited": "2014-12-22T18:21:16.478901Z",
-      "id": 67
+      "id": "vehicles/67"
     },
     {
       "name": "Oevvaor jet catamaran",
@@ -2023,11 +2668,9 @@
       "vehicle_class": "airspeeder",
       "pilots": [],
       "films": [
-        6
+        "films/6"
       ],
-      "created": "2014-12-20T20:20:53.931000Z",
-      "edited": "2014-12-22T18:21:16.517049Z",
-      "id": 69
+      "id": "vehicles/69"
     },
     {
       "name": "Raddaugh Gnasp fluttercraft",
@@ -2043,11 +2686,9 @@
       "vehicle_class": "air speeder",
       "pilots": [],
       "films": [
-        6
+        "films/6"
       ],
-      "created": "2014-12-20T20:21:55.648000Z",
-      "edited": "2014-12-22T18:21:16.547708Z",
-      "id": 70
+      "id": "vehicles/70"
     },
     {
       "name": "Clone turbo tank",
@@ -2063,11 +2704,9 @@
       "vehicle_class": "wheeled walker",
       "pilots": [],
       "films": [
-        6
+        "films/6"
       ],
-      "created": "2014-12-20T20:24:45.587000Z",
-      "edited": "2014-12-22T18:21:16.571079Z",
-      "id": 71
+      "id": "vehicles/71"
     },
     {
       "name": "Corporate Alliance tank droid",
@@ -2083,11 +2722,9 @@
       "vehicle_class": "droid tank",
       "pilots": [],
       "films": [
-        6
+        "films/6"
       ],
-      "created": "2014-12-20T20:26:55.522000Z",
-      "edited": "2014-12-22T18:21:16.612902Z",
-      "id": 72
+      "id": "vehicles/72"
     },
     {
       "name": "Droid gunship",
@@ -2103,11 +2740,9 @@
       "vehicle_class": "airspeeder",
       "pilots": [],
       "films": [
-        6
+        "films/6"
       ],
-      "created": "2014-12-20T20:32:05.687000Z",
-      "edited": "2014-12-22T18:21:16.643329Z",
-      "id": 73
+      "id": "vehicles/73"
     },
     {
       "name": "AT-RT",
@@ -2123,11 +2758,9 @@
       "vehicle_class": "walker",
       "pilots": [],
       "films": [
-        6
+        "films/6"
       ],
-      "created": "2014-12-20T20:47:49.189000Z",
-      "edited": "2014-12-22T18:21:16.672821Z",
-      "id": 76
+      "id": "vehicles/76"
     },
     {
       "name": "AT-TE",
@@ -2143,12 +2776,10 @@
       "vehicle_class": "walker",
       "pilots": [],
       "films": [
-        5,
-        6
+        "films/5",
+        "films/6"
       ],
-      "created": "2014-12-20T18:10:07.560000Z",
-      "edited": "2014-12-22T18:21:16.293771Z",
-      "id": 53
+      "id": "vehicles/53"
     },
     {
       "name": "SPHA",
@@ -2164,11 +2795,9 @@
       "vehicle_class": "walker",
       "pilots": [],
       "films": [
-        5
+        "films/5"
       ],
-      "created": "2014-12-20T18:12:32.315000Z",
-      "edited": "2014-12-22T18:21:16.311761Z",
-      "id": 54
+      "id": "vehicles/54"
     },
     {
       "name": "Flitknot speeder",
@@ -2183,14 +2812,12 @@
       "consumables": "unknown",
       "vehicle_class": "speeder",
       "pilots": [
-        67
+        "people/67"
       ],
       "films": [
-        5
+        "films/5"
       ],
-      "created": "2014-12-20T18:15:20.312000Z",
-      "edited": "2014-12-22T18:21:16.335005Z",
-      "id": 55
+      "id": "vehicles/55"
     },
     {
       "name": "Neimoidian shuttle",
@@ -2206,12 +2833,10 @@
       "vehicle_class": "transport",
       "pilots": [],
       "films": [
-        5,
-        6
+        "films/5",
+        "films/6"
       ],
-      "created": "2014-12-20T18:25:44.912000Z",
-      "edited": "2014-12-22T18:21:16.366134Z",
-      "id": 56
+      "id": "vehicles/56"
     },
     {
       "name": "Geonosian starfighter",
@@ -2227,874 +2852,9 @@
       "vehicle_class": "starfighter",
       "pilots": [],
       "films": [
-        5
+        "films/5"
       ],
-      "created": "2014-12-20T18:34:12.541000Z",
-      "edited": "2014-12-22T18:21:16.390980Z",
-      "id": 57
-    }
-  ],
-  "species": [
-    {
-      "name": "Hutt",
-      "classification": "gastropod",
-      "designation": "sentient",
-      "average_height": "300",
-      "skin_colors": "green, brown, tan",
-      "hair_colors": "n/a",
-      "eye_colors": "yellow, red",
-      "average_lifespan": "1000",
-      "homeworld": 24,
-      "language": "Huttese",
-      "people": [
-        16
-      ],
-      "films": [
-        3,
-        1
-      ],
-      "created": "2014-12-10T17:12:50.410000Z",
-      "edited": "2014-12-20T21:36:42.146000Z",
-      "id": 5
-    },
-    {
-      "name": "Yoda's species",
-      "classification": "mammal",
-      "designation": "sentient",
-      "average_height": "66",
-      "skin_colors": "green, yellow",
-      "hair_colors": "brown, white",
-      "eye_colors": "brown, green, yellow",
-      "average_lifespan": "900",
-      "homeworld": 28,
-      "language": "Galactic basic",
-      "people": [
-        20
-      ],
-      "films": [
-        2,
-        5,
-        4,
-        6,
-        3
-      ],
-      "created": "2014-12-15T12:27:22.877000Z",
-      "edited": "2014-12-20T21:36:42.148000Z",
-      "id": 6
-    },
-    {
-      "name": "Trandoshan",
-      "classification": "reptile",
-      "designation": "sentient",
-      "average_height": "200",
-      "skin_colors": "brown, green",
-      "hair_colors": "none",
-      "eye_colors": "yellow, orange",
-      "average_lifespan": "unknown",
-      "homeworld": 29,
-      "language": "Dosh",
-      "people": [
-        24
-      ],
-      "films": [
-        2
-      ],
-      "created": "2014-12-15T13:07:47.704000Z",
-      "edited": "2014-12-20T21:36:42.151000Z",
-      "id": 7
-    },
-    {
-      "name": "Mon Calamari",
-      "classification": "amphibian",
-      "designation": "sentient",
-      "average_height": "160",
-      "skin_colors": "red, blue, brown, magenta",
-      "hair_colors": "none",
-      "eye_colors": "yellow",
-      "average_lifespan": "unknown",
-      "homeworld": 31,
-      "language": "Mon Calamarian",
-      "people": [
-        27
-      ],
-      "films": [
-        3
-      ],
-      "created": "2014-12-18T11:09:52.263000Z",
-      "edited": "2014-12-20T21:36:42.153000Z",
-      "id": 8
-    },
-    {
-      "name": "Ewok",
-      "classification": "mammal",
-      "designation": "sentient",
-      "average_height": "100",
-      "skin_colors": "brown",
-      "hair_colors": "white, brown, black",
-      "eye_colors": "orange, brown",
-      "average_lifespan": "unknown",
-      "homeworld": 7,
-      "language": "Ewokese",
-      "people": [
-        30
-      ],
-      "films": [
-        3
-      ],
-      "created": "2014-12-18T11:22:00.285000Z",
-      "edited": "2014-12-20T21:36:42.155000Z",
-      "id": 9
-    },
-    {
-      "name": "Sullustan",
-      "classification": "mammal",
-      "designation": "sentient",
-      "average_height": "180",
-      "skin_colors": "pale",
-      "hair_colors": "none",
-      "eye_colors": "black",
-      "average_lifespan": "unknown",
-      "homeworld": 33,
-      "language": "Sullutese",
-      "people": [
-        31
-      ],
-      "films": [
-        3
-      ],
-      "created": "2014-12-18T11:26:20.103000Z",
-      "edited": "2014-12-20T21:36:42.157000Z",
-      "id": 10
-    },
-    {
-      "name": "Neimodian",
-      "classification": "unknown",
-      "designation": "sentient",
-      "average_height": "180",
-      "skin_colors": "grey, green",
-      "hair_colors": "none",
-      "eye_colors": "red, pink",
-      "average_lifespan": "unknown",
-      "homeworld": 18,
-      "language": "Neimoidia",
-      "people": [
-        33
-      ],
-      "films": [
-        4
-      ],
-      "created": "2014-12-19T17:07:31.319000Z",
-      "edited": "2014-12-20T21:36:42.160000Z",
-      "id": 11
-    },
-    {
-      "name": "Gungan",
-      "classification": "amphibian",
-      "designation": "sentient",
-      "average_height": "190",
-      "skin_colors": "brown, green",
-      "hair_colors": "none",
-      "eye_colors": "orange",
-      "average_lifespan": "unknown",
-      "homeworld": 8,
-      "language": "Gungan basic",
-      "people": [
-        36,
-        37,
-        38
-      ],
-      "films": [
-        5,
-        4
-      ],
-      "created": "2014-12-19T17:30:37.341000Z",
-      "edited": "2014-12-20T21:36:42.163000Z",
-      "id": 12
-    },
-    {
-      "name": "Toydarian",
-      "classification": "mammal",
-      "designation": "sentient",
-      "average_height": "120",
-      "skin_colors": "blue, green, grey",
-      "hair_colors": "none",
-      "eye_colors": "yellow",
-      "average_lifespan": "91",
-      "homeworld": 34,
-      "language": "Toydarian",
-      "people": [
-        40
-      ],
-      "films": [
-        5,
-        4
-      ],
-      "created": "2014-12-19T17:48:56.893000Z",
-      "edited": "2014-12-20T21:36:42.165000Z",
-      "id": 13
-    },
-    {
-      "name": "Dug",
-      "classification": "mammal",
-      "designation": "sentient",
-      "average_height": "100",
-      "skin_colors": "brown, purple, grey, red",
-      "hair_colors": "none",
-      "eye_colors": "yellow, blue",
-      "average_lifespan": "unknown",
-      "homeworld": 35,
-      "language": "Dugese",
-      "people": [
-        41
-      ],
-      "films": [
-        4
-      ],
-      "created": "2014-12-19T17:53:11.214000Z",
-      "edited": "2014-12-20T21:36:42.167000Z",
-      "id": 14
-    },
-    {
-      "name": "Twi'lek",
-      "classification": "mammals",
-      "designation": "sentient",
-      "average_height": "200",
-      "skin_colors": "orange, yellow, blue, green, pink, purple, tan",
-      "hair_colors": "none",
-      "eye_colors": "blue, brown, orange, pink",
-      "average_lifespan": "unknown",
-      "homeworld": 37,
-      "language": "Twi'leki",
-      "people": [
-        45,
-        46
-      ],
-      "films": [
-        5,
-        4,
-        6,
-        3
-      ],
-      "created": "2014-12-20T09:48:02.406000Z",
-      "edited": "2014-12-20T21:36:42.169000Z",
-      "id": 15
-    },
-    {
-      "name": "Aleena",
-      "classification": "reptile",
-      "designation": "sentient",
-      "average_height": "80",
-      "skin_colors": "blue, gray",
-      "hair_colors": "none",
-      "eye_colors": "unknown",
-      "average_lifespan": "79",
-      "homeworld": 38,
-      "language": "Aleena",
-      "people": [
-        47
-      ],
-      "films": [
-        4
-      ],
-      "created": "2014-12-20T09:53:16.481000Z",
-      "edited": "2014-12-20T21:36:42.171000Z",
-      "id": 16
-    },
-    {
-      "name": "Vulptereen",
-      "classification": "unknown",
-      "designation": "sentient",
-      "average_height": "100",
-      "skin_colors": "grey",
-      "hair_colors": "none",
-      "eye_colors": "yellow",
-      "average_lifespan": "unknown",
-      "homeworld": 39,
-      "language": "vulpterish",
-      "people": [
-        48
-      ],
-      "films": [
-        4
-      ],
-      "created": "2014-12-20T09:57:33.128000Z",
-      "edited": "2014-12-20T21:36:42.173000Z",
-      "id": 17
-    },
-    {
-      "name": "Xexto",
-      "classification": "unknown",
-      "designation": "sentient",
-      "average_height": "125",
-      "skin_colors": "grey, yellow, purple",
-      "hair_colors": "none",
-      "eye_colors": "black",
-      "average_lifespan": "unknown",
-      "homeworld": 40,
-      "language": "Xextese",
-      "people": [
-        49
-      ],
-      "films": [
-        4
-      ],
-      "created": "2014-12-20T10:02:13.915000Z",
-      "edited": "2014-12-20T21:36:42.175000Z",
-      "id": 18
-    },
-    {
-      "name": "Toong",
-      "classification": "unknown",
-      "designation": "sentient",
-      "average_height": "200",
-      "skin_colors": "grey, green, yellow",
-      "hair_colors": "none",
-      "eye_colors": "orange",
-      "average_lifespan": "unknown",
-      "homeworld": 41,
-      "language": "Tundan",
-      "people": [
-        50
-      ],
-      "films": [
-        4,
-        6
-      ],
-      "created": "2014-12-20T10:08:36.795000Z",
-      "edited": "2014-12-20T21:36:42.177000Z",
-      "id": 19
-    },
-    {
-      "name": "Cerean",
-      "classification": "mammal",
-      "designation": "sentient",
-      "average_height": "200",
-      "skin_colors": "pale pink",
-      "hair_colors": "red, blond, black, white",
-      "eye_colors": "hazel",
-      "average_lifespan": "unknown",
-      "homeworld": 43,
-      "language": "Cerean",
-      "people": [
-        52
-      ],
-      "films": [
-        4,
-        6
-      ],
-      "created": "2014-12-20T10:15:33.765000Z",
-      "edited": "2014-12-20T21:36:42.179000Z",
-      "id": 20
-    },
-    {
-      "name": "Nautolan",
-      "classification": "amphibian",
-      "designation": "sentient",
-      "average_height": "180",
-      "skin_colors": "green, blue, brown, red",
-      "hair_colors": "none",
-      "eye_colors": "black",
-      "average_lifespan": "70",
-      "homeworld": 44,
-      "language": "Nautila",
-      "people": [
-        53
-      ],
-      "films": [
-        4
-      ],
-      "created": "2014-12-20T10:18:58.610000Z",
-      "edited": "2014-12-20T21:36:42.181000Z",
-      "id": 21
-    },
-    {
-      "name": "Zabrak",
-      "classification": "mammal",
-      "designation": "sentient",
-      "average_height": "180",
-      "skin_colors": "pale, brown, red, orange, yellow",
-      "hair_colors": "black",
-      "eye_colors": "brown, orange",
-      "average_lifespan": "unknown",
-      "homeworld": 45,
-      "language": "Zabraki",
-      "people": [
-        44,
-        54
-      ],
-      "films": [
-        4
-      ],
-      "created": "2014-12-20T10:26:59.894000Z",
-      "edited": "2014-12-20T21:36:42.183000Z",
-      "id": 22
-    },
-    {
-      "name": "Tholothian",
-      "classification": "mammal",
-      "designation": "sentient",
-      "average_height": "unknown",
-      "skin_colors": "dark",
-      "hair_colors": "unknown",
-      "eye_colors": "blue, indigo",
-      "average_lifespan": "unknown",
-      "homeworld": 46,
-      "language": "unknown",
-      "people": [
-        55
-      ],
-      "films": [
-        4,
-        6
-      ],
-      "created": "2014-12-20T10:29:13.798000Z",
-      "edited": "2014-12-20T21:36:42.186000Z",
-      "id": 23
-    },
-    {
-      "name": "Iktotchi",
-      "classification": "unknown",
-      "designation": "sentient",
-      "average_height": "180",
-      "skin_colors": "pink",
-      "hair_colors": "none",
-      "eye_colors": "orange",
-      "average_lifespan": "unknown",
-      "homeworld": 47,
-      "language": "Iktotchese",
-      "people": [
-        56
-      ],
-      "films": [
-        4,
-        6
-      ],
-      "created": "2014-12-20T10:32:13.046000Z",
-      "edited": "2014-12-20T21:36:42.188000Z",
-      "id": 24
-    },
-    {
-      "name": "Quermian",
-      "classification": "mammal",
-      "designation": "sentient",
-      "average_height": "240",
-      "skin_colors": "white",
-      "hair_colors": "none",
-      "eye_colors": "yellow",
-      "average_lifespan": "86",
-      "homeworld": 48,
-      "language": "Quermian",
-      "people": [
-        57
-      ],
-      "films": [
-        4,
-        6
-      ],
-      "created": "2014-12-20T10:34:50.827000Z",
-      "edited": "2014-12-20T21:36:42.189000Z",
-      "id": 25
-    },
-    {
-      "name": "Kel Dor",
-      "classification": "unknown",
-      "designation": "sentient",
-      "average_height": "180",
-      "skin_colors": "peach, orange, red",
-      "hair_colors": "none",
-      "eye_colors": "black, silver",
-      "average_lifespan": "70",
-      "homeworld": 49,
-      "language": "Kel Dor",
-      "people": [
-        58
-      ],
-      "films": [
-        4,
-        6
-      ],
-      "created": "2014-12-20T10:49:21.692000Z",
-      "edited": "2014-12-20T21:36:42.191000Z",
-      "id": 26
-    },
-    {
-      "name": "Chagrian",
-      "classification": "amphibian",
-      "designation": "sentient",
-      "average_height": "190",
-      "skin_colors": "blue",
-      "hair_colors": "none",
-      "eye_colors": "blue",
-      "average_lifespan": "unknown",
-      "homeworld": 50,
-      "language": "Chagria",
-      "people": [
-        59
-      ],
-      "films": [
-        4,
-        6
-      ],
-      "created": "2014-12-20T10:53:28.795000Z",
-      "edited": "2014-12-20T21:36:42.193000Z",
-      "id": 27
-    },
-    {
-      "name": "Geonosian",
-      "classification": "insectoid",
-      "designation": "sentient",
-      "average_height": "178",
-      "skin_colors": "green, brown",
-      "hair_colors": "none",
-      "eye_colors": "green, hazel",
-      "average_lifespan": "unknown",
-      "homeworld": 11,
-      "language": "Geonosian",
-      "people": [
-        63
-      ],
-      "films": [
-        5,
-        6
-      ],
-      "created": "2014-12-20T16:40:45.618000Z",
-      "edited": "2014-12-20T21:36:42.195000Z",
-      "id": 28
-    },
-    {
-      "name": "Mirialan",
-      "classification": "mammal",
-      "designation": "sentient",
-      "average_height": "180",
-      "skin_colors": "yellow, green",
-      "hair_colors": "black, brown",
-      "eye_colors": "blue, green, red, yellow, brown, orange",
-      "average_lifespan": "unknown",
-      "homeworld": 51,
-      "language": "Mirialan",
-      "people": [
-        64,
-        65
-      ],
-      "films": [
-        5,
-        6
-      ],
-      "created": "2014-12-20T16:46:48.290000Z",
-      "edited": "2014-12-20T21:36:42.197000Z",
-      "id": 29
-    },
-    {
-      "name": "Clawdite",
-      "classification": "reptilian",
-      "designation": "sentient",
-      "average_height": "180",
-      "skin_colors": "green, yellow",
-      "hair_colors": "none",
-      "eye_colors": "yellow",
-      "average_lifespan": "70",
-      "homeworld": 54,
-      "language": "Clawdite",
-      "people": [
-        70
-      ],
-      "films": [
-        5,
-        6
-      ],
-      "created": "2014-12-20T16:57:46.171000Z",
-      "edited": "2014-12-20T21:36:42.199000Z",
-      "id": 30
-    },
-    {
-      "name": "Besalisk",
-      "classification": "amphibian",
-      "designation": "sentient",
-      "average_height": "178",
-      "skin_colors": "brown",
-      "hair_colors": "none",
-      "eye_colors": "yellow",
-      "average_lifespan": "75",
-      "homeworld": 55,
-      "language": "besalisk",
-      "people": [
-        71
-      ],
-      "films": [
-        5
-      ],
-      "created": "2014-12-20T17:28:28.821000Z",
-      "edited": "2014-12-20T21:36:42.200000Z",
-      "id": 31
-    },
-    {
-      "name": "Kaminoan",
-      "classification": "amphibian",
-      "designation": "sentient",
-      "average_height": "220",
-      "skin_colors": "grey, blue",
-      "hair_colors": "none",
-      "eye_colors": "black",
-      "average_lifespan": "80",
-      "homeworld": 10,
-      "language": "Kaminoan",
-      "people": [
-        72,
-        73
-      ],
-      "films": [
-        5
-      ],
-      "created": "2014-12-20T17:31:24.838000Z",
-      "edited": "2014-12-20T21:36:42.202000Z",
-      "id": 32
-    },
-    {
-      "name": "Skakoan",
-      "classification": "mammal",
-      "designation": "sentient",
-      "average_height": "unknown",
-      "skin_colors": "grey, green",
-      "hair_colors": "none",
-      "eye_colors": "unknown",
-      "average_lifespan": "unknown",
-      "homeworld": 56,
-      "language": "Skakoan",
-      "people": [
-        76
-      ],
-      "films": [
-        5,
-        6
-      ],
-      "created": "2014-12-20T17:53:54.515000Z",
-      "edited": "2014-12-20T21:36:42.204000Z",
-      "id": 33
-    },
-    {
-      "name": "Muun",
-      "classification": "mammal",
-      "designation": "sentient",
-      "average_height": "190",
-      "skin_colors": "grey, white",
-      "hair_colors": "none",
-      "eye_colors": "black",
-      "average_lifespan": "100",
-      "homeworld": 57,
-      "language": "Muun",
-      "people": [
-        77
-      ],
-      "films": [
-        5,
-        6
-      ],
-      "created": "2014-12-20T17:58:19.088000Z",
-      "edited": "2014-12-20T21:36:42.207000Z",
-      "id": 34
-    },
-    {
-      "name": "Togruta",
-      "classification": "mammal",
-      "designation": "sentient",
-      "average_height": "180",
-      "skin_colors": "red, white, orange, yellow, green, blue",
-      "hair_colors": "none",
-      "eye_colors": "red, orange, yellow, green, blue, black",
-      "average_lifespan": "94",
-      "homeworld": 58,
-      "language": "Togruti",
-      "people": [
-        78
-      ],
-      "films": [
-        5,
-        6
-      ],
-      "created": "2014-12-20T18:44:03.246000Z",
-      "edited": "2014-12-20T21:36:42.209000Z",
-      "id": 35
-    },
-    {
-      "name": "Kaleesh",
-      "classification": "reptile",
-      "designation": "sentient",
-      "average_height": "170",
-      "skin_colors": "brown, orange, tan",
-      "hair_colors": "none",
-      "eye_colors": "yellow",
-      "average_lifespan": "80",
-      "homeworld": 59,
-      "language": "Kaleesh",
-      "people": [
-        79
-      ],
-      "films": [
-        6
-      ],
-      "created": "2014-12-20T19:45:42.537000Z",
-      "edited": "2014-12-20T21:36:42.210000Z",
-      "id": 36
-    },
-    {
-      "name": "Pau'an",
-      "classification": "mammal",
-      "designation": "sentient",
-      "average_height": "190",
-      "skin_colors": "grey",
-      "hair_colors": "none",
-      "eye_colors": "black",
-      "average_lifespan": "700",
-      "homeworld": 12,
-      "language": "Utapese",
-      "people": [
-        83
-      ],
-      "films": [
-        6
-      ],
-      "created": "2014-12-20T20:35:06.777000Z",
-      "edited": "2014-12-20T21:36:42.212000Z",
-      "id": 37
-    },
-    {
-      "name": "Wookiee",
-      "classification": "mammal",
-      "designation": "sentient",
-      "average_height": "210",
-      "skin_colors": "gray",
-      "hair_colors": "black, brown",
-      "eye_colors": "blue, green, yellow, brown, golden, red",
-      "average_lifespan": "400",
-      "homeworld": 14,
-      "language": "Shyriiwook",
-      "people": [
-        13,
-        80
-      ],
-      "films": [
-        2,
-        7,
-        6,
-        3,
-        1
-      ],
-      "created": "2014-12-10T16:44:31.486000Z",
-      "edited": "2015-01-30T21:23:03.074598Z",
-      "id": 3
-    },
-    {
-      "name": "Droid",
-      "classification": "artificial",
-      "designation": "sentient",
-      "average_height": "n/a",
-      "skin_colors": "n/a",
-      "hair_colors": "n/a",
-      "eye_colors": "n/a",
-      "average_lifespan": "indefinite",
-      "homeworld": null,
-      "language": "n/a",
-      "people": [
-        2,
-        3,
-        8,
-        23,
-        87
-      ],
-      "films": [
-        2,
-        7,
-        5,
-        4,
-        6,
-        3,
-        1
-      ],
-      "created": "2014-12-10T15:16:16.259000Z",
-      "edited": "2015-04-17T06:59:43.869528Z",
-      "id": 2
-    },
-    {
-      "name": "Human",
-      "classification": "mammal",
-      "designation": "sentient",
-      "average_height": "180",
-      "skin_colors": "caucasian, black, asian, hispanic",
-      "hair_colors": "blonde, brown, black, red",
-      "eye_colors": "brown, blue, green, hazel, grey, amber",
-      "average_lifespan": "120",
-      "homeworld": 9,
-      "language": "Galactic Basic",
-      "people": [
-        1,
-        4,
-        5,
-        6,
-        7,
-        9,
-        10,
-        11,
-        12,
-        14,
-        18,
-        19,
-        21,
-        22,
-        25,
-        26,
-        28,
-        29,
-        32,
-        34,
-        43,
-        51,
-        60,
-        61,
-        62,
-        66,
-        67,
-        68,
-        69,
-        74,
-        81,
-        84,
-        85,
-        86,
-        35
-      ],
-      "films": [
-        2,
-        7,
-        5,
-        4,
-        6,
-        3,
-        1
-      ],
-      "created": "2014-12-10T13:52:11.567000Z",
-      "edited": "2015-04-17T06:59:55.850671Z",
-      "id": 1
-    },
-    {
-      "name": "Rodian",
-      "classification": "sentient",
-      "designation": "reptilian",
-      "average_height": "170",
-      "skin_colors": "green, blue",
-      "hair_colors": "n/a",
-      "eye_colors": "black",
-      "average_lifespan": "unknown",
-      "homeworld": 23,
-      "language": "Galactic Basic",
-      "people": [
-        15
-      ],
-      "films": [
-        1
-      ],
-      "created": "2014-12-10T17:05:26.471000Z",
-      "edited": "2016-07-19T13:27:03.156498Z",
-      "id": 4
+      "id": "vehicles/57"
     }
   ],
   "planets": [
@@ -3109,17 +2869,15 @@
       "surface_water": "40",
       "population": "2000000000",
       "residents": [
-        5,
-        68,
-        81
+        "people/5",
+        "people/68",
+        "people/81"
       ],
       "films": [
-        6,
-        1
+        "films/6",
+        "films/1"
       ],
-      "created": "2014-12-10T11:35:48.479000Z",
-      "edited": "2014-12-20T20:58:18.420000Z",
-      "id": 2
+      "id": "planets/2"
     },
     {
       "name": "Yavin IV",
@@ -3133,11 +2891,9 @@
       "population": "1000",
       "residents": [],
       "films": [
-        1
+        "films/1"
       ],
-      "created": "2014-12-10T11:37:19.144000Z",
-      "edited": "2014-12-20T20:58:18.421000Z",
-      "id": 3
+      "id": "planets/3"
     },
     {
       "name": "Hoth",
@@ -3151,11 +2907,9 @@
       "population": "unknown",
       "residents": [],
       "films": [
-        2
+        "films/2"
       ],
-      "created": "2014-12-10T11:39:13.934000Z",
-      "edited": "2014-12-20T20:58:18.423000Z",
-      "id": 4
+      "id": "planets/4"
     },
     {
       "name": "Dagobah",
@@ -3169,13 +2923,11 @@
       "population": "unknown",
       "residents": [],
       "films": [
-        2,
-        6,
-        3
+        "films/2",
+        "films/6",
+        "films/3"
       ],
-      "created": "2014-12-10T11:42:22.590000Z",
-      "edited": "2014-12-20T20:58:18.425000Z",
-      "id": 5
+      "id": "planets/5"
     },
     {
       "name": "Bespin",
@@ -3188,14 +2940,12 @@
       "surface_water": "0",
       "population": "6000000",
       "residents": [
-        26
+        "people/26"
       ],
       "films": [
-        2
+        "films/2"
       ],
-      "created": "2014-12-10T11:43:55.240000Z",
-      "edited": "2014-12-20T20:58:18.427000Z",
-      "id": 6
+      "id": "planets/6"
     },
     {
       "name": "Endor",
@@ -3208,14 +2958,12 @@
       "surface_water": "8",
       "population": "30000000",
       "residents": [
-        30
+        "people/30"
       ],
       "films": [
-        3
+        "films/3"
       ],
-      "created": "2014-12-10T11:50:29.349000Z",
-      "edited": "2014-12-20T20:58:18.429000Z",
-      "id": 7
+      "id": "planets/7"
     },
     {
       "name": "Naboo",
@@ -3228,27 +2976,25 @@
       "surface_water": "12",
       "population": "4500000000",
       "residents": [
-        3,
-        21,
-        36,
-        37,
-        38,
-        39,
-        42,
-        60,
-        61,
-        66,
-        35
+        "people/3",
+        "people/21",
+        "people/36",
+        "people/37",
+        "people/38",
+        "people/39",
+        "people/42",
+        "people/60",
+        "people/61",
+        "people/66",
+        "people/35"
       ],
       "films": [
-        5,
-        4,
-        6,
-        3
+        "films/5",
+        "films/4",
+        "films/6",
+        "films/3"
       ],
-      "created": "2014-12-10T11:52:31.066000Z",
-      "edited": "2014-12-20T20:58:18.430000Z",
-      "id": 8
+      "id": "planets/8"
     },
     {
       "name": "Coruscant",
@@ -3261,19 +3007,17 @@
       "surface_water": "unknown",
       "population": "1000000000000",
       "residents": [
-        34,
-        55,
-        74
+        "people/34",
+        "people/55",
+        "people/74"
       ],
       "films": [
-        5,
-        4,
-        6,
-        3
+        "films/5",
+        "films/4",
+        "films/6",
+        "films/3"
       ],
-      "created": "2014-12-10T11:54:13.921000Z",
-      "edited": "2014-12-20T20:58:18.432000Z",
-      "id": 9
+      "id": "planets/9"
     },
     {
       "name": "Kamino",
@@ -3286,16 +3030,14 @@
       "surface_water": "100",
       "population": "1000000000",
       "residents": [
-        22,
-        72,
-        73
+        "people/22",
+        "people/72",
+        "people/73"
       ],
       "films": [
-        5
+        "films/5"
       ],
-      "created": "2014-12-10T12:45:06.577000Z",
-      "edited": "2014-12-20T20:58:18.434000Z",
-      "id": 10
+      "id": "planets/10"
     },
     {
       "name": "Geonosis",
@@ -3308,14 +3050,12 @@
       "surface_water": "5",
       "population": "100000000000",
       "residents": [
-        63
+        "people/63"
       ],
       "films": [
-        5
+        "films/5"
       ],
-      "created": "2014-12-10T12:47:22.350000Z",
-      "edited": "2014-12-20T20:58:18.437000Z",
-      "id": 11
+      "id": "planets/11"
     },
     {
       "name": "Utapau",
@@ -3328,14 +3068,12 @@
       "surface_water": "0.9",
       "population": "95000000",
       "residents": [
-        83
+        "people/83"
       ],
       "films": [
-        6
+        "films/6"
       ],
-      "created": "2014-12-10T12:49:01.491000Z",
-      "edited": "2014-12-20T20:58:18.439000Z",
-      "id": 12
+      "id": "planets/12"
     },
     {
       "name": "Mustafar",
@@ -3349,11 +3087,9 @@
       "population": "20000",
       "residents": [],
       "films": [
-        6
+        "films/6"
       ],
-      "created": "2014-12-10T12:50:16.526000Z",
-      "edited": "2014-12-20T20:58:18.440000Z",
-      "id": 13
+      "id": "planets/13"
     },
     {
       "name": "Kashyyyk",
@@ -3366,15 +3102,13 @@
       "surface_water": "60",
       "population": "45000000",
       "residents": [
-        13,
-        80
+        "people/13",
+        "people/80"
       ],
       "films": [
-        6
+        "films/6"
       ],
-      "created": "2014-12-10T13:32:00.124000Z",
-      "edited": "2014-12-20T20:58:18.442000Z",
-      "id": 14
+      "id": "planets/14"
     },
     {
       "name": "Polis Massa",
@@ -3388,11 +3122,9 @@
       "population": "1000000",
       "residents": [],
       "films": [
-        6
+        "films/6"
       ],
-      "created": "2014-12-10T13:33:46.405000Z",
-      "edited": "2014-12-20T20:58:18.444000Z",
-      "id": 15
+      "id": "planets/15"
     },
     {
       "name": "Mygeeto",
@@ -3406,11 +3138,9 @@
       "population": "19000000",
       "residents": [],
       "films": [
-        6
+        "films/6"
       ],
-      "created": "2014-12-10T13:43:39.139000Z",
-      "edited": "2014-12-20T20:58:18.446000Z",
-      "id": 16
+      "id": "planets/16"
     },
     {
       "name": "Felucia",
@@ -3424,11 +3154,9 @@
       "population": "8500000",
       "residents": [],
       "films": [
-        6
+        "films/6"
       ],
-      "created": "2014-12-10T13:44:50.397000Z",
-      "edited": "2014-12-20T20:58:18.447000Z",
-      "id": 17
+      "id": "planets/17"
     },
     {
       "name": "Cato Neimoidia",
@@ -3441,14 +3169,12 @@
       "surface_water": "unknown",
       "population": "10000000",
       "residents": [
-        33
+        "people/33"
       ],
       "films": [
-        6
+        "films/6"
       ],
-      "created": "2014-12-10T13:46:28.704000Z",
-      "edited": "2014-12-20T20:58:18.449000Z",
-      "id": 18
+      "id": "planets/18"
     },
     {
       "name": "Saleucami",
@@ -3462,11 +3188,9 @@
       "population": "1400000000",
       "residents": [],
       "films": [
-        6
+        "films/6"
       ],
-      "created": "2014-12-10T13:47:46.874000Z",
-      "edited": "2014-12-20T20:58:18.450000Z",
-      "id": 19
+      "id": "planets/19"
     },
     {
       "name": "Stewjon",
@@ -3479,12 +3203,10 @@
       "surface_water": "unknown",
       "population": "unknown",
       "residents": [
-        10
+        "people/10"
       ],
       "films": [],
-      "created": "2014-12-10T16:16:26.566000Z",
-      "edited": "2014-12-20T20:58:18.452000Z",
-      "id": 20
+      "id": "planets/20"
     },
     {
       "name": "Eriadu",
@@ -3497,12 +3219,10 @@
       "surface_water": "unknown",
       "population": "22000000000",
       "residents": [
-        12
+        "people/12"
       ],
       "films": [],
-      "created": "2014-12-10T16:26:54.384000Z",
-      "edited": "2014-12-20T20:58:18.454000Z",
-      "id": 21
+      "id": "planets/21"
     },
     {
       "name": "Corellia",
@@ -3515,13 +3235,11 @@
       "surface_water": "70",
       "population": "3000000000",
       "residents": [
-        14,
-        18
+        "people/14",
+        "people/18"
       ],
       "films": [],
-      "created": "2014-12-10T16:49:12.453000Z",
-      "edited": "2014-12-20T20:58:18.456000Z",
-      "id": 22
+      "id": "planets/22"
     },
     {
       "name": "Rodia",
@@ -3534,12 +3252,10 @@
       "surface_water": "60",
       "population": "1300000000",
       "residents": [
-        15
+        "people/15"
       ],
       "films": [],
-      "created": "2014-12-10T17:03:28.110000Z",
-      "edited": "2014-12-20T20:58:18.458000Z",
-      "id": 23
+      "id": "planets/23"
     },
     {
       "name": "Nal Hutta",
@@ -3552,12 +3268,10 @@
       "surface_water": "unknown",
       "population": "7000000000",
       "residents": [
-        16
+        "people/16"
       ],
       "films": [],
-      "created": "2014-12-10T17:11:29.452000Z",
-      "edited": "2014-12-20T20:58:18.460000Z",
-      "id": 24
+      "id": "planets/24"
     },
     {
       "name": "Dantooine",
@@ -3571,9 +3285,7 @@
       "population": "1000",
       "residents": [],
       "films": [],
-      "created": "2014-12-10T17:23:29.896000Z",
-      "edited": "2014-12-20T20:58:18.461000Z",
-      "id": 25
+      "id": "planets/25"
     },
     {
       "name": "Bestine IV",
@@ -3586,12 +3298,10 @@
       "surface_water": "98",
       "population": "62000000",
       "residents": [
-        19
+        "people/19"
       ],
       "films": [],
-      "created": "2014-12-12T11:16:55.078000Z",
-      "edited": "2014-12-20T20:58:18.463000Z",
-      "id": 26
+      "id": "planets/26"
     },
     {
       "name": "Ord Mantell",
@@ -3605,11 +3315,9 @@
       "population": "4000000000",
       "residents": [],
       "films": [
-        2
+        "films/2"
       ],
-      "created": "2014-12-15T12:23:41.661000Z",
-      "edited": "2014-12-20T20:58:18.464000Z",
-      "id": 27
+      "id": "planets/27"
     },
     {
       "name": "unknown",
@@ -3622,21 +3330,19 @@
       "surface_water": "unknown",
       "population": "unknown",
       "residents": [
-        20,
-        23,
-        29,
-        32,
-        75,
-        84,
-        85,
-        86,
-        87,
-        88
+        "people/20",
+        "people/23",
+        "people/29",
+        "people/32",
+        "people/75",
+        "people/84",
+        "people/85",
+        "people/86",
+        "people/87",
+        "people/88"
       ],
       "films": [],
-      "created": "2014-12-15T12:25:59.569000Z",
-      "edited": "2014-12-20T20:58:18.466000Z",
-      "id": 28
+      "id": "planets/28"
     },
     {
       "name": "Trandosha",
@@ -3649,12 +3355,10 @@
       "surface_water": "unknown",
       "population": "42000000",
       "residents": [
-        24
+        "people/24"
       ],
       "films": [],
-      "created": "2014-12-15T12:53:47.695000Z",
-      "edited": "2014-12-20T20:58:18.468000Z",
-      "id": 29
+      "id": "planets/29"
     },
     {
       "name": "Socorro",
@@ -3667,12 +3371,10 @@
       "surface_water": "unknown",
       "population": "300000000",
       "residents": [
-        25
+        "people/25"
       ],
       "films": [],
-      "created": "2014-12-15T12:56:31.121000Z",
-      "edited": "2014-12-20T20:58:18.469000Z",
-      "id": 30
+      "id": "planets/30"
     },
     {
       "name": "Mon Cala",
@@ -3685,12 +3387,10 @@
       "surface_water": "100",
       "population": "27000000000",
       "residents": [
-        27
+        "people/27"
       ],
       "films": [],
-      "created": "2014-12-18T11:07:01.792000Z",
-      "edited": "2014-12-20T20:58:18.471000Z",
-      "id": 31
+      "id": "planets/31"
     },
     {
       "name": "Chandrila",
@@ -3703,12 +3403,10 @@
       "surface_water": "40",
       "population": "1200000000",
       "residents": [
-        28
+        "people/28"
       ],
       "films": [],
-      "created": "2014-12-18T11:11:51.872000Z",
-      "edited": "2014-12-20T20:58:18.472000Z",
-      "id": 32
+      "id": "planets/32"
     },
     {
       "name": "Sullust",
@@ -3721,12 +3419,10 @@
       "surface_water": "5",
       "population": "18500000000",
       "residents": [
-        31
+        "people/31"
       ],
       "films": [],
-      "created": "2014-12-18T11:25:40.243000Z",
-      "edited": "2014-12-20T20:58:18.474000Z",
-      "id": 33
+      "id": "planets/33"
     },
     {
       "name": "Toydaria",
@@ -3739,12 +3435,10 @@
       "surface_water": "unknown",
       "population": "11000000",
       "residents": [
-        40
+        "people/40"
       ],
       "films": [],
-      "created": "2014-12-19T17:47:54.403000Z",
-      "edited": "2014-12-20T20:58:18.476000Z",
-      "id": 34
+      "id": "planets/34"
     },
     {
       "name": "Malastare",
@@ -3757,12 +3451,10 @@
       "surface_water": "unknown",
       "population": "2000000000",
       "residents": [
-        41
+        "people/41"
       ],
       "films": [],
-      "created": "2014-12-19T17:52:13.106000Z",
-      "edited": "2014-12-20T20:58:18.478000Z",
-      "id": 35
+      "id": "planets/35"
     },
     {
       "name": "Dathomir",
@@ -3775,12 +3467,10 @@
       "surface_water": "unknown",
       "population": "5200",
       "residents": [
-        44
+        "people/44"
       ],
       "films": [],
-      "created": "2014-12-19T18:00:40.142000Z",
-      "edited": "2014-12-20T20:58:18.480000Z",
-      "id": 36
+      "id": "planets/36"
     },
     {
       "name": "Ryloth",
@@ -3793,13 +3483,11 @@
       "surface_water": "5",
       "population": "1500000000",
       "residents": [
-        45,
-        46
+        "people/45",
+        "people/46"
       ],
       "films": [],
-      "created": "2014-12-20T09:46:25.740000Z",
-      "edited": "2014-12-20T20:58:18.481000Z",
-      "id": 37
+      "id": "planets/37"
     },
     {
       "name": "Aleen Minor",
@@ -3812,12 +3500,10 @@
       "surface_water": "unknown",
       "population": "unknown",
       "residents": [
-        47
+        "people/47"
       ],
       "films": [],
-      "created": "2014-12-20T09:52:23.452000Z",
-      "edited": "2014-12-20T20:58:18.483000Z",
-      "id": 38
+      "id": "planets/38"
     },
     {
       "name": "Vulpter",
@@ -3830,12 +3516,10 @@
       "surface_water": "unknown",
       "population": "421000000",
       "residents": [
-        48
+        "people/48"
       ],
       "films": [],
-      "created": "2014-12-20T09:56:58.874000Z",
-      "edited": "2014-12-20T20:58:18.485000Z",
-      "id": 39
+      "id": "planets/39"
     },
     {
       "name": "Troiken",
@@ -3848,12 +3532,10 @@
       "surface_water": "unknown",
       "population": "unknown",
       "residents": [
-        49
+        "people/49"
       ],
       "films": [],
-      "created": "2014-12-20T10:01:37.395000Z",
-      "edited": "2014-12-20T20:58:18.487000Z",
-      "id": 40
+      "id": "planets/40"
     },
     {
       "name": "Tund",
@@ -3866,12 +3548,10 @@
       "surface_water": "unknown",
       "population": "0",
       "residents": [
-        50
+        "people/50"
       ],
       "films": [],
-      "created": "2014-12-20T10:07:29.578000Z",
-      "edited": "2014-12-20T20:58:18.489000Z",
-      "id": 41
+      "id": "planets/41"
     },
     {
       "name": "Haruun Kal",
@@ -3884,12 +3564,10 @@
       "surface_water": "unknown",
       "population": "705300",
       "residents": [
-        51
+        "people/51"
       ],
       "films": [],
-      "created": "2014-12-20T10:12:28.980000Z",
-      "edited": "2014-12-20T20:58:18.491000Z",
-      "id": 42
+      "id": "planets/42"
     },
     {
       "name": "Cerea",
@@ -3902,12 +3580,10 @@
       "surface_water": "20",
       "population": "450000000",
       "residents": [
-        52
+        "people/52"
       ],
       "films": [],
-      "created": "2014-12-20T10:14:48.178000Z",
-      "edited": "2014-12-20T20:58:18.493000Z",
-      "id": 43
+      "id": "planets/43"
     },
     {
       "name": "Glee Anselm",
@@ -3920,12 +3596,10 @@
       "surface_water": "80",
       "population": "500000000",
       "residents": [
-        53
+        "people/53"
       ],
       "films": [],
-      "created": "2014-12-20T10:18:26.110000Z",
-      "edited": "2014-12-20T20:58:18.495000Z",
-      "id": 44
+      "id": "planets/44"
     },
     {
       "name": "Iridonia",
@@ -3938,12 +3612,10 @@
       "surface_water": "unknown",
       "population": "unknown",
       "residents": [
-        54
+        "people/54"
       ],
       "films": [],
-      "created": "2014-12-20T10:26:05.788000Z",
-      "edited": "2014-12-20T20:58:18.497000Z",
-      "id": 45
+      "id": "planets/45"
     },
     {
       "name": "Tholoth",
@@ -3957,9 +3629,7 @@
       "population": "unknown",
       "residents": [],
       "films": [],
-      "created": "2014-12-20T10:28:31.117000Z",
-      "edited": "2014-12-20T20:58:18.498000Z",
-      "id": 46
+      "id": "planets/46"
     },
     {
       "name": "Iktotch",
@@ -3972,12 +3642,10 @@
       "surface_water": "unknown",
       "population": "unknown",
       "residents": [
-        56
+        "people/56"
       ],
       "films": [],
-      "created": "2014-12-20T10:31:32.413000Z",
-      "edited": "2014-12-20T20:58:18.500000Z",
-      "id": 47
+      "id": "planets/47"
     },
     {
       "name": "Quermia",
@@ -3990,12 +3658,10 @@
       "surface_water": "unknown",
       "population": "unknown",
       "residents": [
-        57
+        "people/57"
       ],
       "films": [],
-      "created": "2014-12-20T10:34:08.249000Z",
-      "edited": "2014-12-20T20:58:18.502000Z",
-      "id": 48
+      "id": "planets/48"
     },
     {
       "name": "Dorin",
@@ -4008,12 +3674,10 @@
       "surface_water": "unknown",
       "population": "unknown",
       "residents": [
-        58
+        "people/58"
       ],
       "films": [],
-      "created": "2014-12-20T10:48:36.141000Z",
-      "edited": "2014-12-20T20:58:18.504000Z",
-      "id": 49
+      "id": "planets/49"
     },
     {
       "name": "Champala",
@@ -4026,12 +3690,10 @@
       "surface_water": "unknown",
       "population": "3500000000",
       "residents": [
-        59
+        "people/59"
       ],
       "films": [],
-      "created": "2014-12-20T10:52:51.524000Z",
-      "edited": "2014-12-20T20:58:18.506000Z",
-      "id": 50
+      "id": "planets/50"
     },
     {
       "name": "Mirial",
@@ -4044,13 +3706,11 @@
       "surface_water": "unknown",
       "population": "unknown",
       "residents": [
-        64,
-        65
+        "people/64",
+        "people/65"
       ],
       "films": [],
-      "created": "2014-12-20T16:44:46.318000Z",
-      "edited": "2014-12-20T20:58:18.508000Z",
-      "id": 51
+      "id": "planets/51"
     },
     {
       "name": "Serenno",
@@ -4063,12 +3723,10 @@
       "surface_water": "unknown",
       "population": "unknown",
       "residents": [
-        67
+        "people/67"
       ],
       "films": [],
-      "created": "2014-12-20T16:52:13.357000Z",
-      "edited": "2014-12-20T20:58:18.510000Z",
-      "id": 52
+      "id": "planets/52"
     },
     {
       "name": "Concord Dawn",
@@ -4081,12 +3739,10 @@
       "surface_water": "unknown",
       "population": "unknown",
       "residents": [
-        69
+        "people/69"
       ],
       "films": [],
-      "created": "2014-12-20T16:54:39.909000Z",
-      "edited": "2014-12-20T20:58:18.512000Z",
-      "id": 53
+      "id": "planets/53"
     },
     {
       "name": "Zolan",
@@ -4099,12 +3755,10 @@
       "surface_water": "unknown",
       "population": "unknown",
       "residents": [
-        70
+        "people/70"
       ],
       "films": [],
-      "created": "2014-12-20T16:56:37.250000Z",
-      "edited": "2014-12-20T20:58:18.514000Z",
-      "id": 54
+      "id": "planets/54"
     },
     {
       "name": "Ojom",
@@ -4117,12 +3771,10 @@
       "surface_water": "100",
       "population": "500000000",
       "residents": [
-        71
+        "people/71"
       ],
       "films": [],
-      "created": "2014-12-20T17:27:41.286000Z",
-      "edited": "2014-12-20T20:58:18.516000Z",
-      "id": 55
+      "id": "planets/55"
     },
     {
       "name": "Skako",
@@ -4135,12 +3787,10 @@
       "surface_water": "unknown",
       "population": "500000000000",
       "residents": [
-        76
+        "people/76"
       ],
       "films": [],
-      "created": "2014-12-20T17:50:47.864000Z",
-      "edited": "2014-12-20T20:58:18.517000Z",
-      "id": 56
+      "id": "planets/56"
     },
     {
       "name": "Muunilinst",
@@ -4153,12 +3803,10 @@
       "surface_water": "25",
       "population": "5000000000",
       "residents": [
-        77
+        "people/77"
       ],
       "films": [],
-      "created": "2014-12-20T17:57:47.420000Z",
-      "edited": "2014-12-20T20:58:18.519000Z",
-      "id": 57
+      "id": "planets/57"
     },
     {
       "name": "Shili",
@@ -4171,12 +3819,10 @@
       "surface_water": "unknown",
       "population": "unknown",
       "residents": [
-        78
+        "people/78"
       ],
       "films": [],
-      "created": "2014-12-20T18:43:14.049000Z",
-      "edited": "2014-12-20T20:58:18.521000Z",
-      "id": 58
+      "id": "planets/58"
     },
     {
       "name": "Kalee",
@@ -4189,12 +3835,10 @@
       "surface_water": "unknown",
       "population": "4000000000",
       "residents": [
-        79
+        "people/79"
       ],
       "films": [],
-      "created": "2014-12-20T19:43:51.278000Z",
-      "edited": "2014-12-20T20:58:18.523000Z",
-      "id": 59
+      "id": "planets/59"
     },
     {
       "name": "Umbara",
@@ -4207,12 +3851,10 @@
       "surface_water": "unknown",
       "population": "unknown",
       "residents": [
-        82
+        "people/82"
       ],
       "films": [],
-      "created": "2014-12-20T20:18:36.256000Z",
-      "edited": "2014-12-20T20:58:18.525000Z",
-      "id": 60
+      "id": "planets/60"
     },
     {
       "name": "Tatooine",
@@ -4225,27 +3867,25 @@
       "surface_water": "1",
       "population": "200000",
       "residents": [
-        1,
-        2,
-        4,
-        6,
-        7,
-        8,
-        9,
-        11,
-        43,
-        62
+        "people/1",
+        "people/2",
+        "people/4",
+        "people/6",
+        "people/7",
+        "people/8",
+        "people/9",
+        "people/11",
+        "people/43",
+        "people/62"
       ],
       "films": [
-        5,
-        4,
-        6,
-        3,
-        1
+        "films/5",
+        "films/4",
+        "films/6",
+        "films/3",
+        "films/1"
       ],
-      "created": "2014-12-09T13:50:49.641000Z",
-      "edited": "2014-12-21T20:48:04.175778Z",
-      "id": 1
+      "id": "planets/1"
     },
     {
       "name": "Jakku",
@@ -4259,11 +3899,9 @@
       "population": "unknown",
       "residents": [],
       "films": [
-        7
+        "films/7"
       ],
-      "created": "2015-04-17T06:55:57.556495Z",
-      "edited": "2015-04-17T06:55:57.556551Z",
-      "id": 61
+      "id": "planets/61"
     }
   ],
   "people": [
@@ -4276,28 +3914,26 @@
       "eye_color": "blue",
       "birth_year": "19BBY",
       "gender": "male",
-      "homeworld": 1,
+      "homeworld": "planets/1",
       "films": [
-        2,
-        6,
-        3,
-        1,
-        7
+        "films/2",
+        "films/6",
+        "films/3",
+        "films/1",
+        "films/7"
       ],
       "species": [
-        1
+        "species/1"
       ],
       "vehicles": [
-        14,
-        30
+        "vehicles/14",
+        "vehicles/30"
       ],
       "starships": [
-        12,
-        22
+        "starships/12",
+        "starships/22"
       ],
-      "created": "2014-12-09T13:50:51.644000Z",
-      "edited": "2014-12-20T21:17:56.891000Z",
-      "id": 1
+      "id": "people/1"
     },
     {
       "name": "C-3PO",
@@ -4308,23 +3944,21 @@
       "eye_color": "yellow",
       "birth_year": "112BBY",
       "gender": "n/a",
-      "homeworld": 1,
+      "homeworld": "planets/1",
       "films": [
-        2,
-        5,
-        4,
-        6,
-        3,
-        1
+        "films/2",
+        "films/5",
+        "films/4",
+        "films/6",
+        "films/3",
+        "films/1"
       ],
       "species": [
-        2
+        "species/2"
       ],
       "vehicles": [],
       "starships": [],
-      "created": "2014-12-10T15:10:51.357000Z",
-      "edited": "2014-12-20T21:17:50.309000Z",
-      "id": 2
+      "id": "people/2"
     },
     {
       "name": "R2-D2",
@@ -4335,24 +3969,22 @@
       "eye_color": "red",
       "birth_year": "33BBY",
       "gender": "n/a",
-      "homeworld": 8,
+      "homeworld": "planets/8",
       "films": [
-        2,
-        5,
-        4,
-        6,
-        3,
-        1,
-        7
+        "films/2",
+        "films/5",
+        "films/4",
+        "films/6",
+        "films/3",
+        "films/1",
+        "films/7"
       ],
       "species": [
-        2
+        "species/2"
       ],
       "vehicles": [],
       "starships": [],
-      "created": "2014-12-10T15:11:50.376000Z",
-      "edited": "2014-12-20T21:17:50.311000Z",
-      "id": 3
+      "id": "people/3"
     },
     {
       "name": "Darth Vader",
@@ -4363,23 +3995,21 @@
       "eye_color": "yellow",
       "birth_year": "41.9BBY",
       "gender": "male",
-      "homeworld": 1,
+      "homeworld": "planets/1",
       "films": [
-        2,
-        6,
-        3,
-        1
+        "films/2",
+        "films/6",
+        "films/3",
+        "films/1"
       ],
       "species": [
-        1
+        "species/1"
       ],
       "vehicles": [],
       "starships": [
-        13
+        "starships/13"
       ],
-      "created": "2014-12-10T15:18:20.704000Z",
-      "edited": "2014-12-20T21:17:50.313000Z",
-      "id": 4
+      "id": "people/4"
     },
     {
       "name": "Leia Organa",
@@ -4390,24 +4020,22 @@
       "eye_color": "brown",
       "birth_year": "19BBY",
       "gender": "female",
-      "homeworld": 2,
+      "homeworld": "planets/2",
       "films": [
-        2,
-        6,
-        3,
-        1,
-        7
+        "films/2",
+        "films/6",
+        "films/3",
+        "films/1",
+        "films/7"
       ],
       "species": [
-        1
+        "species/1"
       ],
       "vehicles": [
-        30
+        "vehicles/30"
       ],
       "starships": [],
-      "created": "2014-12-10T15:20:09.791000Z",
-      "edited": "2014-12-20T21:17:50.315000Z",
-      "id": 5
+      "id": "people/5"
     },
     {
       "name": "Owen Lars",
@@ -4418,20 +4046,18 @@
       "eye_color": "blue",
       "birth_year": "52BBY",
       "gender": "male",
-      "homeworld": 1,
+      "homeworld": "planets/1",
       "films": [
-        5,
-        6,
-        1
+        "films/5",
+        "films/6",
+        "films/1"
       ],
       "species": [
-        1
+        "species/1"
       ],
       "vehicles": [],
       "starships": [],
-      "created": "2014-12-10T15:52:14.024000Z",
-      "edited": "2014-12-20T21:17:50.317000Z",
-      "id": 6
+      "id": "people/6"
     },
     {
       "name": "Beru Whitesun lars",
@@ -4442,20 +4068,18 @@
       "eye_color": "blue",
       "birth_year": "47BBY",
       "gender": "female",
-      "homeworld": 1,
+      "homeworld": "planets/1",
       "films": [
-        5,
-        6,
-        1
+        "films/5",
+        "films/6",
+        "films/1"
       ],
       "species": [
-        1
+        "species/1"
       ],
       "vehicles": [],
       "starships": [],
-      "created": "2014-12-10T15:53:41.121000Z",
-      "edited": "2014-12-20T21:17:50.319000Z",
-      "id": 7
+      "id": "people/7"
     },
     {
       "name": "R5-D4",
@@ -4466,18 +4090,16 @@
       "eye_color": "red",
       "birth_year": "unknown",
       "gender": "n/a",
-      "homeworld": 1,
+      "homeworld": "planets/1",
       "films": [
-        1
+        "films/1"
       ],
       "species": [
-        2
+        "species/2"
       ],
       "vehicles": [],
       "starships": [],
-      "created": "2014-12-10T15:57:50.959000Z",
-      "edited": "2014-12-20T21:17:50.321000Z",
-      "id": 8
+      "id": "people/8"
     },
     {
       "name": "Biggs Darklighter",
@@ -4488,20 +4110,18 @@
       "eye_color": "brown",
       "birth_year": "24BBY",
       "gender": "male",
-      "homeworld": 1,
+      "homeworld": "planets/1",
       "films": [
-        1
+        "films/1"
       ],
       "species": [
-        1
+        "species/1"
       ],
       "vehicles": [],
       "starships": [
-        12
+        "starships/12"
       ],
-      "created": "2014-12-10T15:59:50.509000Z",
-      "edited": "2014-12-20T21:17:50.323000Z",
-      "id": 9
+      "id": "people/9"
     },
     {
       "name": "Obi-Wan Kenobi",
@@ -4512,31 +4132,29 @@
       "eye_color": "blue-gray",
       "birth_year": "57BBY",
       "gender": "male",
-      "homeworld": 20,
+      "homeworld": "planets/20",
       "films": [
-        2,
-        5,
-        4,
-        6,
-        3,
-        1
+        "films/2",
+        "films/5",
+        "films/4",
+        "films/6",
+        "films/3",
+        "films/1"
       ],
       "species": [
-        1
+        "species/1"
       ],
       "vehicles": [
-        38
+        "vehicles/38"
       ],
       "starships": [
-        48,
-        59,
-        64,
-        65,
-        74
+        "starships/48",
+        "starships/59",
+        "starships/64",
+        "starships/65",
+        "starships/74"
       ],
-      "created": "2014-12-10T16:16:29.192000Z",
-      "edited": "2014-12-20T21:17:50.325000Z",
-      "id": 10
+      "id": "people/10"
     },
     {
       "name": "Anakin Skywalker",
@@ -4547,27 +4165,25 @@
       "eye_color": "blue",
       "birth_year": "41.9BBY",
       "gender": "male",
-      "homeworld": 1,
+      "homeworld": "planets/1",
       "films": [
-        5,
-        4,
-        6
+        "films/5",
+        "films/4",
+        "films/6"
       ],
       "species": [
-        1
+        "species/1"
       ],
       "vehicles": [
-        44,
-        46
+        "vehicles/44",
+        "vehicles/46"
       ],
       "starships": [
-        59,
-        65,
-        39
+        "starships/59",
+        "starships/65",
+        "starships/39"
       ],
-      "created": "2014-12-10T16:20:44.310000Z",
-      "edited": "2014-12-20T21:17:50.327000Z",
-      "id": 11
+      "id": "people/11"
     },
     {
       "name": "Wilhuff Tarkin",
@@ -4578,19 +4194,17 @@
       "eye_color": "blue",
       "birth_year": "64BBY",
       "gender": "male",
-      "homeworld": 21,
+      "homeworld": "planets/21",
       "films": [
-        6,
-        1
+        "films/6",
+        "films/1"
       ],
       "species": [
-        1
+        "species/1"
       ],
       "vehicles": [],
       "starships": [],
-      "created": "2014-12-10T16:26:56.138000Z",
-      "edited": "2014-12-20T21:17:50.330000Z",
-      "id": 12
+      "id": "people/12"
     },
     {
       "name": "Chewbacca",
@@ -4601,27 +4215,25 @@
       "eye_color": "blue",
       "birth_year": "200BBY",
       "gender": "male",
-      "homeworld": 14,
+      "homeworld": "planets/14",
       "films": [
-        2,
-        6,
-        3,
-        1,
-        7
+        "films/2",
+        "films/6",
+        "films/3",
+        "films/1",
+        "films/7"
       ],
       "species": [
-        3
+        "species/3"
       ],
       "vehicles": [
-        19
+        "vehicles/19"
       ],
       "starships": [
-        10,
-        22
+        "starships/10",
+        "starships/22"
       ],
-      "created": "2014-12-10T16:42:45.066000Z",
-      "edited": "2014-12-20T21:17:50.332000Z",
-      "id": 13
+      "id": "people/13"
     },
     {
       "name": "Han Solo",
@@ -4632,24 +4244,22 @@
       "eye_color": "brown",
       "birth_year": "29BBY",
       "gender": "male",
-      "homeworld": 22,
+      "homeworld": "planets/22",
       "films": [
-        2,
-        3,
-        1,
-        7
+        "films/2",
+        "films/3",
+        "films/1",
+        "films/7"
       ],
       "species": [
-        1
+        "species/1"
       ],
       "vehicles": [],
       "starships": [
-        10,
-        22
+        "starships/10",
+        "starships/22"
       ],
-      "created": "2014-12-10T16:49:14.582000Z",
-      "edited": "2014-12-20T21:17:50.334000Z",
-      "id": 14
+      "id": "people/14"
     },
     {
       "name": "Greedo",
@@ -4660,18 +4270,16 @@
       "eye_color": "black",
       "birth_year": "44BBY",
       "gender": "male",
-      "homeworld": 23,
+      "homeworld": "planets/23",
       "films": [
-        1
+        "films/1"
       ],
       "species": [
-        4
+        "species/4"
       ],
       "vehicles": [],
       "starships": [],
-      "created": "2014-12-10T17:03:30.334000Z",
-      "edited": "2014-12-20T21:17:50.336000Z",
-      "id": 15
+      "id": "people/15"
     },
     {
       "name": "Jabba Desilijic Tiure",
@@ -4682,20 +4290,18 @@
       "eye_color": "orange",
       "birth_year": "600BBY",
       "gender": "hermaphrodite",
-      "homeworld": 24,
+      "homeworld": "planets/24",
       "films": [
-        4,
-        3,
-        1
+        "films/4",
+        "films/3",
+        "films/1"
       ],
       "species": [
-        5
+        "species/5"
       ],
       "vehicles": [],
       "starships": [],
-      "created": "2014-12-10T17:11:31.638000Z",
-      "edited": "2014-12-20T21:17:50.338000Z",
-      "id": 16
+      "id": "people/16"
     },
     {
       "name": "Wedge Antilles",
@@ -4706,24 +4312,22 @@
       "eye_color": "hazel",
       "birth_year": "21BBY",
       "gender": "male",
-      "homeworld": 22,
+      "homeworld": "planets/22",
       "films": [
-        2,
-        3,
-        1
+        "films/2",
+        "films/3",
+        "films/1"
       ],
       "species": [
-        1
+        "species/1"
       ],
       "vehicles": [
-        14
+        "vehicles/14"
       ],
       "starships": [
-        12
+        "starships/12"
       ],
-      "created": "2014-12-12T11:08:06.469000Z",
-      "edited": "2014-12-20T21:17:50.341000Z",
-      "id": 18
+      "id": "people/18"
     },
     {
       "name": "Jek Tono Porkins",
@@ -4734,20 +4338,18 @@
       "eye_color": "blue",
       "birth_year": "unknown",
       "gender": "male",
-      "homeworld": 26,
+      "homeworld": "planets/26",
       "films": [
-        1
+        "films/1"
       ],
       "species": [
-        1
+        "species/1"
       ],
       "vehicles": [],
       "starships": [
-        12
+        "starships/12"
       ],
-      "created": "2014-12-12T11:16:56.569000Z",
-      "edited": "2014-12-20T21:17:50.343000Z",
-      "id": 19
+      "id": "people/19"
     },
     {
       "name": "Yoda",
@@ -4758,22 +4360,20 @@
       "eye_color": "brown",
       "birth_year": "896BBY",
       "gender": "male",
-      "homeworld": 28,
+      "homeworld": "planets/28",
       "films": [
-        2,
-        5,
-        4,
-        6,
-        3
+        "films/2",
+        "films/5",
+        "films/4",
+        "films/6",
+        "films/3"
       ],
       "species": [
-        6
+        "species/6"
       ],
       "vehicles": [],
       "starships": [],
-      "created": "2014-12-15T12:26:01.042000Z",
-      "edited": "2014-12-20T21:17:50.345000Z",
-      "id": 20
+      "id": "people/20"
     },
     {
       "name": "Palpatine",
@@ -4784,22 +4384,20 @@
       "eye_color": "yellow",
       "birth_year": "82BBY",
       "gender": "male",
-      "homeworld": 8,
+      "homeworld": "planets/8",
       "films": [
-        2,
-        5,
-        4,
-        6,
-        3
+        "films/2",
+        "films/5",
+        "films/4",
+        "films/6",
+        "films/3"
       ],
       "species": [
-        1
+        "species/1"
       ],
       "vehicles": [],
       "starships": [],
-      "created": "2014-12-15T12:48:05.971000Z",
-      "edited": "2014-12-20T21:17:50.347000Z",
-      "id": 21
+      "id": "people/21"
     },
     {
       "name": "Boba Fett",
@@ -4810,22 +4408,20 @@
       "eye_color": "brown",
       "birth_year": "31.5BBY",
       "gender": "male",
-      "homeworld": 10,
+      "homeworld": "planets/10",
       "films": [
-        2,
-        5,
-        3
+        "films/2",
+        "films/5",
+        "films/3"
       ],
       "species": [
-        1
+        "species/1"
       ],
       "vehicles": [],
       "starships": [
-        21
+        "starships/21"
       ],
-      "created": "2014-12-15T12:49:32.457000Z",
-      "edited": "2014-12-20T21:17:50.349000Z",
-      "id": 22
+      "id": "people/22"
     },
     {
       "name": "IG-88",
@@ -4836,18 +4432,16 @@
       "eye_color": "red",
       "birth_year": "15BBY",
       "gender": "none",
-      "homeworld": 28,
+      "homeworld": "planets/28",
       "films": [
-        2
+        "films/2"
       ],
       "species": [
-        2
+        "species/2"
       ],
       "vehicles": [],
       "starships": [],
-      "created": "2014-12-15T12:51:10.076000Z",
-      "edited": "2014-12-20T21:17:50.351000Z",
-      "id": 23
+      "id": "people/23"
     },
     {
       "name": "Bossk",
@@ -4858,18 +4452,16 @@
       "eye_color": "red",
       "birth_year": "53BBY",
       "gender": "male",
-      "homeworld": 29,
+      "homeworld": "planets/29",
       "films": [
-        2
+        "films/2"
       ],
       "species": [
-        7
+        "species/7"
       ],
       "vehicles": [],
       "starships": [],
-      "created": "2014-12-15T12:53:49.297000Z",
-      "edited": "2014-12-20T21:17:50.355000Z",
-      "id": 24
+      "id": "people/24"
     },
     {
       "name": "Lando Calrissian",
@@ -4880,21 +4472,19 @@
       "eye_color": "brown",
       "birth_year": "31BBY",
       "gender": "male",
-      "homeworld": 30,
+      "homeworld": "planets/30",
       "films": [
-        2,
-        3
+        "films/2",
+        "films/3"
       ],
       "species": [
-        1
+        "species/1"
       ],
       "vehicles": [],
       "starships": [
-        10
+        "starships/10"
       ],
-      "created": "2014-12-15T12:56:32.683000Z",
-      "edited": "2014-12-20T21:17:50.357000Z",
-      "id": 25
+      "id": "people/25"
     },
     {
       "name": "Lobot",
@@ -4905,18 +4495,16 @@
       "eye_color": "blue",
       "birth_year": "37BBY",
       "gender": "male",
-      "homeworld": 6,
+      "homeworld": "planets/6",
       "films": [
-        2
+        "films/2"
       ],
       "species": [
-        1
+        "species/1"
       ],
       "vehicles": [],
       "starships": [],
-      "created": "2014-12-15T13:01:57.178000Z",
-      "edited": "2014-12-20T21:17:50.359000Z",
-      "id": 26
+      "id": "people/26"
     },
     {
       "name": "Ackbar",
@@ -4927,19 +4515,17 @@
       "eye_color": "orange",
       "birth_year": "41BBY",
       "gender": "male",
-      "homeworld": 31,
+      "homeworld": "planets/31",
       "films": [
-        3,
-        7
+        "films/3",
+        "films/7"
       ],
       "species": [
-        8
+        "species/8"
       ],
       "vehicles": [],
       "starships": [],
-      "created": "2014-12-18T11:07:50.584000Z",
-      "edited": "2014-12-20T21:17:50.362000Z",
-      "id": 27
+      "id": "people/27"
     },
     {
       "name": "Mon Mothma",
@@ -4950,18 +4536,16 @@
       "eye_color": "blue",
       "birth_year": "48BBY",
       "gender": "female",
-      "homeworld": 32,
+      "homeworld": "planets/32",
       "films": [
-        3
+        "films/3"
       ],
       "species": [
-        1
+        "species/1"
       ],
       "vehicles": [],
       "starships": [],
-      "created": "2014-12-18T11:12:38.895000Z",
-      "edited": "2014-12-20T21:17:50.364000Z",
-      "id": 28
+      "id": "people/28"
     },
     {
       "name": "Arvel Crynyd",
@@ -4972,20 +4556,18 @@
       "eye_color": "brown",
       "birth_year": "unknown",
       "gender": "male",
-      "homeworld": 28,
+      "homeworld": "planets/28",
       "films": [
-        3
+        "films/3"
       ],
       "species": [
-        1
+        "species/1"
       ],
       "vehicles": [],
       "starships": [
-        28
+        "starships/28"
       ],
-      "created": "2014-12-18T11:16:33.020000Z",
-      "edited": "2014-12-20T21:17:50.367000Z",
-      "id": 29
+      "id": "people/29"
     },
     {
       "name": "Wicket Systri Warrick",
@@ -4996,18 +4578,16 @@
       "eye_color": "brown",
       "birth_year": "8BBY",
       "gender": "male",
-      "homeworld": 7,
+      "homeworld": "planets/7",
       "films": [
-        3
+        "films/3"
       ],
       "species": [
-        9
+        "species/9"
       ],
       "vehicles": [],
       "starships": [],
-      "created": "2014-12-18T11:21:58.954000Z",
-      "edited": "2014-12-20T21:17:50.369000Z",
-      "id": 30
+      "id": "people/30"
     },
     {
       "name": "Nien Nunb",
@@ -5018,20 +4598,18 @@
       "eye_color": "black",
       "birth_year": "unknown",
       "gender": "male",
-      "homeworld": 33,
+      "homeworld": "planets/33",
       "films": [
-        3
+        "films/3"
       ],
       "species": [
-        10
+        "species/10"
       ],
       "vehicles": [],
       "starships": [
-        10
+        "starships/10"
       ],
-      "created": "2014-12-18T11:26:18.541000Z",
-      "edited": "2014-12-20T21:17:50.371000Z",
-      "id": 31
+      "id": "people/31"
     },
     {
       "name": "Qui-Gon Jinn",
@@ -5042,20 +4620,18 @@
       "eye_color": "blue",
       "birth_year": "92BBY",
       "gender": "male",
-      "homeworld": 28,
+      "homeworld": "planets/28",
       "films": [
-        4
+        "films/4"
       ],
       "species": [
-        1
+        "species/1"
       ],
       "vehicles": [
-        38
+        "vehicles/38"
       ],
       "starships": [],
-      "created": "2014-12-19T16:54:53.618000Z",
-      "edited": "2014-12-20T21:17:50.375000Z",
-      "id": 32
+      "id": "people/32"
     },
     {
       "name": "Nute Gunray",
@@ -5066,20 +4642,18 @@
       "eye_color": "red",
       "birth_year": "unknown",
       "gender": "male",
-      "homeworld": 18,
+      "homeworld": "planets/18",
       "films": [
-        5,
-        4,
-        6
+        "films/5",
+        "films/4",
+        "films/6"
       ],
       "species": [
-        11
+        "species/11"
       ],
       "vehicles": [],
       "starships": [],
-      "created": "2014-12-19T17:05:57.357000Z",
-      "edited": "2014-12-20T21:17:50.377000Z",
-      "id": 33
+      "id": "people/33"
     },
     {
       "name": "Finis Valorum",
@@ -5090,18 +4664,16 @@
       "eye_color": "blue",
       "birth_year": "91BBY",
       "gender": "male",
-      "homeworld": 9,
+      "homeworld": "planets/9",
       "films": [
-        4
+        "films/4"
       ],
       "species": [
-        1
+        "species/1"
       ],
       "vehicles": [],
       "starships": [],
-      "created": "2014-12-19T17:21:45.915000Z",
-      "edited": "2014-12-20T21:17:50.379000Z",
-      "id": 34
+      "id": "people/34"
     },
     {
       "name": "Jar Jar Binks",
@@ -5112,19 +4684,17 @@
       "eye_color": "orange",
       "birth_year": "52BBY",
       "gender": "male",
-      "homeworld": 8,
+      "homeworld": "planets/8",
       "films": [
-        5,
-        4
+        "films/5",
+        "films/4"
       ],
       "species": [
-        12
+        "species/12"
       ],
       "vehicles": [],
       "starships": [],
-      "created": "2014-12-19T17:29:32.489000Z",
-      "edited": "2014-12-20T21:17:50.383000Z",
-      "id": 36
+      "id": "people/36"
     },
     {
       "name": "Roos Tarpals",
@@ -5135,18 +4705,16 @@
       "eye_color": "orange",
       "birth_year": "unknown",
       "gender": "male",
-      "homeworld": 8,
+      "homeworld": "planets/8",
       "films": [
-        4
+        "films/4"
       ],
       "species": [
-        12
+        "species/12"
       ],
       "vehicles": [],
       "starships": [],
-      "created": "2014-12-19T17:32:56.741000Z",
-      "edited": "2014-12-20T21:17:50.385000Z",
-      "id": 37
+      "id": "people/37"
     },
     {
       "name": "Rugor Nass",
@@ -5157,18 +4725,16 @@
       "eye_color": "orange",
       "birth_year": "unknown",
       "gender": "male",
-      "homeworld": 8,
+      "homeworld": "planets/8",
       "films": [
-        4
+        "films/4"
       ],
       "species": [
-        12
+        "species/12"
       ],
       "vehicles": [],
       "starships": [],
-      "created": "2014-12-19T17:33:38.909000Z",
-      "edited": "2014-12-20T21:17:50.388000Z",
-      "id": 38
+      "id": "people/38"
     },
     {
       "name": "Ric Olié",
@@ -5179,18 +4745,16 @@
       "eye_color": "blue",
       "birth_year": "unknown",
       "gender": "male",
-      "homeworld": 8,
+      "homeworld": "planets/8",
       "films": [
-        4
+        "films/4"
       ],
       "species": [],
       "vehicles": [],
       "starships": [
-        40
+        "starships/40"
       ],
-      "created": "2014-12-19T17:45:01.522000Z",
-      "edited": "2014-12-20T21:17:50.392000Z",
-      "id": 39
+      "id": "people/39"
     },
     {
       "name": "Watto",
@@ -5201,19 +4765,17 @@
       "eye_color": "yellow",
       "birth_year": "unknown",
       "gender": "male",
-      "homeworld": 34,
+      "homeworld": "planets/34",
       "films": [
-        5,
-        4
+        "films/5",
+        "films/4"
       ],
       "species": [
-        13
+        "species/13"
       ],
       "vehicles": [],
       "starships": [],
-      "created": "2014-12-19T17:48:54.647000Z",
-      "edited": "2014-12-20T21:17:50.395000Z",
-      "id": 40
+      "id": "people/40"
     },
     {
       "name": "Sebulba",
@@ -5224,18 +4786,16 @@
       "eye_color": "orange",
       "birth_year": "unknown",
       "gender": "male",
-      "homeworld": 35,
+      "homeworld": "planets/35",
       "films": [
-        4
+        "films/4"
       ],
       "species": [
-        14
+        "species/14"
       ],
       "vehicles": [],
       "starships": [],
-      "created": "2014-12-19T17:53:02.586000Z",
-      "edited": "2014-12-20T21:17:50.397000Z",
-      "id": 41
+      "id": "people/41"
     },
     {
       "name": "Quarsh Panaka",
@@ -5246,16 +4806,14 @@
       "eye_color": "brown",
       "birth_year": "62BBY",
       "gender": "male",
-      "homeworld": 8,
+      "homeworld": "planets/8",
       "films": [
-        4
+        "films/4"
       ],
       "species": [],
       "vehicles": [],
       "starships": [],
-      "created": "2014-12-19T17:55:43.348000Z",
-      "edited": "2014-12-20T21:17:50.399000Z",
-      "id": 42
+      "id": "people/42"
     },
     {
       "name": "Shmi Skywalker",
@@ -5266,19 +4824,17 @@
       "eye_color": "brown",
       "birth_year": "72BBY",
       "gender": "female",
-      "homeworld": 1,
+      "homeworld": "planets/1",
       "films": [
-        5,
-        4
+        "films/5",
+        "films/4"
       ],
       "species": [
-        1
+        "species/1"
       ],
       "vehicles": [],
       "starships": [],
-      "created": "2014-12-19T17:57:41.191000Z",
-      "edited": "2014-12-20T21:17:50.401000Z",
-      "id": 43
+      "id": "people/43"
     },
     {
       "name": "Darth Maul",
@@ -5289,22 +4845,20 @@
       "eye_color": "yellow",
       "birth_year": "54BBY",
       "gender": "male",
-      "homeworld": 36,
+      "homeworld": "planets/36",
       "films": [
-        4
+        "films/4"
       ],
       "species": [
-        22
+        "species/22"
       ],
       "vehicles": [
-        42
+        "vehicles/42"
       ],
       "starships": [
-        41
+        "starships/41"
       ],
-      "created": "2014-12-19T18:00:41.929000Z",
-      "edited": "2014-12-20T21:17:50.403000Z",
-      "id": 44
+      "id": "people/44"
     },
     {
       "name": "Bib Fortuna",
@@ -5315,18 +4869,16 @@
       "eye_color": "pink",
       "birth_year": "unknown",
       "gender": "male",
-      "homeworld": 37,
+      "homeworld": "planets/37",
       "films": [
-        3
+        "films/3"
       ],
       "species": [
-        15
+        "species/15"
       ],
       "vehicles": [],
       "starships": [],
-      "created": "2014-12-20T09:47:02.512000Z",
-      "edited": "2014-12-20T21:17:50.407000Z",
-      "id": 45
+      "id": "people/45"
     },
     {
       "name": "Ayla Secura",
@@ -5337,20 +4889,18 @@
       "eye_color": "hazel",
       "birth_year": "48BBY",
       "gender": "female",
-      "homeworld": 37,
+      "homeworld": "planets/37",
       "films": [
-        5,
-        4,
-        6
+        "films/5",
+        "films/4",
+        "films/6"
       ],
       "species": [
-        15
+        "species/15"
       ],
       "vehicles": [],
       "starships": [],
-      "created": "2014-12-20T09:48:01.172000Z",
-      "edited": "2014-12-20T21:17:50.409000Z",
-      "id": 46
+      "id": "people/46"
     },
     {
       "name": "Dud Bolt",
@@ -5361,18 +4911,16 @@
       "eye_color": "yellow",
       "birth_year": "unknown",
       "gender": "male",
-      "homeworld": 39,
+      "homeworld": "planets/39",
       "films": [
-        4
+        "films/4"
       ],
       "species": [
-        17
+        "species/17"
       ],
       "vehicles": [],
       "starships": [],
-      "created": "2014-12-20T09:57:31.858000Z",
-      "edited": "2014-12-20T21:17:50.414000Z",
-      "id": 48
+      "id": "people/48"
     },
     {
       "name": "Gasgano",
@@ -5383,18 +4931,16 @@
       "eye_color": "black",
       "birth_year": "unknown",
       "gender": "male",
-      "homeworld": 40,
+      "homeworld": "planets/40",
       "films": [
-        4
+        "films/4"
       ],
       "species": [
-        18
+        "species/18"
       ],
       "vehicles": [],
       "starships": [],
-      "created": "2014-12-20T10:02:12.223000Z",
-      "edited": "2014-12-20T21:17:50.416000Z",
-      "id": 49
+      "id": "people/49"
     },
     {
       "name": "Ben Quadinaros",
@@ -5405,18 +4951,16 @@
       "eye_color": "orange",
       "birth_year": "unknown",
       "gender": "male",
-      "homeworld": 41,
+      "homeworld": "planets/41",
       "films": [
-        4
+        "films/4"
       ],
       "species": [
-        19
+        "species/19"
       ],
       "vehicles": [],
       "starships": [],
-      "created": "2014-12-20T10:08:33.777000Z",
-      "edited": "2014-12-20T21:17:50.417000Z",
-      "id": 50
+      "id": "people/50"
     },
     {
       "name": "Mace Windu",
@@ -5427,20 +4971,18 @@
       "eye_color": "brown",
       "birth_year": "72BBY",
       "gender": "male",
-      "homeworld": 42,
+      "homeworld": "planets/42",
       "films": [
-        5,
-        4,
-        6
+        "films/5",
+        "films/4",
+        "films/6"
       ],
       "species": [
-        1
+        "species/1"
       ],
       "vehicles": [],
       "starships": [],
-      "created": "2014-12-20T10:12:30.846000Z",
-      "edited": "2014-12-20T21:17:50.420000Z",
-      "id": 51
+      "id": "people/51"
     },
     {
       "name": "Ki-Adi-Mundi",
@@ -5451,20 +4993,18 @@
       "eye_color": "yellow",
       "birth_year": "92BBY",
       "gender": "male",
-      "homeworld": 43,
+      "homeworld": "planets/43",
       "films": [
-        5,
-        4,
-        6
+        "films/5",
+        "films/4",
+        "films/6"
       ],
       "species": [
-        20
+        "species/20"
       ],
       "vehicles": [],
       "starships": [],
-      "created": "2014-12-20T10:15:32.293000Z",
-      "edited": "2014-12-20T21:17:50.422000Z",
-      "id": 52
+      "id": "people/52"
     },
     {
       "name": "Kit Fisto",
@@ -5475,20 +5015,18 @@
       "eye_color": "black",
       "birth_year": "unknown",
       "gender": "male",
-      "homeworld": 44,
+      "homeworld": "planets/44",
       "films": [
-        5,
-        4,
-        6
+        "films/5",
+        "films/4",
+        "films/6"
       ],
       "species": [
-        21
+        "species/21"
       ],
       "vehicles": [],
       "starships": [],
-      "created": "2014-12-20T10:18:57.202000Z",
-      "edited": "2014-12-20T21:17:50.424000Z",
-      "id": 53
+      "id": "people/53"
     },
     {
       "name": "Eeth Koth",
@@ -5499,19 +5037,17 @@
       "eye_color": "brown",
       "birth_year": "unknown",
       "gender": "male",
-      "homeworld": 45,
+      "homeworld": "planets/45",
       "films": [
-        4,
-        6
+        "films/4",
+        "films/6"
       ],
       "species": [
-        22
+        "species/22"
       ],
       "vehicles": [],
       "starships": [],
-      "created": "2014-12-20T10:26:47.902000Z",
-      "edited": "2014-12-20T21:17:50.427000Z",
-      "id": 54
+      "id": "people/54"
     },
     {
       "name": "Adi Gallia",
@@ -5522,19 +5058,17 @@
       "eye_color": "blue",
       "birth_year": "unknown",
       "gender": "female",
-      "homeworld": 9,
+      "homeworld": "planets/9",
       "films": [
-        4,
-        6
+        "films/4",
+        "films/6"
       ],
       "species": [
-        23
+        "species/23"
       ],
       "vehicles": [],
       "starships": [],
-      "created": "2014-12-20T10:29:11.661000Z",
-      "edited": "2014-12-20T21:17:50.432000Z",
-      "id": 55
+      "id": "people/55"
     },
     {
       "name": "Saesee Tiin",
@@ -5545,19 +5079,17 @@
       "eye_color": "orange",
       "birth_year": "unknown",
       "gender": "male",
-      "homeworld": 47,
+      "homeworld": "planets/47",
       "films": [
-        4,
-        6
+        "films/4",
+        "films/6"
       ],
       "species": [
-        24
+        "species/24"
       ],
       "vehicles": [],
       "starships": [],
-      "created": "2014-12-20T10:32:11.669000Z",
-      "edited": "2014-12-20T21:17:50.434000Z",
-      "id": 56
+      "id": "people/56"
     },
     {
       "name": "Yarael Poof",
@@ -5568,18 +5100,16 @@
       "eye_color": "yellow",
       "birth_year": "unknown",
       "gender": "male",
-      "homeworld": 48,
+      "homeworld": "planets/48",
       "films": [
-        4
+        "films/4"
       ],
       "species": [
-        25
+        "species/25"
       ],
       "vehicles": [],
       "starships": [],
-      "created": "2014-12-20T10:34:48.725000Z",
-      "edited": "2014-12-20T21:17:50.437000Z",
-      "id": 57
+      "id": "people/57"
     },
     {
       "name": "Plo Koon",
@@ -5590,22 +5120,20 @@
       "eye_color": "black",
       "birth_year": "22BBY",
       "gender": "male",
-      "homeworld": 49,
+      "homeworld": "planets/49",
       "films": [
-        5,
-        4,
-        6
+        "films/5",
+        "films/4",
+        "films/6"
       ],
       "species": [
-        26
+        "species/26"
       ],
       "vehicles": [],
       "starships": [
-        48
+        "starships/48"
       ],
-      "created": "2014-12-20T10:49:19.859000Z",
-      "edited": "2014-12-20T21:17:50.439000Z",
-      "id": 58
+      "id": "people/58"
     },
     {
       "name": "Mas Amedda",
@@ -5616,19 +5144,17 @@
       "eye_color": "blue",
       "birth_year": "unknown",
       "gender": "male",
-      "homeworld": 50,
+      "homeworld": "planets/50",
       "films": [
-        5,
-        4
+        "films/5",
+        "films/4"
       ],
       "species": [
-        27
+        "species/27"
       ],
       "vehicles": [],
       "starships": [],
-      "created": "2014-12-20T10:53:26.457000Z",
-      "edited": "2014-12-20T21:17:50.442000Z",
-      "id": 59
+      "id": "people/59"
     },
     {
       "name": "Gregar Typho",
@@ -5639,20 +5165,18 @@
       "eye_color": "brown",
       "birth_year": "unknown",
       "gender": "male",
-      "homeworld": 8,
+      "homeworld": "planets/8",
       "films": [
-        5
+        "films/5"
       ],
       "species": [
-        1
+        "species/1"
       ],
       "vehicles": [],
       "starships": [
-        39
+        "starships/39"
       ],
-      "created": "2014-12-20T11:10:10.381000Z",
-      "edited": "2014-12-20T21:17:50.445000Z",
-      "id": 60
+      "id": "people/60"
     },
     {
       "name": "Cordé",
@@ -5663,18 +5187,16 @@
       "eye_color": "brown",
       "birth_year": "unknown",
       "gender": "female",
-      "homeworld": 8,
+      "homeworld": "planets/8",
       "films": [
-        5
+        "films/5"
       ],
       "species": [
-        1
+        "species/1"
       ],
       "vehicles": [],
       "starships": [],
-      "created": "2014-12-20T11:11:39.630000Z",
-      "edited": "2014-12-20T21:17:50.449000Z",
-      "id": 61
+      "id": "people/61"
     },
     {
       "name": "Cliegg Lars",
@@ -5685,18 +5207,16 @@
       "eye_color": "blue",
       "birth_year": "82BBY",
       "gender": "male",
-      "homeworld": 1,
+      "homeworld": "planets/1",
       "films": [
-        5
+        "films/5"
       ],
       "species": [
-        1
+        "species/1"
       ],
       "vehicles": [],
       "starships": [],
-      "created": "2014-12-20T15:59:03.958000Z",
-      "edited": "2014-12-20T21:17:50.451000Z",
-      "id": 62
+      "id": "people/62"
     },
     {
       "name": "Poggle the Lesser",
@@ -5707,19 +5227,17 @@
       "eye_color": "yellow",
       "birth_year": "unknown",
       "gender": "male",
-      "homeworld": 11,
+      "homeworld": "planets/11",
       "films": [
-        5,
-        6
+        "films/5",
+        "films/6"
       ],
       "species": [
-        28
+        "species/28"
       ],
       "vehicles": [],
       "starships": [],
-      "created": "2014-12-20T16:40:43.977000Z",
-      "edited": "2014-12-20T21:17:50.453000Z",
-      "id": 63
+      "id": "people/63"
     },
     {
       "name": "Luminara Unduli",
@@ -5730,19 +5248,17 @@
       "eye_color": "blue",
       "birth_year": "58BBY",
       "gender": "female",
-      "homeworld": 51,
+      "homeworld": "planets/51",
       "films": [
-        5,
-        6
+        "films/5",
+        "films/6"
       ],
       "species": [
-        29
+        "species/29"
       ],
       "vehicles": [],
       "starships": [],
-      "created": "2014-12-20T16:45:53.668000Z",
-      "edited": "2014-12-20T21:17:50.455000Z",
-      "id": 64
+      "id": "people/64"
     },
     {
       "name": "Barriss Offee",
@@ -5753,18 +5269,16 @@
       "eye_color": "blue",
       "birth_year": "40BBY",
       "gender": "female",
-      "homeworld": 51,
+      "homeworld": "planets/51",
       "films": [
-        5
+        "films/5"
       ],
       "species": [
-        29
+        "species/29"
       ],
       "vehicles": [],
       "starships": [],
-      "created": "2014-12-20T16:46:40.440000Z",
-      "edited": "2014-12-20T21:17:50.457000Z",
-      "id": 65
+      "id": "people/65"
     },
     {
       "name": "Dormé",
@@ -5775,18 +5289,16 @@
       "eye_color": "brown",
       "birth_year": "unknown",
       "gender": "female",
-      "homeworld": 8,
+      "homeworld": "planets/8",
       "films": [
-        5
+        "films/5"
       ],
       "species": [
-        1
+        "species/1"
       ],
       "vehicles": [],
       "starships": [],
-      "created": "2014-12-20T16:49:14.640000Z",
-      "edited": "2014-12-20T21:17:50.460000Z",
-      "id": 66
+      "id": "people/66"
     },
     {
       "name": "Dooku",
@@ -5797,21 +5309,19 @@
       "eye_color": "brown",
       "birth_year": "102BBY",
       "gender": "male",
-      "homeworld": 52,
+      "homeworld": "planets/52",
       "films": [
-        5,
-        6
+        "films/5",
+        "films/6"
       ],
       "species": [
-        1
+        "species/1"
       ],
       "vehicles": [
-        55
+        "vehicles/55"
       ],
       "starships": [],
-      "created": "2014-12-20T16:52:14.726000Z",
-      "edited": "2014-12-20T21:17:50.462000Z",
-      "id": 67
+      "id": "people/67"
     },
     {
       "name": "Bail Prestor Organa",
@@ -5822,19 +5332,17 @@
       "eye_color": "brown",
       "birth_year": "67BBY",
       "gender": "male",
-      "homeworld": 2,
+      "homeworld": "planets/2",
       "films": [
-        5,
-        6
+        "films/5",
+        "films/6"
       ],
       "species": [
-        1
+        "species/1"
       ],
       "vehicles": [],
       "starships": [],
-      "created": "2014-12-20T16:53:08.575000Z",
-      "edited": "2014-12-20T21:17:50.463000Z",
-      "id": 68
+      "id": "people/68"
     },
     {
       "name": "Jango Fett",
@@ -5845,18 +5353,16 @@
       "eye_color": "brown",
       "birth_year": "66BBY",
       "gender": "male",
-      "homeworld": 53,
+      "homeworld": "planets/53",
       "films": [
-        5
+        "films/5"
       ],
       "species": [
-        1
+        "species/1"
       ],
       "vehicles": [],
       "starships": [],
-      "created": "2014-12-20T16:54:41.620000Z",
-      "edited": "2014-12-20T21:17:50.465000Z",
-      "id": 69
+      "id": "people/69"
     },
     {
       "name": "Zam Wesell",
@@ -5867,20 +5373,18 @@
       "eye_color": "yellow",
       "birth_year": "unknown",
       "gender": "female",
-      "homeworld": 54,
+      "homeworld": "planets/54",
       "films": [
-        5
+        "films/5"
       ],
       "species": [
-        30
+        "species/30"
       ],
       "vehicles": [
-        45
+        "vehicles/45"
       ],
       "starships": [],
-      "created": "2014-12-20T16:57:44.471000Z",
-      "edited": "2014-12-20T21:17:50.468000Z",
-      "id": 70
+      "id": "people/70"
     },
     {
       "name": "Dexter Jettster",
@@ -5891,18 +5395,16 @@
       "eye_color": "yellow",
       "birth_year": "unknown",
       "gender": "male",
-      "homeworld": 55,
+      "homeworld": "planets/55",
       "films": [
-        5
+        "films/5"
       ],
       "species": [
-        31
+        "species/31"
       ],
       "vehicles": [],
       "starships": [],
-      "created": "2014-12-20T17:28:27.248000Z",
-      "edited": "2014-12-20T21:17:50.470000Z",
-      "id": 71
+      "id": "people/71"
     },
     {
       "name": "Lama Su",
@@ -5913,18 +5415,16 @@
       "eye_color": "black",
       "birth_year": "unknown",
       "gender": "male",
-      "homeworld": 10,
+      "homeworld": "planets/10",
       "films": [
-        5
+        "films/5"
       ],
       "species": [
-        32
+        "species/32"
       ],
       "vehicles": [],
       "starships": [],
-      "created": "2014-12-20T17:30:50.416000Z",
-      "edited": "2014-12-20T21:17:50.473000Z",
-      "id": 72
+      "id": "people/72"
     },
     {
       "name": "Taun We",
@@ -5935,18 +5435,16 @@
       "eye_color": "black",
       "birth_year": "unknown",
       "gender": "female",
-      "homeworld": 10,
+      "homeworld": "planets/10",
       "films": [
-        5
+        "films/5"
       ],
       "species": [
-        32
+        "species/32"
       ],
       "vehicles": [],
       "starships": [],
-      "created": "2014-12-20T17:31:21.195000Z",
-      "edited": "2014-12-20T21:17:50.474000Z",
-      "id": 73
+      "id": "people/73"
     },
     {
       "name": "Jocasta Nu",
@@ -5957,18 +5455,16 @@
       "eye_color": "blue",
       "birth_year": "unknown",
       "gender": "female",
-      "homeworld": 9,
+      "homeworld": "planets/9",
       "films": [
-        5
+        "films/5"
       ],
       "species": [
-        1
+        "species/1"
       ],
       "vehicles": [],
       "starships": [],
-      "created": "2014-12-20T17:32:51.996000Z",
-      "edited": "2014-12-20T21:17:50.476000Z",
-      "id": 74
+      "id": "people/74"
     },
     {
       "name": "Ratts Tyerell",
@@ -5979,18 +5475,16 @@
       "eye_color": "unknown",
       "birth_year": "unknown",
       "gender": "male",
-      "homeworld": 38,
+      "homeworld": "planets/38",
       "films": [
-        4
+        "films/4"
       ],
       "species": [
-        16
+        "species/16"
       ],
       "vehicles": [],
       "starships": [],
-      "created": "2014-12-20T09:53:15.086000Z",
-      "edited": "2016-06-30T12:52:19.604868Z",
-      "id": 47
+      "id": "people/47"
     },
     {
       "name": "R4-P17",
@@ -6001,17 +5495,15 @@
       "eye_color": "red, blue",
       "birth_year": "unknown",
       "gender": "female",
-      "homeworld": 28,
+      "homeworld": "planets/28",
       "films": [
-        5,
-        6
+        "films/5",
+        "films/6"
       ],
       "species": [],
       "vehicles": [],
       "starships": [],
-      "created": "2014-12-20T17:43:36.409000Z",
-      "edited": "2014-12-20T21:17:50.478000Z",
-      "id": 75
+      "id": "people/75"
     },
     {
       "name": "Wat Tambor",
@@ -6022,18 +5514,16 @@
       "eye_color": "unknown",
       "birth_year": "unknown",
       "gender": "male",
-      "homeworld": 56,
+      "homeworld": "planets/56",
       "films": [
-        5
+        "films/5"
       ],
       "species": [
-        33
+        "species/33"
       ],
       "vehicles": [],
       "starships": [],
-      "created": "2014-12-20T17:53:52.607000Z",
-      "edited": "2014-12-20T21:17:50.481000Z",
-      "id": 76
+      "id": "people/76"
     },
     {
       "name": "San Hill",
@@ -6044,18 +5534,16 @@
       "eye_color": "gold",
       "birth_year": "unknown",
       "gender": "male",
-      "homeworld": 57,
+      "homeworld": "planets/57",
       "films": [
-        5
+        "films/5"
       ],
       "species": [
-        34
+        "species/34"
       ],
       "vehicles": [],
       "starships": [],
-      "created": "2014-12-20T17:58:17.049000Z",
-      "edited": "2014-12-20T21:17:50.484000Z",
-      "id": 77
+      "id": "people/77"
     },
     {
       "name": "Shaak Ti",
@@ -6066,19 +5554,17 @@
       "eye_color": "black",
       "birth_year": "unknown",
       "gender": "female",
-      "homeworld": 58,
+      "homeworld": "planets/58",
       "films": [
-        5,
-        6
+        "films/5",
+        "films/6"
       ],
       "species": [
-        35
+        "species/35"
       ],
       "vehicles": [],
       "starships": [],
-      "created": "2014-12-20T18:44:01.103000Z",
-      "edited": "2014-12-20T21:17:50.486000Z",
-      "id": 78
+      "id": "people/78"
     },
     {
       "name": "Grievous",
@@ -6089,22 +5575,20 @@
       "eye_color": "green, yellow",
       "birth_year": "unknown",
       "gender": "male",
-      "homeworld": 59,
+      "homeworld": "planets/59",
       "films": [
-        6
+        "films/6"
       ],
       "species": [
-        36
+        "species/36"
       ],
       "vehicles": [
-        60
+        "vehicles/60"
       ],
       "starships": [
-        74
+        "starships/74"
       ],
-      "created": "2014-12-20T19:43:53.348000Z",
-      "edited": "2014-12-20T21:17:50.488000Z",
-      "id": 79
+      "id": "people/79"
     },
     {
       "name": "Tarfful",
@@ -6115,18 +5599,16 @@
       "eye_color": "blue",
       "birth_year": "unknown",
       "gender": "male",
-      "homeworld": 14,
+      "homeworld": "planets/14",
       "films": [
-        6
+        "films/6"
       ],
       "species": [
-        3
+        "species/3"
       ],
       "vehicles": [],
       "starships": [],
-      "created": "2014-12-20T19:46:34.209000Z",
-      "edited": "2014-12-20T21:17:50.491000Z",
-      "id": 80
+      "id": "people/80"
     },
     {
       "name": "Raymus Antilles",
@@ -6137,19 +5619,17 @@
       "eye_color": "brown",
       "birth_year": "unknown",
       "gender": "male",
-      "homeworld": 2,
+      "homeworld": "planets/2",
       "films": [
-        6,
-        1
+        "films/6",
+        "films/1"
       ],
       "species": [
-        1
+        "species/1"
       ],
       "vehicles": [],
       "starships": [],
-      "created": "2014-12-20T19:49:35.583000Z",
-      "edited": "2014-12-20T21:17:50.493000Z",
-      "id": 81
+      "id": "people/81"
     },
     {
       "name": "Sly Moore",
@@ -6160,17 +5640,15 @@
       "eye_color": "white",
       "birth_year": "unknown",
       "gender": "female",
-      "homeworld": 60,
+      "homeworld": "planets/60",
       "films": [
-        5,
-        6
+        "films/5",
+        "films/6"
       ],
       "species": [],
       "vehicles": [],
       "starships": [],
-      "created": "2014-12-20T20:18:37.619000Z",
-      "edited": "2014-12-20T21:17:50.496000Z",
-      "id": 82
+      "id": "people/82"
     },
     {
       "name": "Tion Medon",
@@ -6181,18 +5659,16 @@
       "eye_color": "black",
       "birth_year": "unknown",
       "gender": "male",
-      "homeworld": 12,
+      "homeworld": "planets/12",
       "films": [
-        6
+        "films/6"
       ],
       "species": [
-        37
+        "species/37"
       ],
       "vehicles": [],
       "starships": [],
-      "created": "2014-12-20T20:35:04.260000Z",
-      "edited": "2014-12-20T21:17:50.498000Z",
-      "id": 83
+      "id": "people/83"
     },
     {
       "name": "Finn",
@@ -6203,18 +5679,16 @@
       "eye_color": "dark",
       "birth_year": "unknown",
       "gender": "male",
-      "homeworld": 28,
+      "homeworld": "planets/28",
       "films": [
-        7
+        "films/7"
       ],
       "species": [
-        1
+        "species/1"
       ],
       "vehicles": [],
       "starships": [],
-      "created": "2015-04-17T06:52:40.793621Z",
-      "edited": "2015-04-17T06:52:40.793674Z",
-      "id": 84
+      "id": "people/84"
     },
     {
       "name": "Rey",
@@ -6225,18 +5699,16 @@
       "eye_color": "hazel",
       "birth_year": "unknown",
       "gender": "female",
-      "homeworld": 28,
+      "homeworld": "planets/28",
       "films": [
-        7
+        "films/7"
       ],
       "species": [
-        1
+        "species/1"
       ],
       "vehicles": [],
       "starships": [],
-      "created": "2015-04-17T06:54:01.495077Z",
-      "edited": "2015-04-17T06:54:01.495128Z",
-      "id": 85
+      "id": "people/85"
     },
     {
       "name": "Poe Dameron",
@@ -6247,20 +5719,18 @@
       "eye_color": "brown",
       "birth_year": "unknown",
       "gender": "male",
-      "homeworld": 28,
+      "homeworld": "planets/28",
       "films": [
-        7
+        "films/7"
       ],
       "species": [
-        1
+        "species/1"
       ],
       "vehicles": [],
       "starships": [
-        77
+        "starships/77"
       ],
-      "created": "2015-04-17T06:55:21.622786Z",
-      "edited": "2015-04-17T06:55:21.622835Z",
-      "id": 86
+      "id": "people/86"
     },
     {
       "name": "BB8",
@@ -6271,18 +5741,16 @@
       "eye_color": "black",
       "birth_year": "unknown",
       "gender": "none",
-      "homeworld": 28,
+      "homeworld": "planets/28",
       "films": [
-        7
+        "films/7"
       ],
       "species": [
-        2
+        "species/2"
       ],
       "vehicles": [],
       "starships": [],
-      "created": "2015-04-17T06:57:38.061346Z",
-      "edited": "2015-04-17T06:57:38.061453Z",
-      "id": 87
+      "id": "people/87"
     },
     {
       "name": "Captain Phasma",
@@ -6293,16 +5761,14 @@
       "eye_color": "unknown",
       "birth_year": "unknown",
       "gender": "female",
-      "homeworld": 28,
+      "homeworld": "planets/28",
       "films": [
-        7
+        "films/7"
       ],
       "species": [],
       "vehicles": [],
       "starships": [],
-      "created": "2015-10-13T10:35:39.229823Z",
-      "edited": "2015-10-13T10:35:39.229894Z",
-      "id": 88
+      "id": "people/88"
     },
     {
       "name": "Padmé Amidala",
@@ -6313,24 +5779,22 @@
       "eye_color": "brown",
       "birth_year": "46BBY",
       "gender": "female",
-      "homeworld": 8,
+      "homeworld": "planets/8",
       "films": [
-        5,
-        4,
-        6
+        "films/5",
+        "films/4",
+        "films/6"
       ],
       "species": [
-        1
+        "species/1"
       ],
       "vehicles": [],
       "starships": [
-        49,
-        64,
-        39
+        "starships/49",
+        "starships/64",
+        "starships/39"
       ],
-      "created": "2014-12-19T17:28:26.926000Z",
-      "edited": "2016-04-20T17:06:31.502555Z",
-      "id": 35
+      "id": "people/35"
     }
   ]
 }
