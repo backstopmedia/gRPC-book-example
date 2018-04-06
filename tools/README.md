@@ -9,6 +9,7 @@ npm i            # install dependencies
 npm run data     # get all the data from the API
 npm run proto    # generate the gRPC protobuf that matches the API
 npm run validate # validate the generated data against the generated protobuf
+npm run luke     # connect to local grpc server and get Luke's record (test end-to-end)
 
 npm run grpc     # start a demo gRPC server
 npm run gateway  # start a demo gRPC gateway
