@@ -4,6 +4,7 @@
 
 import fetch from 'node-fetch'
 import { writeFileSync } from 'fs'
+import { generate as shortid } from 'shortid'
 
 const headers = {
   Accept: 'application/json'
@@ -36,6 +37,9 @@ const nounMap = {
 
 const rRemoveUrl = new RegExp('https://swapi.co/api/(.+)/')
 
+// this holds all cross-refed IDs
+const ids = []
+
 const main = async () => {
   const urls = await fetch('https://swapi.co/api/', {headers}).then(r => r.json())
   const getNoun = async (noun, params = {}) => {
@@ -46,6 +50,7 @@ const main = async () => {
       next = r.next
       const cleanedResults = r.results.map(result => {
         result.id = result.url.replace(rRemoveUrl, '$1').replace('/', '_')
+        ids.push(result.id)
         delete result.url
         delete result.created
         delete result.edited
@@ -59,16 +64,25 @@ const main = async () => {
             }
           }
         })
-        // ugh: the data uses strings for numbers!
-        // try my best to get them right
+
+        // try my best to get data in a better format
         Object.keys(result).forEach(k => {
+          // ugh: the data uses strings for numbers!
+          if (typeof result[k] === 'string' && result[k].indexOf(',') !== -1) {
+            result[k] = result[k].replace(/(\d+),(?=\d{3}(\D|$))/g, '$1')
+          }
           if (result[k] == parseFloat(result[k])) {
             result[k] = parseFloat(result[k])
           }
           if (result[k] == parseInt(result[k])) {
             result[k] = parseInt(result[k])
           }
+
+          // ugh: undefined is modeled differently in different records
           if (result[k] === 'unknown') {
+            result[k] = undefined
+          }
+          if (result[k] === 'n/a') {
             result[k] = undefined
           }
         })
@@ -83,7 +97,13 @@ const main = async () => {
     out[noun] = await getNoun(noun)
   }))
 
-  writeFileSync('../data.json', JSON.stringify(out, null, 2))
+  // replace all cross-reffed IDs
+  let outS = JSON.stringify(out, null, 2)
+  ids.forEach(i => {
+    outS = outS.replace(new RegExp(i, 'g'), shortid())
+  })
+
+  writeFileSync('../data.json', outS)
 }
 
 main()

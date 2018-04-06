@@ -20,20 +20,22 @@ message Film {
   string id = 12;
 }
 
-message Species {
+message Starship {
   string name = 1;
-  string classification = 2;
-  string designation = 3;
-  int32 average_height = 4;
-  string skin_colors = 5;
-  string hair_colors = 6;
-  string eye_colors = 7;
-  int32 average_lifespan = 8;
-  string homeworld = 9;
-  string language = 10;
-  repeated string people = 11;
-  repeated string films = 12;
-  string id = 13;
+  string model = 2;
+  string manufacturer = 3;
+  int32 cost_in_credits = 4;
+  float length = 5;
+  int32 crew = 6;
+  int32 passengers = 7;
+  int32 cargo_capacity = 8;
+  string consumables = 9;
+  int32 hyperdrive_rating = 10;
+  int32 mglt = 11;
+  string starship_class = 12;
+  repeated string pilots = 13;
+  repeated string films = 14;
+  string id = 15;
 }
 
 message Vehicle {
@@ -53,23 +55,19 @@ message Vehicle {
   string id = 14;
 }
 
-message Starship {
+message Species {
   string name = 1;
-  string model = 2;
-  string manufacturer = 3;
-  int32 cost_in_credits = 4;
-  int32 length = 5;
-  string max_atmosphering_speed = 6;
-  int32 crew = 7;
-  int32 passengers = 8;
-  int32 cargo_capacity = 9;
-  string consumables = 10;
-  int32 hyperdrive_rating = 11;
-  int32 mglt = 12;
-  string starship_class = 13;
-  repeated string pilots = 14;
-  repeated string films = 15;
-  string id = 16;
+  string classification = 2;
+  string designation = 3;
+  int32 average_height = 4;
+  string skin_colors = 5;
+  string eye_colors = 6;
+  int32 average_lifespan = 7;
+  string homeworld = 8;
+  string language = 9;
+  repeated string people = 10;
+  repeated string films = 11;
+  string id = 12;
 }
 
 message Planet {
@@ -78,7 +76,7 @@ message Planet {
   int32 orbital_period = 3;
   int32 diameter = 4;
   string climate = 5;
-  string gravity = 6;
+  float gravity = 6;
   string terrain = 7;
   int32 surface_water = 8;
   int32 population = 9;
@@ -90,7 +88,7 @@ message Planet {
 message Person {
   string name = 1;
   int32 height = 2;
-  int32 mass = 3;
+  float mass = 3;
   string hair_color = 4;
   string skin_color = 5;
   string eye_color = 6;
