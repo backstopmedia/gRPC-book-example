@@ -7,9 +7,9 @@
     "data": "babel-node get_data.js",
     "proto": "babel-node gen_proto.js",
     "validate": "babel-node validate.js",
-    "luke": "grpc-client -I ../proto --host localhost:50051 run swapi.proto -m swapi.Starwars.GetPerson -a '{\"id\": \"SyAbJp35ViM\"}'",
-    "grpc": "grpc-server --host localhost:50051 -I ../proto swapi.proto ./demo_resolvers.js",
-    "gateway": "grpc-dynamic-gateway -g localhost:50051 -I ../proto swapi.proto",
+    "luke": "grpc-client -I ../proto run swapi.proto -m swapi.Starwars.GetPerson -a '{\"id\": \"SyAbJp35ViM\"}'",
+    "grpc": "grpc-server -I ../proto swapi.proto ./demo_resolvers.js",
+    "gateway": "grpc-dynamic-gateway -I ../proto swapi.proto",
     "start": "npm-run-all --parallel grpc gateway"
   },
   "keywords": [],
