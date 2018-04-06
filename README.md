@@ -2,6 +2,12 @@
 
 Based loosely on models from [swapi](https://swapi.co/).
 
+## Getting Started
+
+* Install Go
+* Clone this repo into your $GOPATH
+* `make setup`
+
 Lint proto with:
 
 ```
