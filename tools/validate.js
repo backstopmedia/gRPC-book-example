@@ -4,6 +4,7 @@
 import protobuf from 'protobufjs'
 import { join } from 'path'
 import { singularize, classify } from 'inflection'
+import chalk from 'chalk'
 import data from '../data.json'
 
 const p = protobuf.loadSync(join(__dirname, '..', 'proto', 'swapi.proto'))
@@ -13,9 +14,12 @@ Object.keys(data)
     const Type = p.lookupType(classify(singularize(n)))
     data[n].forEach(record => {
       const v = Type.verify(record)
+      const id = `${record.id.padEnd(12, ' ')} : ${Type.name.padEnd(8, ' ')}`
       if (v) {
         const f = v.split(': ')[0]
-        console.log(n, record.id, v, 'got', JSON.stringify(record[f]))
+        console.log(chalk.red(`${id}: ${v} got ${JSON.stringify(record[f])}`))
+      } else {
+        console.log(chalk.green(`${id}: OK`))
       }
     })
   })
