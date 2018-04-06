@@ -1,6 +1,7 @@
 syntax = "proto3";
 
 import "google/api/annotations.proto";
+import "google/protobuf/empty.proto";
 
 package swapi;
 
@@ -33,7 +34,7 @@ message Starship {
   string cargo_capacity = 9;
   string consumables = 10;
   string hyperdrive_rating = 11;
-  string MGLT = 12;
+  string mglt = 12;
   string starship_class = 13;
   repeated int32 pilots = 14;
   repeated int32 films = 15;
@@ -114,16 +115,6 @@ message Person {
   string edited = 15;
   int32 id = 16;
 }
-
-message SWAPI {
-  repeated Film films = 1;
-  repeated Starship starships = 2;
-  repeated Vehicle vehicles = 3;
-  repeated Species species = 4;
-  repeated Planet planets = 5;
-  repeated Person people = 6;
-}
-
 
 /* Used in RPCs to get an item */
 message Reference {
@@ -226,5 +217,4 @@ service Starwars {
        get: "/swapi/v1/people"
     };
   }
-
 }
