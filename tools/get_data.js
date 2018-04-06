@@ -45,7 +45,7 @@ const main = async () => {
       const r = await fetch(next).then(r => r.json())
       next = r.next
       const cleanedResults = r.results.map(result => {
-        result.id = result.url.replace(rRemoveUrl, '$1')
+        result.id = result.url.replace(rRemoveUrl, '$1').replace('/', '_')
         delete result.url
         delete result.created
         delete result.edited
@@ -53,9 +53,9 @@ const main = async () => {
         Object.keys(nounMap).forEach(noun => {
           if (result[noun]) {
             if (Array.isArray(result[noun])) {
-              result[noun] = result[noun].map(c => c.replace(rRemoveUrl, '$1'))
+              result[noun] = result[noun].map(c => c.replace(rRemoveUrl, '$1').replace('/', '_'))
             } else {
-              result[noun] = result[noun].replace(rRemoveUrl, '$1')
+              result[noun] = result[noun].replace(rRemoveUrl, '$1').replace('/', '_')
             }
           }
         })

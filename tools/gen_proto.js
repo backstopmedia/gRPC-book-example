@@ -38,7 +38,8 @@ const getMessageName = (name) => {
 
 const handleMessage = (obj, name) => {
   if (!obj) return
-  messages[name] = Object.keys(obj).map((key, i) => {
+  messages[name] = Object.keys(obj).map((k, i) => {
+    const key = k.toLowerCase()
     const t = getType(obj[key])
     switch (t) {
       case 'array':
