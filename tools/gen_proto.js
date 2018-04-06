@@ -1,4 +1,8 @@
-import { classify } from 'inflection'
+/**
+ * Generate protobuf from data collected form swapi
+ */
+
+import { classify, pluralize } from 'inflection'
 import { writeFileSync } from 'fs'
 import obj from '../data.json'
 
@@ -59,12 +63,56 @@ const handleMessage = (obj, name) => {
 
 const messages = {}
 
-let out = ['syntax = "proto3";', '', 'package swapi;', '']
+// generate messages
+let out = [
+  'syntax = "proto3";',
+  '',
+  'import "google/api/annotations.proto";',
+  '',
+  'package swapi;',
+  ''
+]
 handleMessage(obj, 'SWAPI')
 Object.keys(messages).forEach(key => {
   out.push(`message ${key} {`)
   out.push(`  ${messages[key].join('\n  ')}`)
   out.push('}')
+  out.push('')
 })
-// if the array is empty, I can;t figure out the type, which will just be int32
-writeFileSync('../proto/swapi_referenced.proto', out.join('\n').replace(/repeated undefined/g, 'repeated int32'))
+
+// generic reference to another noun for inputs
+out.push(`
+/* Used in RPCs to get an item */
+message Reference {
+  int32 id = 1;
+}
+`)
+
+const nounClasses = ['Film', 'Starship', 'Vehicle', 'Species', 'Planet', 'Person']
+nounClasses.forEach(noun => {
+  out.push(`
+message ${pluralize(noun)}List {
+  repeated ${noun} results = 1;
+}
+`)
+})
+
+// generate basic type gRPC
+out.push('service Starwars {')
+nounClasses.forEach(noun => {
+  out.push(`  rpc Get${noun}(Reference) returns (${noun}) {
+    option (google.api.http) = {
+       get: "/swapi/v1/${noun.toLowerCase()}/{id}"
+    };
+  }
+  rpc List${pluralize(noun)}(google.protobuf.Empty) returns (${pluralize(noun)}List) {
+    option (google.api.http) = {
+       get: "/swapi/v1/${pluralize(noun.toLowerCase())}"
+    };
+  }
+`)
+})
+out.push('}')
+
+// if the array is empty, I can't figure out the type, which will just be int32
+writeFileSync('../proto/swapi.proto', out.join('\n').replace(/repeated undefined/g, 'repeated int32'))

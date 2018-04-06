@@ -4,8 +4,8 @@
   "description": "",
   "main": "gen_proto.js",
   "scripts": {
-    "get_data": "babel-node get_data.js",
-    "gen_proto": "babel-node gen_proto.js"
+    "data": "babel-node get_data.js",
+    "proto": "babel-node gen_proto.js"
   },
   "keywords": [],
   "author": "David Konsumer <konsumer@jetboystudio.com> (http://konsumer.js.org)",
