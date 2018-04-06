@@ -20,24 +20,6 @@ message Film {
   string id = 12;
 }
 
-message Starship {
-  string name = 1;
-  string model = 2;
-  string manufacturer = 3;
-  int32 cost_in_credits = 4;
-  float length = 5;
-  int32 crew = 6;
-  int32 passengers = 7;
-  int32 cargo_capacity = 8;
-  string consumables = 9;
-  int32 hyperdrive_rating = 10;
-  int32 mglt = 11;
-  string starship_class = 12;
-  repeated string pilots = 13;
-  repeated string films = 14;
-  string id = 15;
-}
-
 message Vehicle {
   string name = 1;
   string model = 2;
@@ -48,7 +30,7 @@ message Vehicle {
   int32 crew = 7;
   int32 passengers = 8;
   int32 cargo_capacity = 9;
-  string consumables = 10;
+  int32 consumables = 10;
   string vehicle_class = 11;
   repeated string pilots = 12;
   repeated string films = 13;
@@ -68,6 +50,24 @@ message Species {
   repeated string people = 10;
   repeated string films = 11;
   string id = 12;
+}
+
+message Starship {
+  string name = 1;
+  string model = 2;
+  string manufacturer = 3;
+  int32 cost_in_credits = 4;
+  float length = 5;
+  int32 crew = 6;
+  int32 passengers = 7;
+  int32 cargo_capacity = 8;
+  string consumables = 9;
+  int32 hyperdrive_rating = 10;
+  int32 mglt = 11;
+  string starship_class = 12;
+  repeated string pilots = 13;
+  repeated string films = 14;
+  string id = 15;
 }
 
 message Planet {

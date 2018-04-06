@@ -1,5 +1,5 @@
 /**
- * Get data from https://swapi.co/
+ * Get data from https://swapi.co/ and normalize it
  */
 
 import fetch from 'node-fetch'
@@ -41,7 +41,6 @@ const rRemoveUrl = new RegExp('https://swapi.co/api/(.+)/')
 const ids = []
 
 const main = async () => {
-  const urls = await fetch('https://swapi.co/api/', {headers}).then(r => r.json())
   const getNoun = async (noun, params = {}) => {
     let next = urls[noun] + handleParams(params)
     const results = []
@@ -67,23 +66,63 @@ const main = async () => {
 
         // try my best to get data in a better format
         Object.keys(result).forEach(k => {
-          // ugh: the data uses strings for numbers!
-          if (typeof result[k] === 'string' && result[k].indexOf(',') !== -1) {
-            result[k] = result[k].replace(/(\d+),(?=\d{3}(\D|$))/g, '$1')
-          }
-          if (result[k] == parseFloat(result[k])) {
-            result[k] = parseFloat(result[k])
-          }
-          if (result[k] == parseInt(result[k])) {
-            result[k] = parseInt(result[k])
-          }
+          // lots of misued strings
+          if (typeof result[k] === 'string') {
+            // edge-case fixes
+            if (noun === 'people' && k === 'mass') {
+              result[k] = parseFloat(result[k].replace(/([\d.]+)/g, '$1'))
+              return
+            }
 
-          // ugh: undefined is modeled differently in different records
-          if (result[k] === 'unknown') {
-            result[k] = undefined
-          }
-          if (result[k] === 'n/a') {
-            result[k] = undefined
+            if (noun === 'planets' && k === 'gravity') {
+              result[k] = parseFloat(result[k].replace(/([\d.]+)/g, '$1'))
+              return
+            }
+
+            if (noun === 'vehicles' && k === 'consumables') {
+              if (result[k] === 'Live food tanks') {
+                result[k] = -1
+                return
+              }
+              if (result[k] === '0' || result[k] === 'none') {
+                result[k] = 0
+                return
+              }
+              if (result[k] === 'unknown') {
+                result[k] = undefined
+                return
+              }
+              if (result[k].indexOf('month') !== -1) {
+                result[k] = parseFloat(result[k].replace(/ months?/, '')) * 30
+                return
+              }
+              if (result[k].indexOf('day') !== -1) {
+                result[k] = parseFloat(result[k].replace(/ days?/, ''))
+                return
+              }
+            }
+
+            // the data uses strings with commas for numbers!
+            if (result[k].indexOf(',') !== -1) {
+              result[k] = result[k].replace(/(\d+),(?=\d{3}(\D|$))/g, '$1')
+            }
+            if (result[k] == parseInt(result[k])) {
+              result[k] = parseInt(result[k])
+              return
+            }
+            if (result[k] == parseFloat(result[k])) {
+              result[k] = parseFloat(result[k])
+              return
+            }
+
+            // undefined is modeled differently in different records
+            if (result[k] === 'unknown') {
+              result[k] = undefined
+              return
+            }
+            if (result[k].toLowerCase() === 'n/a') {
+              result[k] = undefined
+            }
           }
         })
         return result
@@ -92,6 +131,8 @@ const main = async () => {
     }
     return results
   }
+
+  const urls = await fetch('https://swapi.co/api/', {headers}).then(r => r.json())
   const out = {}
   await Promise.all(Object.keys(urls).map(async noun => {
     out[noun] = await getNoun(noun)

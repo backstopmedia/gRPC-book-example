@@ -1,5 +1,5 @@
 /**
- * Generate protobuf from data collected form swapi
+ * Generate protobuf from data collected from https://swapi.co/
  */
 
 import { classify, pluralize } from 'inflection'
@@ -73,8 +73,15 @@ let out = [
   'package swapi;',
   ''
 ]
+
 handleMessage(obj, 'SWAPI')
 delete messages.SWAPI
+
+// message-specific fixes
+messages.Starship[4] = 'float length = 5;'
+messages.Planet[5] = 'float gravity = 6;'
+messages.Person[2] = 'float mass = 3;'
+
 Object.keys(messages).forEach(key => {
   out.push(`message ${key} {`)
   out.push(`  ${messages[key].join('\n  ')}`)

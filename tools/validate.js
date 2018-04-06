@@ -15,7 +15,7 @@ Object.keys(data)
       const v = Type.verify(record)
       if (v) {
         const f = v.split(': ')[0]
-        console.log(n, record.id, f, v, 'got', record[f])
+        console.log(n, record.id, v, 'got', JSON.stringify(record[f]))
       }
     })
   })
