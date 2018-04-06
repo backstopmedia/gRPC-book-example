@@ -20,3 +20,7 @@ Icon
 Network Trash Folder
 Temporary Items
 .apdisk
+
+# Go/Retool
+_tools/
+vendor/
