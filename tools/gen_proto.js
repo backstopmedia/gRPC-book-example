@@ -84,7 +84,7 @@ Object.keys(messages).forEach(key => {
 out.push(`
 /* Used in RPCs to get an item */
 message Reference {
-  int32 id = 1;
+  string id = 1;
 }
 `)
 
