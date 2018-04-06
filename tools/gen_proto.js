@@ -78,9 +78,9 @@ handleMessage(obj, 'SWAPI')
 delete messages.SWAPI
 
 // message-specific fixes
-messages.Starship[4] = 'float length = 5;'
-messages.Planet[5] = 'float gravity = 6;'
-messages.Person[2] = 'float mass = 3;'
+messages.Starship = messages.Starship.map(l => l.replace(/^int32 length =/, 'float length ='))
+messages.Planet = messages.Planet.map(l => l.replace(/^int32 gravity =/, 'float gravity ='))
+messages.Person = messages.Person.map(l => l.replace(/^int32 mass =/, 'float mass ='))
 
 Object.keys(messages).forEach(key => {
   out.push(`message ${key} {`)
