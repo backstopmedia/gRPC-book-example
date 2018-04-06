@@ -116,36 +116,29 @@ message Person {
   int32 id = 16;
 }
 
-/* Used in RPCs to get an item */
 message Reference {
   string id = 1;
 }
-
 
 message FilmsList {
   repeated Film results = 1;
 }
 
-
 message StarshipsList {
   repeated Starship results = 1;
 }
-
 
 message VehiclesList {
   repeated Vehicle results = 1;
 }
 
-
 message SpeciesList {
   repeated Species results = 1;
 }
 
-
 message PlanetsList {
   repeated Planet results = 1;
 }
-
 
 message PeopleList {
   repeated Person results = 1;
