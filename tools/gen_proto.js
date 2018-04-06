@@ -38,8 +38,7 @@ const getMessageName = (name) => {
 
 const handleMessage = (obj, name) => {
   if (!obj) return
-  messages[name] = Object.keys(obj).map((k, i) => {
-    const key = k.toLowerCase()
+  messages[name] = Object.keys(obj).map((key, i) => {
     const t = getType(obj[key])
     switch (t) {
       case 'array':
@@ -47,16 +46,16 @@ const handleMessage = (obj, name) => {
         if (rt === 'object') {
           const iname = getMessageName(key)
           handleMessage(obj[key][0], iname)
-          return `repeated ${iname} ${key} = ${i + 1};`
+          return `repeated ${iname} ${key.toLowerCase()} = ${i + 1};`
         } else {
           return `repeated ${rt} ${key} = ${i + 1};`
         }
       case 'object':
         const iname = getMessageName(key)
         messages[name] = handleMessage(obj[key], iname)
-        return `${iname} ${key} = ${i + 1};`
+        return `${iname} ${key.toLowerCase()} = ${i + 1};`
       default:
-        return `${t} ${key} = ${i + 1};`
+        return `${t} ${key.toLowerCase()} = ${i + 1};`
     }
   })
   return messages[name]

@@ -59,6 +59,19 @@ const main = async () => {
             }
           }
         })
+        // ugh: the data uses strings for numbers!
+        // try my best to get them right
+        Object.keys(result).forEach(k => {
+          if (result[k] == parseFloat(result[k])) {
+            result[k] = parseFloat(result[k])
+          }
+          if (result[k] == parseInt(result[k])) {
+            result[k] = parseInt(result[k])
+          }
+          if (result[k] === 'unknown') {
+            result[k] = undefined
+          }
+        })
         return result
       })
       results.push.apply(results, cleanedResults)
@@ -69,6 +82,7 @@ const main = async () => {
   await Promise.all(Object.keys(urls).map(async noun => {
     out[noun] = await getNoun(noun)
   }))
+
   writeFileSync('../data.json', JSON.stringify(out, null, 2))
 }
 
