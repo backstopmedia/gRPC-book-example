@@ -20,7 +20,7 @@ func main() {
 	flag.IntVar(&port, "port", defaultPort, "The port to listen on")
 	flag.Parse()
 
-	log.Print("Starting RPC server on port %s...", port)
+	log.Printf("Starting RPC server on port %d...", port)
 	list, err := net.Listen("tcp", fmt.Sprintf(":%d", port))
 	if err != nil {
 		log.Fatalf("failed to setup tcp listener: %v", err)

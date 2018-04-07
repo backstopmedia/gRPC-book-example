@@ -1,4 +1,4 @@
-.PHONY: lint setup
+.PHONY: lint setup test
 
 PWD=$(shell pwd)
 
@@ -25,3 +25,6 @@ rpc-server: server/main.go server/api/*.go server/proto/swapi.pb.go
 
 run-server: rpc-server
 	./rpc-server
+
+test: server/proto/swapi.pb.go
+	@go test -v -cover ./server/api
