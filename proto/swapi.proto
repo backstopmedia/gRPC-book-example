@@ -1,78 +1,82 @@
 syntax = "proto3";
 
 import "google/api/annotations.proto";
-import "google/protobuf/empty.proto";
 
 package swapi.v1;
 option go_package = "proto";
 
 service Starwars {
-  rpc GetFilm(Reference) returns (Film) {
+  rpc GetFilm(GetFilmRequest) returns (GetFilmResponse) {
     option (google.api.http) = {
-       get: "/swapi/v1/film/{id}"
-    };
-  }
-  rpc ListFilms(google.protobuf.Empty) returns (FilmsList) {
-    option (google.api.http) = {
-       get: "/swapi/v1/films"
+      get: "/swapi/v1/film/{id}"
     };
   }
 
-  rpc GetStarship(Reference) returns (Starship) {
+  rpc ListFilms(ListFilmsRequest) returns (ListFilmsResponse) {
     option (google.api.http) = {
-       get: "/swapi/v1/starship/{id}"
-    };
-  }
-  rpc ListStarships(google.protobuf.Empty) returns (StarshipsList) {
-    option (google.api.http) = {
-       get: "/swapi/v1/starships"
+      get: "/swapi/v1/film/{id}"
     };
   }
 
-  rpc GetVehicle(Reference) returns (Vehicle) {
+  rpc GetVehicle(GetVehicleRequest) returns (GetVehicleResponse) {
     option (google.api.http) = {
        get: "/swapi/v1/vehicle/{id}"
     };
   }
-  rpc ListVehicles(google.protobuf.Empty) returns (VehiclesList) {
+
+  rpc ListVehicles(ListVehiclesRequest) returns (ListVehiclesResponse) {
     option (google.api.http) = {
        get: "/swapi/v1/vehicles"
     };
   }
 
-  rpc GetSpecies(Reference) returns (Species) {
+  rpc GetStarship(GetStarshipRequest) returns (GetStarshipResponse) {
+    option (google.api.http) = {
+       get: "/swapi/v1/starship/{id}"
+    };
+  }
+
+  rpc ListStarships(ListStarshipsRequest) returns (ListStarshipsResponse) {
+    option (google.api.http) = {
+       get: "/swapi/v1/starships"
+    };
+  }
+
+  rpc GetSpecies(GetSpeciesRequest) returns (GetSpeciesResponse) {
     option (google.api.http) = {
        get: "/swapi/v1/species/{id}"
     };
   }
-  rpc ListSpecies(google.protobuf.Empty) returns (SpeciesList) {
+
+  rpc ListSpecies(ListSpeciesRequest) returns (ListSpeciesResponse) {
     option (google.api.http) = {
        get: "/swapi/v1/species"
     };
   }
 
-  rpc GetPlanet(Reference) returns (Planet) {
+  rpc GetPlanet(GetPlanetRequest) returns (GetPlanetResponse) {
     option (google.api.http) = {
        get: "/swapi/v1/planet/{id}"
     };
   }
-  rpc ListPlanets(google.protobuf.Empty) returns (PlanetsList) {
+
+  rpc ListPlanets(ListPlanetsRequest) returns (ListPlanetsResponse) {
     option (google.api.http) = {
        get: "/swapi/v1/planets"
     };
   }
 
-  rpc GetPerson(Reference) returns (Person) {
+  rpc GetPerson(GetPersonRequest) returns (GetPersonResponse) {
     option (google.api.http) = {
        get: "/swapi/v1/person/{id}"
     };
   }
-  rpc ListPeople(google.protobuf.Empty) returns (PeopleList) {
+
+  rpc ListPeople(ListPeopleRequest) returns (ListPeopleResponse) {
     option (google.api.http) = {
        get: "/swapi/v1/people"
     };
   }
-
 }
 
 message Film {
@@ -88,6 +92,21 @@ message Film {
   repeated string vehicles = 10;
   repeated string species = 11;
   string id = 12;
+}
+
+message GetFilmRequest {
+  string id = 1;
+}
+
+message GetFilmResponse {
+  Film film = 1;
+}
+
+message ListFilmsRequest {
+}
+
+message ListFilmsResponse {
+  repeated Film films = 1;
 }
 
 message Vehicle {
@@ -107,19 +126,19 @@ message Vehicle {
   string id = 14;
 }
 
-message Species {
-  string name = 1;
-  string classification = 2;
-  string designation = 3;
-  int32 average_height = 4;
-  string skin_colors = 5;
-  string eye_colors = 6;
-  int32 average_lifespan = 7;
-  string homeworld = 8;
-  string language = 9;
-  repeated string people = 10;
-  repeated string films = 11;
-  string id = 12;
+message GetVehicleRequest {
+  string id = 1;
+}
+
+message GetVehicleResponse {
+  Vehicle vehicle = 1;
+}
+
+message ListVehiclesRequest {
+}
+
+message ListVehiclesResponse {
+  repeated Vehicle vehicles = 1;
 }
 
 message Starship {
@@ -140,6 +159,51 @@ message Starship {
   string id = 15;
 }
 
+message GetStarshipRequest {
+  string id = 1;
+}
+
+message GetStarshipResponse {
+  Starship starship = 1;
+}
+
+message ListStarshipsRequest {
+}
+
+message ListStarshipsResponse {
+  repeated Starship starships = 1;
+}
+
+message Species {
+  string name = 1;
+  string classification = 2;
+  string designation = 3;
+  int32 average_height = 4;
+  string skin_colors = 5;
+  string eye_colors = 6;
+  int32 average_lifespan = 7;
+  string homeworld = 8;
+  string language = 9;
+  repeated string people = 10;
+  repeated string films = 11;
+  string id = 12;
+}
+
+message GetSpeciesRequest {
+  string id = 1;
+}
+
+message GetSpeciesResponse {
+  Species species = 1;
+}
+
+message ListSpeciesRequest {
+}
+
+message ListSpeciesResponse {
+  repeated Species results = 1;
+}
+
 message Planet {
   string name = 1;
   int32 rotation_period = 2;
@@ -153,6 +217,21 @@ message Planet {
   repeated string residents = 10;
   repeated string films = 11;
   string id = 12;
+}
+
+message GetPlanetRequest {
+  string id = 1;
+}
+
+message GetPlanetResponse {
+  Planet planet = 1;
+}
+
+message ListPlanetsRequest {
+}
+
+message ListPlanetsResponse {
+  repeated Planet results = 1;
 }
 
 message Person {
@@ -172,31 +251,17 @@ message Person {
   string id = 14;
 }
 
-
-message Reference {
+message GetPersonRequest {
   string id = 1;
 }
 
-message FilmsList {
-  repeated Film results = 1;
+message GetPersonResponse {
+  Person person = 1;
 }
 
-message StarshipsList {
-  repeated Starship results = 1;
+message ListPeopleRequest {
 }
 
-message VehiclesList {
-  repeated Vehicle results = 1;
-}
-
-message SpeciesList {
-  repeated Species results = 1;
-}
-
-message PlanetsList {
-  repeated Planet results = 1;
-}
-
-message PeopleList {
+message ListPeopleResponse {
   repeated Person results = 1;
 }
