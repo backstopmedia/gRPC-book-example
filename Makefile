@@ -13,3 +13,8 @@ lint:
 		-v $(PWD):$(PWD) \
 		-w $(PWD)/proto \
 		gwihlidal/protoc swapi.proto -I. --lint_out=.
+
+
+server/proto/swapi.pb.go: proto/swapi.proto
+	$(info Generating go and gRPC protos...)
+	@retool do protoc -Iproto --go_out=plugins=grpc:server/proto proto/swapi.proto
