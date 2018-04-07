@@ -22,3 +22,6 @@ server/proto/swapi.pb.go: proto/swapi.proto
 rpc-server: server/main.go server/api/*.go server/proto/swapi.pb.go
 	$(info Building RPC server...)
 	@go build -o rpc-server ./server
+
+run-server: rpc-server
+	./rpc-server
