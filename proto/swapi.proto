@@ -3,7 +3,77 @@ syntax = "proto3";
 import "google/api/annotations.proto";
 import "google/protobuf/empty.proto";
 
-package swapi;
+package swapi.v1;
+option go_package = "proto";
+
+service Starwars {
+  rpc GetFilm(Reference) returns (Film) {
+    option (google.api.http) = {
+       get: "/swapi/v1/film/{id}"
+    };
+  }
+  rpc ListFilms(google.protobuf.Empty) returns (FilmsList) {
+    option (google.api.http) = {
+       get: "/swapi/v1/films"
+    };
+  }
+
+  rpc GetStarship(Reference) returns (Starship) {
+    option (google.api.http) = {
+       get: "/swapi/v1/starship/{id}"
+    };
+  }
+  rpc ListStarships(google.protobuf.Empty) returns (StarshipsList) {
+    option (google.api.http) = {
+       get: "/swapi/v1/starships"
+    };
+  }
+
+  rpc GetVehicle(Reference) returns (Vehicle) {
+    option (google.api.http) = {
+       get: "/swapi/v1/vehicle/{id}"
+    };
+  }
+  rpc ListVehicles(google.protobuf.Empty) returns (VehiclesList) {
+    option (google.api.http) = {
+       get: "/swapi/v1/vehicles"
+    };
+  }
+
+  rpc GetSpecies(Reference) returns (Species) {
+    option (google.api.http) = {
+       get: "/swapi/v1/species/{id}"
+    };
+  }
+  rpc ListSpecies(google.protobuf.Empty) returns (SpeciesList) {
+    option (google.api.http) = {
+       get: "/swapi/v1/species"
+    };
+  }
+
+  rpc GetPlanet(Reference) returns (Planet) {
+    option (google.api.http) = {
+       get: "/swapi/v1/planet/{id}"
+    };
+  }
+  rpc ListPlanets(google.protobuf.Empty) returns (PlanetsList) {
+    option (google.api.http) = {
+       get: "/swapi/v1/planets"
+    };
+  }
+
+  rpc GetPerson(Reference) returns (Person) {
+    option (google.api.http) = {
+       get: "/swapi/v1/person/{id}"
+    };
+  }
+  rpc ListPeople(google.protobuf.Empty) returns (PeopleList) {
+    option (google.api.http) = {
+       get: "/swapi/v1/people"
+    };
+  }
+
+}
 
 message Film {
   string title = 1;
@@ -129,73 +199,4 @@ message PlanetsList {
 
 message PeopleList {
   repeated Person results = 1;
-}
-
-service Starwars {
-  rpc GetFilm(Reference) returns (Film) {
-    option (google.api.http) = {
-       get: "/swapi/v1/film/{id}"
-    };
-  }
-  rpc ListFilms(google.protobuf.Empty) returns (FilmsList) {
-    option (google.api.http) = {
-       get: "/swapi/v1/films"
-    };
-  }
-
-  rpc GetStarship(Reference) returns (Starship) {
-    option (google.api.http) = {
-       get: "/swapi/v1/starship/{id}"
-    };
-  }
-  rpc ListStarships(google.protobuf.Empty) returns (StarshipsList) {
-    option (google.api.http) = {
-       get: "/swapi/v1/starships"
-    };
-  }
-
-  rpc GetVehicle(Reference) returns (Vehicle) {
-    option (google.api.http) = {
-       get: "/swapi/v1/vehicle/{id}"
-    };
-  }
-  rpc ListVehicles(google.protobuf.Empty) returns (VehiclesList) {
-    option (google.api.http) = {
-       get: "/swapi/v1/vehicles"
-    };
-  }
-
-  rpc GetSpecies(Reference) returns (Species) {
-    option (google.api.http) = {
-       get: "/swapi/v1/species/{id}"
-    };
-  }
-  rpc ListSpecies(google.protobuf.Empty) returns (SpeciesList) {
-    option (google.api.http) = {
-       get: "/swapi/v1/species"
-    };
-  }
-
-  rpc GetPlanet(Reference) returns (Planet) {
-    option (google.api.http) = {
-       get: "/swapi/v1/planet/{id}"
-    };
-  }
-  rpc ListPlanets(google.protobuf.Empty) returns (PlanetsList) {
-    option (google.api.http) = {
-       get: "/swapi/v1/planets"
-    };
-  }
-
-  rpc GetPerson(Reference) returns (Person) {
-    option (google.api.http) = {
-       get: "/swapi/v1/person/{id}"
-    };
-  }
-  rpc ListPeople(google.protobuf.Empty) returns (PeopleList) {
-    option (google.api.http) = {
-       get: "/swapi/v1/people"
-    };
-  }
-
 }
