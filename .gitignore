@@ -24,3 +24,4 @@ Temporary Items
 # Go/Retool
 _tools/
 vendor/
+rpc-server
