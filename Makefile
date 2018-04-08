@@ -27,4 +27,4 @@ run-server: rpc-server
 	./rpc-server
 
 test: server/proto/swapi.pb.go
-	@go test -v -cover ./server/api
+	@go test -v -cover ./server/api ./server/db
