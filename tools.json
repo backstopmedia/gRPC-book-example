@@ -11,6 +11,10 @@
     {
       "Repository": "google.golang.org/grpc",
       "Commit": "d89cded64628466c4ab532d1f0ba5c220459ebe8"
+    },
+    {
+      "Repository": "github.com/vektra/mockery/cmd/mockery",
+      "Commit": "c03f6b0c2fb19f0f12eebb29c7c8274bf96ca72b"
     }
   ],
   "RetoolVersion": "1.3.5"
