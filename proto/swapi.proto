@@ -8,19 +8,19 @@ option go_package = "proto";
 service Starwars {
   rpc GetFilm(GetFilmRequest) returns (GetFilmResponse) {
     option (google.api.http) = {
-      get: "/swapi/v1/film/{id}"
+      get: "/swapi/v1/films/{id}"
     };
   }
 
   rpc ListFilms(ListFilmsRequest) returns (ListFilmsResponse) {
     option (google.api.http) = {
-      get: "/swapi/v1/film/{id}"
+      get: "/swapi/v1/films"
     };
   }
 
   rpc GetVehicle(GetVehicleRequest) returns (GetVehicleResponse) {
     option (google.api.http) = {
-       get: "/swapi/v1/vehicle/{id}"
+       get: "/swapi/v1/vehicles/{id}"
     };
   }
 
@@ -32,7 +32,7 @@ service Starwars {
 
   rpc GetStarship(GetStarshipRequest) returns (GetStarshipResponse) {
     option (google.api.http) = {
-       get: "/swapi/v1/starship/{id}"
+       get: "/swapi/v1/starships/{id}"
     };
   }
 
@@ -56,7 +56,7 @@ service Starwars {
 
   rpc GetPlanet(GetPlanetRequest) returns (GetPlanetResponse) {
     option (google.api.http) = {
-       get: "/swapi/v1/planet/{id}"
+       get: "/swapi/v1/planets/{id}"
     };
   }
 
@@ -68,7 +68,7 @@ service Starwars {
 
   rpc GetPerson(GetPersonRequest) returns (GetPersonResponse) {
     option (google.api.http) = {
-       get: "/swapi/v1/person/{id}"
+       get: "/swapi/v1/people/{id}"
     };
   }
 
