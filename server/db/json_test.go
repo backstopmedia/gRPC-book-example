@@ -92,3 +92,23 @@ func (assert *JSONTest) TestGetPlanets() {
 
 	assert.Len(planets, 61)
 }
+
+func (assert *JSONTest) TestGetSpeciesByID() {
+	species, err := assert.db.GetSpeciesByID(context.Background(), "HJFy629NoG")
+	assert.NoError(err)
+
+	assert.Equal("Hutt", species.Name)
+}
+
+func (assert *JSONTest) TestGetSpeciesByIDNotFound() {
+	species, err := assert.db.GetSpeciesByID(context.Background(), "NoGood")
+	assert.Nil(species)
+	assert.EqualError(err, "species with id 'NoGood' not found")
+}
+
+func (assert *JSONTest) TestGetSpecies() {
+	species, err := assert.db.GetSpecies(context.Background())
+	assert.NoError(err)
+
+	assert.Len(species, 37)
+}

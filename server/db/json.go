@@ -64,3 +64,17 @@ func (p *jsonProvider) GetPlanetByID(ctx context.Context, id string) (*pb.Planet
 func (p *jsonProvider) GetPlanets(ctx context.Context) ([]*pb.Planet, error) {
 	return p.db.Planets, nil
 }
+
+func (p *jsonProvider) GetSpeciesByID(ctx context.Context, id string) (*pb.Species, error) {
+	for _, s := range p.db.Species {
+		if s.Id == id {
+			return s, nil
+		}
+	}
+
+	return nil, fmt.Errorf("species with id '%s' not found", id)
+}
+
+func (p *jsonProvider) GetSpecies(ctx context.Context) ([]*pb.Species, error) {
+	return p.db.Species, nil
+}
