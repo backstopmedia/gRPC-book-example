@@ -265,5 +265,5 @@ message ListPeopleRequest {
 }
 
 message ListPeopleResponse {
-  repeated Person results = 1;
+  repeated Person people = 1;
 }
