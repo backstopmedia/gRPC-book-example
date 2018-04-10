@@ -20,7 +20,7 @@ type FilmsTest struct {
 }
 
 func TestFilms(t *testing.T) {
-	suite.Run(t, &FilmsTest{api: new(api.Server)})
+	suite.Run(t, new(FilmsTest))
 }
 
 func (assert *FilmsTest) SetupTest() {
