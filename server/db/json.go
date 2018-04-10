@@ -36,3 +36,17 @@ func (p *jsonProvider) GetFilmByID(ctx context.Context, id string) (*pb.Film, er
 func (p *jsonProvider) GetFilms(ctx context.Context) ([]*pb.Film, error) {
 	return p.db.Films, nil
 }
+
+func (p *jsonProvider) GetPersonByID(ctx context.Context, id string) (*pb.Person, error) {
+	for _, person := range p.db.People {
+		if person.Id == id {
+			return person, nil
+		}
+	}
+
+	return nil, fmt.Errorf("person with id '%s' not found", id)
+}
+
+func (p *jsonProvider) GetPeople(ctx context.Context) ([]*pb.Person, error) {
+	return p.db.People, nil
+}

@@ -52,3 +52,23 @@ func (assert *JSONTest) TestGetFilms() {
 
 	assert.Len(films, 7)
 }
+
+func (assert *JSONTest) TestGetPersonByID() {
+	person, err := assert.db.GetPersonByID(context.Background(), "SyAbJp35ViM")
+	assert.NoError(err)
+
+	assert.Equal("Luke Skywalker", person.Name)
+}
+
+func (assert *JSONTest) TestGetPersonByIDNotFound() {
+	person, err := assert.db.GetPersonByID(context.Background(), "NoGood")
+	assert.Nil(person)
+	assert.EqualError(err, "person with id 'NoGood' not found")
+}
+
+func (assert *JSONTest) TestGetPeople() {
+	people, err := assert.db.GetPeople(context.Background())
+	assert.NoError(err)
+
+	assert.Len(people, 87)
+}
