@@ -119,7 +119,7 @@ message Vehicle {
   int32 crew = 7;
   int32 passengers = 8;
   int32 cargo_capacity = 9;
-  int32 consumables = 10;
+  string consumables = 10;
   string vehicle_class = 11;
   repeated string pilots = 12;
   repeated string films = 13;
@@ -145,18 +145,19 @@ message Starship {
   string name = 1;
   string model = 2;
   string manufacturer = 3;
-  int32 cost_in_credits = 4;
+  int64 cost_in_credits = 4;
   float length = 5;
   int32 crew = 6;
   int32 passengers = 7;
-  int32 cargo_capacity = 8;
+  int64 cargo_capacity = 8;
   string consumables = 9;
-  int32 hyperdrive_rating = 10;
+  float hyperdrive_rating = 10;
   int32 mglt = 11;
   string starship_class = 12;
   repeated string pilots = 13;
   repeated string films = 14;
   string id = 15;
+  int64 max_atmosphering_speed = 16;
 }
 
 message GetStarshipRequest {
@@ -187,6 +188,7 @@ message Species {
   repeated string people = 10;
   repeated string films = 11;
   string id = 12;
+  string hair_colors = 13;
 }
 
 message GetSpeciesRequest {
@@ -212,8 +214,8 @@ message Planet {
   string climate = 5;
   float gravity = 6;
   string terrain = 7;
-  int32 surface_water = 8;
-  int32 population = 9;
+  float surface_water = 8;
+  int64 population = 9;
   repeated string residents = 10;
   repeated string films = 11;
   string id = 12;

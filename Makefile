@@ -14,10 +14,13 @@ lint:
 		-w $(PWD)/proto \
 		gwihlidal/protoc swapi.proto -I. --lint_out=.
 
+server/api/mocks/provider.go: server/db/provider.go
+	$(info Generating mock provider...)
+	@retool do mockery -name Provider -dir server/db -output ./server/api/mocks
 
-server/proto/swapi.pb.go: proto/swapi.proto
+server/proto/%.pb.go: proto/%.proto
 	$(info Generating go and gRPC protos...)
-	@retool do protoc -Iproto --go_out=plugins=grpc:server/proto proto/swapi.proto
+	@retool do protoc -Iproto --go_out=plugins=grpc:server/proto proto/*.proto
 
 rpc-server: server/main.go server/api/*.go server/proto/swapi.pb.go
 	$(info Building RPC server...)
@@ -26,5 +29,5 @@ rpc-server: server/main.go server/api/*.go server/proto/swapi.pb.go
 run-server: rpc-server
 	./rpc-server
 
-test: server/proto/swapi.pb.go
-	@go test -v -cover ./server/api
+test: server/proto/swapi.pb.go server/proto/json_db.pb.go server/api/mocks/provider.go
+	@go test -v -cover ./server/api ./server/db

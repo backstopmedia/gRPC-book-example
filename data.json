@@ -533,7 +533,7 @@
       "crew": 46,
       "passengers": 30,
       "cargo_capacity": 50000,
-      "consumables": 60,
+      "consumables": "60 days",
       "vehicle_class": "wheeled",
       "pilots": [],
       "films": [
@@ -552,7 +552,6 @@
       "crew": 1,
       "passengers": 1,
       "cargo_capacity": 50,
-      "consumables": 0,
       "vehicle_class": "repulsorcraft",
       "pilots": [],
       "films": [
@@ -586,7 +585,7 @@
       "crew": 1,
       "passengers": 0,
       "cargo_capacity": 65,
-      "consumables": 2,
+      "consumables": "2 days",
       "vehicle_class": "starfighter",
       "pilots": [],
       "films": [
@@ -605,7 +604,6 @@
       "crew": 2,
       "passengers": 0,
       "cargo_capacity": 10,
-      "consumables": 0,
       "vehicle_class": "airspeeder",
       "pilots": [
         "SyAbJp35ViM",
@@ -624,8 +622,7 @@
       "max_atmosphering_speed": 850,
       "crew": 1,
       "passengers": 0,
-      "cargo_capacity": "none",
-      "consumables": 2,
+      "consumables": "2 days",
       "vehicle_class": "space/planetary bomber",
       "pilots": [],
       "films": [
@@ -660,7 +657,6 @@
       "crew": 2,
       "passengers": 0,
       "cargo_capacity": 200,
-      "consumables": 0,
       "vehicle_class": "walker",
       "pilots": [
         "SyAbJp35ViM3"
@@ -681,7 +677,7 @@
       "crew": 2,
       "passengers": 0,
       "cargo_capacity": 10,
-      "consumables": 1,
+      "consumables": "1 day",
       "vehicle_class": "repulsorcraft",
       "pilots": [],
       "films": [
@@ -699,7 +695,6 @@
       "crew": 26,
       "passengers": 500,
       "cargo_capacity": 2000000,
-      "consumables": -1,
       "vehicle_class": "sail barge",
       "pilots": [],
       "films": [
@@ -717,7 +712,7 @@
       "crew": 5,
       "passengers": 16,
       "cargo_capacity": 135000,
-      "consumables": 1,
+      "consumables": "1 day",
       "vehicle_class": "repulsorcraft cargo skiff",
       "pilots": [],
       "films": [
@@ -734,7 +729,7 @@
       "crew": 1,
       "passengers": 0,
       "cargo_capacity": 75,
-      "consumables": 2,
+      "consumables": "2 days",
       "vehicle_class": "starfighter",
       "pilots": [],
       "films": [
@@ -752,7 +747,7 @@
       "crew": 1,
       "passengers": 1,
       "cargo_capacity": 4,
-      "consumables": 1,
+      "consumables": "1 day",
       "vehicle_class": "speeder",
       "pilots": [
         "SyAbJp35ViM",
@@ -772,7 +767,6 @@
       "crew": 0,
       "passengers": 0,
       "cargo_capacity": 0,
-      "consumables": 0,
       "vehicle_class": "starfighter",
       "pilots": [],
       "films": [
@@ -822,8 +816,6 @@
       "max_atmosphering_speed": 400,
       "crew": 1,
       "passengers": 0,
-      "cargo_capacity": "none",
-      "consumables": 0,
       "vehicle_class": "repulsorcraft",
       "pilots": [],
       "films": [
@@ -841,7 +833,7 @@
       "crew": 140,
       "passengers": 284,
       "cargo_capacity": 1800000,
-      "consumables": 1,
+      "consumables": "1 day",
       "vehicle_class": "landing craft",
       "pilots": [],
       "films": [
@@ -897,7 +889,6 @@
       "crew": 1,
       "passengers": 1,
       "cargo_capacity": 200,
-      "consumables": 0,
       "vehicle_class": "repulsorcraft",
       "pilots": [
         "SyAbJp35ViM1"
@@ -985,7 +976,6 @@
       "crew": 1,
       "passengers": 1,
       "cargo_capacity": 10,
-      "consumables": 0,
       "vehicle_class": "wheeled walker",
       "pilots": [
         "Bk4fJp3cNjf9"
@@ -1016,7 +1006,6 @@
       "crew": 1,
       "passengers": 0,
       "cargo_capacity": 0,
-      "consumables": 0,
       "vehicle_class": "droid starfighter",
       "pilots": [],
       "films": [
@@ -1034,7 +1023,7 @@
       "crew": 2,
       "passengers": 2,
       "cargo_capacity": 50,
-      "consumables": 3,
+      "consumables": "3 days",
       "vehicle_class": "airspeeder",
       "pilots": [],
       "films": [
@@ -1052,7 +1041,6 @@
       "crew": 2,
       "passengers": 0,
       "cargo_capacity": 20,
-      "consumables": 0,
       "vehicle_class": "air speeder",
       "pilots": [],
       "films": [
@@ -1070,7 +1058,7 @@
       "crew": 20,
       "passengers": 300,
       "cargo_capacity": 30000,
-      "consumables": 20,
+      "consumables": "20 days",
       "vehicle_class": "wheeled walker",
       "pilots": [],
       "films": [
@@ -1087,8 +1075,6 @@
       "max_atmosphering_speed": 100,
       "crew": 0,
       "passengers": 4,
-      "cargo_capacity": "none",
-      "consumables": 0,
       "vehicle_class": "droid tank",
       "pilots": [],
       "films": [
@@ -1106,7 +1092,6 @@
       "crew": 0,
       "passengers": 0,
       "cargo_capacity": 0,
-      "consumables": 0,
       "vehicle_class": "airspeeder",
       "pilots": [],
       "films": [
@@ -1124,7 +1109,7 @@
       "crew": 1,
       "passengers": 0,
       "cargo_capacity": 20,
-      "consumables": 1,
+      "consumables": "1 day",
       "vehicle_class": "walker",
       "pilots": [],
       "films": [
@@ -1141,7 +1126,7 @@
       "crew": 6,
       "passengers": 36,
       "cargo_capacity": 10000,
-      "consumables": 21,
+      "consumables": "21 days",
       "vehicle_class": "walker",
       "pilots": [],
       "films": [
@@ -1159,7 +1144,7 @@
       "crew": 25,
       "passengers": 30,
       "cargo_capacity": 500,
-      "consumables": 7,
+      "consumables": "7 weeks",
       "vehicle_class": "walker",
       "pilots": [],
       "films": [
@@ -1194,7 +1179,7 @@
       "crew": 2,
       "passengers": 6,
       "cargo_capacity": 1000,
-      "consumables": 7,
+      "consumables": "7 weeks",
       "vehicle_class": "transport",
       "pilots": [],
       "films": [
@@ -1872,7 +1857,7 @@
       "name": "Droid",
       "classification": "artificial",
       "designation": "sentient",
-      "average_lifespan": "indefinite",
+      "average_lifespan": -1,
       "homeworld": null,
       "people": [
         "Hyyzkp2qEoG",
@@ -1981,7 +1966,7 @@
       "cargo_capacity": 250000000,
       "consumables": "6 years",
       "hyperdrive_rating": 2,
-      "MGLT": 40,
+      "mglt": 40,
       "starship_class": "Star dreadnought",
       "pilots": [],
       "films": [
@@ -2002,7 +1987,7 @@
       "cargo_capacity": 180000,
       "consumables": "1 month",
       "hyperdrive_rating": 1,
-      "MGLT": 70,
+      "mglt": 70,
       "starship_class": "landing craft",
       "pilots": [],
       "films": [
@@ -2021,7 +2006,7 @@
       "cargo_capacity": 1000000000000,
       "consumables": "3 years",
       "hyperdrive_rating": 4,
-      "MGLT": 10,
+      "mglt": 10,
       "starship_class": "Deep Space Mobile Battlestation",
       "pilots": [],
       "films": [
@@ -2041,7 +2026,7 @@
       "cargo_capacity": 100000,
       "consumables": "2 months",
       "hyperdrive_rating": 0.5,
-      "MGLT": 75,
+      "mglt": 75,
       "starship_class": "Light freighter",
       "pilots": [
         "SyAbJp35ViM3",
@@ -2063,13 +2048,13 @@
       "manufacturer": "Koensayr Manufacturing",
       "cost_in_credits": 134999,
       "length": 14,
-      "max_atmosphering_speed": "1000km",
+      "max_atmosphering_speed": 1000,
       "crew": 2,
       "passengers": 0,
       "cargo_capacity": 110,
       "consumables": "1 week",
       "hyperdrive_rating": 1,
-      "MGLT": 80,
+      "mglt": 80,
       "starship_class": "assault starfighter",
       "pilots": [],
       "films": [
@@ -2091,7 +2076,7 @@
       "cargo_capacity": 110,
       "consumables": "1 week",
       "hyperdrive_rating": 1,
-      "MGLT": 100,
+      "mglt": 100,
       "starship_class": "Starfighter",
       "pilots": [
         "SyAbJp35ViM",
@@ -2117,7 +2102,7 @@
       "cargo_capacity": 150,
       "consumables": "5 days",
       "hyperdrive_rating": 1,
-      "MGLT": 105,
+      "mglt": 105,
       "starship_class": "Starfighter",
       "pilots": [
         "S1WGJ62cEjf"
@@ -2138,7 +2123,7 @@
       "cargo_capacity": 70000,
       "consumables": "1 month",
       "hyperdrive_rating": 3,
-      "MGLT": 70,
+      "mglt": 70,
       "starship_class": "Patrol craft",
       "pilots": [
         "Hyyzkp2qEoG2"
@@ -2161,7 +2146,7 @@
       "cargo_capacity": 80000,
       "consumables": "2 months",
       "hyperdrive_rating": 1,
-      "MGLT": 50,
+      "mglt": 50,
       "starship_class": "Armed government transport",
       "pilots": [
         "SyAbJp35ViM",
@@ -2186,7 +2171,7 @@
       "cargo_capacity": 6000000,
       "consumables": "2 years",
       "hyperdrive_rating": 2,
-      "MGLT": 40,
+      "mglt": 40,
       "starship_class": "Escort ship",
       "pilots": [],
       "films": [
@@ -2205,7 +2190,7 @@
       "passengers": 1200,
       "consumables": "2 years",
       "hyperdrive_rating": 1,
-      "MGLT": 60,
+      "mglt": 60,
       "starship_class": "Star Cruiser",
       "pilots": [],
       "films": [
@@ -2225,7 +2210,7 @@
       "cargo_capacity": 40,
       "consumables": "1 week",
       "hyperdrive_rating": 1,
-      "MGLT": 120,
+      "mglt": 120,
       "starship_class": "Starfighter",
       "pilots": [
         "Hyyzkp2qEoG9"
@@ -2247,7 +2232,7 @@
       "cargo_capacity": 45,
       "consumables": "1 week",
       "hyperdrive_rating": 2,
-      "MGLT": 91,
+      "mglt": 91,
       "starship_class": "Assault Starfighter",
       "pilots": [],
       "films": [
@@ -2416,7 +2401,7 @@
       "cargo_capacity": 36000000,
       "consumables": "2 years",
       "hyperdrive_rating": 2,
-      "MGLT": 60,
+      "mglt": 60,
       "starship_class": "Star Destroyer",
       "pilots": [],
       "films": [
@@ -2492,7 +2477,7 @@
       "cargo_capacity": 19000000,
       "consumables": "6 months",
       "hyperdrive_rating": 4,
-      "MGLT": 20,
+      "mglt": 20,
       "starship_class": "Medium transport",
       "pilots": [],
       "films": [
@@ -2628,7 +2613,7 @@
       "cargo_capacity": 110,
       "consumables": "5 days",
       "hyperdrive_rating": 1,
-      "MGLT": 100,
+      "mglt": 100,
       "starship_class": "starfighter",
       "pilots": [],
       "films": [
@@ -2689,7 +2674,7 @@
       "cargo_capacity": 3000000,
       "consumables": "1 year",
       "hyperdrive_rating": 2,
-      "MGLT": 60,
+      "mglt": 60,
       "starship_class": "corvette",
       "pilots": [],
       "films": [
