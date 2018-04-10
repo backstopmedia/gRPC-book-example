@@ -50,3 +50,17 @@ func (p *jsonProvider) GetPersonByID(ctx context.Context, id string) (*pb.Person
 func (p *jsonProvider) GetPeople(ctx context.Context) ([]*pb.Person, error) {
 	return p.db.People, nil
 }
+
+func (p *jsonProvider) GetPlanetByID(ctx context.Context, id string) (*pb.Planet, error) {
+	for _, planet := range p.db.Planets {
+		if planet.Id == id {
+			return planet, nil
+		}
+	}
+
+	return nil, fmt.Errorf("planet with id '%s' not found", id)
+}
+
+func (p *jsonProvider) GetPlanets(ctx context.Context) ([]*pb.Planet, error) {
+	return p.db.Planets, nil
+}

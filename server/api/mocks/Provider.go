@@ -102,3 +102,49 @@ func (_m *Provider) GetPersonByID(ctx context.Context, id string) (*proto.Person
 
 	return r0, r1
 }
+
+// GetPlanetByID provides a mock function with given fields: ctx, id
+func (_m *Provider) GetPlanetByID(ctx context.Context, id string) (*proto.Planet, error) {
+	ret := _m.Called(ctx, id)
+
+	var r0 *proto.Planet
+	if rf, ok := ret.Get(0).(func(context.Context, string) *proto.Planet); ok {
+		r0 = rf(ctx, id)
+	} else {
+		if ret.Get(0) != nil {
+			r0 = ret.Get(0).(*proto.Planet)
+		}
+	}
+
+	var r1 error
+	if rf, ok := ret.Get(1).(func(context.Context, string) error); ok {
+		r1 = rf(ctx, id)
+	} else {
+		r1 = ret.Error(1)
+	}
+
+	return r0, r1
+}
+
+// GetPlanets provides a mock function with given fields: ctx
+func (_m *Provider) GetPlanets(ctx context.Context) ([]*proto.Planet, error) {
+	ret := _m.Called(ctx)
+
+	var r0 []*proto.Planet
+	if rf, ok := ret.Get(0).(func(context.Context) []*proto.Planet); ok {
+		r0 = rf(ctx)
+	} else {
+		if ret.Get(0) != nil {
+			r0 = ret.Get(0).([]*proto.Planet)
+		}
+	}
+
+	var r1 error
+	if rf, ok := ret.Get(1).(func(context.Context) error); ok {
+		r1 = rf(ctx)
+	} else {
+		r1 = ret.Error(1)
+	}
+
+	return r0, r1
+}

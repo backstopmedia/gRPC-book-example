@@ -12,4 +12,7 @@ type Provider interface {
 
 	GetPersonByID(ctx context.Context, id string) (*pb.Person, error)
 	GetPeople(ctx context.Context) ([]*pb.Person, error)
+
+	GetPlanetByID(ctx context.Context, id string) (*pb.Planet, error)
+	GetPlanets(ctx context.Context) ([]*pb.Planet, error)
 }
