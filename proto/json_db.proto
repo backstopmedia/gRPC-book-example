@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+import "swapi.proto";
+
+package swapi.v1;
+option go_package = "proto";
+
+message DB {
+  repeated Film films         = 1;
+  repeated Person people      = 2;
+  repeated Planet planets     = 3;
+  repeated Species species    = 4;
+  repeated Starship starships = 5;
+  repeated Vehicle vehicles   = 6;
+}
