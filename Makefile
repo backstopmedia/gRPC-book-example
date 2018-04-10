@@ -1,4 +1,4 @@
-.PHONY: lint setup
+.PHONY: lint setup test
 
 PWD=$(shell pwd)
 
@@ -13,3 +13,18 @@ lint:
 		-v $(PWD):$(PWD) \
 		-w $(PWD)/proto \
 		gwihlidal/protoc swapi.proto -I. --lint_out=.
+
+
+server/proto/swapi.pb.go: proto/swapi.proto
+	$(info Generating go and gRPC protos...)
+	@retool do protoc -Iproto --go_out=plugins=grpc:server/proto proto/swapi.proto
+
+rpc-server: server/main.go server/api/*.go server/proto/swapi.pb.go
+	$(info Building RPC server...)
+	@go build -o rpc-server ./server
+
+run-server: rpc-server
+	./rpc-server
+
+test: server/proto/swapi.pb.go
+	@go test -v -cover ./server/api

@@ -28,3 +28,15 @@
 [prune]
   go-tests = true
   unused-packages = true
+
+[[constraint]]
+  name = "google.golang.org/grpc"
+  version = "1.11.2"
+
+[[constraint]]
+  name = "github.com/golang/protobuf"
+  version = "1.0.0"
+
+[[constraint]]
+  name = "github.com/stretchr/testify"
+  version = "1.2.1"
