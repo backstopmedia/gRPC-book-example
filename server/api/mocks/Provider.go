@@ -56,3 +56,233 @@ func (_m *Provider) GetFilms(ctx context.Context) ([]*proto.Film, error) {
 
 	return r0, r1
 }
+
+// GetPeople provides a mock function with given fields: ctx
+func (_m *Provider) GetPeople(ctx context.Context) ([]*proto.Person, error) {
+	ret := _m.Called(ctx)
+
+	var r0 []*proto.Person
+	if rf, ok := ret.Get(0).(func(context.Context) []*proto.Person); ok {
+		r0 = rf(ctx)
+	} else {
+		if ret.Get(0) != nil {
+			r0 = ret.Get(0).([]*proto.Person)
+		}
+	}
+
+	var r1 error
+	if rf, ok := ret.Get(1).(func(context.Context) error); ok {
+		r1 = rf(ctx)
+	} else {
+		r1 = ret.Error(1)
+	}
+
+	return r0, r1
+}
+
+// GetPersonByID provides a mock function with given fields: ctx, id
+func (_m *Provider) GetPersonByID(ctx context.Context, id string) (*proto.Person, error) {
+	ret := _m.Called(ctx, id)
+
+	var r0 *proto.Person
+	if rf, ok := ret.Get(0).(func(context.Context, string) *proto.Person); ok {
+		r0 = rf(ctx, id)
+	} else {
+		if ret.Get(0) != nil {
+			r0 = ret.Get(0).(*proto.Person)
+		}
+	}
+
+	var r1 error
+	if rf, ok := ret.Get(1).(func(context.Context, string) error); ok {
+		r1 = rf(ctx, id)
+	} else {
+		r1 = ret.Error(1)
+	}
+
+	return r0, r1
+}
+
+// GetPlanetByID provides a mock function with given fields: ctx, id
+func (_m *Provider) GetPlanetByID(ctx context.Context, id string) (*proto.Planet, error) {
+	ret := _m.Called(ctx, id)
+
+	var r0 *proto.Planet
+	if rf, ok := ret.Get(0).(func(context.Context, string) *proto.Planet); ok {
+		r0 = rf(ctx, id)
+	} else {
+		if ret.Get(0) != nil {
+			r0 = ret.Get(0).(*proto.Planet)
+		}
+	}
+
+	var r1 error
+	if rf, ok := ret.Get(1).(func(context.Context, string) error); ok {
+		r1 = rf(ctx, id)
+	} else {
+		r1 = ret.Error(1)
+	}
+
+	return r0, r1
+}
+
+// GetPlanets provides a mock function with given fields: ctx
+func (_m *Provider) GetPlanets(ctx context.Context) ([]*proto.Planet, error) {
+	ret := _m.Called(ctx)
+
+	var r0 []*proto.Planet
+	if rf, ok := ret.Get(0).(func(context.Context) []*proto.Planet); ok {
+		r0 = rf(ctx)
+	} else {
+		if ret.Get(0) != nil {
+			r0 = ret.Get(0).([]*proto.Planet)
+		}
+	}
+
+	var r1 error
+	if rf, ok := ret.Get(1).(func(context.Context) error); ok {
+		r1 = rf(ctx)
+	} else {
+		r1 = ret.Error(1)
+	}
+
+	return r0, r1
+}
+
+// GetSpecies provides a mock function with given fields: ctx
+func (_m *Provider) GetSpecies(ctx context.Context) ([]*proto.Species, error) {
+	ret := _m.Called(ctx)
+
+	var r0 []*proto.Species
+	if rf, ok := ret.Get(0).(func(context.Context) []*proto.Species); ok {
+		r0 = rf(ctx)
+	} else {
+		if ret.Get(0) != nil {
+			r0 = ret.Get(0).([]*proto.Species)
+		}
+	}
+
+	var r1 error
+	if rf, ok := ret.Get(1).(func(context.Context) error); ok {
+		r1 = rf(ctx)
+	} else {
+		r1 = ret.Error(1)
+	}
+
+	return r0, r1
+}
+
+// GetSpeciesByID provides a mock function with given fields: ctx, id
+func (_m *Provider) GetSpeciesByID(ctx context.Context, id string) (*proto.Species, error) {
+	ret := _m.Called(ctx, id)
+
+	var r0 *proto.Species
+	if rf, ok := ret.Get(0).(func(context.Context, string) *proto.Species); ok {
+		r0 = rf(ctx, id)
+	} else {
+		if ret.Get(0) != nil {
+			r0 = ret.Get(0).(*proto.Species)
+		}
+	}
+
+	var r1 error
+	if rf, ok := ret.Get(1).(func(context.Context, string) error); ok {
+		r1 = rf(ctx, id)
+	} else {
+		r1 = ret.Error(1)
+	}
+
+	return r0, r1
+}
+
+// GetStarshipByID provides a mock function with given fields: ctx, id
+func (_m *Provider) GetStarshipByID(ctx context.Context, id string) (*proto.Starship, error) {
+	ret := _m.Called(ctx, id)
+
+	var r0 *proto.Starship
+	if rf, ok := ret.Get(0).(func(context.Context, string) *proto.Starship); ok {
+		r0 = rf(ctx, id)
+	} else {
+		if ret.Get(0) != nil {
+			r0 = ret.Get(0).(*proto.Starship)
+		}
+	}
+
+	var r1 error
+	if rf, ok := ret.Get(1).(func(context.Context, string) error); ok {
+		r1 = rf(ctx, id)
+	} else {
+		r1 = ret.Error(1)
+	}
+
+	return r0, r1
+}
+
+// GetStarships provides a mock function with given fields: ctx
+func (_m *Provider) GetStarships(ctx context.Context) ([]*proto.Starship, error) {
+	ret := _m.Called(ctx)
+
+	var r0 []*proto.Starship
+	if rf, ok := ret.Get(0).(func(context.Context) []*proto.Starship); ok {
+		r0 = rf(ctx)
+	} else {
+		if ret.Get(0) != nil {
+			r0 = ret.Get(0).([]*proto.Starship)
+		}
+	}
+
+	var r1 error
+	if rf, ok := ret.Get(1).(func(context.Context) error); ok {
+		r1 = rf(ctx)
+	} else {
+		r1 = ret.Error(1)
+	}
+
+	return r0, r1
+}
+
+// GetVehicleByID provides a mock function with given fields: ctx, id
+func (_m *Provider) GetVehicleByID(ctx context.Context, id string) (*proto.Vehicle, error) {
+	ret := _m.Called(ctx, id)
+
+	var r0 *proto.Vehicle
+	if rf, ok := ret.Get(0).(func(context.Context, string) *proto.Vehicle); ok {
+		r0 = rf(ctx, id)
+	} else {
+		if ret.Get(0) != nil {
+			r0 = ret.Get(0).(*proto.Vehicle)
+		}
+	}
+
+	var r1 error
+	if rf, ok := ret.Get(1).(func(context.Context, string) error); ok {
+		r1 = rf(ctx, id)
+	} else {
+		r1 = ret.Error(1)
+	}
+
+	return r0, r1
+}
+
+// GetVehicles provides a mock function with given fields: ctx
+func (_m *Provider) GetVehicles(ctx context.Context) ([]*proto.Vehicle, error) {
+	ret := _m.Called(ctx)
+
+	var r0 []*proto.Vehicle
+	if rf, ok := ret.Get(0).(func(context.Context) []*proto.Vehicle); ok {
+		r0 = rf(ctx)
+	} else {
+		if ret.Get(0) != nil {
+			r0 = ret.Get(0).([]*proto.Vehicle)
+		}
+	}
+
+	var r1 error
+	if rf, ok := ret.Get(1).(func(context.Context) error); ok {
+		r1 = rf(ctx)
+	} else {
+		r1 = ret.Error(1)
+	}
+
+	return r0, r1
+}
