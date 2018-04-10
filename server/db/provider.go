@@ -18,4 +18,7 @@ type Provider interface {
 
 	GetSpeciesByID(ctx context.Context, id string) (*pb.Species, error)
 	GetSpecies(ctx context.Context) ([]*pb.Species, error)
+
+	GetStarshipByID(ctx context.Context, id string) (*pb.Starship, error)
+	GetStarships(ctx context.Context) ([]*pb.Starship, error)
 }

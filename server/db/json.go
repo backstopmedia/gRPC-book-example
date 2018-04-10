@@ -78,3 +78,17 @@ func (p *jsonProvider) GetSpeciesByID(ctx context.Context, id string) (*pb.Speci
 func (p *jsonProvider) GetSpecies(ctx context.Context) ([]*pb.Species, error) {
 	return p.db.Species, nil
 }
+
+func (p *jsonProvider) GetStarshipByID(ctx context.Context, id string) (*pb.Starship, error) {
+	for _, s := range p.db.Starships {
+		if s.Id == id {
+			return s, nil
+		}
+	}
+
+	return nil, fmt.Errorf("starship with id '%s' not found", id)
+}
+
+func (p *jsonProvider) GetStarships(ctx context.Context) ([]*pb.Starship, error) {
+	return p.db.Starships, nil
+}
