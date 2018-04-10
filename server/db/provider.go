@@ -21,4 +21,7 @@ type Provider interface {
 
 	GetStarshipByID(ctx context.Context, id string) (*pb.Starship, error)
 	GetStarships(ctx context.Context) ([]*pb.Starship, error)
+
+	GetVehicleByID(ctx context.Context, id string) (*pb.Vehicle, error)
+	GetVehicles(ctx context.Context) ([]*pb.Vehicle, error)
 }

@@ -132,3 +132,23 @@ func (assert *JSONTest) TestGetStarships() {
 
 	assert.Len(starships, 37)
 }
+
+func (assert *JSONTest) TestGetVehicleByID() {
+	vehicle, err := assert.db.GetVehicleByID(context.Background(), "Skka2cNjf")
+	assert.NoError(err)
+
+	assert.Equal("Sand Crawler", vehicle.Name)
+}
+
+func (assert *JSONTest) TestGetVehicleByIDNotFound() {
+	vehicle, err := assert.db.GetVehicleByID(context.Background(), "NoGood")
+	assert.Nil(vehicle)
+	assert.EqualError(err, "vehicle with id 'NoGood' not found")
+}
+
+func (assert *JSONTest) TestGetVehicles() {
+	vehicles, err := assert.db.GetVehicles(context.Background())
+	assert.NoError(err)
+
+	assert.Len(vehicles, 39)
+}
