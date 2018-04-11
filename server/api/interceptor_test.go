@@ -1,12 +1,16 @@
 package api_test
 
 import (
+	"bytes"
 	"context"
 	"errors"
+	"os"
 	"testing"
 
 	"github.com/backstopmedia/gRPC-book-example/server/api"
+	"github.com/sirupsen/logrus"
 	"github.com/stretchr/testify/assert"
+	"github.com/stretchr/testify/require"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/codes"
 )
@@ -33,4 +37,24 @@ func TestErrorsInterceptor(t *testing.T) {
 		assert.Nil(t, out)
 		assert.Equal(t, expErr, err)
 	})
+}
+
+func TestLoggingInterceptor(t *testing.T) {
+	buf := new(bytes.Buffer)
+	logrus.SetOutput(buf)
+	defer logrus.SetOutput(os.Stdout)
+
+	// no-op handler
+	handler := func(ctx context.Context, req interface{}) (interface{}, error) {
+		return nil, nil
+	}
+
+	info := &grpc.UnaryServerInfo{FullMethod: "boom.Boom/GetBoom"}
+	_, err := api.LoggingInterceptor(nil, nil, info, handler)
+	require.NoError(t, err, "error on logging interceptor")
+
+	logLine := buf.String()
+	assert.Contains(t, logLine, "method=boom.Boom/GetBoom")
+	assert.Contains(t, logLine, "duration=")
+	assert.Contains(t, logLine, "finished RPC")
 }
