@@ -45,7 +45,8 @@ func main() {
 		log.Fatalf("unable to parse data file: %v", err)
 	}
 
-	s := grpc.NewServer()
+	interceptorOpt := grpc.UnaryInterceptor(api.Interceptors())
+	s := grpc.NewServer(interceptorOpt)
 	pb.RegisterStarwarsServer(s, api.New(db))
 
 	if err := s.Serve(list); err != nil {
