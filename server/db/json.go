@@ -29,7 +29,7 @@ func (p *jsonProvider) GetFilmByID(ctx context.Context, id string) (*pb.Film, er
 		}
 	}
 
-	return nil, NotFound("film")
+	return nil, NotFound("film", id)
 }
 
 func (p *jsonProvider) GetFilms(ctx context.Context) ([]*pb.Film, error) {
@@ -43,7 +43,7 @@ func (p *jsonProvider) GetPersonByID(ctx context.Context, id string) (*pb.Person
 		}
 	}
 
-	return nil, NotFound("person")
+	return nil, NotFound("person", id)
 }
 
 func (p *jsonProvider) GetPeople(ctx context.Context) ([]*pb.Person, error) {
@@ -57,7 +57,7 @@ func (p *jsonProvider) GetPlanetByID(ctx context.Context, id string) (*pb.Planet
 		}
 	}
 
-	return nil, NotFound("planet")
+	return nil, NotFound("planet", id)
 }
 
 func (p *jsonProvider) GetPlanets(ctx context.Context) ([]*pb.Planet, error) {
@@ -71,7 +71,7 @@ func (p *jsonProvider) GetSpeciesByID(ctx context.Context, id string) (*pb.Speci
 		}
 	}
 
-	return nil, NotFound("species")
+	return nil, NotFound("species", id)
 }
 
 func (p *jsonProvider) GetSpecies(ctx context.Context) ([]*pb.Species, error) {
@@ -85,7 +85,7 @@ func (p *jsonProvider) GetStarshipByID(ctx context.Context, id string) (*pb.Star
 		}
 	}
 
-	return nil, NotFound("starship")
+	return nil, NotFound("starship", id)
 }
 
 func (p *jsonProvider) GetStarships(ctx context.Context) ([]*pb.Starship, error) {
@@ -99,7 +99,7 @@ func (p *jsonProvider) GetVehicleByID(ctx context.Context, id string) (*pb.Vehic
 		}
 	}
 
-	return nil, NotFound("vehicle")
+	return nil, NotFound("vehicle", id)
 }
 
 func (p *jsonProvider) GetVehicles(ctx context.Context) ([]*pb.Vehicle, error) {

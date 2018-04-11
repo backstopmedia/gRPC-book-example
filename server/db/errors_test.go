@@ -17,6 +17,6 @@ func TestErrors(t *testing.T) {
 }
 
 func (assert *ErrorsTest) TestNotFound() {
-	err := db.NotFound("thing")
-	assert.EqualError(err, "could not find thing")
+	err := db.NotFound("thing", "id")
+	assert.EqualError(err, "thing with id 'id' not found")
 }
