@@ -233,7 +233,7 @@ message ListPlanetsRequest {
 }
 
 message ListPlanetsResponse {
-  repeated Planet results = 1;
+  repeated Planet planets = 1;
 }
 
 message Person {
