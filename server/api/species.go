@@ -6,10 +6,20 @@ import (
 	pb "github.com/backstopmedia/gRPC-book-example/server/proto"
 )
 
-func (s *Server) GetSpecies(context.Context, *pb.GetSpeciesRequest) (*pb.GetSpeciesResponse, error) {
-	return nil, s.notImplementedError()
+func (s *Server) GetSpecies(ctx context.Context, r *pb.GetSpeciesRequest) (*pb.GetSpeciesResponse, error) {
+	species, err := s.db.GetSpeciesByID(ctx, r.Id)
+	if err != nil {
+		return nil, err
+	}
+
+	return &pb.GetSpeciesResponse{Species: species}, nil
 }
 
-func (s *Server) ListSpecies(context.Context, *pb.ListSpeciesRequest) (*pb.ListSpeciesResponse, error) {
-	return nil, s.notImplementedError()
+func (s *Server) ListSpecies(ctx context.Context, r *pb.ListSpeciesRequest) (*pb.ListSpeciesResponse, error) {
+	species, err := s.db.GetSpecies(ctx)
+	if err != nil {
+		return nil, err
+	}
+
+	return &pb.ListSpeciesResponse{Species: species}, nil
 }

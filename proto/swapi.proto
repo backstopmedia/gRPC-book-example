@@ -203,7 +203,7 @@ message ListSpeciesRequest {
 }
 
 message ListSpeciesResponse {
-  repeated Species results = 1;
+  repeated Species species = 1;
 }
 
 message Planet {

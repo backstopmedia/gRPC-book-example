@@ -699,7 +699,7 @@ func (*ListSpeciesRequest) ProtoMessage()               {}
 func (*ListSpeciesRequest) Descriptor() ([]byte, []int) { return fileDescriptor1, []int{18} }
 
 type ListSpeciesResponse struct {
-	Results []*Species `protobuf:"bytes,1,rep,name=results" json:"results,omitempty"`
+	Species []*Species `protobuf:"bytes,1,rep,name=species" json:"species,omitempty"`
 }
 
 func (m *ListSpeciesResponse) Reset()                    { *m = ListSpeciesResponse{} }
@@ -707,9 +707,9 @@ func (m *ListSpeciesResponse) String() string            { return proto1.Compact
 func (*ListSpeciesResponse) ProtoMessage()               {}
 func (*ListSpeciesResponse) Descriptor() ([]byte, []int) { return fileDescriptor1, []int{19} }
 
-func (m *ListSpeciesResponse) GetResults() []*Species {
+func (m *ListSpeciesResponse) GetSpecies() []*Species {
 	if m != nil {
-		return m.Results
+		return m.Species
 	}
 	return nil
 }
