@@ -43,3 +43,4 @@
 
 [[constraint]]
   name = "github.com/grpc-ecosystem/go-grpc-middleware"
+  branch = "master"
