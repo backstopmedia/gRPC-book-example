@@ -43,7 +43,7 @@ func (assert *JSONTest) TestGetFilmByID() {
 func (assert *JSONTest) TestGetFilmByIDNotFound() {
 	film, err := assert.db.GetFilmByID(context.Background(), "ThisDoesNotExist")
 	assert.Nil(film)
-	assert.EqualError(err, "film with id 'ThisDoesNotExist' not found")
+	assert.EqualError(err, "could not find film")
 }
 
 func (assert *JSONTest) TestGetFilms() {
@@ -63,7 +63,7 @@ func (assert *JSONTest) TestGetPersonByID() {
 func (assert *JSONTest) TestGetPersonByIDNotFound() {
 	person, err := assert.db.GetPersonByID(context.Background(), "NoGood")
 	assert.Nil(person)
-	assert.EqualError(err, "person with id 'NoGood' not found")
+	assert.EqualError(err, "could not find person")
 }
 
 func (assert *JSONTest) TestGetPeople() {
@@ -83,7 +83,7 @@ func (assert *JSONTest) TestGetPlanetByID() {
 func (assert *JSONTest) TestGetPlanetByIDNotFound() {
 	planet, err := assert.db.GetPlanetByID(context.Background(), "NoGood")
 	assert.Nil(planet)
-	assert.EqualError(err, "planet with id 'NoGood' not found")
+	assert.EqualError(err, "could not find planet")
 }
 
 func (assert *JSONTest) TestGetPlanets() {
@@ -103,7 +103,7 @@ func (assert *JSONTest) TestGetSpeciesByID() {
 func (assert *JSONTest) TestGetSpeciesByIDNotFound() {
 	species, err := assert.db.GetSpeciesByID(context.Background(), "NoGood")
 	assert.Nil(species)
-	assert.EqualError(err, "species with id 'NoGood' not found")
+	assert.EqualError(err, "could not find species")
 }
 
 func (assert *JSONTest) TestGetSpecies() {
@@ -123,7 +123,7 @@ func (assert *JSONTest) TestGetStarshipByID() {
 func (assert *JSONTest) TestGetStarshipByIDNotFound() {
 	starship, err := assert.db.GetStarshipByID(context.Background(), "NoGood")
 	assert.Nil(starship)
-	assert.EqualError(err, "starship with id 'NoGood' not found")
+	assert.EqualError(err, "could not find starship")
 }
 
 func (assert *JSONTest) TestGetStarships() {
@@ -143,7 +143,7 @@ func (assert *JSONTest) TestGetVehicleByID() {
 func (assert *JSONTest) TestGetVehicleByIDNotFound() {
 	vehicle, err := assert.db.GetVehicleByID(context.Background(), "NoGood")
 	assert.Nil(vehicle)
-	assert.EqualError(err, "vehicle with id 'NoGood' not found")
+	assert.EqualError(err, "could not find vehicle")
 }
 
 func (assert *JSONTest) TestGetVehicles() {
