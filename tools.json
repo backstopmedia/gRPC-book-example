@@ -5,10 +5,6 @@
       "Commit": "37d9ea0ac16f0e0a05afc3b60e1ac8c364b6c329"
     },
     {
-      "Repository": "github.com/golang/protobuf/protoc-gen-go",
-      "Commit": "e09c5db296004fbe3f74490e84dcd62c3c5ddb1b"
-    },
-    {
       "Repository": "google.golang.org/grpc",
       "Commit": "d89cded64628466c4ab532d1f0ba5c220459ebe8"
     },

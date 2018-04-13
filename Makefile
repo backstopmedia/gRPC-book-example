@@ -20,7 +20,8 @@ server/api/mocks/provider.go: server/db/provider.go
 
 server/proto/%.pb.go: proto/%.proto
 	$(info Generating go and gRPC protos...)
-	@retool do protoc -Iproto --go_out=plugins=grpc:server/proto proto/*.proto
+	@docker run --rm -v $(PWD):$(PWD) -w $(PWD) \
+		gwihlidal/protoc -Iproto --go_out=plugins=grpc:server/proto proto/*.proto
 
 rpc-server: server/main.go server/api/*.go server/proto/swapi.pb.go
 	$(info Building RPC server...)
