@@ -1,11 +1,13 @@
 package api_test
 
 import (
+	jwt "github.com/dgrijalva/jwt-go"
 	"github.com/sirupsen/logrus"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/codes"
+	"google.golang.org/grpc/metadata"
 
 	"bytes"
 	"context"
@@ -59,4 +61,29 @@ func TestLoggingInterceptor(t *testing.T) {
 	assert.Contains(t, logLine, "method=boom.Boom/GetBoom")
 	assert.Contains(t, logLine, "duration=")
 	assert.Contains(t, logLine, "finished RPC")
+}
+
+func TestAuthenticationInterceptor(t *testing.T) {
+	os.Setenv("JWT_SECRET", "bunk")
+	claims := struct {
+		Username string `json:"un"`
+		jwt.StandardClaims
+	}{
+		Username: "bobbytables",
+	}
+
+	token := jwt.NewWithClaims(jwt.SigningMethodHS256, claims)
+	ss, err := token.SignedString([]byte("bunk"))
+	require.NoError(t, err)
+
+	md := metadata.Pairs(api.AuthTokenKey, ss)
+	ctx := metadata.NewIncomingContext(context.Background(), md)
+
+	handler := func(ctx context.Context, req interface{}) (interface{}, error) {
+		assert.Equal(t, claims.Username, ctx.Value(api.UserCtxKey{}))
+		return nil, nil
+	}
+
+	_, err = api.AuthenticationInterceptor(ctx, nil, nil, handler)
+	require.NoError(t, err, "error on authentication interceptor")
 }
