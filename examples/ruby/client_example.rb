@@ -1,4 +1,4 @@
-$LOAD_PATH.unshift File.expand_path("../", __FILE__)
+$LOAD_PATH.unshift File.expand_path("../proto", __FILE__)
 require_relative './proto/swapi_pb'
 require_relative './proto/swapi_services_pb'
 
