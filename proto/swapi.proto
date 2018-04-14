@@ -1,6 +1,7 @@
 syntax = "proto3";
 
 import "google/api/annotations.proto";
+import "google/protobuf/empty.proto";
 
 package sfapi.v1;
 option go_package = "proto";
@@ -89,6 +90,8 @@ service Starfriends {
        get: "/sfapi/v1/people"
     };
   }
+
+  rpc ListStarshipActions(ListStarshipActionsRequest) returns (stream StarshipAction) {}
 }
 
 message Film {
@@ -278,4 +281,18 @@ message ListPeopleRequest {
 
 message ListPeopleResponse {
   repeated Person people = 1;
+}
+
+message ListStarshipActionsRequest {}
+
+message StarshipAction {
+  Starship starship = 1;
+
+  enum Action {
+    TOOKOFF = 0;
+    LANDED = 1;
+    HYPERDRIVE = 2;
+    HIDING_IN_A_MOUTH = 3;
+  }
+  Action action = 2;
 }

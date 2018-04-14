@@ -4,6 +4,7 @@
 require 'google/protobuf'
 
 require 'google/api/annotations_pb'
+require 'google/protobuf/empty_pb'
 Google::Protobuf::DescriptorPool.generated_pool.build do
   add_message "swapi.v1.Film" do
     optional :title, :string, 1
@@ -164,6 +165,18 @@ Google::Protobuf::DescriptorPool.generated_pool.build do
   add_message "swapi.v1.ListPeopleResponse" do
     repeated :people, :message, 1, "swapi.v1.Person"
   end
+  add_message "swapi.v1.ListStarshipActionsRequest" do
+  end
+  add_message "swapi.v1.StarshipAction" do
+    optional :starship, :message, 1, "swapi.v1.Starship"
+    optional :action, :enum, 2, "swapi.v1.StarshipAction.Action"
+  end
+  add_enum "swapi.v1.StarshipAction.Action" do
+    value :TOOKOFF, 0
+    value :LANDED, 1
+    value :HYPERDRIVE, 2
+    value :HIDING_IN_A_MOUTH, 3
+  end
 end
 
 module Swapi
@@ -198,5 +211,8 @@ module Swapi
     GetPersonResponse = Google::Protobuf::DescriptorPool.generated_pool.lookup("swapi.v1.GetPersonResponse").msgclass
     ListPeopleRequest = Google::Protobuf::DescriptorPool.generated_pool.lookup("swapi.v1.ListPeopleRequest").msgclass
     ListPeopleResponse = Google::Protobuf::DescriptorPool.generated_pool.lookup("swapi.v1.ListPeopleResponse").msgclass
+    ListStarshipActionsRequest = Google::Protobuf::DescriptorPool.generated_pool.lookup("swapi.v1.ListStarshipActionsRequest").msgclass
+    StarshipAction = Google::Protobuf::DescriptorPool.generated_pool.lookup("swapi.v1.StarshipAction").msgclass
+    StarshipAction::Action = Google::Protobuf::DescriptorPool.generated_pool.lookup("swapi.v1.StarshipAction.Action").enummodule
   end
 end
