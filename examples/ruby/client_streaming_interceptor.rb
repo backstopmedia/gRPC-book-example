@@ -9,7 +9,7 @@ class TimingInterceptor < GRPC::ClientInterceptor
     duration = Time.now.to_f - start
     puts "Call for #{method} took #{duration * 1000}ms"
 
-    result
+    return result
   end
 end
 
