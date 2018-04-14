@@ -1,5 +1,5 @@
 {
-  "films": [
+  "film_ids": [
     {
       "title": "A New Hope",
       "episode_id": 4,
@@ -7,7 +7,7 @@
       "director": "George Lucas",
       "producer": "Gary Kurtz, Rick McCallum",
       "release_date": "1977-05-25",
-      "characters": [
+      "character_ids": [
         "SyAbJp35ViM",
         "Hyyzkp2qEoG",
         "rJlMJT25Njz",
@@ -27,12 +27,12 @@
         "SyAbJp35ViM9",
         "S1BGJThqEoG1"
       ],
-      "planets": [
+      "planet_ids": [
         "B17gkTncNoz",
         "SkElJp3q4sM",
         "SkNak6hcEjf"
       ],
-      "starships": [
+      "starship_ids": [
         "H1sq16h5Vif",
         "B1KwypncEif",
         "BkAgyTh94jM",
@@ -42,13 +42,13 @@
         "HJMWJT254oG",
         "BJXbJT2qNiM"
       ],
-      "vehicles": [
+      "vehicle_ids": [
         "Skka2cNjf",
         "H1x1T2cEiM",
         "S1bJTnqEiz",
         "SJMkT35Nof"
       ],
-      "species": [
+      "species_ids": [
         "HJFy629NoG",
         "rJdFya25VjM",
         "S1YtJ63qVoG",
@@ -64,7 +64,7 @@
       "director": "George Lucas",
       "producer": "Rick McCallum",
       "release_date": "2002-05-16",
-      "characters": [
+      "character_ids": [
         "Hyyzkp2qEoG",
         "rJlMJT25Njz",
         "HJ7Myp39Njf",
@@ -106,14 +106,14 @@
         "S1BGJThqEoG2",
         "rJlMJT25Njz5"
       ],
-      "planets": [
+      "planet_ids": [
         "ByYe1T2c4sG",
         "HJ5e1639Vsf",
         "S1oxJanqVsG",
         "By3lk6294sG",
         "SkNak6hcEjf"
       ],
-      "starships": [
+      "starship_ids": [
         "HkEWkTncEsf",
         "HJ9E1ThcVif",
         "Bkp41p3qVoG",
@@ -124,7 +124,7 @@
         "BkAgyTh94jM2",
         "BkAgyTh94jM8"
       ],
-      "vehicles": [
+      "vehicle_ids": [
         "Skka2cNjf",
         "Skka2cNjf4",
         "Skka2cNjf5",
@@ -137,7 +137,7 @@
         "BJ7YJpn5EoG",
         "Sy4tkphqVjz"
       ],
-      "species": [
+      "species_ids": [
         "Hyj8yphc4jf",
         "BynIJ62q4jf",
         "S1YtJ63qVoG",
@@ -162,7 +162,7 @@
       "director": "George Lucas",
       "producer": "Rick McCallum",
       "release_date": "1999-05-19",
-      "characters": [
+      "character_ids": [
         "Hyyzkp2qEoG",
         "rJlMJT25Njz",
         "SyAbJp35ViM0",
@@ -198,19 +198,19 @@
         "S1WGJ62cEjf7",
         "rJlMJT25Njz5"
       ],
-      "planets": [
+      "planet_ids": [
         "ByYe1T2c4sG",
         "HJ5e1639Vsf",
         "SkNak6hcEjf"
       ],
-      "starships": [
+      "starship_ids": [
         "B1iEJpn5Niz",
         "By3VkT2cNsf",
         "SyKEJT2q4jz",
         "B1KwypncEif2",
         "HJ9E1ThcVif"
       ],
-      "vehicles": [
+      "vehicle_ids": [
         "rJifyan5Esf",
         "By3GkpncEjf",
         "H1pfyp3qVoG",
@@ -219,7 +219,7 @@
         "BkeXkp2c4sG",
         "Skka2cNjf2"
       ],
-      "species": [
+      "species_ids": [
         "BJcKJT2qViz",
         "S1YtJ63qVoG",
         "HyckT29VjG",
@@ -250,7 +250,7 @@
       "director": "George Lucas",
       "producer": "Rick McCallum",
       "release_date": "2005-05-19",
-      "characters": [
+      "character_ids": [
         "SyAbJp35ViM",
         "Hyyzkp2qEoG",
         "rJlMJT25Njz",
@@ -286,7 +286,7 @@
         "S1BGJThqEoG3",
         "rJlMJT25Njz5"
       ],
-      "planets": [
+      "planet_ids": [
         "B17gkTncNoz",
         "HkIlkTnqEjG",
         "ByYe1T2c4sG",
@@ -301,7 +301,7 @@
         "SkQEkT2cEsG",
         "SkNak6hcEjf"
       ],
-      "starships": [
+      "starship_ids": [
         "BJJByp354jG",
         "BkAgyTh94jM9",
         "H1oDJ6hqEsG",
@@ -315,7 +315,7 @@
         "H1sq16h5Vif",
         "Bkhq16h54iz"
       ],
-      "vehicles": [
+      "vehicle_ids": [
         "rJifyan5Esf",
         "B1TSka254if",
         "BJeFk6254of",
@@ -330,7 +330,7 @@
         "S1bJTnqEiz3",
         "S1bJTnqEiz6"
       ],
-      "species": [
+      "species_ids": [
         "ryLXyp25Noz",
         "BynIJ62q4jf",
         "S1YtJ63qVoG",
@@ -361,7 +361,7 @@
       "director": "Richard Marquand",
       "producer": "Howard G. Kazanjian, George Lucas, Rick McCallum",
       "release_date": "1983-05-25",
-      "characters": [
+      "character_ids": [
         "SyAbJp35ViM",
         "Hyyzkp2qEoG",
         "rJlMJT25Njz",
@@ -383,14 +383,14 @@
         "rJlMJT25Njz1",
         "S1WGJ62cEjf5"
       ],
-      "planets": [
+      "planet_ids": [
         "HkIlkTnqEjG",
         "ry_xJph5EoG",
         "ByYe1T2c4sG",
         "HJ5e1639Vsf",
         "SkNak6hcEjf"
       ],
-      "starships": [
+      "starship_ids": [
         "BkpeJa25Voz",
         "rJe-kah5NsM",
         "SkZ-1p39ViM",
@@ -404,7 +404,7 @@
         "B1pw1Tn94jf",
         "H1sq16h5Vif"
       ],
-      "vehicles": [
+      "vehicle_ids": [
         "SJMkT35Nof",
         "HJV1p3qEiG",
         "HJrJa3qEjz",
@@ -414,7 +414,7 @@
         "rJFzyThcNjf",
         "Byqf1ahcVsz"
       ],
-      "species": [
+      "species_ids": [
         "BJcKJT2qViz",
         "S1YtJ63qVoG",
         "rJdFya25VjM",
@@ -434,7 +434,7 @@
       "director": "Irvin Kershner",
       "producer": "Gary Kurtz, Rick McCallum",
       "release_date": "1980-05-17",
-      "characters": [
+      "character_ids": [
         "SyAbJp35ViM",
         "Hyyzkp2qEoG",
         "rJlMJT25Njz",
@@ -452,13 +452,13 @@
         "Hyyzkp2qEoG5",
         "Hyyzkp2qEoG6"
       ],
-      "planets": [
+      "planet_ids": [
         "SkSl1a2qViM",
         "HkIlkTnqEjG",
         "SyvxkThq4oG",
         "B17gkTncNoz7"
       ],
-      "starships": [
+      "starship_ids": [
         "BkpeJa25Voz",
         "rJe-kah5NsM",
         "SkZ-1p39ViM",
@@ -469,7 +469,7 @@
         "B1KwypncEif",
         "B1pw1Tn94jf"
       ],
-      "vehicles": [
+      "vehicle_ids": [
         "SJMkT35Nof",
         "B1mJah9Eiz",
         "HJV1p3qEiG",
@@ -477,7 +477,7 @@
         "S1Ika2cVoG",
         "BkwJpncEoM"
       ],
-      "species": [
+      "species_ids": [
         "HyckT29VjG",
         "Hkj1Th9Voz",
         "rJdFya25VjM",
@@ -493,7 +493,7 @@
       "director": "J. J. Abrams",
       "producer": "Kathleen Kennedy, J. J. Abrams, Bryan Burk",
       "release_date": "2015-12-11",
-      "characters": [
+      "character_ids": [
         "SyAbJp35ViM",
         "rJlMJT25Njz",
         "r1fMkp25Njz",
@@ -506,15 +506,15 @@
         "S1BGJThqEoG7",
         "S1BGJThqEoG8"
       ],
-      "planets": [
+      "planet_ids": [
         "SyvxkThq4oG1"
       ],
-      "starships": [
+      "starship_ids": [
         "Hy2vkp29Esf",
         "rJe-kah5NsM"
       ],
-      "vehicles": [],
-      "species": [
+      "vehicle_ids": [],
+      "species_ids": [
         "rJdFya25VjM",
         "S1YtJ63qVoG",
         "BJcKJT2qViz"
@@ -522,7 +522,7 @@
       "id": "Sk6Zyp2c4oz"
     }
   ],
-  "vehicles": [
+  "vehicle_ids": [
     {
       "name": "Sand Crawler",
       "model": "Digger Crawler",
@@ -535,8 +535,8 @@
       "cargo_capacity": 50000,
       "consumables": "60 days",
       "vehicle_class": "wheeled",
-      "pilots": [],
-      "films": [
+      "pilot_ids": [],
+      "film_ids": [
         "SJ_-J62qViM",
         "S1vZy63c4oz"
       ],
@@ -553,8 +553,8 @@
       "passengers": 1,
       "cargo_capacity": 50,
       "vehicle_class": "repulsorcraft",
-      "pilots": [],
-      "films": [
+      "pilot_ids": [],
+      "film_ids": [
         "S1vZy63c4oz"
       ],
       "id": "H1x1T2cEiM"
@@ -570,8 +570,8 @@
       "passengers": 1,
       "cargo_capacity": 5,
       "vehicle_class": "repulsorcraft",
-      "pilots": [],
-      "films": [
+      "pilot_ids": [],
+      "film_ids": [
         "S1vZy63c4oz"
       ],
       "id": "S1bJTnqEiz"
@@ -587,8 +587,8 @@
       "cargo_capacity": 65,
       "consumables": "2 days",
       "vehicle_class": "starfighter",
-      "pilots": [],
-      "films": [
+      "pilot_ids": [],
+      "film_ids": [
         "Sy3WJT2qVsG",
         "B1ibyphc4iG",
         "S1vZy63c4oz"
@@ -605,11 +605,11 @@
       "passengers": 0,
       "cargo_capacity": 10,
       "vehicle_class": "airspeeder",
-      "pilots": [
+      "pilot_ids": [
         "SyAbJp35ViM",
         "SyAbJp35ViM8"
       ],
-      "films": [
+      "film_ids": [
         "Sy3WJT2qVsG"
       ],
       "id": "B1mJah9Eiz"
@@ -624,8 +624,8 @@
       "passengers": 0,
       "consumables": "2 days",
       "vehicle_class": "space/planetary bomber",
-      "pilots": [],
-      "films": [
+      "pilot_ids": [],
+      "film_ids": [
         "Sy3WJT2qVsG",
         "B1ibyphc4iG"
       ],
@@ -641,8 +641,8 @@
       "passengers": 40,
       "cargo_capacity": 1000,
       "vehicle_class": "assault walker",
-      "pilots": [],
-      "films": [
+      "pilot_ids": [],
+      "film_ids": [
         "Sy3WJT2qVsG",
         "B1ibyphc4iG"
       ],
@@ -658,10 +658,10 @@
       "passengers": 0,
       "cargo_capacity": 200,
       "vehicle_class": "walker",
-      "pilots": [
+      "pilot_ids": [
         "SyAbJp35ViM3"
       ],
-      "films": [
+      "film_ids": [
         "Sy3WJT2qVsG",
         "B1ibyphc4iG"
       ],
@@ -679,8 +679,8 @@
       "cargo_capacity": 10,
       "consumables": "1 day",
       "vehicle_class": "repulsorcraft",
-      "pilots": [],
-      "films": [
+      "pilot_ids": [],
+      "film_ids": [
         "Sy3WJT2qVsG"
       ],
       "id": "BkwJpncEoM"
@@ -696,8 +696,8 @@
       "passengers": 500,
       "cargo_capacity": 2000000,
       "vehicle_class": "sail barge",
-      "pilots": [],
-      "films": [
+      "pilot_ids": [],
+      "film_ids": [
         "B1ibyphc4iG"
       ],
       "id": "H1dyT35Noz"
@@ -714,8 +714,8 @@
       "cargo_capacity": 135000,
       "consumables": "1 day",
       "vehicle_class": "repulsorcraft cargo skiff",
-      "pilots": [],
-      "films": [
+      "pilot_ids": [],
+      "film_ids": [
         "B1ibyphc4iG"
       ],
       "id": "SJdzya294iM"
@@ -731,8 +731,8 @@
       "cargo_capacity": 75,
       "consumables": "2 days",
       "vehicle_class": "starfighter",
-      "pilots": [],
-      "films": [
+      "pilot_ids": [],
+      "film_ids": [
         "B1ibyphc4iG"
       ],
       "id": "rJFzyThcNjf"
@@ -749,11 +749,11 @@
       "cargo_capacity": 4,
       "consumables": "1 day",
       "vehicle_class": "speeder",
-      "pilots": [
+      "pilot_ids": [
         "SyAbJp35ViM",
         "r1fMkp25Njz"
       ],
-      "films": [
+      "film_ids": [
         "B1ibyphc4iG"
       ],
       "id": "Byqf1ahcVsz"
@@ -768,8 +768,8 @@
       "passengers": 0,
       "cargo_capacity": 0,
       "vehicle_class": "starfighter",
-      "pilots": [],
-      "films": [
+      "pilot_ids": [],
+      "film_ids": [
         "H1YZyp3cVjf",
         "HycWyp39Nsf"
       ],
@@ -786,8 +786,8 @@
       "passengers": 112,
       "cargo_capacity": 12000,
       "vehicle_class": "repulsorcraft",
-      "pilots": [],
-      "films": [
+      "pilot_ids": [],
+      "film_ids": [
         "H1YZyp3cVjf"
       ],
       "id": "By3GkpncEjf"
@@ -801,8 +801,8 @@
       "crew": 4,
       "passengers": 6,
       "vehicle_class": "repulsorcraft",
-      "pilots": [],
-      "films": [
+      "pilot_ids": [],
+      "film_ids": [
         "H1YZyp3cVjf"
       ],
       "id": "H1pfyp3qVoG"
@@ -817,8 +817,8 @@
       "crew": 1,
       "passengers": 0,
       "vehicle_class": "repulsorcraft",
-      "pilots": [],
-      "films": [
+      "pilot_ids": [],
+      "film_ids": [
         "H1YZyp3cVjf"
       ],
       "id": "By0fy62qNiG"
@@ -835,8 +835,8 @@
       "cargo_capacity": 1800000,
       "consumables": "1 day",
       "vehicle_class": "landing craft",
-      "pilots": [],
-      "films": [
+      "pilot_ids": [],
+      "film_ids": [
         "H1YZyp3cVjf"
       ],
       "id": "rk1Qyah9NsG"
@@ -851,11 +851,11 @@
       "passengers": 2,
       "cargo_capacity": 1600,
       "vehicle_class": "submarine",
-      "pilots": [
+      "pilot_ids": [
         "SyAbJp35ViM0",
         "rJlMJT25Njz2"
       ],
-      "films": [
+      "film_ids": [
         "H1YZyp3cVjf"
       ],
       "id": "BkeXkp2c4sG"
@@ -871,10 +871,10 @@
       "passengers": 0,
       "cargo_capacity": 2,
       "vehicle_class": "speeder",
-      "pilots": [
+      "pilot_ids": [
         "S1WGJ62cEjf4"
       ],
-      "films": [
+      "film_ids": [
         "H1YZyp3cVjf"
       ],
       "id": "Skka2cNjf2"
@@ -890,10 +890,10 @@
       "passengers": 1,
       "cargo_capacity": 200,
       "vehicle_class": "repulsorcraft",
-      "pilots": [
+      "pilot_ids": [
         "SyAbJp35ViM1"
       ],
-      "films": [
+      "film_ids": [
         "SJ_-J62qViM"
       ],
       "id": "Skka2cNjf4"
@@ -908,10 +908,10 @@
       "passengers": 1,
       "cargo_capacity": 80,
       "vehicle_class": "airspeeder",
-      "pilots": [
+      "pilot_ids": [
         "Bk4fJp3cNjf0"
       ],
-      "films": [
+      "film_ids": [
         "SJ_-J62qViM"
       ],
       "id": "Skka2cNjf5"
@@ -925,10 +925,10 @@
       "crew": 1,
       "passengers": 1,
       "vehicle_class": "airspeeder",
-      "pilots": [
+      "pilot_ids": [
         "SyAbJp35ViM1"
       ],
-      "films": [
+      "film_ids": [
         "SJ_-J62qViM"
       ],
       "id": "Skka2cNjf6"
@@ -943,8 +943,8 @@
       "passengers": 30,
       "cargo_capacity": 170,
       "vehicle_class": "gunship",
-      "pilots": [],
-      "films": [
+      "pilot_ids": [],
+      "film_ids": [
         "SJ_-J62qViM",
         "HycWyp39Nsf"
       ],
@@ -960,8 +960,8 @@
       "passengers": 0,
       "cargo_capacity": 40000,
       "vehicle_class": "gunship",
-      "pilots": [],
-      "films": [
+      "pilot_ids": [],
+      "film_ids": [
         "SJ_-J62qViM"
       ],
       "id": "ryRHyp2cVsG"
@@ -977,10 +977,10 @@
       "passengers": 1,
       "cargo_capacity": 10,
       "vehicle_class": "wheeled walker",
-      "pilots": [
+      "pilot_ids": [
         "Bk4fJp3cNjf9"
       ],
-      "films": [
+      "film_ids": [
         "HycWyp39Nsf"
       ],
       "id": "H1x1T2cEiM0"
@@ -990,8 +990,8 @@
       "model": "Fire suppression speeder",
       "crew": 2,
       "vehicle_class": "fire suppression ship",
-      "pilots": [],
-      "films": [
+      "pilot_ids": [],
+      "film_ids": [
         "HycWyp39Nsf"
       ],
       "id": "H1x1T2cEiM2"
@@ -1007,8 +1007,8 @@
       "passengers": 0,
       "cargo_capacity": 0,
       "vehicle_class": "droid starfighter",
-      "pilots": [],
-      "films": [
+      "pilot_ids": [],
+      "film_ids": [
         "HycWyp39Nsf"
       ],
       "id": "H1x1T2cEiM7"
@@ -1025,8 +1025,8 @@
       "cargo_capacity": 50,
       "consumables": "3 days",
       "vehicle_class": "airspeeder",
-      "pilots": [],
-      "films": [
+      "pilot_ids": [],
+      "film_ids": [
         "HycWyp39Nsf"
       ],
       "id": "H1x1T2cEiM9"
@@ -1042,8 +1042,8 @@
       "passengers": 0,
       "cargo_capacity": 20,
       "vehicle_class": "air speeder",
-      "pilots": [],
-      "films": [
+      "pilot_ids": [],
+      "film_ids": [
         "HycWyp39Nsf"
       ],
       "id": "S1bJTnqEiz0"
@@ -1060,8 +1060,8 @@
       "cargo_capacity": 30000,
       "consumables": "20 days",
       "vehicle_class": "wheeled walker",
-      "pilots": [],
-      "films": [
+      "pilot_ids": [],
+      "film_ids": [
         "HycWyp39Nsf"
       ],
       "id": "S1bJTnqEiz1"
@@ -1076,8 +1076,8 @@
       "crew": 0,
       "passengers": 4,
       "vehicle_class": "droid tank",
-      "pilots": [],
-      "films": [
+      "pilot_ids": [],
+      "film_ids": [
         "HycWyp39Nsf"
       ],
       "id": "S1bJTnqEiz2"
@@ -1093,8 +1093,8 @@
       "passengers": 0,
       "cargo_capacity": 0,
       "vehicle_class": "airspeeder",
-      "pilots": [],
-      "films": [
+      "pilot_ids": [],
+      "film_ids": [
         "HycWyp39Nsf"
       ],
       "id": "S1bJTnqEiz3"
@@ -1111,8 +1111,8 @@
       "cargo_capacity": 20,
       "consumables": "1 day",
       "vehicle_class": "walker",
-      "pilots": [],
-      "films": [
+      "pilot_ids": [],
+      "film_ids": [
         "HycWyp39Nsf"
       ],
       "id": "S1bJTnqEiz6"
@@ -1128,8 +1128,8 @@
       "cargo_capacity": 10000,
       "consumables": "21 days",
       "vehicle_class": "walker",
-      "pilots": [],
-      "films": [
+      "pilot_ids": [],
+      "film_ids": [
         "SJ_-J62qViM",
         "HycWyp39Nsf"
       ],
@@ -1146,8 +1146,8 @@
       "cargo_capacity": 500,
       "consumables": "7 weeks",
       "vehicle_class": "walker",
-      "pilots": [],
-      "films": [
+      "pilot_ids": [],
+      "film_ids": [
         "SJ_-J62qViM"
       ],
       "id": "r1-tJTn94sf"
@@ -1162,10 +1162,10 @@
       "crew": 1,
       "passengers": 0,
       "vehicle_class": "speeder",
-      "pilots": [
+      "pilot_ids": [
         "HJ7Myp39Njf7"
       ],
-      "films": [
+      "film_ids": [
         "SJ_-J62qViM"
       ],
       "id": "HJzKyahq4if"
@@ -1181,8 +1181,8 @@
       "cargo_capacity": 1000,
       "consumables": "7 weeks",
       "vehicle_class": "transport",
-      "pilots": [],
-      "films": [
+      "pilot_ids": [],
+      "film_ids": [
         "SJ_-J62qViM",
         "HycWyp39Nsf"
       ],
@@ -1197,14 +1197,14 @@
       "crew": 1,
       "passengers": 0,
       "vehicle_class": "starfighter",
-      "pilots": [],
-      "films": [
+      "pilot_ids": [],
+      "film_ids": [
         "SJ_-J62qViM"
       ],
       "id": "Sy4tkphqVjz"
     }
   ],
-  "species": [
+  "species_ids": [
     {
       "name": "Hutt",
       "classification": "gastropod",
@@ -1218,7 +1218,7 @@
       "people": [
         "SyAbJp35ViM6"
       ],
-      "films": [
+      "film_ids": [
         "B1ibyphc4iG",
         "S1vZy63c4oz"
       ],
@@ -1238,7 +1238,7 @@
       "people": [
         "Hyyzkp2qEoG0"
       ],
-      "films": [
+      "film_ids": [
         "Sy3WJT2qVsG",
         "SJ_-J62qViM",
         "H1YZyp3cVjf",
@@ -1260,7 +1260,7 @@
       "people": [
         "Hyyzkp2qEoG4"
       ],
-      "films": [
+      "film_ids": [
         "Sy3WJT2qVsG"
       ],
       "id": "Hkj1Th9Voz"
@@ -1278,7 +1278,7 @@
       "people": [
         "Hyyzkp2qEoG7"
       ],
-      "films": [
+      "film_ids": [
         "B1ibyphc4iG"
       ],
       "id": "rynJTn94of"
@@ -1296,7 +1296,7 @@
       "people": [
         "rJlMJT25Njz0"
       ],
-      "films": [
+      "film_ids": [
         "B1ibyphc4iG"
       ],
       "id": "rJT1T3cEif"
@@ -1314,7 +1314,7 @@
       "people": [
         "rJlMJT25Njz1"
       ],
-      "films": [
+      "film_ids": [
         "B1ibyphc4iG"
       ],
       "id": "Sy0yp3cEif"
@@ -1331,7 +1331,7 @@
       "people": [
         "rJlMJT25Njz3"
       ],
-      "films": [
+      "film_ids": [
         "H1YZyp3cVjf"
       ],
       "id": "S1yxy63q4if"
@@ -1351,7 +1351,7 @@
         "rJlMJT25Njz7",
         "rJlMJT25Njz8"
       ],
-      "films": [
+      "film_ids": [
         "SJ_-J62qViM",
         "H1YZyp3cVjf"
       ],
@@ -1371,7 +1371,7 @@
       "people": [
         "S1WGJ62cEjf0"
       ],
-      "films": [
+      "film_ids": [
         "SJ_-J62qViM",
         "H1YZyp3cVjf"
       ],
@@ -1390,7 +1390,7 @@
       "people": [
         "S1WGJ62cEjf1"
       ],
-      "films": [
+      "film_ids": [
         "H1YZyp3cVjf"
       ],
       "id": "S1fxyTn5EjG"
@@ -1409,7 +1409,7 @@
         "S1WGJ62cEjf5",
         "S1WGJ62cEjf6"
       ],
-      "films": [
+      "film_ids": [
         "SJ_-J62qViM",
         "H1YZyp3cVjf",
         "HycWyp39Nsf",
@@ -1430,7 +1430,7 @@
       "people": [
         "S1WGJ62cEjf7"
       ],
-      "films": [
+      "film_ids": [
         "H1YZyp3cVjf"
       ],
       "id": "BJXXJa3cVoz"
@@ -1447,7 +1447,7 @@
       "people": [
         "S1WGJ62cEjf8"
       ],
-      "films": [
+      "film_ids": [
         "H1YZyp3cVjf"
       ],
       "id": "B14X1TncVof"
@@ -1464,7 +1464,7 @@
       "people": [
         "S1WGJ62cEjf9"
       ],
-      "films": [
+      "film_ids": [
         "H1YZyp3cVjf"
       ],
       "id": "rJrXyThqVsz"
@@ -1481,7 +1481,7 @@
       "people": [
         "r1fMkp25Njz0"
       ],
-      "films": [
+      "film_ids": [
         "H1YZyp3cVjf",
         "HycWyp39Nsf"
       ],
@@ -1500,7 +1500,7 @@
       "people": [
         "r1fMkp25Njz2"
       ],
-      "films": [
+      "film_ids": [
         "H1YZyp3cVjf",
         "HycWyp39Nsf"
       ],
@@ -1520,7 +1520,7 @@
       "people": [
         "r1fMkp25Njz3"
       ],
-      "films": [
+      "film_ids": [
         "H1YZyp3cVjf"
       ],
       "id": "H1dQk6394iM"
@@ -1539,7 +1539,7 @@
         "S1WGJ62cEjf4",
         "r1fMkp25Njz4"
       ],
-      "films": [
+      "film_ids": [
         "H1YZyp3cVjf"
       ],
       "id": "B1YQJp2qViG"
@@ -1554,7 +1554,7 @@
       "people": [
         "r1fMkp25Njz5"
       ],
-      "films": [
+      "film_ids": [
         "H1YZyp3cVjf",
         "HycWyp39Nsf"
       ],
@@ -1572,7 +1572,7 @@
       "people": [
         "r1fMkp25Njz6"
       ],
-      "films": [
+      "film_ids": [
         "H1YZyp3cVjf",
         "HycWyp39Nsf"
       ],
@@ -1592,7 +1592,7 @@
       "people": [
         "r1fMkp25Njz7"
       ],
-      "films": [
+      "film_ids": [
         "H1YZyp3cVjf",
         "HycWyp39Nsf"
       ],
@@ -1611,7 +1611,7 @@
       "people": [
         "r1fMkp25Njz8"
       ],
-      "films": [
+      "film_ids": [
         "H1YZyp3cVjf",
         "HycWyp39Nsf"
       ],
@@ -1630,7 +1630,7 @@
       "people": [
         "r1fMkp25Njz9"
       ],
-      "films": [
+      "film_ids": [
         "H1YZyp3cVjf",
         "HycWyp39Nsf"
       ],
@@ -1649,7 +1649,7 @@
       "people": [
         "HJ7Myp39Njf3"
       ],
-      "films": [
+      "film_ids": [
         "SJ_-J62qViM",
         "HycWyp39Nsf"
       ],
@@ -1669,7 +1669,7 @@
         "HJ7Myp39Njf4",
         "HJ7Myp39Njf5"
       ],
-      "films": [
+      "film_ids": [
         "SJ_-J62qViM",
         "HycWyp39Nsf"
       ],
@@ -1689,7 +1689,7 @@
       "people": [
         "Bk4fJp3cNjf0"
       ],
-      "films": [
+      "film_ids": [
         "SJ_-J62qViM",
         "HycWyp39Nsf"
       ],
@@ -1709,7 +1709,7 @@
       "people": [
         "Bk4fJp3cNjf1"
       ],
-      "films": [
+      "film_ids": [
         "SJ_-J62qViM"
       ],
       "id": "Skq8yT294sG"
@@ -1729,7 +1729,7 @@
         "Bk4fJp3cNjf2",
         "Bk4fJp3cNjf3"
       ],
-      "films": [
+      "film_ids": [
         "SJ_-J62qViM"
       ],
       "id": "Hyj8yphc4jf"
@@ -1745,7 +1745,7 @@
       "people": [
         "Bk4fJp3cNjf6"
       ],
-      "films": [
+      "film_ids": [
         "SJ_-J62qViM",
         "HycWyp39Nsf"
       ],
@@ -1765,7 +1765,7 @@
       "people": [
         "Bk4fJp3cNjf7"
       ],
-      "films": [
+      "film_ids": [
         "SJ_-J62qViM",
         "HycWyp39Nsf"
       ],
@@ -1785,7 +1785,7 @@
       "people": [
         "Bk4fJp3cNjf8"
       ],
-      "films": [
+      "film_ids": [
         "SJ_-J62qViM",
         "HycWyp39Nsf"
       ],
@@ -1805,7 +1805,7 @@
       "people": [
         "Bk4fJp3cNjf9"
       ],
-      "films": [
+      "film_ids": [
         "HycWyp39Nsf"
       ],
       "id": "SJ8Ky6h9Nsf"
@@ -1824,7 +1824,7 @@
       "people": [
         "S1BGJThqEoG3"
       ],
-      "films": [
+      "film_ids": [
         "HycWyp39Nsf"
       ],
       "id": "S1PFyah5Vjz"
@@ -1844,7 +1844,7 @@
         "SyAbJp35ViM3",
         "S1BGJThqEoG0"
       ],
-      "films": [
+      "film_ids": [
         "Sy3WJT2qVsG",
         "Sk6Zyp2c4oz",
         "HycWyp39Nsf",
@@ -1866,7 +1866,7 @@
         "Hyyzkp2qEoG3",
         "S1BGJThqEoG7"
       ],
-      "films": [
+      "film_ids": [
         "Sy3WJT2qVsG",
         "Sk6Zyp2c4oz",
         "SJ_-J62qViM",
@@ -1925,7 +1925,7 @@
         "S1BGJThqEoG6",
         "rJlMJT25Njz5"
       ],
-      "films": [
+      "film_ids": [
         "Sy3WJT2qVsG",
         "Sk6Zyp2c4oz",
         "SJ_-J62qViM",
@@ -1948,13 +1948,13 @@
       "people": [
         "SyAbJp35ViM5"
       ],
-      "films": [
+      "film_ids": [
         "S1vZy63c4oz"
       ],
       "id": "SksY1ah9NoG"
     }
   ],
-  "starships": [
+  "starship_ids": [
     {
       "name": "Executor",
       "model": "Executor-class star dreadnought",
@@ -1968,8 +1968,8 @@
       "hyperdrive_rating": 2,
       "mglt": 40,
       "starship_class": "Star dreadnought",
-      "pilots": [],
-      "films": [
+      "pilot_ids": [],
+      "film_ids": [
         "Sy3WJT2qVsG",
         "B1ibyphc4iG"
       ],
@@ -1989,8 +1989,8 @@
       "hyperdrive_rating": 1,
       "mglt": 70,
       "starship_class": "landing craft",
-      "pilots": [],
-      "films": [
+      "pilot_ids": [],
+      "film_ids": [
         "S1vZy63c4oz"
       ],
       "id": "BkAgyTh94jM"
@@ -2008,8 +2008,8 @@
       "hyperdrive_rating": 4,
       "mglt": 10,
       "starship_class": "Deep Space Mobile Battlestation",
-      "pilots": [],
-      "films": [
+      "pilot_ids": [],
+      "film_ids": [
         "S1vZy63c4oz"
       ],
       "id": "S1JZJphcEoM"
@@ -2028,13 +2028,13 @@
       "hyperdrive_rating": 0.5,
       "mglt": 75,
       "starship_class": "Light freighter",
-      "pilots": [
+      "pilot_ids": [
         "SyAbJp35ViM3",
         "SyAbJp35ViM4",
         "Hyyzkp2qEoG5",
         "rJlMJT25Njz1"
       ],
-      "films": [
+      "film_ids": [
         "Sy3WJT2qVsG",
         "Sk6Zyp2c4oz",
         "B1ibyphc4iG",
@@ -2056,8 +2056,8 @@
       "hyperdrive_rating": 1,
       "mglt": 80,
       "starship_class": "assault starfighter",
-      "pilots": [],
-      "films": [
+      "pilot_ids": [],
+      "film_ids": [
         "Sy3WJT2qVsG",
         "B1ibyphc4iG",
         "S1vZy63c4oz"
@@ -2078,13 +2078,13 @@
       "hyperdrive_rating": 1,
       "mglt": 100,
       "starship_class": "Starfighter",
-      "pilots": [
+      "pilot_ids": [
         "SyAbJp35ViM",
         "r1Lz1T2q4iM",
         "SyAbJp35ViM8",
         "SyAbJp35ViM9"
       ],
-      "films": [
+      "film_ids": [
         "Sy3WJT2qVsG",
         "B1ibyphc4iG",
         "S1vZy63c4oz"
@@ -2104,10 +2104,10 @@
       "hyperdrive_rating": 1,
       "mglt": 105,
       "starship_class": "Starfighter",
-      "pilots": [
+      "pilot_ids": [
         "S1WGJ62cEjf"
       ],
-      "films": [
+      "film_ids": [
         "S1vZy63c4oz"
       ],
       "id": "BJXbJT2qNiM"
@@ -2125,10 +2125,10 @@
       "hyperdrive_rating": 3,
       "mglt": 70,
       "starship_class": "Patrol craft",
-      "pilots": [
+      "pilot_ids": [
         "Hyyzkp2qEoG2"
       ],
-      "films": [
+      "film_ids": [
         "Sy3WJT2qVsG",
         "SJ_-J62qViM"
       ],
@@ -2148,12 +2148,12 @@
       "hyperdrive_rating": 1,
       "mglt": 50,
       "starship_class": "Armed government transport",
-      "pilots": [
+      "pilot_ids": [
         "SyAbJp35ViM",
         "SyAbJp35ViM3",
         "SyAbJp35ViM4"
       ],
-      "films": [
+      "film_ids": [
         "Sy3WJT2qVsG",
         "B1ibyphc4iG"
       ],
@@ -2173,8 +2173,8 @@
       "hyperdrive_rating": 2,
       "mglt": 40,
       "starship_class": "Escort ship",
-      "pilots": [],
-      "films": [
+      "pilot_ids": [],
+      "film_ids": [
         "Sy3WJT2qVsG",
         "B1ibyphc4iG"
       ],
@@ -2192,8 +2192,8 @@
       "hyperdrive_rating": 1,
       "mglt": 60,
       "starship_class": "Star Cruiser",
-      "pilots": [],
-      "films": [
+      "pilot_ids": [],
+      "film_ids": [
         "B1ibyphc4iG"
       ],
       "id": "rk8N1ah94jG"
@@ -2212,10 +2212,10 @@
       "hyperdrive_rating": 1,
       "mglt": 120,
       "starship_class": "Starfighter",
-      "pilots": [
+      "pilot_ids": [
         "Hyyzkp2qEoG9"
       ],
-      "films": [
+      "film_ids": [
         "B1ibyphc4iG"
       ],
       "id": "BJPVyT3cEsM"
@@ -2234,8 +2234,8 @@
       "hyperdrive_rating": 2,
       "mglt": 91,
       "starship_class": "Assault Starfighter",
-      "pilots": [],
-      "films": [
+      "pilot_ids": [],
+      "film_ids": [
         "B1ibyphc4iG"
       ],
       "id": "BkdVJan5ViG"
@@ -2250,8 +2250,8 @@
       "passengers": 16,
       "hyperdrive_rating": 2,
       "starship_class": "Space cruiser",
-      "pilots": [],
-      "films": [
+      "pilot_ids": [],
+      "film_ids": [
         "H1YZyp3cVjf"
       ],
       "id": "SyKEJT2q4jz"
@@ -2269,12 +2269,12 @@
       "consumables": "7 days",
       "hyperdrive_rating": 1,
       "starship_class": "Starfighter",
-      "pilots": [
+      "pilot_ids": [
         "SyAbJp35ViM1",
         "HJ7Myp39Njf0",
         "rJlMJT25Njz5"
       ],
-      "films": [
+      "film_ids": [
         "SJ_-J62qViM",
         "H1YZyp3cVjf"
       ],
@@ -2289,10 +2289,10 @@
       "crew": 8,
       "hyperdrive_rating": 1.8,
       "starship_class": "yacht",
-      "pilots": [
+      "pilot_ids": [
         "rJlMJT25Njz9"
       ],
-      "films": [
+      "film_ids": [
         "H1YZyp3cVjf"
       ],
       "id": "B1iEJpn5Niz"
@@ -2310,10 +2310,10 @@
       "consumables": "30 days",
       "hyperdrive_rating": 1.5,
       "starship_class": "Space Transport",
-      "pilots": [
+      "pilot_ids": [
         "S1WGJ62cEjf4"
       ],
-      "films": [
+      "film_ids": [
         "H1YZyp3cVjf"
       ],
       "id": "By3VkT2cNsf"
@@ -2330,8 +2330,8 @@
       "consumables": "1 year",
       "hyperdrive_rating": 0.7,
       "starship_class": "Diplomatic barge",
-      "pilots": [],
-      "films": [
+      "pilot_ids": [],
+      "film_ids": [
         "SJ_-J62qViM"
       ],
       "id": "Bkp41p3qVoG"
@@ -2343,8 +2343,8 @@
       "length": 390,
       "passengers": 30000,
       "starship_class": "freighter",
-      "pilots": [],
-      "films": [
+      "pilot_ids": [],
+      "film_ids": [
         "SJ_-J62qViM"
       ],
       "id": "SJA4JTh9Esz"
@@ -2362,11 +2362,11 @@
       "consumables": "7 days",
       "hyperdrive_rating": 1,
       "starship_class": "Starfighter",
-      "pilots": [
+      "pilot_ids": [
         "SyAbJp35ViM0",
         "r1fMkp25Njz8"
       ],
-      "films": [
+      "film_ids": [
         "SJ_-J62qViM",
         "HycWyp39Nsf"
       ],
@@ -2381,10 +2381,10 @@
       "crew": 4,
       "hyperdrive_rating": 0.9,
       "starship_class": "yacht",
-      "pilots": [
+      "pilot_ids": [
         "rJlMJT25Njz5"
       ],
-      "films": [
+      "film_ids": [
         "SJ_-J62qViM"
       ],
       "id": "Hyuv1Tn9Viz"
@@ -2403,8 +2403,8 @@
       "hyperdrive_rating": 2,
       "mglt": 60,
       "starship_class": "Star Destroyer",
-      "pilots": [],
-      "films": [
+      "pilot_ids": [],
+      "film_ids": [
         "Sy3WJT2qVsG",
         "B1ibyphc4iG",
         "S1vZy63c4oz"
@@ -2424,11 +2424,11 @@
       "consumables": "4 years",
       "hyperdrive_rating": 1.5,
       "starship_class": "capital ship",
-      "pilots": [
+      "pilot_ids": [
         "SyAbJp35ViM0",
         "SyAbJp35ViM1"
       ],
-      "films": [
+      "film_ids": [
         "HycWyp39Nsf"
       ],
       "id": "BkAgyTh94jM9"
@@ -2446,8 +2446,8 @@
       "consumables": "56 days",
       "hyperdrive_rating": 1,
       "starship_class": "transport",
-      "pilots": [],
-      "films": [
+      "pilot_ids": [],
+      "film_ids": [
         "HycWyp39Nsf"
       ],
       "id": "H1oDJ6hqEsG"
@@ -2458,10 +2458,10 @@
       "manufacturer": "Incom",
       "crew": 1,
       "starship_class": "fighter",
-      "pilots": [
+      "pilot_ids": [
         "S1BGJThqEoG6"
       ],
-      "films": [
+      "film_ids": [
         "Sk6Zyp2c4oz"
       ],
       "id": "Hy2vkp29Esf"
@@ -2479,8 +2479,8 @@
       "hyperdrive_rating": 4,
       "mglt": 20,
       "starship_class": "Medium transport",
-      "pilots": [],
-      "films": [
+      "pilot_ids": [],
+      "film_ids": [
         "Sy3WJT2qVsG",
         "B1ibyphc4iG"
       ],
@@ -2497,8 +2497,8 @@
       "consumables": "500 days",
       "hyperdrive_rating": 2,
       "starship_class": "Droid control ship",
-      "pilots": [],
-      "films": [
+      "pilot_ids": [],
+      "film_ids": [
         "SJ_-J62qViM",
         "H1YZyp3cVjf",
         "HycWyp39Nsf"
@@ -2516,8 +2516,8 @@
       "consumables": "2 years",
       "hyperdrive_rating": 0.6,
       "starship_class": "assault ship",
-      "pilots": [],
-      "films": [
+      "pilot_ids": [],
+      "film_ids": [
         "SJ_-J62qViM"
       ],
       "id": "BkAgyTh94jM2"
@@ -2535,8 +2535,8 @@
       "consumables": "7 days",
       "hyperdrive_rating": 1.5,
       "starship_class": "yacht",
-      "pilots": [],
-      "films": [
+      "pilot_ids": [],
+      "film_ids": [
         "SJ_-J62qViM"
       ],
       "id": "BkAgyTh94jM8"
@@ -2554,8 +2554,8 @@
       "consumables": "2 years",
       "hyperdrive_rating": 1,
       "starship_class": "star destroyer",
-      "pilots": [],
-      "films": [
+      "pilot_ids": [],
+      "film_ids": [
         "HycWyp39Nsf"
       ],
       "id": "HJWdy63cVof"
@@ -2570,11 +2570,11 @@
       "passengers": 3,
       "hyperdrive_rating": 0.5,
       "starship_class": "yacht",
-      "pilots": [
+      "pilot_ids": [
         "SyAbJp35ViM0",
         "rJlMJT25Njz5"
       ],
-      "films": [
+      "film_ids": [
         "HycWyp39Nsf"
       ],
       "id": "HJL5kp25VjG"
@@ -2592,11 +2592,11 @@
       "consumables": "2 days",
       "hyperdrive_rating": 1,
       "starship_class": "starfighter",
-      "pilots": [
+      "pilot_ids": [
         "SyAbJp35ViM0",
         "SyAbJp35ViM1"
       ],
-      "films": [
+      "film_ids": [
         "HycWyp39Nsf"
       ],
       "id": "SyvqyThqNoz"
@@ -2615,8 +2615,8 @@
       "hyperdrive_rating": 1,
       "mglt": 100,
       "starship_class": "starfighter",
-      "pilots": [],
-      "films": [
+      "pilot_ids": [],
+      "film_ids": [
         "HycWyp39Nsf"
       ],
       "id": "ryd5k6n9Nif"
@@ -2634,11 +2634,11 @@
       "consumables": "7 days",
       "hyperdrive_rating": 6,
       "starship_class": "starfighter",
-      "pilots": [
+      "pilot_ids": [
         "SyAbJp35ViM0",
         "Bk4fJp3cNjf9"
       ],
-      "films": [
+      "film_ids": [
         "HycWyp39Nsf"
       ],
       "id": "rkKqJ6ncEjz"
@@ -2656,8 +2656,8 @@
       "consumables": "15 hours",
       "hyperdrive_rating": 1,
       "starship_class": "starfighter",
-      "pilots": [],
-      "films": [
+      "pilot_ids": [],
+      "film_ids": [
         "HycWyp39Nsf"
       ],
       "id": "H159Jph9Vjz"
@@ -2676,8 +2676,8 @@
       "hyperdrive_rating": 2,
       "mglt": 60,
       "starship_class": "corvette",
-      "pilots": [],
-      "films": [
+      "pilot_ids": [],
+      "film_ids": [
         "HycWyp39Nsf",
         "B1ibyphc4iG",
         "S1vZy63c4oz"
@@ -2695,14 +2695,14 @@
       "consumables": "2 years",
       "hyperdrive_rating": 1,
       "starship_class": "cruiser",
-      "pilots": [],
-      "films": [
+      "pilot_ids": [],
+      "film_ids": [
         "HycWyp39Nsf"
       ],
       "id": "Bkhq16h54iz"
     }
   ],
-  "planets": [
+  "planet_ids": [
     {
       "name": "Alderaan",
       "rotation_period": 24,
@@ -2713,12 +2713,12 @@
       "terrain": "grasslands, mountains",
       "surface_water": 40,
       "population": 2000000000,
-      "residents": [
+      "resident_ids": [
         "r1fMkp25Njz",
         "HJ7Myp39Njf8",
         "S1BGJThqEoG1"
       ],
-      "films": [
+      "film_ids": [
         "HycWyp39Nsf",
         "S1vZy63c4oz"
       ],
@@ -2734,8 +2734,8 @@
       "terrain": "jungle, rainforests",
       "surface_water": 8,
       "population": 1000,
-      "residents": [],
-      "films": [
+      "resident_ids": [],
+      "film_ids": [
         "S1vZy63c4oz"
       ],
       "id": "SkElJp3q4sM"
@@ -2749,8 +2749,8 @@
       "gravity": 1.1,
       "terrain": "tundra, ice caves, mountain ranges",
       "surface_water": 100,
-      "residents": [],
-      "films": [
+      "resident_ids": [],
+      "film_ids": [
         "Sy3WJT2qVsG"
       ],
       "id": "SkSl1a2qViM"
@@ -2764,8 +2764,8 @@
       "gravity": null,
       "terrain": "swamp, jungles",
       "surface_water": 8,
-      "residents": [],
-      "films": [
+      "resident_ids": [],
+      "film_ids": [
         "Sy3WJT2qVsG",
         "HycWyp39Nsf",
         "B1ibyphc4iG"
@@ -2782,10 +2782,10 @@
       "terrain": "gas giant",
       "surface_water": 0,
       "population": 6000000,
-      "residents": [
+      "resident_ids": [
         "Hyyzkp2qEoG6"
       ],
-      "films": [
+      "film_ids": [
         "Sy3WJT2qVsG"
       ],
       "id": "SyvxkThq4oG"
@@ -2800,10 +2800,10 @@
       "terrain": "forests, mountains, lakes",
       "surface_water": 8,
       "population": 30000000,
-      "residents": [
+      "resident_ids": [
         "rJlMJT25Njz0"
       ],
-      "films": [
+      "film_ids": [
         "B1ibyphc4iG"
       ],
       "id": "ry_xJph5EoG"
@@ -2818,7 +2818,7 @@
       "terrain": "grassy hills, swamps, forests, mountains",
       "surface_water": 12,
       "population": 4500000000,
-      "residents": [
+      "resident_ids": [
         "rJlMJT25Njz",
         "Hyyzkp2qEoG1",
         "rJlMJT25Njz6",
@@ -2831,7 +2831,7 @@
         "HJ7Myp39Njf6",
         "rJlMJT25Njz5"
       ],
-      "films": [
+      "film_ids": [
         "SJ_-J62qViM",
         "H1YZyp3cVjf",
         "HycWyp39Nsf",
@@ -2848,12 +2848,12 @@
       "gravity": 1,
       "terrain": "cityscape, mountains",
       "population": 1000000000000,
-      "residents": [
+      "resident_ids": [
         "rJlMJT25Njz4",
         "r1fMkp25Njz5",
         "Bk4fJp3cNjf4"
       ],
-      "films": [
+      "film_ids": [
         "SJ_-J62qViM",
         "H1YZyp3cVjf",
         "HycWyp39Nsf",
@@ -2871,12 +2871,12 @@
       "terrain": "ocean",
       "surface_water": 100,
       "population": 1000000000,
-      "residents": [
+      "resident_ids": [
         "Hyyzkp2qEoG2",
         "Bk4fJp3cNjf2",
         "Bk4fJp3cNjf3"
       ],
-      "films": [
+      "film_ids": [
         "SJ_-J62qViM"
       ],
       "id": "S1oxJanqVsG"
@@ -2891,10 +2891,10 @@
       "terrain": "rock, desert, mountain, barren",
       "surface_water": 5,
       "population": 100000000000,
-      "residents": [
+      "resident_ids": [
         "HJ7Myp39Njf3"
       ],
-      "films": [
+      "film_ids": [
         "SJ_-J62qViM"
       ],
       "id": "By3lk6294sG"
@@ -2909,10 +2909,10 @@
       "terrain": "scrublands, savanna, canyons, sinkholes",
       "surface_water": 0.9,
       "population": 95000000,
-      "residents": [
+      "resident_ids": [
         "S1BGJThqEoG3"
       ],
-      "films": [
+      "film_ids": [
         "HycWyp39Nsf"
       ],
       "id": "SJhXJp294oz"
@@ -2927,8 +2927,8 @@
       "terrain": "volcanoes, lava rivers, mountains, caves",
       "surface_water": 0,
       "population": 20000,
-      "residents": [],
-      "films": [
+      "resident_ids": [],
+      "film_ids": [
         "HycWyp39Nsf"
       ],
       "id": "HkTX1Th5Esf"
@@ -2943,11 +2943,11 @@
       "terrain": "jungle, forests, lakes, rivers",
       "surface_water": 60,
       "population": 45000000,
-      "residents": [
+      "resident_ids": [
         "SyAbJp35ViM3",
         "S1BGJThqEoG0"
       ],
-      "films": [
+      "film_ids": [
         "HycWyp39Nsf"
       ],
       "id": "SyAmJ639Viz"
@@ -2962,8 +2962,8 @@
       "terrain": "airless asteroid",
       "surface_water": 0,
       "population": 1000000,
-      "residents": [],
-      "films": [
+      "resident_ids": [],
+      "film_ids": [
         "HycWyp39Nsf"
       ],
       "id": "Bky4k63c4oG"
@@ -2977,8 +2977,8 @@
       "gravity": 1,
       "terrain": "glaciers, mountains, ice canyons",
       "population": 19000000,
-      "residents": [],
-      "films": [
+      "resident_ids": [],
+      "film_ids": [
         "HycWyp39Nsf"
       ],
       "id": "B1xEk629EjG"
@@ -2992,8 +2992,8 @@
       "gravity": 0.75,
       "terrain": "fungus forests",
       "population": 8500000,
-      "residents": [],
-      "films": [
+      "resident_ids": [],
+      "film_ids": [
         "HycWyp39Nsf"
       ],
       "id": "Hy-4yphqEif"
@@ -3007,10 +3007,10 @@
       "gravity": 1,
       "terrain": "mountains, fields, forests, rock arches",
       "population": 10000000,
-      "residents": [
+      "resident_ids": [
         "rJlMJT25Njz3"
       ],
-      "films": [
+      "film_ids": [
         "HycWyp39Nsf"
       ],
       "id": "S1G4J639EoM"
@@ -3024,8 +3024,8 @@
       "gravity": null,
       "terrain": "caves, desert, mountains, volcanoes",
       "population": 1400000000,
-      "residents": [],
-      "films": [
+      "resident_ids": [],
+      "film_ids": [
         "HycWyp39Nsf"
       ],
       "id": "SkQEkT2cEsG"
@@ -3036,10 +3036,10 @@
       "climate": "temperate",
       "gravity": 1,
       "terrain": "grass",
-      "residents": [
+      "resident_ids": [
         "SyAbJp35ViM0"
       ],
-      "films": [],
+      "film_ids": [],
       "id": "B17gkTncNoz0"
     },
     {
@@ -3051,10 +3051,10 @@
       "gravity": 1,
       "terrain": "cityscape",
       "population": 22000000000,
-      "residents": [
+      "resident_ids": [
         "SyAbJp35ViM2"
       ],
-      "films": [],
+      "film_ids": [],
       "id": "B17gkTncNoz1"
     },
     {
@@ -3067,11 +3067,11 @@
       "terrain": "plains, urban, hills, forests",
       "surface_water": 70,
       "population": 3000000000,
-      "residents": [
+      "resident_ids": [
         "SyAbJp35ViM4",
         "SyAbJp35ViM8"
       ],
-      "films": [],
+      "film_ids": [],
       "id": "B17gkTncNoz2"
     },
     {
@@ -3084,10 +3084,10 @@
       "terrain": "jungles, oceans, urban, swamps",
       "surface_water": 60,
       "population": 1300000000,
-      "residents": [
+      "resident_ids": [
         "SyAbJp35ViM5"
       ],
-      "films": [],
+      "film_ids": [],
       "id": "B17gkTncNoz3"
     },
     {
@@ -3099,10 +3099,10 @@
       "gravity": 1,
       "terrain": "urban, oceans, swamps, bogs",
       "population": 7000000000,
-      "residents": [
+      "resident_ids": [
         "SyAbJp35ViM6"
       ],
-      "films": [],
+      "film_ids": [],
       "id": "B17gkTncNoz4"
     },
     {
@@ -3114,8 +3114,8 @@
       "gravity": 1,
       "terrain": "oceans, savannas, mountains, grasslands",
       "population": 1000,
-      "residents": [],
-      "films": [],
+      "resident_ids": [],
+      "film_ids": [],
       "id": "B17gkTncNoz5"
     },
     {
@@ -3128,10 +3128,10 @@
       "terrain": "rocky islands, oceans",
       "surface_water": 98,
       "population": 62000000,
-      "residents": [
+      "resident_ids": [
         "SyAbJp35ViM9"
       ],
-      "films": [],
+      "film_ids": [],
       "id": "B17gkTncNoz6"
     },
     {
@@ -3144,8 +3144,8 @@
       "terrain": "plains, seas, mesas",
       "surface_water": 10,
       "population": 4000000000,
-      "residents": [],
-      "films": [
+      "resident_ids": [],
+      "film_ids": [
         "Sy3WJT2qVsG"
       ],
       "id": "B17gkTncNoz7"
@@ -3155,7 +3155,7 @@
       "orbital_period": 0,
       "diameter": 0,
       "gravity": null,
-      "residents": [
+      "resident_ids": [
         "Hyyzkp2qEoG0",
         "Hyyzkp2qEoG3",
         "Hyyzkp2qEoG9",
@@ -3167,7 +3167,7 @@
         "S1BGJThqEoG7",
         "S1BGJThqEoG8"
       ],
-      "films": [],
+      "film_ids": [],
       "id": "B17gkTncNoz8"
     },
     {
@@ -3179,10 +3179,10 @@
       "gravity": 0.62,
       "terrain": "mountains, seas, grasslands, deserts",
       "population": 42000000,
-      "residents": [
+      "resident_ids": [
         "Hyyzkp2qEoG4"
       ],
-      "films": [],
+      "film_ids": [],
       "id": "B17gkTncNoz9"
     },
     {
@@ -3194,10 +3194,10 @@
       "gravity": 1,
       "terrain": "deserts, mountains",
       "population": 300000000,
-      "residents": [
+      "resident_ids": [
         "Hyyzkp2qEoG5"
       ],
-      "films": [],
+      "film_ids": [],
       "id": "SkElJp3q4sM0"
     },
     {
@@ -3210,10 +3210,10 @@
       "terrain": "oceans, reefs, islands",
       "surface_water": 100,
       "population": 27000000000,
-      "residents": [
+      "resident_ids": [
         "Hyyzkp2qEoG7"
       ],
-      "films": [],
+      "film_ids": [],
       "id": "SkElJp3q4sM1"
     },
     {
@@ -3226,10 +3226,10 @@
       "terrain": "plains, forests",
       "surface_water": 40,
       "population": 1200000000,
-      "residents": [
+      "resident_ids": [
         "Hyyzkp2qEoG8"
       ],
-      "films": [],
+      "film_ids": [],
       "id": "SkElJp3q4sM2"
     },
     {
@@ -3242,10 +3242,10 @@
       "terrain": "mountains, volcanoes, rocky deserts",
       "surface_water": 5,
       "population": 18500000000,
-      "residents": [
+      "resident_ids": [
         "rJlMJT25Njz1"
       ],
-      "films": [],
+      "film_ids": [],
       "id": "SkElJp3q4sM3"
     },
     {
@@ -3257,10 +3257,10 @@
       "gravity": 1,
       "terrain": "swamps, lakes",
       "population": 11000000,
-      "residents": [
+      "resident_ids": [
         "S1WGJ62cEjf0"
       ],
-      "films": [],
+      "film_ids": [],
       "id": "SkElJp3q4sM4"
     },
     {
@@ -3272,10 +3272,10 @@
       "gravity": 1.56,
       "terrain": "swamps, deserts, jungles, mountains",
       "population": 2000000000,
-      "residents": [
+      "resident_ids": [
         "S1WGJ62cEjf1"
       ],
-      "films": [],
+      "film_ids": [],
       "id": "SkElJp3q4sM5"
     },
     {
@@ -3287,10 +3287,10 @@
       "gravity": 0.9,
       "terrain": "forests, deserts, savannas",
       "population": 5200,
-      "residents": [
+      "resident_ids": [
         "S1WGJ62cEjf4"
       ],
-      "films": [],
+      "film_ids": [],
       "id": "SkElJp3q4sM6"
     },
     {
@@ -3303,20 +3303,20 @@
       "terrain": "mountains, valleys, deserts, tundra",
       "surface_water": 5,
       "population": 1500000000,
-      "residents": [
+      "resident_ids": [
         "S1WGJ62cEjf5",
         "S1WGJ62cEjf6"
       ],
-      "films": [],
+      "film_ids": [],
       "id": "SkElJp3q4sM7"
     },
     {
       "name": "Aleen Minor",
       "gravity": null,
-      "residents": [
+      "resident_ids": [
         "S1WGJ62cEjf7"
       ],
-      "films": [],
+      "film_ids": [],
       "id": "SkElJp3q4sM8"
     },
     {
@@ -3328,20 +3328,20 @@
       "gravity": 1,
       "terrain": "urban, barren",
       "population": 421000000,
-      "residents": [
+      "resident_ids": [
         "S1WGJ62cEjf8"
       ],
-      "films": [],
+      "film_ids": [],
       "id": "SkElJp3q4sM9"
     },
     {
       "name": "Troiken",
       "gravity": null,
       "terrain": "desert, tundra, rainforests, mountains",
-      "residents": [
+      "resident_ids": [
         "S1WGJ62cEjf9"
       ],
-      "films": [],
+      "film_ids": [],
       "id": "SkSl1a2qViM0"
     },
     {
@@ -3352,10 +3352,10 @@
       "gravity": null,
       "terrain": "barren, ash",
       "population": 0,
-      "residents": [
+      "resident_ids": [
         "r1fMkp25Njz0"
       ],
-      "films": [],
+      "film_ids": [],
       "id": "SkSl1a2qViM1"
     },
     {
@@ -3367,10 +3367,10 @@
       "gravity": 0.98,
       "terrain": "toxic cloudsea, plateaus, volcanoes",
       "population": 705300,
-      "residents": [
+      "resident_ids": [
         "r1fMkp25Njz1"
       ],
-      "films": [],
+      "film_ids": [],
       "id": "SkSl1a2qViM2"
     },
     {
@@ -3382,10 +3382,10 @@
       "terrain": "verdant",
       "surface_water": 20,
       "population": 450000000,
-      "residents": [
+      "resident_ids": [
         "r1fMkp25Njz2"
       ],
-      "films": [],
+      "film_ids": [],
       "id": "SkSl1a2qViM3"
     },
     {
@@ -3398,10 +3398,10 @@
       "terrain": "lakes, islands, swamps, seas",
       "surface_water": 80,
       "population": 500000000,
-      "residents": [
+      "resident_ids": [
         "r1fMkp25Njz3"
       ],
-      "films": [],
+      "film_ids": [],
       "id": "SkSl1a2qViM4"
     },
     {
@@ -3410,17 +3410,17 @@
       "orbital_period": 413,
       "gravity": null,
       "terrain": "rocky canyons, acid pools",
-      "residents": [
+      "resident_ids": [
         "r1fMkp25Njz4"
       ],
-      "films": [],
+      "film_ids": [],
       "id": "SkSl1a2qViM5"
     },
     {
       "name": "Tholoth",
       "gravity": null,
-      "residents": [],
-      "films": [],
+      "resident_ids": [],
+      "film_ids": [],
       "id": "SkSl1a2qViM6"
     },
     {
@@ -3430,19 +3430,19 @@
       "climate": "arid, rocky, windy",
       "gravity": 1,
       "terrain": "rocky",
-      "residents": [
+      "resident_ids": [
         "r1fMkp25Njz6"
       ],
-      "films": [],
+      "film_ids": [],
       "id": "SkSl1a2qViM7"
     },
     {
       "name": "Quermia",
       "gravity": null,
-      "residents": [
+      "resident_ids": [
         "r1fMkp25Njz7"
       ],
-      "films": [],
+      "film_ids": [],
       "id": "SkSl1a2qViM8"
     },
     {
@@ -3452,10 +3452,10 @@
       "diameter": 13400,
       "climate": "temperate",
       "gravity": 1,
-      "residents": [
+      "resident_ids": [
         "r1fMkp25Njz8"
       ],
-      "films": [],
+      "film_ids": [],
       "id": "SkSl1a2qViM9"
     },
     {
@@ -3466,50 +3466,50 @@
       "gravity": 1,
       "terrain": "oceans, rainforests, plateaus",
       "population": 3500000000,
-      "residents": [
+      "resident_ids": [
         "r1fMkp25Njz9"
       ],
-      "films": [],
+      "film_ids": [],
       "id": "HkIlkTnqEjG0"
     },
     {
       "name": "Mirial",
       "gravity": null,
       "terrain": "deserts",
-      "residents": [
+      "resident_ids": [
         "HJ7Myp39Njf4",
         "HJ7Myp39Njf5"
       ],
-      "films": [],
+      "film_ids": [],
       "id": "HkIlkTnqEjG1"
     },
     {
       "name": "Serenno",
       "gravity": null,
       "terrain": "rainforests, rivers, mountains",
-      "residents": [
+      "resident_ids": [
         "HJ7Myp39Njf7"
       ],
-      "films": [],
+      "film_ids": [],
       "id": "HkIlkTnqEjG2"
     },
     {
       "name": "Concord Dawn",
       "gravity": null,
       "terrain": "jungles, forests, deserts",
-      "residents": [
+      "resident_ids": [
         "HJ7Myp39Njf9"
       ],
-      "films": [],
+      "film_ids": [],
       "id": "HkIlkTnqEjG3"
     },
     {
       "name": "Zolan",
       "gravity": null,
-      "residents": [
+      "resident_ids": [
         "Bk4fJp3cNjf0"
       ],
-      "films": [],
+      "film_ids": [],
       "id": "HkIlkTnqEjG4"
     },
     {
@@ -3519,10 +3519,10 @@
       "terrain": "oceans, glaciers",
       "surface_water": 100,
       "population": 500000000,
-      "residents": [
+      "resident_ids": [
         "Bk4fJp3cNjf1"
       ],
-      "films": [],
+      "film_ids": [],
       "id": "HkIlkTnqEjG5"
     },
     {
@@ -3533,10 +3533,10 @@
       "gravity": 1,
       "terrain": "urban, vines",
       "population": 500000000000,
-      "residents": [
+      "resident_ids": [
         "Bk4fJp3cNjf6"
       ],
-      "films": [],
+      "film_ids": [],
       "id": "HkIlkTnqEjG6"
     },
     {
@@ -3549,10 +3549,10 @@
       "terrain": "plains, forests, hills, mountains",
       "surface_water": 25,
       "population": 5000000000,
-      "residents": [
+      "resident_ids": [
         "Bk4fJp3cNjf7"
       ],
-      "films": [],
+      "film_ids": [],
       "id": "HkIlkTnqEjG7"
     },
     {
@@ -3560,10 +3560,10 @@
       "climate": "temperate",
       "gravity": 1,
       "terrain": "cities, savannahs, seas, plains",
-      "residents": [
+      "resident_ids": [
         "Bk4fJp3cNjf8"
       ],
-      "films": [],
+      "film_ids": [],
       "id": "HkIlkTnqEjG8"
     },
     {
@@ -3575,19 +3575,19 @@
       "gravity": 1,
       "terrain": "rainforests, cliffs, canyons, seas",
       "population": 4000000000,
-      "residents": [
+      "resident_ids": [
         "Bk4fJp3cNjf9"
       ],
-      "films": [],
+      "film_ids": [],
       "id": "HkIlkTnqEjG9"
     },
     {
       "name": "Umbara",
       "gravity": null,
-      "residents": [
+      "resident_ids": [
         "S1BGJThqEoG2"
       ],
-      "films": [],
+      "film_ids": [],
       "id": "SyvxkThq4oG0"
     },
     {
@@ -3600,7 +3600,7 @@
       "terrain": "desert",
       "surface_water": 1,
       "population": 200000,
-      "residents": [
+      "resident_ids": [
         "SyAbJp35ViM",
         "Hyyzkp2qEoG",
         "S1WGJ62cEjf",
@@ -3612,7 +3612,7 @@
         "S1WGJ62cEjf3",
         "HJ7Myp39Njf2"
       ],
-      "films": [
+      "film_ids": [
         "SJ_-J62qViM",
         "H1YZyp3cVjf",
         "HycWyp39Nsf",
@@ -3625,8 +3625,8 @@
       "name": "Jakku",
       "gravity": null,
       "terrain": "deserts",
-      "residents": [],
-      "films": [
+      "resident_ids": [],
+      "film_ids": [
         "Sk6Zyp2c4oz"
       ],
       "id": "SyvxkThq4oG1"
@@ -3643,21 +3643,21 @@
       "birth_year": "19BBY",
       "gender": "male",
       "homeworld": "SkNak6hcEjf",
-      "films": [
+      "film_ids": [
         "Sy3WJT2qVsG",
         "HycWyp39Nsf",
         "B1ibyphc4iG",
         "S1vZy63c4oz",
         "Sk6Zyp2c4oz"
       ],
-      "species": [
+      "species_ids": [
         "BJcKJT2qViz"
       ],
-      "vehicles": [
+      "vehicle_ids": [
         "B1mJah9Eiz",
         "Byqf1ahcVsz"
       ],
-      "starships": [
+      "starship_ids": [
         "HJMWJT254oG",
         "S1HZya254iM"
       ],
@@ -3671,7 +3671,7 @@
       "eye_color": "yellow",
       "birth_year": "112BBY",
       "homeworld": "SkNak6hcEjf",
-      "films": [
+      "film_ids": [
         "Sy3WJT2qVsG",
         "SJ_-J62qViM",
         "H1YZyp3cVjf",
@@ -3679,11 +3679,11 @@
         "B1ibyphc4iG",
         "S1vZy63c4oz"
       ],
-      "species": [
+      "species_ids": [
         "S1YtJ63qVoG"
       ],
-      "vehicles": [],
-      "starships": [],
+      "vehicle_ids": [],
+      "starship_ids": [],
       "id": "Hyyzkp2qEoG"
     },
     {
@@ -3694,7 +3694,7 @@
       "eye_color": "red",
       "birth_year": "33BBY",
       "homeworld": "ByYe1T2c4sG",
-      "films": [
+      "film_ids": [
         "Sy3WJT2qVsG",
         "SJ_-J62qViM",
         "H1YZyp3cVjf",
@@ -3703,11 +3703,11 @@
         "S1vZy63c4oz",
         "Sk6Zyp2c4oz"
       ],
-      "species": [
+      "species_ids": [
         "S1YtJ63qVoG"
       ],
-      "vehicles": [],
-      "starships": [],
+      "vehicle_ids": [],
+      "starship_ids": [],
       "id": "rJlMJT25Njz"
     },
     {
@@ -3720,17 +3720,17 @@
       "birth_year": "41.9BBY",
       "gender": "male",
       "homeworld": "SkNak6hcEjf",
-      "films": [
+      "film_ids": [
         "Sy3WJT2qVsG",
         "HycWyp39Nsf",
         "B1ibyphc4iG",
         "S1vZy63c4oz"
       ],
-      "species": [
+      "species_ids": [
         "BJcKJT2qViz"
       ],
-      "vehicles": [],
-      "starships": [
+      "vehicle_ids": [],
+      "starship_ids": [
         "BJXbJT2qNiM"
       ],
       "id": "S1WGJ62cEjf"
@@ -3745,20 +3745,20 @@
       "birth_year": "19BBY",
       "gender": "female",
       "homeworld": "B17gkTncNoz",
-      "films": [
+      "film_ids": [
         "Sy3WJT2qVsG",
         "HycWyp39Nsf",
         "B1ibyphc4iG",
         "S1vZy63c4oz",
         "Sk6Zyp2c4oz"
       ],
-      "species": [
+      "species_ids": [
         "BJcKJT2qViz"
       ],
-      "vehicles": [
+      "vehicle_ids": [
         "Byqf1ahcVsz"
       ],
-      "starships": [],
+      "starship_ids": [],
       "id": "r1fMkp25Njz"
     },
     {
@@ -3771,16 +3771,16 @@
       "birth_year": "52BBY",
       "gender": "male",
       "homeworld": "SkNak6hcEjf",
-      "films": [
+      "film_ids": [
         "SJ_-J62qViM",
         "HycWyp39Nsf",
         "S1vZy63c4oz"
       ],
-      "species": [
+      "species_ids": [
         "BJcKJT2qViz"
       ],
-      "vehicles": [],
-      "starships": [],
+      "vehicle_ids": [],
+      "starship_ids": [],
       "id": "HJ7Myp39Njf"
     },
     {
@@ -3793,16 +3793,16 @@
       "birth_year": "47BBY",
       "gender": "female",
       "homeworld": "SkNak6hcEjf",
-      "films": [
+      "film_ids": [
         "SJ_-J62qViM",
         "HycWyp39Nsf",
         "S1vZy63c4oz"
       ],
-      "species": [
+      "species_ids": [
         "BJcKJT2qViz"
       ],
-      "vehicles": [],
-      "starships": [],
+      "vehicle_ids": [],
+      "starship_ids": [],
       "id": "Bk4fJp3cNjf"
     },
     {
@@ -3812,14 +3812,14 @@
       "skin_color": "white, red",
       "eye_color": "red",
       "homeworld": "SkNak6hcEjf",
-      "films": [
+      "film_ids": [
         "S1vZy63c4oz"
       ],
-      "species": [
+      "species_ids": [
         "S1YtJ63qVoG"
       ],
-      "vehicles": [],
-      "starships": [],
+      "vehicle_ids": [],
+      "starship_ids": [],
       "id": "S1BGJThqEoG"
     },
     {
@@ -3832,14 +3832,14 @@
       "birth_year": "24BBY",
       "gender": "male",
       "homeworld": "SkNak6hcEjf",
-      "films": [
+      "film_ids": [
         "S1vZy63c4oz"
       ],
-      "species": [
+      "species_ids": [
         "BJcKJT2qViz"
       ],
-      "vehicles": [],
-      "starships": [
+      "vehicle_ids": [],
+      "starship_ids": [
         "HJMWJT254oG"
       ],
       "id": "r1Lz1T2q4iM"
@@ -3854,7 +3854,7 @@
       "birth_year": "57BBY",
       "gender": "male",
       "homeworld": "B17gkTncNoz0",
-      "films": [
+      "film_ids": [
         "Sy3WJT2qVsG",
         "SJ_-J62qViM",
         "H1YZyp3cVjf",
@@ -3862,13 +3862,13 @@
         "B1ibyphc4iG",
         "S1vZy63c4oz"
       ],
-      "species": [
+      "species_ids": [
         "BJcKJT2qViz"
       ],
-      "vehicles": [
+      "vehicle_ids": [
         "BkeXkp2c4sG"
       ],
-      "starships": [
+      "starship_ids": [
         "BJJByp354jG",
         "BkAgyTh94jM9",
         "HJL5kp25VjG",
@@ -3887,19 +3887,19 @@
       "birth_year": "41.9BBY",
       "gender": "male",
       "homeworld": "SkNak6hcEjf",
-      "films": [
+      "film_ids": [
         "SJ_-J62qViM",
         "H1YZyp3cVjf",
         "HycWyp39Nsf"
       ],
-      "species": [
+      "species_ids": [
         "BJcKJT2qViz"
       ],
-      "vehicles": [
+      "vehicle_ids": [
         "Skka2cNjf4",
         "Skka2cNjf6"
       ],
-      "starships": [
+      "starship_ids": [
         "BkAgyTh94jM9",
         "SyvqyThqNoz",
         "HJ9E1ThcVif"
@@ -3916,15 +3916,15 @@
       "birth_year": "64BBY",
       "gender": "male",
       "homeworld": "B17gkTncNoz1",
-      "films": [
+      "film_ids": [
         "HycWyp39Nsf",
         "S1vZy63c4oz"
       ],
-      "species": [
+      "species_ids": [
         "BJcKJT2qViz"
       ],
-      "vehicles": [],
-      "starships": [],
+      "vehicle_ids": [],
+      "starship_ids": [],
       "id": "SyAbJp35ViM2"
     },
     {
@@ -3936,20 +3936,20 @@
       "birth_year": "200BBY",
       "gender": "male",
       "homeworld": "SyAmJ639Viz",
-      "films": [
+      "film_ids": [
         "Sy3WJT2qVsG",
         "HycWyp39Nsf",
         "B1ibyphc4iG",
         "S1vZy63c4oz",
         "Sk6Zyp2c4oz"
       ],
-      "species": [
+      "species_ids": [
         "rJdFya25VjM"
       ],
-      "vehicles": [
+      "vehicle_ids": [
         "S1Ika2cVoG"
       ],
-      "starships": [
+      "starship_ids": [
         "rJe-kah5NsM",
         "S1HZya254iM"
       ],
@@ -3965,17 +3965,17 @@
       "birth_year": "29BBY",
       "gender": "male",
       "homeworld": "B17gkTncNoz2",
-      "films": [
+      "film_ids": [
         "Sy3WJT2qVsG",
         "B1ibyphc4iG",
         "S1vZy63c4oz",
         "Sk6Zyp2c4oz"
       ],
-      "species": [
+      "species_ids": [
         "BJcKJT2qViz"
       ],
-      "vehicles": [],
-      "starships": [
+      "vehicle_ids": [],
+      "starship_ids": [
         "rJe-kah5NsM",
         "S1HZya254iM"
       ],
@@ -3990,14 +3990,14 @@
       "birth_year": "44BBY",
       "gender": "male",
       "homeworld": "B17gkTncNoz3",
-      "films": [
+      "film_ids": [
         "S1vZy63c4oz"
       ],
-      "species": [
+      "species_ids": [
         "SksY1ah9NoG"
       ],
-      "vehicles": [],
-      "starships": [],
+      "vehicle_ids": [],
+      "starship_ids": [],
       "id": "SyAbJp35ViM5"
     },
     {
@@ -4009,16 +4009,16 @@
       "birth_year": "600BBY",
       "gender": "hermaphrodite",
       "homeworld": "B17gkTncNoz4",
-      "films": [
+      "film_ids": [
         "H1YZyp3cVjf",
         "B1ibyphc4iG",
         "S1vZy63c4oz"
       ],
-      "species": [
+      "species_ids": [
         "HJFy629NoG"
       ],
-      "vehicles": [],
-      "starships": [],
+      "vehicle_ids": [],
+      "starship_ids": [],
       "id": "SyAbJp35ViM6"
     },
     {
@@ -4031,18 +4031,18 @@
       "birth_year": "21BBY",
       "gender": "male",
       "homeworld": "B17gkTncNoz2",
-      "films": [
+      "film_ids": [
         "Sy3WJT2qVsG",
         "B1ibyphc4iG",
         "S1vZy63c4oz"
       ],
-      "species": [
+      "species_ids": [
         "BJcKJT2qViz"
       ],
-      "vehicles": [
+      "vehicle_ids": [
         "B1mJah9Eiz"
       ],
-      "starships": [
+      "starship_ids": [
         "HJMWJT254oG"
       ],
       "id": "SyAbJp35ViM8"
@@ -4056,14 +4056,14 @@
       "eye_color": "blue",
       "gender": "male",
       "homeworld": "B17gkTncNoz6",
-      "films": [
+      "film_ids": [
         "S1vZy63c4oz"
       ],
-      "species": [
+      "species_ids": [
         "BJcKJT2qViz"
       ],
-      "vehicles": [],
-      "starships": [
+      "vehicle_ids": [],
+      "starship_ids": [
         "HJMWJT254oG"
       ],
       "id": "SyAbJp35ViM9"
@@ -4078,18 +4078,18 @@
       "birth_year": "896BBY",
       "gender": "male",
       "homeworld": "B17gkTncNoz8",
-      "films": [
+      "film_ids": [
         "Sy3WJT2qVsG",
         "SJ_-J62qViM",
         "H1YZyp3cVjf",
         "HycWyp39Nsf",
         "B1ibyphc4iG"
       ],
-      "species": [
+      "species_ids": [
         "HyckT29VjG"
       ],
-      "vehicles": [],
-      "starships": [],
+      "vehicle_ids": [],
+      "starship_ids": [],
       "id": "Hyyzkp2qEoG0"
     },
     {
@@ -4102,18 +4102,18 @@
       "birth_year": "82BBY",
       "gender": "male",
       "homeworld": "ByYe1T2c4sG",
-      "films": [
+      "film_ids": [
         "Sy3WJT2qVsG",
         "SJ_-J62qViM",
         "H1YZyp3cVjf",
         "HycWyp39Nsf",
         "B1ibyphc4iG"
       ],
-      "species": [
+      "species_ids": [
         "BJcKJT2qViz"
       ],
-      "vehicles": [],
-      "starships": [],
+      "vehicle_ids": [],
+      "starship_ids": [],
       "id": "Hyyzkp2qEoG1"
     },
     {
@@ -4126,16 +4126,16 @@
       "birth_year": "31.5BBY",
       "gender": "male",
       "homeworld": "S1oxJanqVsG",
-      "films": [
+      "film_ids": [
         "Sy3WJT2qVsG",
         "SJ_-J62qViM",
         "B1ibyphc4iG"
       ],
-      "species": [
+      "species_ids": [
         "BJcKJT2qViz"
       ],
-      "vehicles": [],
-      "starships": [
+      "vehicle_ids": [],
+      "starship_ids": [
         "HkEWkTncEsf"
       ],
       "id": "Hyyzkp2qEoG2"
@@ -4150,14 +4150,14 @@
       "birth_year": "15BBY",
       "gender": "none",
       "homeworld": "B17gkTncNoz8",
-      "films": [
+      "film_ids": [
         "Sy3WJT2qVsG"
       ],
-      "species": [
+      "species_ids": [
         "S1YtJ63qVoG"
       ],
-      "vehicles": [],
-      "starships": [],
+      "vehicle_ids": [],
+      "starship_ids": [],
       "id": "Hyyzkp2qEoG3"
     },
     {
@@ -4170,14 +4170,14 @@
       "birth_year": "53BBY",
       "gender": "male",
       "homeworld": "B17gkTncNoz9",
-      "films": [
+      "film_ids": [
         "Sy3WJT2qVsG"
       ],
-      "species": [
+      "species_ids": [
         "Hkj1Th9Voz"
       ],
-      "vehicles": [],
-      "starships": [],
+      "vehicle_ids": [],
+      "starship_ids": [],
       "id": "Hyyzkp2qEoG4"
     },
     {
@@ -4190,15 +4190,15 @@
       "birth_year": "31BBY",
       "gender": "male",
       "homeworld": "SkElJp3q4sM0",
-      "films": [
+      "film_ids": [
         "Sy3WJT2qVsG",
         "B1ibyphc4iG"
       ],
-      "species": [
+      "species_ids": [
         "BJcKJT2qViz"
       ],
-      "vehicles": [],
-      "starships": [
+      "vehicle_ids": [],
+      "starship_ids": [
         "rJe-kah5NsM"
       ],
       "id": "Hyyzkp2qEoG5"
@@ -4213,14 +4213,14 @@
       "birth_year": "37BBY",
       "gender": "male",
       "homeworld": "SyvxkThq4oG",
-      "films": [
+      "film_ids": [
         "Sy3WJT2qVsG"
       ],
-      "species": [
+      "species_ids": [
         "BJcKJT2qViz"
       ],
-      "vehicles": [],
-      "starships": [],
+      "vehicle_ids": [],
+      "starship_ids": [],
       "id": "Hyyzkp2qEoG6"
     },
     {
@@ -4233,15 +4233,15 @@
       "birth_year": "41BBY",
       "gender": "male",
       "homeworld": "SkElJp3q4sM1",
-      "films": [
+      "film_ids": [
         "B1ibyphc4iG",
         "Sk6Zyp2c4oz"
       ],
-      "species": [
+      "species_ids": [
         "rynJTn94of"
       ],
-      "vehicles": [],
-      "starships": [],
+      "vehicle_ids": [],
+      "starship_ids": [],
       "id": "Hyyzkp2qEoG7"
     },
     {
@@ -4254,14 +4254,14 @@
       "birth_year": "48BBY",
       "gender": "female",
       "homeworld": "SkElJp3q4sM2",
-      "films": [
+      "film_ids": [
         "B1ibyphc4iG"
       ],
-      "species": [
+      "species_ids": [
         "BJcKJT2qViz"
       ],
-      "vehicles": [],
-      "starships": [],
+      "vehicle_ids": [],
+      "starship_ids": [],
       "id": "Hyyzkp2qEoG8"
     },
     {
@@ -4272,14 +4272,14 @@
       "eye_color": "brown",
       "gender": "male",
       "homeworld": "B17gkTncNoz8",
-      "films": [
+      "film_ids": [
         "B1ibyphc4iG"
       ],
-      "species": [
+      "species_ids": [
         "BJcKJT2qViz"
       ],
-      "vehicles": [],
-      "starships": [
+      "vehicle_ids": [],
+      "starship_ids": [
         "BJPVyT3cEsM"
       ],
       "id": "Hyyzkp2qEoG9"
@@ -4294,14 +4294,14 @@
       "birth_year": "8BBY",
       "gender": "male",
       "homeworld": "ry_xJph5EoG",
-      "films": [
+      "film_ids": [
         "B1ibyphc4iG"
       ],
-      "species": [
+      "species_ids": [
         "rJT1T3cEif"
       ],
-      "vehicles": [],
-      "starships": [],
+      "vehicle_ids": [],
+      "starship_ids": [],
       "id": "rJlMJT25Njz0"
     },
     {
@@ -4313,14 +4313,14 @@
       "eye_color": "black",
       "gender": "male",
       "homeworld": "SkElJp3q4sM3",
-      "films": [
+      "film_ids": [
         "B1ibyphc4iG"
       ],
-      "species": [
+      "species_ids": [
         "Sy0yp3cEif"
       ],
-      "vehicles": [],
-      "starships": [
+      "vehicle_ids": [],
+      "starship_ids": [
         "rJe-kah5NsM"
       ],
       "id": "rJlMJT25Njz1"
@@ -4335,16 +4335,16 @@
       "birth_year": "92BBY",
       "gender": "male",
       "homeworld": "B17gkTncNoz8",
-      "films": [
+      "film_ids": [
         "H1YZyp3cVjf"
       ],
-      "species": [
+      "species_ids": [
         "BJcKJT2qViz"
       ],
-      "vehicles": [
+      "vehicle_ids": [
         "BkeXkp2c4sG"
       ],
-      "starships": [],
+      "starship_ids": [],
       "id": "rJlMJT25Njz2"
     },
     {
@@ -4356,16 +4356,16 @@
       "eye_color": "red",
       "gender": "male",
       "homeworld": "S1G4J639EoM",
-      "films": [
+      "film_ids": [
         "SJ_-J62qViM",
         "H1YZyp3cVjf",
         "HycWyp39Nsf"
       ],
-      "species": [
+      "species_ids": [
         "S1yxy63q4if"
       ],
-      "vehicles": [],
-      "starships": [],
+      "vehicle_ids": [],
+      "starship_ids": [],
       "id": "rJlMJT25Njz3"
     },
     {
@@ -4378,14 +4378,14 @@
       "birth_year": "91BBY",
       "gender": "male",
       "homeworld": "HJ5e1639Vsf",
-      "films": [
+      "film_ids": [
         "H1YZyp3cVjf"
       ],
-      "species": [
+      "species_ids": [
         "BJcKJT2qViz"
       ],
-      "vehicles": [],
-      "starships": [],
+      "vehicle_ids": [],
+      "starship_ids": [],
       "id": "rJlMJT25Njz4"
     },
     {
@@ -4398,15 +4398,15 @@
       "birth_year": "52BBY",
       "gender": "male",
       "homeworld": "ByYe1T2c4sG",
-      "films": [
+      "film_ids": [
         "SJ_-J62qViM",
         "H1YZyp3cVjf"
       ],
-      "species": [
+      "species_ids": [
         "S1egy63qNsG"
       ],
-      "vehicles": [],
-      "starships": [],
+      "vehicle_ids": [],
+      "starship_ids": [],
       "id": "rJlMJT25Njz6"
     },
     {
@@ -4418,14 +4418,14 @@
       "eye_color": "orange",
       "gender": "male",
       "homeworld": "ByYe1T2c4sG",
-      "films": [
+      "film_ids": [
         "H1YZyp3cVjf"
       ],
-      "species": [
+      "species_ids": [
         "S1egy63qNsG"
       ],
-      "vehicles": [],
-      "starships": [],
+      "vehicle_ids": [],
+      "starship_ids": [],
       "id": "rJlMJT25Njz7"
     },
     {
@@ -4437,14 +4437,14 @@
       "eye_color": "orange",
       "gender": "male",
       "homeworld": "ByYe1T2c4sG",
-      "films": [
+      "film_ids": [
         "H1YZyp3cVjf"
       ],
-      "species": [
+      "species_ids": [
         "S1egy63qNsG"
       ],
-      "vehicles": [],
-      "starships": [],
+      "vehicle_ids": [],
+      "starship_ids": [],
       "id": "rJlMJT25Njz8"
     },
     {
@@ -4456,12 +4456,12 @@
       "eye_color": "blue",
       "gender": "male",
       "homeworld": "ByYe1T2c4sG",
-      "films": [
+      "film_ids": [
         "H1YZyp3cVjf"
       ],
-      "species": [],
-      "vehicles": [],
-      "starships": [
+      "species_ids": [],
+      "vehicle_ids": [],
+      "starship_ids": [
         "B1iEJpn5Niz"
       ],
       "id": "rJlMJT25Njz9"
@@ -4475,15 +4475,15 @@
       "eye_color": "yellow",
       "gender": "male",
       "homeworld": "SkElJp3q4sM4",
-      "films": [
+      "film_ids": [
         "SJ_-J62qViM",
         "H1YZyp3cVjf"
       ],
-      "species": [
+      "species_ids": [
         "ByWl162qVoM"
       ],
-      "vehicles": [],
-      "starships": [],
+      "vehicle_ids": [],
+      "starship_ids": [],
       "id": "S1WGJ62cEjf0"
     },
     {
@@ -4495,14 +4495,14 @@
       "eye_color": "orange",
       "gender": "male",
       "homeworld": "SkElJp3q4sM5",
-      "films": [
+      "film_ids": [
         "H1YZyp3cVjf"
       ],
-      "species": [
+      "species_ids": [
         "S1fxyTn5EjG"
       ],
-      "vehicles": [],
-      "starships": [],
+      "vehicle_ids": [],
+      "starship_ids": [],
       "id": "S1WGJ62cEjf1"
     },
     {
@@ -4515,12 +4515,12 @@
       "birth_year": "62BBY",
       "gender": "male",
       "homeworld": "ByYe1T2c4sG",
-      "films": [
+      "film_ids": [
         "H1YZyp3cVjf"
       ],
-      "species": [],
-      "vehicles": [],
-      "starships": [],
+      "species_ids": [],
+      "vehicle_ids": [],
+      "starship_ids": [],
       "id": "S1WGJ62cEjf2"
     },
     {
@@ -4533,15 +4533,15 @@
       "birth_year": "72BBY",
       "gender": "female",
       "homeworld": "SkNak6hcEjf",
-      "films": [
+      "film_ids": [
         "SJ_-J62qViM",
         "H1YZyp3cVjf"
       ],
-      "species": [
+      "species_ids": [
         "BJcKJT2qViz"
       ],
-      "vehicles": [],
-      "starships": [],
+      "vehicle_ids": [],
+      "starship_ids": [],
       "id": "S1WGJ62cEjf3"
     },
     {
@@ -4554,16 +4554,16 @@
       "birth_year": "54BBY",
       "gender": "male",
       "homeworld": "SkElJp3q4sM6",
-      "films": [
+      "film_ids": [
         "H1YZyp3cVjf"
       ],
-      "species": [
+      "species_ids": [
         "B1YQJp2qViG"
       ],
-      "vehicles": [
+      "vehicle_ids": [
         "Skka2cNjf2"
       ],
-      "starships": [
+      "starship_ids": [
         "By3VkT2cNsf"
       ],
       "id": "S1WGJ62cEjf4"
@@ -4577,14 +4577,14 @@
       "eye_color": "pink",
       "gender": "male",
       "homeworld": "SkElJp3q4sM7",
-      "films": [
+      "film_ids": [
         "B1ibyphc4iG"
       ],
-      "species": [
+      "species_ids": [
         "SkzQkph9NsG"
       ],
-      "vehicles": [],
-      "starships": [],
+      "vehicle_ids": [],
+      "starship_ids": [],
       "id": "S1WGJ62cEjf5"
     },
     {
@@ -4597,16 +4597,16 @@
       "birth_year": "48BBY",
       "gender": "female",
       "homeworld": "SkElJp3q4sM7",
-      "films": [
+      "film_ids": [
         "SJ_-J62qViM",
         "H1YZyp3cVjf",
         "HycWyp39Nsf"
       ],
-      "species": [
+      "species_ids": [
         "SkzQkph9NsG"
       ],
-      "vehicles": [],
-      "starships": [],
+      "vehicle_ids": [],
+      "starship_ids": [],
       "id": "S1WGJ62cEjf6"
     },
     {
@@ -4618,14 +4618,14 @@
       "eye_color": "yellow",
       "gender": "male",
       "homeworld": "SkElJp3q4sM9",
-      "films": [
+      "film_ids": [
         "H1YZyp3cVjf"
       ],
-      "species": [
+      "species_ids": [
         "B14X1TncVof"
       ],
-      "vehicles": [],
-      "starships": [],
+      "vehicle_ids": [],
+      "starship_ids": [],
       "id": "S1WGJ62cEjf8"
     },
     {
@@ -4637,14 +4637,14 @@
       "eye_color": "black",
       "gender": "male",
       "homeworld": "SkSl1a2qViM0",
-      "films": [
+      "film_ids": [
         "H1YZyp3cVjf"
       ],
-      "species": [
+      "species_ids": [
         "rJrXyThqVsz"
       ],
-      "vehicles": [],
-      "starships": [],
+      "vehicle_ids": [],
+      "starship_ids": [],
       "id": "S1WGJ62cEjf9"
     },
     {
@@ -4656,14 +4656,14 @@
       "eye_color": "orange",
       "gender": "male",
       "homeworld": "SkSl1a2qViM1",
-      "films": [
+      "film_ids": [
         "H1YZyp3cVjf"
       ],
-      "species": [
+      "species_ids": [
         "ryLXyp25Noz"
       ],
-      "vehicles": [],
-      "starships": [],
+      "vehicle_ids": [],
+      "starship_ids": [],
       "id": "r1fMkp25Njz0"
     },
     {
@@ -4676,16 +4676,16 @@
       "birth_year": "72BBY",
       "gender": "male",
       "homeworld": "SkSl1a2qViM2",
-      "films": [
+      "film_ids": [
         "SJ_-J62qViM",
         "H1YZyp3cVjf",
         "HycWyp39Nsf"
       ],
-      "species": [
+      "species_ids": [
         "BJcKJT2qViz"
       ],
-      "vehicles": [],
-      "starships": [],
+      "vehicle_ids": [],
+      "starship_ids": [],
       "id": "r1fMkp25Njz1"
     },
     {
@@ -4698,16 +4698,16 @@
       "birth_year": "92BBY",
       "gender": "male",
       "homeworld": "SkSl1a2qViM3",
-      "films": [
+      "film_ids": [
         "SJ_-J62qViM",
         "H1YZyp3cVjf",
         "HycWyp39Nsf"
       ],
-      "species": [
+      "species_ids": [
         "HyPXkp39Niz"
       ],
-      "vehicles": [],
-      "starships": [],
+      "vehicle_ids": [],
+      "starship_ids": [],
       "id": "r1fMkp25Njz2"
     },
     {
@@ -4719,16 +4719,16 @@
       "eye_color": "black",
       "gender": "male",
       "homeworld": "SkSl1a2qViM4",
-      "films": [
+      "film_ids": [
         "SJ_-J62qViM",
         "H1YZyp3cVjf",
         "HycWyp39Nsf"
       ],
-      "species": [
+      "species_ids": [
         "H1dQk6394iM"
       ],
-      "vehicles": [],
-      "starships": [],
+      "vehicle_ids": [],
+      "starship_ids": [],
       "id": "r1fMkp25Njz3"
     },
     {
@@ -4740,15 +4740,15 @@
       "eye_color": "brown",
       "gender": "male",
       "homeworld": "SkSl1a2qViM5",
-      "films": [
+      "film_ids": [
         "H1YZyp3cVjf",
         "HycWyp39Nsf"
       ],
-      "species": [
+      "species_ids": [
         "B1YQJp2qViG"
       ],
-      "vehicles": [],
-      "starships": [],
+      "vehicle_ids": [],
+      "starship_ids": [],
       "id": "r1fMkp25Njz4"
     },
     {
@@ -4760,15 +4760,15 @@
       "eye_color": "blue",
       "gender": "female",
       "homeworld": "HJ5e1639Vsf",
-      "films": [
+      "film_ids": [
         "H1YZyp3cVjf",
         "HycWyp39Nsf"
       ],
-      "species": [
+      "species_ids": [
         "HJcQkpnqEiG"
       ],
-      "vehicles": [],
-      "starships": [],
+      "vehicle_ids": [],
+      "starship_ids": [],
       "id": "r1fMkp25Njz5"
     },
     {
@@ -4780,15 +4780,15 @@
       "eye_color": "orange",
       "gender": "male",
       "homeworld": "SkSl1a2qViM7",
-      "films": [
+      "film_ids": [
         "H1YZyp3cVjf",
         "HycWyp39Nsf"
       ],
-      "species": [
+      "species_ids": [
         "HyoXJa3c4oG"
       ],
-      "vehicles": [],
-      "starships": [],
+      "vehicle_ids": [],
+      "starship_ids": [],
       "id": "r1fMkp25Njz6"
     },
     {
@@ -4800,14 +4800,14 @@
       "eye_color": "yellow",
       "gender": "male",
       "homeworld": "SkSl1a2qViM8",
-      "films": [
+      "film_ids": [
         "H1YZyp3cVjf"
       ],
-      "species": [
+      "species_ids": [
         "rk4IJphqEsG"
       ],
-      "vehicles": [],
-      "starships": [],
+      "vehicle_ids": [],
+      "starship_ids": [],
       "id": "r1fMkp25Njz7"
     },
     {
@@ -4820,16 +4820,16 @@
       "birth_year": "22BBY",
       "gender": "male",
       "homeworld": "SkSl1a2qViM9",
-      "films": [
+      "film_ids": [
         "SJ_-J62qViM",
         "H1YZyp3cVjf",
         "HycWyp39Nsf"
       ],
-      "species": [
+      "species_ids": [
         "BkrL1phqEiz"
       ],
-      "vehicles": [],
-      "starships": [
+      "vehicle_ids": [],
+      "starship_ids": [
         "BJJByp354jG"
       ],
       "id": "r1fMkp25Njz8"
@@ -4843,15 +4843,15 @@
       "eye_color": "blue",
       "gender": "male",
       "homeworld": "HkIlkTnqEjG0",
-      "films": [
+      "film_ids": [
         "SJ_-J62qViM",
         "H1YZyp3cVjf"
       ],
-      "species": [
+      "species_ids": [
         "BJ8I1Tnc4jG"
       ],
-      "vehicles": [],
-      "starships": [],
+      "vehicle_ids": [],
+      "starship_ids": [],
       "id": "r1fMkp25Njz9"
     },
     {
@@ -4863,14 +4863,14 @@
       "eye_color": "brown",
       "gender": "male",
       "homeworld": "ByYe1T2c4sG",
-      "films": [
+      "film_ids": [
         "SJ_-J62qViM"
       ],
-      "species": [
+      "species_ids": [
         "BJcKJT2qViz"
       ],
-      "vehicles": [],
-      "starships": [
+      "vehicle_ids": [],
+      "starship_ids": [
         "HJ9E1ThcVif"
       ],
       "id": "HJ7Myp39Njf0"
@@ -4884,14 +4884,14 @@
       "eye_color": "brown",
       "gender": "female",
       "homeworld": "ByYe1T2c4sG",
-      "films": [
+      "film_ids": [
         "SJ_-J62qViM"
       ],
-      "species": [
+      "species_ids": [
         "BJcKJT2qViz"
       ],
-      "vehicles": [],
-      "starships": [],
+      "vehicle_ids": [],
+      "starship_ids": [],
       "id": "HJ7Myp39Njf1"
     },
     {
@@ -4904,14 +4904,14 @@
       "birth_year": "82BBY",
       "gender": "male",
       "homeworld": "SkNak6hcEjf",
-      "films": [
+      "film_ids": [
         "SJ_-J62qViM"
       ],
-      "species": [
+      "species_ids": [
         "BJcKJT2qViz"
       ],
-      "vehicles": [],
-      "starships": [],
+      "vehicle_ids": [],
+      "starship_ids": [],
       "id": "HJ7Myp39Njf2"
     },
     {
@@ -4923,15 +4923,15 @@
       "eye_color": "yellow",
       "gender": "male",
       "homeworld": "By3lk6294sG",
-      "films": [
+      "film_ids": [
         "SJ_-J62qViM",
         "HycWyp39Nsf"
       ],
-      "species": [
+      "species_ids": [
         "HyDLJ63q4of"
       ],
-      "vehicles": [],
-      "starships": [],
+      "vehicle_ids": [],
+      "starship_ids": [],
       "id": "HJ7Myp39Njf3"
     },
     {
@@ -4944,15 +4944,15 @@
       "birth_year": "58BBY",
       "gender": "female",
       "homeworld": "HkIlkTnqEjG1",
-      "films": [
+      "film_ids": [
         "SJ_-J62qViM",
         "HycWyp39Nsf"
       ],
-      "species": [
+      "species_ids": [
         "HyOLyah5NjM"
       ],
-      "vehicles": [],
-      "starships": [],
+      "vehicle_ids": [],
+      "starship_ids": [],
       "id": "HJ7Myp39Njf4"
     },
     {
@@ -4965,14 +4965,14 @@
       "birth_year": "40BBY",
       "gender": "female",
       "homeworld": "HkIlkTnqEjG1",
-      "films": [
+      "film_ids": [
         "SJ_-J62qViM"
       ],
-      "species": [
+      "species_ids": [
         "HyOLyah5NjM"
       ],
-      "vehicles": [],
-      "starships": [],
+      "vehicle_ids": [],
+      "starship_ids": [],
       "id": "HJ7Myp39Njf5"
     },
     {
@@ -4984,14 +4984,14 @@
       "eye_color": "brown",
       "gender": "female",
       "homeworld": "ByYe1T2c4sG",
-      "films": [
+      "film_ids": [
         "SJ_-J62qViM"
       ],
-      "species": [
+      "species_ids": [
         "BJcKJT2qViz"
       ],
-      "vehicles": [],
-      "starships": [],
+      "vehicle_ids": [],
+      "starship_ids": [],
       "id": "HJ7Myp39Njf6"
     },
     {
@@ -5004,17 +5004,17 @@
       "birth_year": "102BBY",
       "gender": "male",
       "homeworld": "HkIlkTnqEjG2",
-      "films": [
+      "film_ids": [
         "SJ_-J62qViM",
         "HycWyp39Nsf"
       ],
-      "species": [
+      "species_ids": [
         "BJcKJT2qViz"
       ],
-      "vehicles": [
+      "vehicle_ids": [
         "HJzKyahq4if"
       ],
-      "starships": [],
+      "starship_ids": [],
       "id": "HJ7Myp39Njf7"
     },
     {
@@ -5027,15 +5027,15 @@
       "birth_year": "67BBY",
       "gender": "male",
       "homeworld": "B17gkTncNoz",
-      "films": [
+      "film_ids": [
         "SJ_-J62qViM",
         "HycWyp39Nsf"
       ],
-      "species": [
+      "species_ids": [
         "BJcKJT2qViz"
       ],
-      "vehicles": [],
-      "starships": [],
+      "vehicle_ids": [],
+      "starship_ids": [],
       "id": "HJ7Myp39Njf8"
     },
     {
@@ -5048,14 +5048,14 @@
       "birth_year": "66BBY",
       "gender": "male",
       "homeworld": "HkIlkTnqEjG3",
-      "films": [
+      "film_ids": [
         "SJ_-J62qViM"
       ],
-      "species": [
+      "species_ids": [
         "BJcKJT2qViz"
       ],
-      "vehicles": [],
-      "starships": [],
+      "vehicle_ids": [],
+      "starship_ids": [],
       "id": "HJ7Myp39Njf9"
     },
     {
@@ -5067,16 +5067,16 @@
       "eye_color": "yellow",
       "gender": "female",
       "homeworld": "HkIlkTnqEjG4",
-      "films": [
+      "film_ids": [
         "SJ_-J62qViM"
       ],
-      "species": [
+      "species_ids": [
         "S1t8yT25Njf"
       ],
-      "vehicles": [
+      "vehicle_ids": [
         "Skka2cNjf5"
       ],
-      "starships": [],
+      "starship_ids": [],
       "id": "Bk4fJp3cNjf0"
     },
     {
@@ -5088,14 +5088,14 @@
       "eye_color": "yellow",
       "gender": "male",
       "homeworld": "HkIlkTnqEjG5",
-      "films": [
+      "film_ids": [
         "SJ_-J62qViM"
       ],
-      "species": [
+      "species_ids": [
         "Skq8yT294sG"
       ],
-      "vehicles": [],
-      "starships": [],
+      "vehicle_ids": [],
+      "starship_ids": [],
       "id": "Bk4fJp3cNjf1"
     },
     {
@@ -5107,14 +5107,14 @@
       "eye_color": "black",
       "gender": "male",
       "homeworld": "S1oxJanqVsG",
-      "films": [
+      "film_ids": [
         "SJ_-J62qViM"
       ],
-      "species": [
+      "species_ids": [
         "Hyj8yphc4jf"
       ],
-      "vehicles": [],
-      "starships": [],
+      "vehicle_ids": [],
+      "starship_ids": [],
       "id": "Bk4fJp3cNjf2"
     },
     {
@@ -5126,14 +5126,14 @@
       "eye_color": "black",
       "gender": "female",
       "homeworld": "S1oxJanqVsG",
-      "films": [
+      "film_ids": [
         "SJ_-J62qViM"
       ],
-      "species": [
+      "species_ids": [
         "Hyj8yphc4jf"
       ],
-      "vehicles": [],
-      "starships": [],
+      "vehicle_ids": [],
+      "starship_ids": [],
       "id": "Bk4fJp3cNjf3"
     },
     {
@@ -5145,14 +5145,14 @@
       "eye_color": "blue",
       "gender": "female",
       "homeworld": "HJ5e1639Vsf",
-      "films": [
+      "film_ids": [
         "SJ_-J62qViM"
       ],
-      "species": [
+      "species_ids": [
         "BJcKJT2qViz"
       ],
-      "vehicles": [],
-      "starships": [],
+      "vehicle_ids": [],
+      "starship_ids": [],
       "id": "Bk4fJp3cNjf4"
     },
     {
@@ -5163,14 +5163,14 @@
       "skin_color": "grey, blue",
       "gender": "male",
       "homeworld": "SkElJp3q4sM8",
-      "films": [
+      "film_ids": [
         "H1YZyp3cVjf"
       ],
-      "species": [
+      "species_ids": [
         "BJXXJa3cVoz"
       ],
-      "vehicles": [],
-      "starships": [],
+      "vehicle_ids": [],
+      "starship_ids": [],
       "id": "S1WGJ62cEjf7"
     },
     {
@@ -5182,13 +5182,13 @@
       "eye_color": "red, blue",
       "gender": "female",
       "homeworld": "B17gkTncNoz8",
-      "films": [
+      "film_ids": [
         "SJ_-J62qViM",
         "HycWyp39Nsf"
       ],
-      "species": [],
-      "vehicles": [],
-      "starships": [],
+      "species_ids": [],
+      "vehicle_ids": [],
+      "starship_ids": [],
       "id": "Bk4fJp3cNjf5"
     },
     {
@@ -5199,14 +5199,14 @@
       "skin_color": "green, grey",
       "gender": "male",
       "homeworld": "HkIlkTnqEjG6",
-      "films": [
+      "film_ids": [
         "SJ_-J62qViM"
       ],
-      "species": [
+      "species_ids": [
         "BynIJ62q4jf"
       ],
-      "vehicles": [],
-      "starships": [],
+      "vehicle_ids": [],
+      "starship_ids": [],
       "id": "Bk4fJp3cNjf6"
     },
     {
@@ -5218,14 +5218,14 @@
       "eye_color": "gold",
       "gender": "male",
       "homeworld": "HkIlkTnqEjG7",
-      "films": [
+      "film_ids": [
         "SJ_-J62qViM"
       ],
-      "species": [
+      "species_ids": [
         "r1aUJ62cVjG"
       ],
-      "vehicles": [],
-      "starships": [],
+      "vehicle_ids": [],
+      "starship_ids": [],
       "id": "Bk4fJp3cNjf7"
     },
     {
@@ -5237,15 +5237,15 @@
       "eye_color": "black",
       "gender": "female",
       "homeworld": "HkIlkTnqEjG8",
-      "films": [
+      "film_ids": [
         "SJ_-J62qViM",
         "HycWyp39Nsf"
       ],
-      "species": [
+      "species_ids": [
         "BkStyThc4jz"
       ],
-      "vehicles": [],
-      "starships": [],
+      "vehicle_ids": [],
+      "starship_ids": [],
       "id": "Bk4fJp3cNjf8"
     },
     {
@@ -5257,16 +5257,16 @@
       "eye_color": "green, yellow",
       "gender": "male",
       "homeworld": "HkIlkTnqEjG9",
-      "films": [
+      "film_ids": [
         "HycWyp39Nsf"
       ],
-      "species": [
+      "species_ids": [
         "SJ8Ky6h9Nsf"
       ],
-      "vehicles": [
+      "vehicle_ids": [
         "H1x1T2cEiM0"
       ],
-      "starships": [
+      "starship_ids": [
         "rkKqJ6ncEjz"
       ],
       "id": "Bk4fJp3cNjf9"
@@ -5280,14 +5280,14 @@
       "eye_color": "blue",
       "gender": "male",
       "homeworld": "SyAmJ639Viz",
-      "films": [
+      "film_ids": [
         "HycWyp39Nsf"
       ],
-      "species": [
+      "species_ids": [
         "rJdFya25VjM"
       ],
-      "vehicles": [],
-      "starships": [],
+      "vehicle_ids": [],
+      "starship_ids": [],
       "id": "S1BGJThqEoG0"
     },
     {
@@ -5299,15 +5299,15 @@
       "eye_color": "brown",
       "gender": "male",
       "homeworld": "B17gkTncNoz",
-      "films": [
+      "film_ids": [
         "HycWyp39Nsf",
         "S1vZy63c4oz"
       ],
-      "species": [
+      "species_ids": [
         "BJcKJT2qViz"
       ],
-      "vehicles": [],
-      "starships": [],
+      "vehicle_ids": [],
+      "starship_ids": [],
       "id": "S1BGJThqEoG1"
     },
     {
@@ -5319,13 +5319,13 @@
       "eye_color": "white",
       "gender": "female",
       "homeworld": "SyvxkThq4oG0",
-      "films": [
+      "film_ids": [
         "SJ_-J62qViM",
         "HycWyp39Nsf"
       ],
-      "species": [],
-      "vehicles": [],
-      "starships": [],
+      "species_ids": [],
+      "vehicle_ids": [],
+      "starship_ids": [],
       "id": "S1BGJThqEoG2"
     },
     {
@@ -5337,14 +5337,14 @@
       "eye_color": "black",
       "gender": "male",
       "homeworld": "SJhXJp294oz",
-      "films": [
+      "film_ids": [
         "HycWyp39Nsf"
       ],
-      "species": [
+      "species_ids": [
         "S1PFyah5Vjz"
       ],
-      "vehicles": [],
-      "starships": [],
+      "vehicle_ids": [],
+      "starship_ids": [],
       "id": "S1BGJThqEoG3"
     },
     {
@@ -5355,14 +5355,14 @@
       "eye_color": "dark",
       "gender": "male",
       "homeworld": "B17gkTncNoz8",
-      "films": [
+      "film_ids": [
         "Sk6Zyp2c4oz"
       ],
-      "species": [
+      "species_ids": [
         "BJcKJT2qViz"
       ],
-      "vehicles": [],
-      "starships": [],
+      "vehicle_ids": [],
+      "starship_ids": [],
       "id": "S1BGJThqEoG4"
     },
     {
@@ -5373,14 +5373,14 @@
       "eye_color": "hazel",
       "gender": "female",
       "homeworld": "B17gkTncNoz8",
-      "films": [
+      "film_ids": [
         "Sk6Zyp2c4oz"
       ],
-      "species": [
+      "species_ids": [
         "BJcKJT2qViz"
       ],
-      "vehicles": [],
-      "starships": [],
+      "vehicle_ids": [],
+      "starship_ids": [],
       "id": "S1BGJThqEoG5"
     },
     {
@@ -5391,14 +5391,14 @@
       "eye_color": "brown",
       "gender": "male",
       "homeworld": "B17gkTncNoz8",
-      "films": [
+      "film_ids": [
         "Sk6Zyp2c4oz"
       ],
-      "species": [
+      "species_ids": [
         "BJcKJT2qViz"
       ],
-      "vehicles": [],
-      "starships": [
+      "vehicle_ids": [],
+      "starship_ids": [
         "Hy2vkp29Esf"
       ],
       "id": "S1BGJThqEoG6"
@@ -5411,14 +5411,14 @@
       "eye_color": "black",
       "gender": "none",
       "homeworld": "B17gkTncNoz8",
-      "films": [
+      "film_ids": [
         "Sk6Zyp2c4oz"
       ],
-      "species": [
+      "species_ids": [
         "S1YtJ63qVoG"
       ],
-      "vehicles": [],
-      "starships": [],
+      "vehicle_ids": [],
+      "starship_ids": [],
       "id": "S1BGJThqEoG7"
     },
     {
@@ -5426,12 +5426,12 @@
       "mass": null,
       "gender": "female",
       "homeworld": "B17gkTncNoz8",
-      "films": [
+      "film_ids": [
         "Sk6Zyp2c4oz"
       ],
-      "species": [],
-      "vehicles": [],
-      "starships": [],
+      "species_ids": [],
+      "vehicle_ids": [],
+      "starship_ids": [],
       "id": "S1BGJThqEoG8"
     },
     {
@@ -5444,16 +5444,16 @@
       "birth_year": "46BBY",
       "gender": "female",
       "homeworld": "ByYe1T2c4sG",
-      "films": [
+      "film_ids": [
         "SJ_-J62qViM",
         "H1YZyp3cVjf",
         "HycWyp39Nsf"
       ],
-      "species": [
+      "species_ids": [
         "BJcKJT2qViz"
       ],
-      "vehicles": [],
-      "starships": [
+      "vehicle_ids": [],
+      "starship_ids": [
         "Hyuv1Tn9Viz",
         "HJL5kp25VjG",
         "HJ9E1ThcVif"
