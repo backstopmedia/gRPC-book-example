@@ -64,7 +64,9 @@ func TestLoggingInterceptor(t *testing.T) {
 }
 
 func TestAuthenticationInterceptor(t *testing.T) {
-	os.Setenv("JWT_SECRET", "bunk")
+	secret := "bunk"
+
+	os.Setenv("JWT_SECRET", secret)
 	claims := struct {
 		Username string `json:"un"`
 		jwt.StandardClaims
@@ -73,7 +75,7 @@ func TestAuthenticationInterceptor(t *testing.T) {
 	}
 
 	token := jwt.NewWithClaims(jwt.SigningMethodHS256, claims)
-	ss, err := token.SignedString([]byte("bunk"))
+	ss, err := token.SignedString([]byte(secret))
 	require.NoError(t, err)
 
 	md := metadata.Pairs(api.AuthTokenKey, ss)
@@ -86,4 +88,11 @@ func TestAuthenticationInterceptor(t *testing.T) {
 
 	_, err = api.AuthenticationInterceptor(ctx, nil, nil, handler)
 	require.NoError(t, err, "error on authentication interceptor")
+
+	t.Run("With no authentication provided returns a code:16", func(t *testing.T) {
+		_, err = api.AuthenticationInterceptor(context.TODO(), nil, nil, handler)
+		code := grpc.Code(err)
+
+		assert.Equal(t, codes.Unauthenticated, code)
+	})
 }

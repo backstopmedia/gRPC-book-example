@@ -35,6 +35,7 @@ func Interceptors() grpc.UnaryServerInterceptor {
 	return grpc_middleware.ChainUnaryServer(
 		LoggingInterceptor,
 		ErrorsInterceptor,
+		AuthenticationInterceptor,
 	)
 }
 
@@ -71,6 +72,11 @@ func LoggingInterceptor(ctx context.Context, req interface{}, info *grpc.UnarySe
 // AuthenticationInterceptor validates a JWT token and appends the username to the
 // context that is passed to the handler
 func AuthenticationInterceptor(ctx context.Context, req interface{}, info *grpc.UnaryServerInfo, handler grpc.UnaryHandler) (out interface{}, err error) {
+	secret := os.Getenv("JWT_SECRET")
+	if secret == "" {
+		return handler(ctx, req)
+	}
+
 	md, ok := metadata.FromIncomingContext(ctx)
 	if !ok {
 		return nil, errGrpcUnauthenticated
