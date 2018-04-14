@@ -23,6 +23,11 @@ server/proto/%.pb.go: proto/%.proto
 	@docker run --rm -v $(PWD):$(PWD) -w $(PWD) \
 		gwihlidal/protoc -Iproto --go_out=plugins=grpc:server/proto proto/*.proto
 
+examples/ruby/proto/%.rb:
+	$(info Generating ruby protos...)
+	@docker run --rm -v $(PWD):$(PWD) -w $(PWD) \
+		gwihlidal/protoc -Iproto --ruby_out=plugins=grpc:examples/ruby/proto proto/*.proto
+
 rpc-server: server/main.go server/api/*.go server/proto/swapi.pb.go
 	$(info Building RPC server...)
 	@go build -o rpc-server ./server
