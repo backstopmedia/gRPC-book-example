@@ -79,7 +79,7 @@ service Starwars {
     };
   }
 
-  rpc ListStarshipActions(google.protobuf.Empty) returns (stream StarshipAction) {}
+  rpc ListStarshipActions(ListStarshipActionsRequest) returns (stream StarshipAction) {}
 }
 
 message Film {
@@ -271,14 +271,16 @@ message ListPeopleResponse {
   repeated Person people = 1;
 }
 
+message ListStarshipActionsRequest {}
+
 message StarshipAction {
   Starship starship = 1;
+
   enum Action {
     TOOKOFF = 0;
     LANDED = 1;
     HYPERDRIVE = 2;
     HIDING_IN_A_MOUTH = 3;
   }
-  
   Action action = 2;
 }

@@ -4,14 +4,13 @@ import (
 	"time"
 
 	pb "github.com/backstopmedia/gRPC-book-example/server/proto"
-	google_protobuf1 "github.com/golang/protobuf/ptypes/empty"
 )
 
 const (
 	millenniumFalconID = "rJe-kah5NsM"
 )
 
-func (s *Server) ListStarshipActions(req *google_protobuf1.Empty, stream pb.Starwars_ListStarshipActionsServer) error {
+func (s *Server) ListStarshipActions(req *pb.ListStarshipActionsRequest, stream pb.Starwars_ListStarshipActionsServer) error {
 	starship, err := s.db.GetStarshipByID(stream.Context(), millenniumFalconID)
 	if err != nil {
 		return err
