@@ -20,13 +20,11 @@ server/api/mocks/provider.go: server/db/provider.go
 
 server/proto/%.pb.go: proto/%.proto
 	$(info Generating go and gRPC protos...)
-	@docker run --rm -v $(PWD):$(PWD) -w $(PWD) \
-		gwihlidal/protoc -Iproto --go_out=plugins=grpc:server/proto proto/*.proto
-
+	@docker run -v $(PWD):/defs namely/protoc-all:1.9 -d proto -l go -o server/proto
+	
 examples/ruby/proto/%.rb:
 	$(info Generating ruby protos...)
-	@docker run --rm -v $(PWD):$(PWD) -w $(PWD) \
-		gwihlidal/protoc -Iproto --ruby_out=plugins=grpc:examples/ruby/proto proto/*.proto
+	@docker run -v $(PWD):/defs namely/protoc-all:1.9 -d proto -l ruby -o examples/ruby/proto
 
 rpc-server: server/main.go server/api/*.go server/proto/swapi.pb.go
 	$(info Building RPC server...)
