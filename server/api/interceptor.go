@@ -1,20 +1,21 @@
 package api
 
 import (
-	"context"
-	"time"
-
+	"github.com/grpc-ecosystem/go-grpc-middleware"
 	"github.com/sirupsen/logrus"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/codes"
 
-	grpcmiddleware "github.com/grpc-ecosystem/go-grpc-middleware"
+	"context"
+	"time"
+
+	"github.com/backstopmedia/gRPC-book-example/server/db"
 )
 
 // Interceptors implements the grpc.UnaryServerInteceptor function to add
 // interceptors around all gRPC calls
 func Interceptors() grpc.UnaryServerInterceptor {
-	return grpcmiddleware.ChainUnaryServer(
+	return grpc_middleware.ChainUnaryServer(
 		LoggingInterceptor,
 		ErrorsInterceptor,
 	)
@@ -26,7 +27,7 @@ func ErrorsInterceptor(ctx context.Context, req interface{}, info *grpc.UnarySer
 	out, err = handler(ctx, req)
 
 	switch tErr := err.(type) {
-	case NotFoundErr:
+	case db.NotFoundErr:
 		return out, grpc.Errorf(codes.NotFound, tErr.Error())
 	}
 

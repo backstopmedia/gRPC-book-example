@@ -5,7 +5,6 @@ import (
 
 	"bytes"
 	"context"
-	"fmt"
 
 	pb "github.com/backstopmedia/gRPC-book-example/server/proto"
 )
@@ -30,7 +29,7 @@ func (p *jsonProvider) GetFilmByID(ctx context.Context, id string) (*pb.Film, er
 		}
 	}
 
-	return nil, fmt.Errorf("film with id '%s' not found", id)
+	return nil, NotFound("film")
 }
 
 func (p *jsonProvider) GetFilms(ctx context.Context) ([]*pb.Film, error) {
@@ -44,7 +43,7 @@ func (p *jsonProvider) GetPersonByID(ctx context.Context, id string) (*pb.Person
 		}
 	}
 
-	return nil, fmt.Errorf("person with id '%s' not found", id)
+	return nil, NotFound("person")
 }
 
 func (p *jsonProvider) GetPeople(ctx context.Context) ([]*pb.Person, error) {
@@ -58,7 +57,7 @@ func (p *jsonProvider) GetPlanetByID(ctx context.Context, id string) (*pb.Planet
 		}
 	}
 
-	return nil, fmt.Errorf("planet with id '%s' not found", id)
+	return nil, NotFound("planet")
 }
 
 func (p *jsonProvider) GetPlanets(ctx context.Context) ([]*pb.Planet, error) {
@@ -72,7 +71,7 @@ func (p *jsonProvider) GetSpeciesByID(ctx context.Context, id string) (*pb.Speci
 		}
 	}
 
-	return nil, fmt.Errorf("species with id '%s' not found", id)
+	return nil, NotFound("species")
 }
 
 func (p *jsonProvider) GetSpecies(ctx context.Context) ([]*pb.Species, error) {
@@ -86,7 +85,7 @@ func (p *jsonProvider) GetStarshipByID(ctx context.Context, id string) (*pb.Star
 		}
 	}
 
-	return nil, fmt.Errorf("starship with id '%s' not found", id)
+	return nil, NotFound("starship")
 }
 
 func (p *jsonProvider) GetStarships(ctx context.Context) ([]*pb.Starship, error) {
@@ -100,7 +99,7 @@ func (p *jsonProvider) GetVehicleByID(ctx context.Context, id string) (*pb.Vehic
 		}
 	}
 
-	return nil, fmt.Errorf("vehicle with id '%s' not found", id)
+	return nil, NotFound("vehicle")
 }
 
 func (p *jsonProvider) GetVehicles(ctx context.Context) ([]*pb.Vehicle, error) {

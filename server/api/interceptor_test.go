@@ -1,6 +1,12 @@
 package api_test
 
 import (
+	"github.com/sirupsen/logrus"
+	"github.com/stretchr/testify/assert"
+	"github.com/stretchr/testify/require"
+	"google.golang.org/grpc"
+	"google.golang.org/grpc/codes"
+
 	"bytes"
 	"context"
 	"errors"
@@ -8,17 +14,13 @@ import (
 	"testing"
 
 	"github.com/backstopmedia/gRPC-book-example/server/api"
-	"github.com/sirupsen/logrus"
-	"github.com/stretchr/testify/assert"
-	"github.com/stretchr/testify/require"
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/codes"
+	"github.com/backstopmedia/gRPC-book-example/server/db"
 )
 
 func TestErrorsInterceptor(t *testing.T) {
 	t.Run("Errros interceptor returns a codes.NotFound when a DB not found is returned", func(t *testing.T) {
 		handler := func(ctx context.Context, req interface{}) (interface{}, error) {
-			return nil, api.NotFoundErr{}
+			return nil, db.NotFoundErr{}
 		}
 
 		out, err := api.ErrorsInterceptor(nil, nil, nil, handler)
