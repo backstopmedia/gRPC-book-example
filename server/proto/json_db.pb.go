@@ -40,6 +40,7 @@ It has these top-level messages:
 	GetPersonResponse
 	ListPeopleRequest
 	ListPeopleResponse
+	StarshipAction
 */
 package proto
 
