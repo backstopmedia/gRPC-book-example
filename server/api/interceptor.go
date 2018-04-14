@@ -68,6 +68,8 @@ func LoggingInterceptor(ctx context.Context, req interface{}, info *grpc.UnarySe
 	return out, err
 }
 
+// AuthenticationInterceptor validates a JWT token and appends the username to the
+// context that is passed to the handler
 func AuthenticationInterceptor(ctx context.Context, req interface{}, info *grpc.UnaryServerInfo, handler grpc.UnaryHandler) (out interface{}, err error) {
 	md, ok := metadata.FromIncomingContext(ctx)
 	if !ok {
