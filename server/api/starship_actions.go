@@ -1,8 +1,6 @@
 package api
 
 import (
-	"time"
-
 	pb "github.com/backstopmedia/gRPC-book-example/server/proto"
 )
 
@@ -32,8 +30,6 @@ func (s *Server) ListStarshipActions(req *pb.ListStarshipActionsRequest, stream 
 		if err := stream.Send(response); err != nil {
 			return err
 		}
-
-		time.Sleep(time.Second * 3)
 	}
 
 	return nil
