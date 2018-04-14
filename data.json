@@ -1,5 +1,5 @@
 {
-  "film_ids": [
+  "films": [
     {
       "title": "A New Hope",
       "episode_id": 4,
@@ -522,7 +522,7 @@
       "id": "Sk6Zyp2c4oz"
     }
   ],
-  "vehicle_ids": [
+  "vehicles": [
     {
       "name": "Sand Crawler",
       "model": "Digger Crawler",
@@ -1204,7 +1204,7 @@
       "id": "Sy4tkphqVjz"
     }
   ],
-  "species_ids": [
+  "species": [
     {
       "name": "Hutt",
       "classification": "gastropod",
@@ -1954,7 +1954,7 @@
       "id": "SksY1ah9NoG"
     }
   ],
-  "starship_ids": [
+  "starships": [
     {
       "name": "Executor",
       "model": "Executor-class star dreadnought",
@@ -2702,7 +2702,7 @@
       "id": "Bkhq16h54iz"
     }
   ],
-  "planet_ids": [
+  "planets": [
     {
       "name": "Alderaan",
       "rotation_period": 24,

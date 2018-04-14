@@ -1,3 +1,4 @@
+#!/usr/bin/env ./node_modules/.bin/babel-node
 /**
  * Get data from https://swapi.co/ and normalize it
  */

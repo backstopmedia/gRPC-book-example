@@ -15,7 +15,7 @@ service Starfriends {
   }
 
   // Get a list of Films
-  rpc GetFilms(ListFilmsRequest) returns (ListFilmsResponse) {
+  rpc ListFilms(ListFilmsRequest) returns (ListFilmsResponse) {
     option (google.api.http) = {
       get: "/sfapi/v1/films"
     };
@@ -29,7 +29,7 @@ service Starfriends {
   }
 
   // Get a list of Vehicles
-  rpc GetVehicles(ListVehiclesRequest) returns (ListVehiclesResponse) {
+  rpc ListVehicles(ListVehiclesRequest) returns (ListVehiclesResponse) {
     option (google.api.http) = {
        get: "/sfapi/v1/vehicles"
     };
@@ -43,7 +43,7 @@ service Starfriends {
   }
 
   // Get a list of Starships
-  rpc GetStarships(ListStarshipsRequest) returns (ListStarshipsResponse) {
+  rpc ListStarships(ListStarshipsRequest) returns (ListStarshipsResponse) {
     option (google.api.http) = {
        get: "/sfapi/v1/starships"
     };
@@ -57,7 +57,7 @@ service Starfriends {
   }
 
   // Get a list of Species
-  rpc GetSpecies(ListSpeciesRequest) returns (ListSpeciesResponse) {
+  rpc ListSpecies(ListSpeciesRequest) returns (ListSpeciesResponse) {
     option (google.api.http) = {
        get: "/sfapi/v1/species"
     };
@@ -71,7 +71,7 @@ service Starfriends {
   }
 
   // Get a list of Planets
-  rpc GetPlanets(ListPlanetsRequest) returns (ListPlanetsResponse) {
+  rpc ListPlanets(ListPlanetsRequest) returns (ListPlanetsResponse) {
     option (google.api.http) = {
        get: "/sfapi/v1/planets"
     };
@@ -85,7 +85,7 @@ service Starfriends {
   }
 
   // Get a list of People
-  rpc GetPeople(ListPeopleRequest) returns (ListPeopleResponse) {
+  rpc ListPeople(ListPeopleRequest) returns (ListPeopleResponse) {
     option (google.api.http) = {
        get: "/sfapi/v1/people"
     };

@@ -1,3 +1,4 @@
+#!/usr/bin/env ./node_modules/.bin/babel-node
 /**
  * Generate protobuf from data collected from https://swapi.co/
  */

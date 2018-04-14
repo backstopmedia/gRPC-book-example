@@ -1,3 +1,4 @@
+#!/usr/bin/env ./node_modules/.bin/babel-node
 /**
  * This will tell you if there are problems with your data/idl
  */
@@ -7,7 +8,7 @@ import { singularize, classify } from 'inflection'
 import chalk from 'chalk'
 import data from '../data.json'
 
-const p = protobuf.loadSync(join(__dirname, '..', 'proto', 'swapi.proto'))
+const p = protobuf.loadSync(join(__dirname, '..', 'proto', 'sfapi.proto'))
 
 Object.keys(data)
   .forEach(n => {
