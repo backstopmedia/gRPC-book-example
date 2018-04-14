@@ -2,91 +2,91 @@ syntax = "proto3";
 
 import "google/api/annotations.proto";
 
-package swapi.v1;
+package sfapi.v1;
 option go_package = "proto";
 
-service Starwars {
+service Starfriends {
   // Get a single Film
   rpc GetFilm(GetFilmRequest) returns (GetFilmResponse) {
     option (google.api.http) = {
-      get: "/swapi/v1/films/{id}"
+      get: "/sfapi/v1/films/{id}"
     };
   }
 
   // Get a list of Films
   rpc GetFilms(ListFilmsRequest) returns (ListFilmsResponse) {
     option (google.api.http) = {
-      get: "/swapi/v1/films"
+      get: "/sfapi/v1/films"
     };
   }
 
   // Get a single Vehicle
   rpc GetVehicle(GetVehicleRequest) returns (GetVehicleResponse) {
     option (google.api.http) = {
-       get: "/swapi/v1/vehicles/{id}"
+       get: "/sfapi/v1/vehicles/{id}"
     };
   }
 
   // Get a list of Vehicles
   rpc GetVehicles(ListVehiclesRequest) returns (ListVehiclesResponse) {
     option (google.api.http) = {
-       get: "/swapi/v1/vehicles"
+       get: "/sfapi/v1/vehicles"
     };
   }
 
   // Get a single Starship
   rpc GetStarship(GetStarshipRequest) returns (GetStarshipResponse) {
     option (google.api.http) = {
-       get: "/swapi/v1/starships/{id}"
+       get: "/sfapi/v1/starships/{id}"
     };
   }
 
   // Get a list of Starships
   rpc GetStarships(ListStarshipsRequest) returns (ListStarshipsResponse) {
     option (google.api.http) = {
-       get: "/swapi/v1/starships"
+       get: "/sfapi/v1/starships"
     };
   }
 
   // Get a single Species
   rpc GetSpecies(GetSpeciesRequest) returns (GetSpeciesResponse) {
     option (google.api.http) = {
-       get: "/swapi/v1/species/{id}"
+       get: "/sfapi/v1/species/{id}"
     };
   }
 
   // Get a list of Species
   rpc GetSpecies(ListSpeciesRequest) returns (ListSpeciesResponse) {
     option (google.api.http) = {
-       get: "/swapi/v1/species"
+       get: "/sfapi/v1/species"
     };
   }
 
   // Get a single Planet
   rpc GetPlanet(GetPlanetRequest) returns (GetPlanetResponse) {
     option (google.api.http) = {
-       get: "/swapi/v1/planets/{id}"
+       get: "/sfapi/v1/planets/{id}"
     };
   }
 
   // Get a list of Planets
   rpc GetPlanets(ListPlanetsRequest) returns (ListPlanetsResponse) {
     option (google.api.http) = {
-       get: "/swapi/v1/planets"
+       get: "/sfapi/v1/planets"
     };
   }
 
   // Get a single Person
   rpc GetPerson(GetPersonRequest) returns (GetPersonResponse) {
     option (google.api.http) = {
-       get: "/swapi/v1/people/{id}"
+       get: "/sfapi/v1/people/{id}"
     };
   }
 
   // Get a list of People
   rpc GetPeople(ListPeopleRequest) returns (ListPeopleResponse) {
     option (google.api.http) = {
-       get: "/swapi/v1/people"
+       get: "/sfapi/v1/people"
     };
   }
 }
