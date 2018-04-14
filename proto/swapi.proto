@@ -279,4 +279,6 @@ message StarshipAction {
     HYPERDRIVE = 2;
     HIDING_IN_A_MOUTH = 3;
   }
+  
+  Action action = 2;
 }

@@ -18,6 +18,10 @@ server/api/mocks/provider.go: server/db/provider.go
 	$(info Generating mock provider...)
 	@retool do mockery -name Provider -dir server/db -output ./server/api/mocks
 
+server/api/mocks/starship_action.go:
+	$(info Generating mock stream provider...)
+	@retool do mockery -name Starwars_ListStarshipActionsServer -dir server/proto  -output ./server/api/mocks
+
 server/proto/%.pb.go: proto/%.proto
 	$(info Generating go and gRPC protos...)
 	@docker run --rm -v $(PWD):$(PWD) -w $(PWD) \
