@@ -1,0 +1,19 @@
+{
+  "name": "nodejs-grpc-example",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Example server & client for node grpc",
+  "scripts": {
+    "grpc": "grpcnode server -I ../../proto swapi.proto server.js",
+    "gateway": "grpc-dynamic-gateway -I ../../proto swapi.proto",
+    "start": "npm-run-all -p grpc gateway",
+    "test": "grpcnode client run -I ../../proto swapi.proto -c '/swapi.v1.Starwars/GetPerson({\"id\":\"SyAbJp35ViM\"})'"
+  },
+  "author": "David Konsumer <konsumer@jetboystudio.com> (http://konsumer.js.org)",
+  "license": "MIT",
+  "dependencies": {
+    "grpc-dynamic-gateway": "^0.3.2",
+    "grpcnode": "^1.0.2",
+    "npm-run-all": "^4.1.2"
+  }
+}
