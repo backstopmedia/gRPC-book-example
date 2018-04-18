@@ -1,4 +1,23 @@
+const emitonoff = require('emitonoff')
 const data = require('../../data.json')
+
+// I could read the proto directly for the enum values, but this is faster/easier
+const StarshipActions = [
+  'TOOKOFF',
+  'LANDED',
+  'HYPERDRIVE',
+  'HIDING_IN_A_MOUTH'
+]
+
+// emit events on this to inform listeners
+const starshipTracker = emitonoff()
+
+// fake ship events are happening!
+setInterval(() => {
+  const action = StarshipActions[ (StarshipActions.length * Math.random()) | 0 ]
+  const starship = data.starships[ (data.starships.length * Math.random()) | 0 ]
+  starshipTracker.emit('StarshipAction', {action, starship})
+}, 1000)
 
 const getHandler = (id, recordName, dataName) => {
   const record = data[dataName].find(r => r.id === id)
@@ -13,8 +32,6 @@ const getHandler = (id, recordName, dataName) => {
 
 const listHandler = (recordName) => ({[recordName]: data[recordName]})
 
-// this could all be generated from a few nouns
-// but here it is all spelled-out for illustration
 module.exports = {
   swapi: {
     v1: {
@@ -31,7 +48,14 @@ module.exports = {
         ListPlanets: () => listHandler('planets'),
         GetPerson: ({request: {id}}) => getHandler(id, 'person', 'people'),
         ListPeople: () => listHandler('people'),
-        ListStarshipActions: () => {} // NO-OP
+        ListStarshipActions: (call) => {
+          const handler = ev => call.write(ev)
+          starshipTracker.on('StarshipAction', handler)
+          call.on('cancelled', () => {
+            starshipTracker.off('StarshipAction', handler)
+            call.end()
+          })
+        }
       }
     }
   }
