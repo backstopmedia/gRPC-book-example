@@ -1858,7 +1858,6 @@
       "classification": "artificial",
       "designation": "sentient",
       "average_lifespan": -1,
-      "homeworld": null,
       "people": [
         "Hyyzkp2qEoG",
         "rJlMJT25Njz",
@@ -2761,7 +2760,6 @@
       "orbital_period": 341,
       "diameter": 8900,
       "climate": "murky",
-      "gravity": null,
       "terrain": "swamp, jungles",
       "surface_water": 8,
       "residents": [],
@@ -3021,7 +3019,6 @@
       "orbital_period": 392,
       "diameter": 14920,
       "climate": "hot",
-      "gravity": null,
       "terrain": "caves, desert, mountains, volcanoes",
       "population": 1400000000,
       "residents": [],
@@ -3124,7 +3121,6 @@
       "orbital_period": 680,
       "diameter": 6400,
       "climate": "temperate",
-      "gravity": null,
       "terrain": "rocky islands, oceans",
       "surface_water": 98,
       "population": 62000000,
@@ -3154,7 +3150,6 @@
       "rotation_period": 0,
       "orbital_period": 0,
       "diameter": 0,
-      "gravity": null,
       "residents": [
         "Hyyzkp2qEoG0",
         "Hyyzkp2qEoG3",
@@ -3312,7 +3307,6 @@
     },
     {
       "name": "Aleen Minor",
-      "gravity": null,
       "residents": [
         "S1WGJ62cEjf7"
       ],
@@ -3336,7 +3330,6 @@
     },
     {
       "name": "Troiken",
-      "gravity": null,
       "terrain": "desert, tundra, rainforests, mountains",
       "residents": [
         "S1WGJ62cEjf9"
@@ -3349,7 +3342,6 @@
       "rotation_period": 48,
       "orbital_period": 1770,
       "diameter": 12190,
-      "gravity": null,
       "terrain": "barren, ash",
       "population": 0,
       "residents": [
@@ -3408,7 +3400,6 @@
       "name": "Iridonia",
       "rotation_period": 29,
       "orbital_period": 413,
-      "gravity": null,
       "terrain": "rocky canyons, acid pools",
       "residents": [
         "r1fMkp25Njz4"
@@ -3418,7 +3409,6 @@
     },
     {
       "name": "Tholoth",
-      "gravity": null,
       "residents": [],
       "films": [],
       "id": "SkSl1a2qViM6"
@@ -3438,7 +3428,6 @@
     },
     {
       "name": "Quermia",
-      "gravity": null,
       "residents": [
         "r1fMkp25Njz7"
       ],
@@ -3474,7 +3463,6 @@
     },
     {
       "name": "Mirial",
-      "gravity": null,
       "terrain": "deserts",
       "residents": [
         "HJ7Myp39Njf4",
@@ -3485,7 +3473,6 @@
     },
     {
       "name": "Serenno",
-      "gravity": null,
       "terrain": "rainforests, rivers, mountains",
       "residents": [
         "HJ7Myp39Njf7"
@@ -3495,7 +3482,6 @@
     },
     {
       "name": "Concord Dawn",
-      "gravity": null,
       "terrain": "jungles, forests, deserts",
       "residents": [
         "HJ7Myp39Njf9"
@@ -3505,7 +3491,6 @@
     },
     {
       "name": "Zolan",
-      "gravity": null,
       "residents": [
         "Bk4fJp3cNjf0"
       ],
@@ -3515,7 +3500,6 @@
     {
       "name": "Ojom",
       "climate": "frigid",
-      "gravity": null,
       "terrain": "oceans, glaciers",
       "surface_water": 100,
       "population": 500000000,
@@ -3583,7 +3567,6 @@
     },
     {
       "name": "Umbara",
-      "gravity": null,
       "residents": [
         "S1BGJThqEoG2"
       ],
@@ -3623,7 +3606,6 @@
     },
     {
       "name": "Jakku",
-      "gravity": null,
       "terrain": "deserts",
       "residents": [],
       "films": [
@@ -3909,7 +3891,7 @@
     {
       "name": "Wilhuff Tarkin",
       "height": 180,
-      "mass": null,
+      "mass": 0,
       "hair_color": "auburn, grey",
       "skin_color": "fair",
       "eye_color": "blue",
@@ -4247,7 +4229,7 @@
     {
       "name": "Mon Mothma",
       "height": 150,
-      "mass": null,
+      "mass": 0,
       "hair_color": "auburn",
       "skin_color": "fair",
       "eye_color": "blue",
@@ -4266,7 +4248,7 @@
     },
     {
       "name": "Arvel Crynyd",
-      "mass": null,
+      "mass": 0,
       "hair_color": "brown",
       "skin_color": "fair",
       "eye_color": "brown",
@@ -4371,7 +4353,7 @@
     {
       "name": "Finis Valorum",
       "height": 170,
-      "mass": null,
+      "mass": 0,
       "hair_color": "blond",
       "skin_color": "fair",
       "eye_color": "blue",
@@ -4431,7 +4413,7 @@
     {
       "name": "Rugor Nass",
       "height": 206,
-      "mass": null,
+      "mass": 0,
       "hair_color": "none",
       "skin_color": "green",
       "eye_color": "orange",
@@ -4450,7 +4432,7 @@
     {
       "name": "Ric Olié",
       "height": 183,
-      "mass": null,
+      "mass": 0,
       "hair_color": "brown",
       "skin_color": "fair",
       "eye_color": "blue",
@@ -4469,7 +4451,7 @@
     {
       "name": "Watto",
       "height": 137,
-      "mass": null,
+      "mass": 0,
       "hair_color": "black",
       "skin_color": "blue, grey",
       "eye_color": "yellow",
@@ -4508,7 +4490,7 @@
     {
       "name": "Quarsh Panaka",
       "height": 183,
-      "mass": null,
+      "mass": 0,
       "hair_color": "black",
       "skin_color": "dark",
       "eye_color": "brown",
@@ -4526,7 +4508,7 @@
     {
       "name": "Shmi Skywalker",
       "height": 163,
-      "mass": null,
+      "mass": 0,
       "hair_color": "black",
       "skin_color": "fair",
       "eye_color": "brown",
@@ -4571,7 +4553,7 @@
     {
       "name": "Bib Fortuna",
       "height": 180,
-      "mass": null,
+      "mass": 0,
       "hair_color": "none",
       "skin_color": "pale",
       "eye_color": "pink",
@@ -4631,7 +4613,7 @@
     {
       "name": "Gasgano",
       "height": 122,
-      "mass": null,
+      "mass": 0,
       "hair_color": "none",
       "skin_color": "white, blue",
       "eye_color": "black",
@@ -4734,7 +4716,7 @@
     {
       "name": "Eeth Koth",
       "height": 171,
-      "mass": null,
+      "mass": 0,
       "hair_color": "black",
       "skin_color": "brown",
       "eye_color": "brown",
@@ -4774,7 +4756,7 @@
     {
       "name": "Saesee Tiin",
       "height": 188,
-      "mass": null,
+      "mass": 0,
       "hair_color": "none",
       "skin_color": "pale",
       "eye_color": "orange",
@@ -4794,7 +4776,7 @@
     {
       "name": "Yarael Poof",
       "height": 264,
-      "mass": null,
+      "mass": 0,
       "hair_color": "none",
       "skin_color": "white",
       "eye_color": "yellow",
@@ -4837,7 +4819,7 @@
     {
       "name": "Mas Amedda",
       "height": 196,
-      "mass": null,
+      "mass": 0,
       "hair_color": "none",
       "skin_color": "blue",
       "eye_color": "blue",
@@ -4878,7 +4860,7 @@
     {
       "name": "Cordé",
       "height": 157,
-      "mass": null,
+      "mass": 0,
       "hair_color": "brown",
       "skin_color": "light",
       "eye_color": "brown",
@@ -4897,7 +4879,7 @@
     {
       "name": "Cliegg Lars",
       "height": 183,
-      "mass": null,
+      "mass": 0,
       "hair_color": "brown",
       "skin_color": "fair",
       "eye_color": "blue",
@@ -4978,7 +4960,7 @@
     {
       "name": "Dormé",
       "height": 165,
-      "mass": null,
+      "mass": 0,
       "hair_color": "brown",
       "skin_color": "light",
       "eye_color": "brown",
@@ -5020,7 +5002,7 @@
     {
       "name": "Bail Prestor Organa",
       "height": 191,
-      "mass": null,
+      "mass": 0,
       "hair_color": "black",
       "skin_color": "tan",
       "eye_color": "brown",
@@ -5120,7 +5102,7 @@
     {
       "name": "Taun We",
       "height": 213,
-      "mass": null,
+      "mass": 0,
       "hair_color": "none",
       "skin_color": "grey",
       "eye_color": "black",
@@ -5139,7 +5121,7 @@
     {
       "name": "Jocasta Nu",
       "height": 167,
-      "mass": null,
+      "mass": 0,
       "hair_color": "white",
       "skin_color": "fair",
       "eye_color": "blue",
@@ -5176,7 +5158,7 @@
     {
       "name": "R4-P17",
       "height": 96,
-      "mass": null,
+      "mass": 0,
       "hair_color": "none",
       "skin_color": "silver, red",
       "eye_color": "red, blue",
@@ -5212,7 +5194,7 @@
     {
       "name": "San Hill",
       "height": 191,
-      "mass": null,
+      "mass": 0,
       "hair_color": "none",
       "skin_color": "grey",
       "eye_color": "gold",
@@ -5349,7 +5331,7 @@
     },
     {
       "name": "Finn",
-      "mass": null,
+      "mass": 0,
       "hair_color": "black",
       "skin_color": "dark",
       "eye_color": "dark",
@@ -5367,7 +5349,7 @@
     },
     {
       "name": "Rey",
-      "mass": null,
+      "mass": 0,
       "hair_color": "brown",
       "skin_color": "light",
       "eye_color": "hazel",
@@ -5385,7 +5367,7 @@
     },
     {
       "name": "Poe Dameron",
-      "mass": null,
+      "mass": 0,
       "hair_color": "brown",
       "skin_color": "light",
       "eye_color": "brown",
@@ -5405,7 +5387,7 @@
     },
     {
       "name": "BB8",
-      "mass": null,
+      "mass": 0,
       "hair_color": "none",
       "skin_color": "none",
       "eye_color": "black",
@@ -5423,7 +5405,7 @@
     },
     {
       "name": "Captain Phasma",
-      "mass": null,
+      "mass": 0,
       "gender": "female",
       "homeworld": "B17gkTncNoz8",
       "films": [
