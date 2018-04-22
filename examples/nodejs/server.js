@@ -26,7 +26,7 @@ const getHandler = (id, recordName, dataName) => {
   if (record) {
     return {[recordName]: record}
   } else {
-    return Promise.reject(new NotFoundError())
+    return Promise.reject(new NotFoundError(`That ${recordName} was not found.`))
   }
 }
 
