@@ -1,0 +1,10 @@
+.DS_Store
+_tools/
+bin/
+archiver/compressed/
+archiver/compressed.zip
+archiver/Pipfile*
+tokenizer/node_modules
+vendor/
+
+*.py[co]

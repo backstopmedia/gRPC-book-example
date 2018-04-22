@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package practical.grpc.v1;
+
+service Archiver {
+  rpc Zip(stream ZipRequest) returns (ZipResponse);
+}
+
+message ZipRequest {
+  string file_name = 1;
+	bytes contents   = 2;
+}
+
+message ZipResponse {
+  bytes zipped_contents = 1;
+}

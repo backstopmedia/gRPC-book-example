@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package practical.grpc.v1;
+
+service Tokenizer {
+  rpc Tokenize(stream TokenizeRequest) returns (stream TokenizeResponse);
+}
+
+message TokenizeRequest {
+  bytes file_contents = 1;
+}
+
+message TokenizeResponse {
+  map<string, int64> words = 1;
+}
