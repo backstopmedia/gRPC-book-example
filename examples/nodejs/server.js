@@ -1,6 +1,6 @@
 const emitonoff = require('emitonoff')
 const data = require('../../data.json')
-const { InvalidArgumentError } = require('grpc-errors')
+const { InvalidArgumentError, NotFoundError } = require('grpc-errors')
 
 // I could read the proto directly for the enum values, but this is faster/easier
 const StarshipActions = [
@@ -26,9 +26,7 @@ const getHandler = (id, recordName, dataName) => {
   if (record) {
     return {[recordName]: record}
   } else {
-    const err = new Error('Not found.')
-    err.code = 5
-    return Promise.reject(err)
+    return Promise.reject(new NotFoundError())
   }
 }
 
