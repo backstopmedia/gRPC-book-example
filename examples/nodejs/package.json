@@ -14,6 +14,7 @@
   "dependencies": {
     "emitonoff": "^0.1.1",
     "grpc-dynamic-gateway": "^0.3.4",
+    "grpc-errors": "^1.1.0",
     "grpcnode": "^1.1.0",
     "npm-run-all": "^4.1.2"
   }

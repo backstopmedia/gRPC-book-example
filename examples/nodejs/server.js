@@ -1,5 +1,6 @@
 const emitonoff = require('emitonoff')
 const data = require('../../data.json')
+const { InvalidArgumentError } = require('grpc-errors')
 
 // I could read the proto directly for the enum values, but this is faster/easier
 const StarshipActions = [
@@ -64,9 +65,7 @@ module.exports = {
 
         ValidateSpecies: ({ request: { name } }) => {
           if (name.length < 2) {
-            const error = new Error('The name provided is not long enough')
-            error.code = 3
-            return Promise.reject(error)
+            return Promise.reject(new InvalidArgumentError('The name provided is not long enough'))
           }
           return {}
         },
