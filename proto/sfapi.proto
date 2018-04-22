@@ -91,8 +91,10 @@ service Starfriends {
     };
   }
 
+  // Watch starships doing stuff, in realtime
   rpc ListStarshipActions(ListStarshipActionsRequest) returns (stream StarshipAction) {}
 
+  // is the given species valid?
   rpc ValidateSpecies(ValidateSpeciesRequest) returns (ValidateSpeciesResponse) {}
 }
 
