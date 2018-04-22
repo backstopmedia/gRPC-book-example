@@ -28,6 +28,7 @@ module Swapi
         rpc :GetPerson, GetPersonRequest, GetPersonResponse
         rpc :ListPeople, ListPeopleRequest, ListPeopleResponse
         rpc :ListStarshipActions, ListStarshipActionsRequest, stream(StarshipAction)
+        rpc :ValidateSpecies, ValidateSpeciesRequest, ValidateSpeciesResponse
       end
 
       Stub = Service.rpc_stub_class

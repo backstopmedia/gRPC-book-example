@@ -18,7 +18,7 @@ import (
 )
 
 func TestErrorsInterceptor(t *testing.T) {
-	t.Run("Errros interceptor returns a codes.NotFound when a DB not found is returned", func(t *testing.T) {
+	t.Run("Errors interceptor returns a codes.NotFound when a DB not found is returned", func(t *testing.T) {
 		handler := func(ctx context.Context, req interface{}) (interface{}, error) {
 			return nil, db.NotFoundErr{}
 		}
