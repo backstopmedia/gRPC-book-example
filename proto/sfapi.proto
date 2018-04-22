@@ -3,79 +3,91 @@ syntax = "proto3";
 import "google/api/annotations.proto";
 import "google/protobuf/empty.proto";
 
-package swapi.v1;
+package sfapi.v1;
 option go_package = "proto";
 
-service Starwars {
+service Starfriends {
+  // Get a single Film
   rpc GetFilm(GetFilmRequest) returns (GetFilmResponse) {
     option (google.api.http) = {
-      get: "/swapi/v1/films/{id}"
+      get: "/sfapi/v1/films/{id}"
     };
   }
 
+  // Get a list of Films
   rpc ListFilms(ListFilmsRequest) returns (ListFilmsResponse) {
     option (google.api.http) = {
-      get: "/swapi/v1/films"
+      get: "/sfapi/v1/films"
     };
   }
 
+  // Get a single Vehicle
   rpc GetVehicle(GetVehicleRequest) returns (GetVehicleResponse) {
     option (google.api.http) = {
-       get: "/swapi/v1/vehicles/{id}"
+       get: "/sfapi/v1/vehicles/{id}"
     };
   }
 
+  // Get a list of Vehicles
   rpc ListVehicles(ListVehiclesRequest) returns (ListVehiclesResponse) {
     option (google.api.http) = {
-       get: "/swapi/v1/vehicles"
+       get: "/sfapi/v1/vehicles"
     };
   }
 
+  // Get a single Starship
   rpc GetStarship(GetStarshipRequest) returns (GetStarshipResponse) {
     option (google.api.http) = {
-       get: "/swapi/v1/starships/{id}"
+       get: "/sfapi/v1/starships/{id}"
     };
   }
 
+  // Get a list of Starships
   rpc ListStarships(ListStarshipsRequest) returns (ListStarshipsResponse) {
     option (google.api.http) = {
-       get: "/swapi/v1/starships"
+       get: "/sfapi/v1/starships"
     };
   }
 
+  // Get a single Species
   rpc GetSpecies(GetSpeciesRequest) returns (GetSpeciesResponse) {
     option (google.api.http) = {
-       get: "/swapi/v1/species/{id}"
+       get: "/sfapi/v1/species/{id}"
     };
   }
 
+  // Get a list of Species
   rpc ListSpecies(ListSpeciesRequest) returns (ListSpeciesResponse) {
     option (google.api.http) = {
-       get: "/swapi/v1/species"
+       get: "/sfapi/v1/species"
     };
   }
 
+  // Get a single Planet
   rpc GetPlanet(GetPlanetRequest) returns (GetPlanetResponse) {
     option (google.api.http) = {
-       get: "/swapi/v1/planets/{id}"
+       get: "/sfapi/v1/planets/{id}"
     };
   }
 
+  // Get a list of Planets
   rpc ListPlanets(ListPlanetsRequest) returns (ListPlanetsResponse) {
     option (google.api.http) = {
-       get: "/swapi/v1/planets"
+       get: "/sfapi/v1/planets"
     };
   }
 
+  // Get a single Person
   rpc GetPerson(GetPersonRequest) returns (GetPersonResponse) {
     option (google.api.http) = {
-       get: "/swapi/v1/people/{id}"
+       get: "/sfapi/v1/people/{id}"
     };
   }
 
+  // Get a list of People
   rpc ListPeople(ListPeopleRequest) returns (ListPeopleResponse) {
     option (google.api.http) = {
-       get: "/swapi/v1/people"
+       get: "/sfapi/v1/people"
     };
   }
 
@@ -91,11 +103,11 @@ message Film {
   string director = 4;
   string producer = 5;
   string release_date = 6;
-  repeated string characters = 7;
-  repeated string planets = 8;
-  repeated string starships = 9;
-  repeated string vehicles = 10;
-  repeated string species = 11;
+  repeated string character_ids = 7; // Person.id
+  repeated string planet_ids = 8;    // Planet.id
+  repeated string starship_ids = 9;  // Starship.id
+  repeated string vehicle_ids = 10;  // Vehicle.id
+  repeated string species_ids = 11;  // Species.id
   string id = 12;
 }
 
@@ -126,8 +138,8 @@ message Vehicle {
   int32 cargo_capacity = 9;
   string consumables = 10;
   string vehicle_class = 11;
-  repeated string pilots = 12;
-  repeated string films = 13;
+  repeated string pilot_ids = 12; // Person.id
+  repeated string film_ids = 13;  // Film.id
   string id = 14;
 }
 
@@ -159,8 +171,8 @@ message Starship {
   float hyperdrive_rating = 10;
   int32 mglt = 11;
   string starship_class = 12;
-  repeated string pilots = 13;
-  repeated string films = 14;
+  repeated string pilot_ids = 13; // Person.id
+  repeated string film_ids = 14;  // Film.id
   string id = 15;
   int64 max_atmosphering_speed = 16;
 }
@@ -190,8 +202,8 @@ message Species {
   int32 average_lifespan = 7;
   string homeworld = 8;
   string language = 9;
-  repeated string people = 10;
-  repeated string films = 11;
+  repeated string people_ids = 10; // Person.id
+  repeated string film_ids = 11;  // Film.id
   string id = 12;
   string hair_colors = 13;
 }
@@ -221,8 +233,8 @@ message Planet {
   string terrain = 7;
   float surface_water = 8;
   int64 population = 9;
-  repeated string residents = 10;
-  repeated string films = 11;
+  repeated string resident_ids = 10; // Person.id
+  repeated string film_ids = 11;     // Film.id
   string id = 12;
 }
 
@@ -251,10 +263,10 @@ message Person {
   string birth_year = 7;
   string gender = 8;
   string homeworld = 9;
-  repeated string films = 10;
-  repeated string species = 11;
-  repeated string vehicles = 12;
-  repeated string starships = 13;
+  repeated string film_ids = 10;     // Film.id
+  repeated string species_ids = 11;  // Species.id
+  repeated string vehicle_ids = 12;  // Vehicle.id
+  repeated string starship_ids = 13; // Starship.id
   string id = 14;
 }
 

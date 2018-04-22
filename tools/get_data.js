@@ -1,5 +1,7 @@
+#!/usr/bin/env ./node_modules/.bin/babel-node
 /**
  * Get data from https://swapi.co/ and normalize it
+ * Definition diverges form this, so this is just for initial data
  */
 
 import fetch from 'node-fetch'

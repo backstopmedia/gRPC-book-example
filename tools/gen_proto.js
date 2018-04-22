@@ -1,5 +1,7 @@
+#!/usr/bin/env ./node_modules/.bin/babel-node
 /**
- * Generate protobuf from data collected from https://swapi.co/
+ * Generate initial protobuf from data collected from https://swapi.co/
+ * Definition diverges from this
  */
 
 import { classify, pluralize } from 'inflection'
