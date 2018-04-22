@@ -33,9 +33,9 @@ const getHandler = (id, recordName, dataName) => {
 const listHandler = (recordName) => ({[recordName]: data[recordName]})
 
 module.exports = {
-  swapi: {
+  sfapi: {
     v1: {
-      Starwars: {
+      Starfriends: {
         GetFilm: ({request: {id}}) => getHandler(id, 'film', 'films'),
         ListFilms: () => listHandler('films'),
         GetVehicle: ({request: {id}}) => getHandler(id, 'vehicle', 'vehicles'),
