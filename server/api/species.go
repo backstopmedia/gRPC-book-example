@@ -39,5 +39,5 @@ func (s *Server) ValidateSpecies(ctx context.Context, r *pb.ValidateSpeciesReque
 		return nil, status.Err()
 	}
 
-	return nil, nil
+	return &pb.ValidateSpeciesResponse{}, nil
 }

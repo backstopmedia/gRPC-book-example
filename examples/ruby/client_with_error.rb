@@ -1,8 +1,8 @@
 $LOAD_PATH.unshift File.expand_path("../proto", __FILE__)
 require_relative './proto/swapi_pb'
 require_relative './proto/swapi_services_pb'
-require 'byebug'
 
+# Required to use the well known type helpers for proto messages
 require 'grpc/google_rpc_status_utils'
 require 'google/protobuf/well_known_types'
 
