@@ -1,17 +1,17 @@
 # tools
 
-This is just some quick tooling I made to document how I designed the protos and got the data.
+These are quick-hack tools to generate intiial data and proto from [SWAPI](https://swapi.co/). These are here for the purpose of seeing how our initial data was generated.
 
-It can totally be deleted once we have all our definitions & data in place.
+## you probly shouldn't run them
+
+After these were used, the data and proto were hand-tuned, so they will corrupt the current data & proto, if you run them again.
+
+If you want to ignore this warning (to be fair, git probly has your back) Run these:
 
 ```bash
 npm i            # install dependencies
 npm run data     # get all the data from the API
 npm run proto    # generate the gRPC protobuf that matches the API
-npm run validate # validate the generated data against the generated protobuf
-npm run luke     # connect to local grpc server and get Luke's record (test end-to-end)
+npm run test     # validate the generated data against the generated protobuf
 
-npm run grpc     # start a demo gRPC server
-npm run gateway  # start a demo gRPC gateway
-npm start        # run both server & gateway
 ```

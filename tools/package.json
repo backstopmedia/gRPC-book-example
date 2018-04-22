@@ -1,16 +1,11 @@
 {
   "name": "tools",
   "version": "1.0.0",
-  "description": "",
-  "main": "gen_proto.js",
+  "private": true,
   "scripts": {
     "data": "babel-node get_data.js",
     "proto": "babel-node gen_proto.js",
-    "validate": "babel-node validate.js",
-    "luke": "grpc-client -I ../proto run swapi.proto -m swapi.Starwars.GetPerson -a '{\"id\": \"SyAbJp35ViM\"}'",
-    "grpc": "grpc-server -I ../proto swapi.proto ./demo_resolvers.js",
-    "gateway": "grpc-dynamic-gateway -I ../proto swapi.proto",
-    "start": "npm-run-all --parallel grpc gateway"
+    "test": "babel-node validate.js"
   },
   "keywords": [],
   "author": "David Konsumer <konsumer@jetboystudio.com> (http://konsumer.js.org)",
@@ -18,13 +13,8 @@
   "dependencies": {
     "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.6.1",
-    "chalk": "^2.3.2",
-    "grpc-dynamic-gateway": "^0.2.2",
-    "grpcnode": "^0.1.0",
     "inflection": "^1.12.0",
-    "lodash": "^4.17.5",
     "node-fetch": "^2.1.2",
-    "npm-run-all": "^4.1.2",
     "protobufjs": "^6.8.6",
     "shortid": "^2.2.8"
   },
