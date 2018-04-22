@@ -42,6 +42,9 @@ It has these top-level messages:
 	ListPeopleResponse
 	ListStarshipActionsRequest
 	StarshipAction
+	InvalidKey
+	ValidateSpeciesRequest
+	ValidateSpeciesResponse
 */
 package proto
 

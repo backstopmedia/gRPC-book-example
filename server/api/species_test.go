@@ -3,6 +3,8 @@ package api_test
 import (
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/suite"
+	"google.golang.org/grpc/codes"
+	"google.golang.org/grpc/status"
 
 	"context"
 	"errors"
@@ -68,4 +70,22 @@ func (assert *SpeciesTest) TestListSpeciesError() {
 
 	assert.Nil(resp)
 	assert.EqualError(err, "Boom")
+}
+
+func (assert *SpeciesTest) TestValidateSpeciesError() {
+	resp, err := assert.api.ValidateSpecies(context.Background(), new(pb.ValidateSpeciesRequest))
+
+	assert.Nil(resp)
+	assert.Equal(codes.InvalidArgument, status.Code(err))
+
+	status, ok := status.FromError(err)
+	assert.True(ok)
+
+	assert.Require().Len(status.Details(), 1)
+	d := status.Details()[0]
+
+	invalidKey, ok := d.(*pb.InvalidKey)
+	assert.True(ok)
+	assert.Equal(invalidKey.GetKey(), "name")
+	assert.Equal(invalidKey.GetMessage(), "The name provided is not long enough")
 }

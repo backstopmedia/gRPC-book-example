@@ -177,6 +177,15 @@ Google::Protobuf::DescriptorPool.generated_pool.build do
     value :HYPERDRIVE, 2
     value :HIDING_IN_A_MOUTH, 3
   end
+  add_message "swapi.v1.InvalidKey" do
+    optional :key, :string, 1
+    optional :message, :string, 2
+  end
+  add_message "swapi.v1.ValidateSpeciesRequest" do
+    optional :name, :string, 1
+  end
+  add_message "swapi.v1.ValidateSpeciesResponse" do
+  end
 end
 
 module Swapi
@@ -214,5 +223,8 @@ module Swapi
     ListStarshipActionsRequest = Google::Protobuf::DescriptorPool.generated_pool.lookup("swapi.v1.ListStarshipActionsRequest").msgclass
     StarshipAction = Google::Protobuf::DescriptorPool.generated_pool.lookup("swapi.v1.StarshipAction").msgclass
     StarshipAction::Action = Google::Protobuf::DescriptorPool.generated_pool.lookup("swapi.v1.StarshipAction.Action").enummodule
+    InvalidKey = Google::Protobuf::DescriptorPool.generated_pool.lookup("swapi.v1.InvalidKey").msgclass
+    ValidateSpeciesRequest = Google::Protobuf::DescriptorPool.generated_pool.lookup("swapi.v1.ValidateSpeciesRequest").msgclass
+    ValidateSpeciesResponse = Google::Protobuf::DescriptorPool.generated_pool.lookup("swapi.v1.ValidateSpeciesResponse").msgclass
   end
 end

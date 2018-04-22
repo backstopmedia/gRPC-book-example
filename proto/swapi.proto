@@ -80,6 +80,8 @@ service Starwars {
   }
 
   rpc ListStarshipActions(ListStarshipActionsRequest) returns (stream StarshipAction) {}
+
+  rpc ValidateSpecies(ValidateSpeciesRequest) returns (ValidateSpeciesResponse) {}
 }
 
 message Film {
@@ -284,3 +286,14 @@ message StarshipAction {
   }
   Action action = 2;
 }
+
+message InvalidKey {
+  string key = 1;
+  string message = 2;
+}
+
+message ValidateSpeciesRequest {
+  string name = 1;
+}
+
+message ValidateSpeciesResponse {}
