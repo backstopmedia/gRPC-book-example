@@ -1,0 +1,41 @@
+syntax = "proto3";
+
+// The "google/protobuf" import folder provides several types that
+// are included with protoc. This one is a representation of
+// timestamps/dates.
+import "google/protobuf/timestamp.proto";
+
+option go_package = "proto";
+
+service Starfriends {
+  // Get a single Film by unique ID
+  rpc GetFilm(GetFilmRequest) returns (GetFilmResponse);
+
+  // Get a list of all Films
+  rpc ListFilms(ListFilmsRequest) returns (ListFilmsResponse);
+}
+
+message GetFilmRequest {
+  string id = 1;
+}
+
+message GetFilmResponse {
+  Film film = 1;
+}
+
+message ListFilmsRequest {
+  // no arguments for listing films
+}
+
+message ListFilmsResponse {
+  repeated Film films = 1;
+}
+
+message Film {
+  string id = 1;
+  string title = 2;
+  string director = 3;
+  string producer = 4;
+  google.protobuf.Timestamp release_date = 5;
+}
+
