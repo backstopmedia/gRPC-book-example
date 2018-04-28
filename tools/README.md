@@ -1,6 +1,6 @@
 # tools
 
-These are quick-hack tools to generate intiial data and proto from [SWAPI](https://swapi.co/). These are here for the purpose of seeing how our initial data was generated.
+These are quick-hack tools to generate intiial data and proto from [SWAPI](https://sfapi.co/). These are here for the purpose of seeing how our initial data was generated.
 
 ## you probly shouldn't run them
 

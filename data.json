@@ -1215,7 +1215,7 @@
       "average_lifespan": 1000,
       "homeworld": "B17gkTncNoz4",
       "language": "Huttese",
-      "people": [
+      "people_ids": [
         "SyAbJp35ViM6"
       ],
       "film_ids": [
@@ -1235,7 +1235,7 @@
       "average_lifespan": 900,
       "homeworld": "B17gkTncNoz8",
       "language": "Galactic basic",
-      "people": [
+      "people_ids": [
         "Hyyzkp2qEoG0"
       ],
       "film_ids": [
@@ -1257,7 +1257,7 @@
       "eye_colors": "yellow, orange",
       "homeworld": "B17gkTncNoz9",
       "language": "Dosh",
-      "people": [
+      "people_ids": [
         "Hyyzkp2qEoG4"
       ],
       "film_ids": [
@@ -1275,7 +1275,7 @@
       "eye_colors": "yellow",
       "homeworld": "SkElJp3q4sM1",
       "language": "Mon Calamarian",
-      "people": [
+      "people_ids": [
         "Hyyzkp2qEoG7"
       ],
       "film_ids": [
@@ -1293,7 +1293,7 @@
       "eye_colors": "orange, brown",
       "homeworld": "ry_xJph5EoG",
       "language": "Ewokese",
-      "people": [
+      "people_ids": [
         "rJlMJT25Njz0"
       ],
       "film_ids": [
@@ -1311,7 +1311,7 @@
       "eye_colors": "black",
       "homeworld": "SkElJp3q4sM3",
       "language": "Sullutese",
-      "people": [
+      "people_ids": [
         "rJlMJT25Njz1"
       ],
       "film_ids": [
@@ -1328,7 +1328,7 @@
       "eye_colors": "red, pink",
       "homeworld": "S1G4J639EoM",
       "language": "Neimoidia",
-      "people": [
+      "people_ids": [
         "rJlMJT25Njz3"
       ],
       "film_ids": [
@@ -1346,7 +1346,7 @@
       "eye_colors": "orange",
       "homeworld": "ByYe1T2c4sG",
       "language": "Gungan basic",
-      "people": [
+      "people_ids": [
         "rJlMJT25Njz6",
         "rJlMJT25Njz7",
         "rJlMJT25Njz8"
@@ -1368,7 +1368,7 @@
       "average_lifespan": 91,
       "homeworld": "SkElJp3q4sM4",
       "language": "Toydarian",
-      "people": [
+      "people_ids": [
         "S1WGJ62cEjf0"
       ],
       "film_ids": [
@@ -1387,7 +1387,7 @@
       "eye_colors": "yellow, blue",
       "homeworld": "SkElJp3q4sM5",
       "language": "Dugese",
-      "people": [
+      "people_ids": [
         "S1WGJ62cEjf1"
       ],
       "film_ids": [
@@ -1405,7 +1405,7 @@
       "eye_colors": "blue, brown, orange, pink",
       "homeworld": "SkElJp3q4sM7",
       "language": "Twi'leki",
-      "people": [
+      "people_ids": [
         "S1WGJ62cEjf5",
         "S1WGJ62cEjf6"
       ],
@@ -1427,7 +1427,7 @@
       "average_lifespan": 79,
       "homeworld": "SkElJp3q4sM8",
       "language": "Aleena",
-      "people": [
+      "people_ids": [
         "S1WGJ62cEjf7"
       ],
       "film_ids": [
@@ -1444,7 +1444,7 @@
       "eye_colors": "yellow",
       "homeworld": "SkElJp3q4sM9",
       "language": "vulpterish",
-      "people": [
+      "people_ids": [
         "S1WGJ62cEjf8"
       ],
       "film_ids": [
@@ -1461,7 +1461,7 @@
       "eye_colors": "black",
       "homeworld": "SkSl1a2qViM0",
       "language": "Xextese",
-      "people": [
+      "people_ids": [
         "S1WGJ62cEjf9"
       ],
       "film_ids": [
@@ -1478,7 +1478,7 @@
       "eye_colors": "orange",
       "homeworld": "SkSl1a2qViM1",
       "language": "Tundan",
-      "people": [
+      "people_ids": [
         "r1fMkp25Njz0"
       ],
       "film_ids": [
@@ -1497,7 +1497,7 @@
       "eye_colors": "hazel",
       "homeworld": "SkSl1a2qViM3",
       "language": "Cerean",
-      "people": [
+      "people_ids": [
         "r1fMkp25Njz2"
       ],
       "film_ids": [
@@ -1517,7 +1517,7 @@
       "average_lifespan": 70,
       "homeworld": "SkSl1a2qViM4",
       "language": "Nautila",
-      "people": [
+      "people_ids": [
         "r1fMkp25Njz3"
       ],
       "film_ids": [
@@ -1535,7 +1535,7 @@
       "eye_colors": "brown, orange",
       "homeworld": "SkSl1a2qViM5",
       "language": "Zabraki",
-      "people": [
+      "people_ids": [
         "S1WGJ62cEjf4",
         "r1fMkp25Njz4"
       ],
@@ -1551,7 +1551,7 @@
       "skin_colors": "dark",
       "eye_colors": "blue, indigo",
       "homeworld": "SkSl1a2qViM6",
-      "people": [
+      "people_ids": [
         "r1fMkp25Njz5"
       ],
       "film_ids": [
@@ -1569,7 +1569,7 @@
       "eye_colors": "orange",
       "homeworld": "SkSl1a2qViM7",
       "language": "Iktotchese",
-      "people": [
+      "people_ids": [
         "r1fMkp25Njz6"
       ],
       "film_ids": [
@@ -1589,7 +1589,7 @@
       "average_lifespan": 86,
       "homeworld": "SkSl1a2qViM8",
       "language": "Quermian",
-      "people": [
+      "people_ids": [
         "r1fMkp25Njz7"
       ],
       "film_ids": [
@@ -1608,7 +1608,7 @@
       "average_lifespan": 70,
       "homeworld": "SkSl1a2qViM9",
       "language": "Kel Dor",
-      "people": [
+      "people_ids": [
         "r1fMkp25Njz8"
       ],
       "film_ids": [
@@ -1627,7 +1627,7 @@
       "eye_colors": "blue",
       "homeworld": "HkIlkTnqEjG0",
       "language": "Chagria",
-      "people": [
+      "people_ids": [
         "r1fMkp25Njz9"
       ],
       "film_ids": [
@@ -1646,7 +1646,7 @@
       "eye_colors": "green, hazel",
       "homeworld": "By3lk6294sG",
       "language": "Geonosian",
-      "people": [
+      "people_ids": [
         "HJ7Myp39Njf3"
       ],
       "film_ids": [
@@ -1665,7 +1665,7 @@
       "eye_colors": "blue, green, red, yellow, brown, orange",
       "homeworld": "HkIlkTnqEjG1",
       "language": "Mirialan",
-      "people": [
+      "people_ids": [
         "HJ7Myp39Njf4",
         "HJ7Myp39Njf5"
       ],
@@ -1686,7 +1686,7 @@
       "average_lifespan": 70,
       "homeworld": "HkIlkTnqEjG4",
       "language": "Clawdite",
-      "people": [
+      "people_ids": [
         "Bk4fJp3cNjf0"
       ],
       "film_ids": [
@@ -1706,7 +1706,7 @@
       "average_lifespan": 75,
       "homeworld": "HkIlkTnqEjG5",
       "language": "besalisk",
-      "people": [
+      "people_ids": [
         "Bk4fJp3cNjf1"
       ],
       "film_ids": [
@@ -1725,7 +1725,7 @@
       "average_lifespan": 80,
       "homeworld": "S1oxJanqVsG",
       "language": "Kaminoan",
-      "people": [
+      "people_ids": [
         "Bk4fJp3cNjf2",
         "Bk4fJp3cNjf3"
       ],
@@ -1742,7 +1742,7 @@
       "hair_colors": "none",
       "homeworld": "HkIlkTnqEjG6",
       "language": "Skakoan",
-      "people": [
+      "people_ids": [
         "Bk4fJp3cNjf6"
       ],
       "film_ids": [
@@ -1762,7 +1762,7 @@
       "average_lifespan": 100,
       "homeworld": "HkIlkTnqEjG7",
       "language": "Muun",
-      "people": [
+      "people_ids": [
         "Bk4fJp3cNjf7"
       ],
       "film_ids": [
@@ -1782,7 +1782,7 @@
       "average_lifespan": 94,
       "homeworld": "HkIlkTnqEjG8",
       "language": "Togruti",
-      "people": [
+      "people_ids": [
         "Bk4fJp3cNjf8"
       ],
       "film_ids": [
@@ -1802,7 +1802,7 @@
       "average_lifespan": 80,
       "homeworld": "HkIlkTnqEjG9",
       "language": "Kaleesh",
-      "people": [
+      "people_ids": [
         "Bk4fJp3cNjf9"
       ],
       "film_ids": [
@@ -1821,7 +1821,7 @@
       "average_lifespan": 700,
       "homeworld": "SJhXJp294oz",
       "language": "Utapese",
-      "people": [
+      "people_ids": [
         "S1BGJThqEoG3"
       ],
       "film_ids": [
@@ -1840,7 +1840,7 @@
       "average_lifespan": 400,
       "homeworld": "SyAmJ639Viz",
       "language": "Shyriiwook",
-      "people": [
+      "people_ids": [
         "SyAbJp35ViM3",
         "S1BGJThqEoG0"
       ],
@@ -1858,7 +1858,7 @@
       "classification": "artificial",
       "designation": "sentient",
       "average_lifespan": -1,
-      "people": [
+      "people_ids": [
         "Hyyzkp2qEoG",
         "rJlMJT25Njz",
         "S1BGJThqEoG",
@@ -1887,7 +1887,7 @@
       "average_lifespan": 120,
       "homeworld": "HJ5e1639Vsf",
       "language": "Galactic Basic",
-      "people": [
+      "people_ids": [
         "SyAbJp35ViM",
         "S1WGJ62cEjf",
         "r1fMkp25Njz",
@@ -1944,7 +1944,7 @@
       "eye_colors": "black",
       "homeworld": "B17gkTncNoz3",
       "language": "Galactic Basic",
-      "people": [
+      "people_ids": [
         "SyAbJp35ViM5"
       ],
       "film_ids": [
