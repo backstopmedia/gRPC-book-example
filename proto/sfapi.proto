@@ -1,7 +1,6 @@
 syntax = "proto3";
 
 import "google/api/annotations.proto";
-import "google/protobuf/empty.proto";
 
 package sfapi.v1;
 option go_package = "proto";

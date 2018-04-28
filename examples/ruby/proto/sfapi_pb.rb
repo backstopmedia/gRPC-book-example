@@ -4,7 +4,6 @@
 require 'google/protobuf'
 
 require 'google/api/annotations_pb'
-require 'google/protobuf/empty_pb'
 Google::Protobuf::DescriptorPool.generated_pool.build do
   add_message "sfapi.v1.Film" do
     optional :title, :string, 1
@@ -13,11 +12,11 @@ Google::Protobuf::DescriptorPool.generated_pool.build do
     optional :director, :string, 4
     optional :producer, :string, 5
     optional :release_date, :string, 6
-    repeated :characters, :string, 7
-    repeated :planets, :string, 8
-    repeated :starships, :string, 9
-    repeated :vehicles, :string, 10
-    repeated :species, :string, 11
+    repeated :character_ids, :string, 7
+    repeated :planet_ids, :string, 8
+    repeated :starship_ids, :string, 9
+    repeated :vehicle_ids, :string, 10
+    repeated :species_ids, :string, 11
     optional :id, :string, 12
   end
   add_message "sfapi.v1.GetFilmRequest" do
@@ -43,8 +42,8 @@ Google::Protobuf::DescriptorPool.generated_pool.build do
     optional :cargo_capacity, :int32, 9
     optional :consumables, :string, 10
     optional :vehicle_class, :string, 11
-    repeated :pilots, :string, 12
-    repeated :films, :string, 13
+    repeated :pilot_ids, :string, 12
+    repeated :film_ids, :string, 13
     optional :id, :string, 14
   end
   add_message "sfapi.v1.GetVehicleRequest" do
@@ -71,8 +70,8 @@ Google::Protobuf::DescriptorPool.generated_pool.build do
     optional :hyperdrive_rating, :float, 10
     optional :mglt, :int32, 11
     optional :starship_class, :string, 12
-    repeated :pilots, :string, 13
-    repeated :films, :string, 14
+    repeated :pilot_ids, :string, 13
+    repeated :film_ids, :string, 14
     optional :id, :string, 15
     optional :max_atmosphering_speed, :int64, 16
   end
@@ -97,8 +96,8 @@ Google::Protobuf::DescriptorPool.generated_pool.build do
     optional :average_lifespan, :int32, 7
     optional :homeworld, :string, 8
     optional :language, :string, 9
-    repeated :people, :string, 10
-    repeated :films, :string, 11
+    repeated :people_ids, :string, 10
+    repeated :film_ids, :string, 11
     optional :id, :string, 12
     optional :hair_colors, :string, 13
   end
@@ -123,8 +122,8 @@ Google::Protobuf::DescriptorPool.generated_pool.build do
     optional :terrain, :string, 7
     optional :surface_water, :float, 8
     optional :population, :int64, 9
-    repeated :residents, :string, 10
-    repeated :films, :string, 11
+    repeated :resident_ids, :string, 10
+    repeated :film_ids, :string, 11
     optional :id, :string, 12
   end
   add_message "sfapi.v1.GetPlanetRequest" do
@@ -148,10 +147,10 @@ Google::Protobuf::DescriptorPool.generated_pool.build do
     optional :birth_year, :string, 7
     optional :gender, :string, 8
     optional :homeworld, :string, 9
-    repeated :films, :string, 10
-    repeated :species, :string, 11
-    repeated :vehicles, :string, 12
-    repeated :starships, :string, 13
+    repeated :film_ids, :string, 10
+    repeated :species_ids, :string, 11
+    repeated :vehicle_ids, :string, 12
+    repeated :starship_ids, :string, 13
     optional :id, :string, 14
   end
   add_message "sfapi.v1.GetPersonRequest" do

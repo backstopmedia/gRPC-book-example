@@ -15,19 +15,33 @@ module Sfapi
         self.unmarshal_class_method = :decode
         self.service_name = 'sfapi.v1.Starfriends'
 
+        # Get a single Film
         rpc :GetFilm, GetFilmRequest, GetFilmResponse
+        # Get a list of Films
         rpc :ListFilms, ListFilmsRequest, ListFilmsResponse
+        # Get a single Vehicle
         rpc :GetVehicle, GetVehicleRequest, GetVehicleResponse
+        # Get a list of Vehicles
         rpc :ListVehicles, ListVehiclesRequest, ListVehiclesResponse
+        # Get a single Starship
         rpc :GetStarship, GetStarshipRequest, GetStarshipResponse
+        # Get a list of Starships
         rpc :ListStarships, ListStarshipsRequest, ListStarshipsResponse
+        # Get a single Species
         rpc :GetSpecies, GetSpeciesRequest, GetSpeciesResponse
+        # Get a list of Species
         rpc :ListSpecies, ListSpeciesRequest, ListSpeciesResponse
+        # Get a single Planet
         rpc :GetPlanet, GetPlanetRequest, GetPlanetResponse
+        # Get a list of Planets
         rpc :ListPlanets, ListPlanetsRequest, ListPlanetsResponse
+        # Get a single Person
         rpc :GetPerson, GetPersonRequest, GetPersonResponse
+        # Get a list of People
         rpc :ListPeople, ListPeopleRequest, ListPeopleResponse
+        # Watch starships doing stuff, in realtime
         rpc :ListStarshipActions, ListStarshipActionsRequest, stream(StarshipAction)
+        # is the given species valid?
         rpc :ValidateSpecies, ValidateSpeciesRequest, ValidateSpeciesResponse
       end
 

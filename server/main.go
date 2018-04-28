@@ -47,7 +47,7 @@ func main() {
 
 	interceptorOpt := grpc.UnaryInterceptor(api.Interceptors())
 	s := grpc.NewServer(interceptorOpt)
-	pb.RegisterStarwarsServer(s, api.New(db))
+	pb.RegisterStarfriendsServer(s, api.New(db))
 
 	if err := s.Serve(list); err != nil {
 		log.Fatalf("Failed to start server: %v", err)

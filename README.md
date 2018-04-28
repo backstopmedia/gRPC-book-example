@@ -1,6 +1,6 @@
 # gRPC-book-example
 
-Based loosely on models from [swapi](https://swapi.co/).
+Based loosely on models from [sfapi](https://sfapi.co/).
 
 ## Getting Started
 

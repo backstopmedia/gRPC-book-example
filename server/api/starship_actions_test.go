@@ -16,7 +16,7 @@ type StarshipActionsTest struct {
 	suite.Suite
 	api    *api.Server
 	db     *mocks.Provider
-	stream *mocks.Starwars_ListStarshipActionsServer
+	stream *mocks.Starfriends_ListStarshipActionsServer
 }
 
 func TestStarshipActions(t *testing.T) {
@@ -25,7 +25,7 @@ func TestStarshipActions(t *testing.T) {
 
 func (assert *StarshipActionsTest) SetupTest() {
 	assert.db = new(mocks.Provider)
-	assert.stream = new(mocks.Starwars_ListStarshipActionsServer)
+	assert.stream = new(mocks.Starfriends_ListStarshipActionsServer)
 	assert.api = api.New(assert.db)
 }
 
