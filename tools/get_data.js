@@ -1,6 +1,6 @@
 #!/usr/bin/env ./node_modules/.bin/babel-node
 /**
- * Get data from https://swapi.co/ and normalize it
+ * Get data from https://sfapi.co/ and normalize it
  * Definition diverges form this, so this is just for initial data
  */
 
@@ -37,7 +37,7 @@ const nounMap = {
   'films': 'films'
 }
 
-const rRemoveUrl = new RegExp('https://swapi.co/api/(.+)/')
+const rRemoveUrl = new RegExp('https://sfapi.co/api/(.+)/')
 
 // this holds all cross-refed IDs
 const ids = []
@@ -134,7 +134,7 @@ const main = async () => {
     return results
   }
 
-  const urls = await fetch('https://swapi.co/api/', {headers}).then(r => r.json())
+  const urls = await fetch('https://sfapi.co/api/', {headers}).then(r => r.json())
   const out = {}
   await Promise.all(Object.keys(urls).map(async noun => {
     out[noun] = await getNoun(noun)

@@ -12,7 +12,7 @@ lint:
 	@docker run --rm \
 		-v $(PWD):$(PWD) \
 		-w $(PWD)/proto \
-		gwihlidal/protoc swapi.proto -I. --lint_out=.
+		gwihlidal/protoc sfapi.proto -I. --lint_out=.
 
 server/api/mocks/provider.go: server/db/provider.go
 	$(info Generating mock provider...)
@@ -20,22 +20,22 @@ server/api/mocks/provider.go: server/db/provider.go
 
 server/api/mocks/starship_action.go:
 	$(info Generating mock stream provider...)
-	@retool do mockery -name Starwars_ListStarshipActionsServer -dir server/proto  -output ./server/api/mocks
+	@retool do mockery -name Starfriends_ListStarshipActionsServer -dir server/proto  -output ./server/api/mocks
 
 server/proto/%.pb.go: proto/%.proto
 	$(info Generating go and gRPC protos...)
 	@docker run -v $(PWD):/defs namely/protoc-all:1.9 -d proto -l go -o server/proto
-	
+
 examples/ruby/proto/%.rb:
 	$(info Generating ruby protos...)
 	@docker run -v $(PWD):/defs namely/protoc-all:1.9 -d proto -l ruby -o examples/ruby/proto
 
-rpc-server: server/main.go server/api/*.go server/proto/swapi.pb.go
+rpc-server: server/main.go server/api/*.go server/proto/sfapi.pb.go
 	$(info Building RPC server...)
 	@go build -o rpc-server ./server
 
 run-server: rpc-server
 	./rpc-server
 
-test: server/proto/swapi.pb.go server/proto/json_db.pb.go server/api/mocks/provider.go
+test: server/proto/sfapi.pb.go server/proto/json_db.pb.go server/api/mocks/provider.go
 	@go test -v -cover ./server/api ./server/db

@@ -1,6 +1,6 @@
 #!/usr/bin/env ./node_modules/.bin/babel-node
 /**
- * Generate initial protobuf from data collected from https://swapi.co/
+ * Generate initial protobuf from data collected from https://sfapi.co/
  * Definition diverges from this
  */
 
@@ -72,7 +72,7 @@ let out = [
   'import "google/api/annotations.proto";',
   'import "google/protobuf/empty.proto";',
   '',
-  'package swapi;',
+  'package sfapi;',
   ''
 ]
 
@@ -107,16 +107,16 @@ nounClasses.forEach(noun => {
 })
 
 // generate basic type gRPC
-out.push('service Starwars {')
+out.push('service Starfriends {')
 nounClasses.forEach(noun => {
   out.push(`  rpc Get${noun}(Reference) returns (${noun}) {
     option (google.api.http) = {
-       get: "/swapi/v1/${noun.toLowerCase()}/{id}"
+       get: "/sfapi/v1/${noun.toLowerCase()}/{id}"
     };
   }
   rpc List${pluralize(noun)}(google.protobuf.Empty) returns (${pluralize(noun)}List) {
     option (google.api.http) = {
-       get: "/swapi/v1/${pluralize(noun.toLowerCase())}"
+       get: "/sfapi/v1/${pluralize(noun.toLowerCase())}"
     };
   }
 `)
@@ -124,4 +124,4 @@ nounClasses.forEach(noun => {
 out.push('}')
 
 // if the array is empty, I can't figure out the type, which will just be [string]
-writeFileSync('../proto/swapi.proto', out.join('\n').replace(/repeated undefined/g, 'repeated string'))
+writeFileSync('../proto/sfapi.proto', out.join('\n').replace(/repeated undefined/g, 'repeated string'))

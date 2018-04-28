@@ -3,20 +3,20 @@
 
 require 'google/protobuf'
 
-require 'swapi_pb'
+require 'sfapi_pb'
 Google::Protobuf::DescriptorPool.generated_pool.build do
-  add_message "swapi.v1.DB" do
-    repeated :films, :message, 1, "swapi.v1.Film"
-    repeated :people, :message, 2, "swapi.v1.Person"
-    repeated :planets, :message, 3, "swapi.v1.Planet"
-    repeated :species, :message, 4, "swapi.v1.Species"
-    repeated :starships, :message, 5, "swapi.v1.Starship"
-    repeated :vehicles, :message, 6, "swapi.v1.Vehicle"
+  add_message "sfapi.v1.DB" do
+    repeated :films, :message, 1, "sfapi.v1.Film"
+    repeated :people, :message, 2, "sfapi.v1.Person"
+    repeated :planets, :message, 3, "sfapi.v1.Planet"
+    repeated :species, :message, 4, "sfapi.v1.Species"
+    repeated :starships, :message, 5, "sfapi.v1.Starship"
+    repeated :vehicles, :message, 6, "sfapi.v1.Vehicle"
   end
 end
 
-module Swapi
+module Sfapi
   module V1
-    DB = Google::Protobuf::DescriptorPool.generated_pool.lookup("swapi.v1.DB").msgclass
+    DB = Google::Protobuf::DescriptorPool.generated_pool.lookup("sfapi.v1.DB").msgclass
   end
 end

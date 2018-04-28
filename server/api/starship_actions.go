@@ -8,7 +8,7 @@ const (
 	millenniumFalconID = "rJe-kah5NsM"
 )
 
-func (s *Server) ListStarshipActions(req *pb.ListStarshipActionsRequest, stream pb.Starwars_ListStarshipActionsServer) error {
+func (s *Server) ListStarshipActions(req *pb.ListStarshipActionsRequest, stream pb.Starfriends_ListStarshipActionsServer) error {
 	starship, err := s.db.GetStarshipByID(stream.Context(), millenniumFalconID)
 	if err != nil {
 		return err

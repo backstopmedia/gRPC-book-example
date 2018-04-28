@@ -1,6 +1,6 @@
 $LOAD_PATH.unshift File.expand_path("../proto", __FILE__)
-require_relative './proto/swapi_pb'
-require_relative './proto/swapi_services_pb'
+require_relative './proto/sfapi_pb'
+require_relative './proto/sfapi_services_pb'
 
 class TimingInterceptor < GRPC::ClientInterceptor
   def server_streamer(request: nil, call: nil, method: nil, metadata: nil)
@@ -13,8 +13,8 @@ class TimingInterceptor < GRPC::ClientInterceptor
   end
 end
 
-stub = Swapi::V1::Starwars::Stub.new("localhost:8080", :this_channel_is_insecure, interceptors: [ TimingInterceptor.new ])
-request = Swapi::V1::ListStarshipActionsRequest.new
+stub = Sfapi::V1::Starfriends::Stub.new("localhost:8080", :this_channel_is_insecure, interceptors: [ TimingInterceptor.new ])
+request = Sfapi::V1::ListStarshipActionsRequest.new
 response = stub.list_starship_actions(request)
 
 response.each do |action|
