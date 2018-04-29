@@ -15,7 +15,16 @@
 
 [[projects]]
   name = "github.com/golang/protobuf"
-  packages = ["jsonpb","proto","protoc-gen-go/descriptor","ptypes","ptypes/any","ptypes/duration","ptypes/struct","ptypes/timestamp"]
+  packages = [
+    "jsonpb",
+    "proto",
+    "protoc-gen-go/descriptor",
+    "ptypes",
+    "ptypes/any",
+    "ptypes/duration",
+    "ptypes/struct",
+    "ptypes/timestamp"
+  ]
   revision = "925541529c1fa6821df4e44ce2723319eb2be768"
   version = "v1.0.0"
 
@@ -24,12 +33,6 @@
   name = "github.com/grpc-ecosystem/go-grpc-middleware"
   packages = ["."]
   revision = "b9ed6aed6cf9de7330c7c8e81d3d8e49086539e8"
-
-[[projects]]
-  name = "github.com/grpc-ecosystem/grpc-gateway"
-  packages = ["runtime","runtime/internal","utilities"]
-  revision = "07f5e79768022f9a3265235f0db4ac8c3f675fec"
-  version = "v1.3.1"
 
 [[projects]]
   name = "github.com/pmezard/go-difflib"
@@ -51,7 +54,12 @@
 
 [[projects]]
   name = "github.com/stretchr/testify"
-  packages = ["assert","mock","require","suite"]
+  packages = [
+    "assert",
+    "mock",
+    "require",
+    "suite"
+  ]
   revision = "12b6f73e6084dad08a7c6e575284b177ecafbc71"
   version = "v1.2.1"
 
@@ -64,36 +72,90 @@
 [[projects]]
   branch = "master"
   name = "golang.org/x/net"
-  packages = ["context","http2","http2/hpack","idna","internal/timeseries","lex/httplex","trace"]
+  packages = [
+    "context",
+    "http2",
+    "http2/hpack",
+    "idna",
+    "internal/timeseries",
+    "lex/httplex",
+    "trace"
+  ]
   revision = "61147c48b25b599e5b561d2e9c4f3e1ef489ca41"
 
 [[projects]]
   branch = "master"
   name = "golang.org/x/sys"
-  packages = ["unix","windows"]
+  packages = [
+    "unix",
+    "windows"
+  ]
   revision = "3b87a42e500a6dc65dae1a55d0b641295971163e"
 
 [[projects]]
   name = "golang.org/x/text"
-  packages = ["collate","collate/build","internal/colltab","internal/gen","internal/tag","internal/triegen","internal/ucd","language","secure/bidirule","transform","unicode/bidi","unicode/cldr","unicode/norm","unicode/rangetable"]
+  packages = [
+    "collate",
+    "collate/build",
+    "internal/colltab",
+    "internal/gen",
+    "internal/tag",
+    "internal/triegen",
+    "internal/ucd",
+    "language",
+    "secure/bidirule",
+    "transform",
+    "unicode/bidi",
+    "unicode/cldr",
+    "unicode/norm",
+    "unicode/rangetable"
+  ]
   revision = "f21a4dfb5e38f5895301dc265a8def02365cc3d0"
   version = "v0.3.0"
 
 [[projects]]
   branch = "master"
   name = "google.golang.org/genproto"
-  packages = ["googleapis/api/annotations","googleapis/rpc/status"]
+  packages = [
+    "googleapis/api/annotations",
+    "googleapis/rpc/status",
+    "protobuf/field_mask"
+  ]
   revision = "ce84044298496ef4b54b4a0a0909ba593cc60e30"
 
 [[projects]]
   name = "google.golang.org/grpc"
-  packages = [".","balancer","balancer/base","balancer/roundrobin","codes","connectivity","credentials","encoding","encoding/proto","grpclb/grpc_lb_v1/messages","grpclog","internal","keepalive","metadata","naming","peer","resolver","resolver/dns","resolver/passthrough","stats","status","tap","transport"]
+  packages = [
+    ".",
+    "balancer",
+    "balancer/base",
+    "balancer/roundrobin",
+    "codes",
+    "connectivity",
+    "credentials",
+    "encoding",
+    "encoding/proto",
+    "grpclb/grpc_lb_v1/messages",
+    "grpclog",
+    "internal",
+    "keepalive",
+    "metadata",
+    "naming",
+    "peer",
+    "resolver",
+    "resolver/dns",
+    "resolver/passthrough",
+    "stats",
+    "status",
+    "tap",
+    "transport"
+  ]
   revision = "d89cded64628466c4ab532d1f0ba5c220459ebe8"
   version = "v1.11.2"
 
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "b84be41f457fcfd07375d043430019f4d33b17001811af683c503b67f49c24e6"
+  inputs-digest = "d95d957c6bd47355ff89c51203980d6318a155f9f545545c4390828faaa789e4"
   solver-name = "gps-cdcl"
   solver-version = 1

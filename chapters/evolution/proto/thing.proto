@@ -1,0 +1,31 @@
+syntax = "proto3";
+
+import "google/protobuf/field_mask.proto";
+
+package practical.grpc.v1;
+
+service MyService {
+  rpc UpdateThing(UpdateThingRequest) returns (UpdateThingResponse);
+}
+
+message Thing {
+  int64 id    = 1;
+  string name = 2;
+  bool cool   = 3;
+}
+
+message ThingNotFoundError {
+  int64 requested_id = 1;
+  string reason      = 2;
+}
+
+message UpdateThingRequest {
+  Thing thing = 1;
+
+  // allow callers to specify which fields should be updated
+  google.protobuf.FieldMask mask = 2;
+}
+
+message UpdateThingResponse {
+  Thing thing = 1;
+}
