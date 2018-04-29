@@ -8,7 +8,6 @@ Maybe put instructions about cloning your org's primary proto IDL repo, or instr
 
 * `google/api/annotations.proto`
 
-
 ## Messages
 
 ### Film
@@ -276,6 +275,18 @@ No fields
 
 
 
+## Enums
+
+
+### StarshipAction.Action
+
+* `TOOKOFF`: 0
+* `LANDED`: 1
+* `HYPERDRIVE`: 2
+* `HIDING_IN_A_MOUTH`: 3
+
+
+
 ## Sevices
 
 `~` denotes a streaming input/outut.
@@ -297,3 +308,5 @@ No fields
 |ListPeople|[ListPeopleRequest](#listpeoplerequest)|[ListPeopleResponse](#listpeopleresponse)|**GET** /sfapi/v1/people|Get a list of People|
 |ListStarshipActions|[ListStarshipActionsRequest](#liststarshipactionsrequest)|[~StarshipAction](#starshipaction)||Watch starships doing stuff, in realtime|
 |ValidateSpecies|[ValidateSpeciesRequest](#validatespeciesrequest)|[ValidateSpeciesResponse](#validatespeciesresponse)||is the given species valid?|
+
+

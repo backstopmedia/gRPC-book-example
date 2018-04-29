@@ -12,14 +12,6 @@ Maybe put instructions about cloning your org's primary proto IDL repo, or instr
 {{/each}}
 {{/if}}
 
-{{#if enumTypeList.length}}
-## Enums
-
-{{#each enumTypeList}}
-
-{{/each}}
-{{/if}}
-
 {{#if messageTypeList.length}}
 ## Messages
 
@@ -34,6 +26,21 @@ No fields
 {{/if}}
 {{/each}}
 
+{{/if}}
+
+{{#if enumTypeList.length}}
+## Enums
+
+{{#each enumTypeList}}
+
+### {{name}}
+
+{{#each valueList}}
+* `{{name}}`: {{number}}
+{{/each}}
+
+
+{{/each}}
 {{/if}}
 
 {{#if serviceList.length}}
