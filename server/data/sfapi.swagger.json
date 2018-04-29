@@ -1,0 +1,760 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "title": "sfapi.proto",
+    "version": "version not set"
+  },
+  "schemes": [
+    "http",
+    "https"
+  ],
+  "consumes": [
+    "application/json"
+  ],
+  "produces": [
+    "application/json"
+  ],
+  "paths": {
+    "/sfapi/v1/films": {
+      "get": {
+        "summary": "Get a list of Films",
+        "operationId": "ListFilms",
+        "responses": {
+          "200": {
+            "description": "",
+            "schema": {
+              "$ref": "#/definitions/v1ListFilmsResponse"
+            }
+          }
+        },
+        "tags": [
+          "Starfriends"
+        ]
+      }
+    },
+    "/sfapi/v1/films/{id}": {
+      "get": {
+        "summary": "Get a single Film",
+        "operationId": "GetFilm",
+        "responses": {
+          "200": {
+            "description": "",
+            "schema": {
+              "$ref": "#/definitions/v1GetFilmResponse"
+            }
+          }
+        },
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "tags": [
+          "Starfriends"
+        ]
+      }
+    },
+    "/sfapi/v1/people": {
+      "get": {
+        "summary": "Get a list of People",
+        "operationId": "ListPeople",
+        "responses": {
+          "200": {
+            "description": "",
+            "schema": {
+              "$ref": "#/definitions/v1ListPeopleResponse"
+            }
+          }
+        },
+        "tags": [
+          "Starfriends"
+        ]
+      }
+    },
+    "/sfapi/v1/people/{id}": {
+      "get": {
+        "summary": "Get a single Person",
+        "operationId": "GetPerson",
+        "responses": {
+          "200": {
+            "description": "",
+            "schema": {
+              "$ref": "#/definitions/v1GetPersonResponse"
+            }
+          }
+        },
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "tags": [
+          "Starfriends"
+        ]
+      }
+    },
+    "/sfapi/v1/planets": {
+      "get": {
+        "summary": "Get a list of Planets",
+        "operationId": "ListPlanets",
+        "responses": {
+          "200": {
+            "description": "",
+            "schema": {
+              "$ref": "#/definitions/v1ListPlanetsResponse"
+            }
+          }
+        },
+        "tags": [
+          "Starfriends"
+        ]
+      }
+    },
+    "/sfapi/v1/planets/{id}": {
+      "get": {
+        "summary": "Get a single Planet",
+        "operationId": "GetPlanet",
+        "responses": {
+          "200": {
+            "description": "",
+            "schema": {
+              "$ref": "#/definitions/v1GetPlanetResponse"
+            }
+          }
+        },
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "tags": [
+          "Starfriends"
+        ]
+      }
+    },
+    "/sfapi/v1/species": {
+      "get": {
+        "summary": "Get a list of Species",
+        "operationId": "ListSpecies",
+        "responses": {
+          "200": {
+            "description": "",
+            "schema": {
+              "$ref": "#/definitions/v1ListSpeciesResponse"
+            }
+          }
+        },
+        "tags": [
+          "Starfriends"
+        ]
+      }
+    },
+    "/sfapi/v1/species/{id}": {
+      "get": {
+        "summary": "Get a single Species",
+        "operationId": "GetSpecies",
+        "responses": {
+          "200": {
+            "description": "",
+            "schema": {
+              "$ref": "#/definitions/v1GetSpeciesResponse"
+            }
+          }
+        },
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "tags": [
+          "Starfriends"
+        ]
+      }
+    },
+    "/sfapi/v1/starships": {
+      "get": {
+        "summary": "Get a list of Starships",
+        "operationId": "ListStarships",
+        "responses": {
+          "200": {
+            "description": "",
+            "schema": {
+              "$ref": "#/definitions/v1ListStarshipsResponse"
+            }
+          }
+        },
+        "tags": [
+          "Starfriends"
+        ]
+      }
+    },
+    "/sfapi/v1/starships/{id}": {
+      "get": {
+        "summary": "Get a single Starship",
+        "operationId": "GetStarship",
+        "responses": {
+          "200": {
+            "description": "",
+            "schema": {
+              "$ref": "#/definitions/v1GetStarshipResponse"
+            }
+          }
+        },
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "tags": [
+          "Starfriends"
+        ]
+      }
+    },
+    "/sfapi/v1/vehicles": {
+      "get": {
+        "summary": "Get a list of Vehicles",
+        "operationId": "ListVehicles",
+        "responses": {
+          "200": {
+            "description": "",
+            "schema": {
+              "$ref": "#/definitions/v1ListVehiclesResponse"
+            }
+          }
+        },
+        "tags": [
+          "Starfriends"
+        ]
+      }
+    },
+    "/sfapi/v1/vehicles/{id}": {
+      "get": {
+        "summary": "Get a single Vehicle",
+        "operationId": "GetVehicle",
+        "responses": {
+          "200": {
+            "description": "",
+            "schema": {
+              "$ref": "#/definitions/v1GetVehicleResponse"
+            }
+          }
+        },
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "tags": [
+          "Starfriends"
+        ]
+      }
+    }
+  },
+  "definitions": {
+    "StarshipActionAction": {
+      "type": "string",
+      "enum": [
+        "TOOKOFF",
+        "LANDED",
+        "HYPERDRIVE",
+        "HIDING_IN_A_MOUTH"
+      ],
+      "default": "TOOKOFF"
+    },
+    "v1Film": {
+      "type": "object",
+      "properties": {
+        "title": {
+          "type": "string"
+        },
+        "episode_id": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "opening_crawl": {
+          "type": "string"
+        },
+        "director": {
+          "type": "string"
+        },
+        "producer": {
+          "type": "string"
+        },
+        "release_date": {
+          "type": "string"
+        },
+        "character_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "planet_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "starship_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "vehicle_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "species_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "id": {
+          "type": "string"
+        }
+      }
+    },
+    "v1GetFilmResponse": {
+      "type": "object",
+      "properties": {
+        "film": {
+          "$ref": "#/definitions/v1Film"
+        }
+      }
+    },
+    "v1GetPersonResponse": {
+      "type": "object",
+      "properties": {
+        "person": {
+          "$ref": "#/definitions/v1Person"
+        }
+      }
+    },
+    "v1GetPlanetResponse": {
+      "type": "object",
+      "properties": {
+        "planet": {
+          "$ref": "#/definitions/v1Planet"
+        }
+      }
+    },
+    "v1GetSpeciesResponse": {
+      "type": "object",
+      "properties": {
+        "species": {
+          "$ref": "#/definitions/v1Species"
+        }
+      }
+    },
+    "v1GetStarshipResponse": {
+      "type": "object",
+      "properties": {
+        "starship": {
+          "$ref": "#/definitions/v1Starship"
+        }
+      }
+    },
+    "v1GetVehicleResponse": {
+      "type": "object",
+      "properties": {
+        "vehicle": {
+          "$ref": "#/definitions/v1Vehicle"
+        }
+      }
+    },
+    "v1ListFilmsResponse": {
+      "type": "object",
+      "properties": {
+        "films": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/v1Film"
+          }
+        }
+      }
+    },
+    "v1ListPeopleResponse": {
+      "type": "object",
+      "properties": {
+        "people": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/v1Person"
+          }
+        }
+      }
+    },
+    "v1ListPlanetsResponse": {
+      "type": "object",
+      "properties": {
+        "planets": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/v1Planet"
+          }
+        }
+      }
+    },
+    "v1ListSpeciesResponse": {
+      "type": "object",
+      "properties": {
+        "species": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/v1Species"
+          }
+        }
+      }
+    },
+    "v1ListStarshipsResponse": {
+      "type": "object",
+      "properties": {
+        "starships": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/v1Starship"
+          }
+        }
+      }
+    },
+    "v1ListVehiclesResponse": {
+      "type": "object",
+      "properties": {
+        "vehicles": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/v1Vehicle"
+          }
+        }
+      }
+    },
+    "v1Person": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "height": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "mass": {
+          "type": "number",
+          "format": "float"
+        },
+        "hair_color": {
+          "type": "string"
+        },
+        "skin_color": {
+          "type": "string"
+        },
+        "eye_color": {
+          "type": "string"
+        },
+        "birth_year": {
+          "type": "string"
+        },
+        "gender": {
+          "type": "string"
+        },
+        "homeworld": {
+          "type": "string"
+        },
+        "film_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "species_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "vehicle_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "starship_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "id": {
+          "type": "string"
+        }
+      }
+    },
+    "v1Planet": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "rotation_period": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "orbital_period": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "diameter": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "climate": {
+          "type": "string"
+        },
+        "gravity": {
+          "type": "number",
+          "format": "float"
+        },
+        "terrain": {
+          "type": "string"
+        },
+        "surface_water": {
+          "type": "number",
+          "format": "float"
+        },
+        "population": {
+          "type": "string",
+          "format": "int64"
+        },
+        "resident_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "film_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "id": {
+          "type": "string"
+        }
+      }
+    },
+    "v1Species": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "classification": {
+          "type": "string"
+        },
+        "designation": {
+          "type": "string"
+        },
+        "average_height": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "skin_colors": {
+          "type": "string"
+        },
+        "eye_colors": {
+          "type": "string"
+        },
+        "average_lifespan": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "homeworld": {
+          "type": "string"
+        },
+        "language": {
+          "type": "string"
+        },
+        "people_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "film_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "id": {
+          "type": "string"
+        },
+        "hair_colors": {
+          "type": "string"
+        }
+      }
+    },
+    "v1Starship": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "model": {
+          "type": "string"
+        },
+        "manufacturer": {
+          "type": "string"
+        },
+        "cost_in_credits": {
+          "type": "string",
+          "format": "int64"
+        },
+        "length": {
+          "type": "number",
+          "format": "float"
+        },
+        "crew": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "passengers": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "cargo_capacity": {
+          "type": "string",
+          "format": "int64"
+        },
+        "consumables": {
+          "type": "string"
+        },
+        "hyperdrive_rating": {
+          "type": "number",
+          "format": "float"
+        },
+        "mglt": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "starship_class": {
+          "type": "string"
+        },
+        "pilot_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "film_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "id": {
+          "type": "string"
+        },
+        "max_atmosphering_speed": {
+          "type": "string",
+          "format": "int64"
+        }
+      }
+    },
+    "v1StarshipAction": {
+      "type": "object",
+      "properties": {
+        "starship": {
+          "$ref": "#/definitions/v1Starship"
+        },
+        "action": {
+          "$ref": "#/definitions/StarshipActionAction"
+        }
+      }
+    },
+    "v1ValidateSpeciesResponse": {
+      "type": "object"
+    },
+    "v1Vehicle": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "model": {
+          "type": "string"
+        },
+        "manufacturer": {
+          "type": "string"
+        },
+        "cost_in_credits": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "length": {
+          "type": "number",
+          "format": "float"
+        },
+        "max_atmosphering_speed": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "crew": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "passengers": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "cargo_capacity": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "consumables": {
+          "type": "string"
+        },
+        "vehicle_class": {
+          "type": "string"
+        },
+        "pilot_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "film_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "id": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}
