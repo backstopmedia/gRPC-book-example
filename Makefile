@@ -14,6 +14,11 @@ lint:
 		-w $(PWD)/proto \
 		gwihlidal/protoc sfapi.proto -I. --lint_out=.
 
+.PHONY: generate-pb;
+generate-pb:
+	$(info Generating go and gRPC protos...)
+	@docker run -v $(PWD):/defs namely/protoc-all:1.9 -d proto -l go -o server/proto
+
 server/api/mocks/provider.go: server/db/provider.go
 	$(info Generating mock provider...)
 	@retool do mockery -name Provider -dir server/db -output ./server/api/mocks
@@ -23,8 +28,7 @@ server/api/mocks/starship_action.go:
 	@retool do mockery -name Starfriends_ListStarshipActionsServer -dir server/proto  -output ./server/api/mocks
 
 server/proto/%.pb.go: proto/%.proto
-	$(info Generating go and gRPC protos...)
-	@docker run -v $(PWD):/defs namely/protoc-all:1.9 -d proto -l go -o server/proto
+	$(info DEPRECATED: use "make generate-pb" instead)
 
 examples/ruby/proto/%.rb:
 	$(info Generating ruby protos...)
