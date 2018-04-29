@@ -1,6 +1,8 @@
 package main
 
 import (
+	"context"
+	"net/http"
 	"os"
 
 	"google.golang.org/grpc"
@@ -12,6 +14,7 @@ import (
 	"github.com/backstopmedia/gRPC-book-example/server/api"
 	"github.com/backstopmedia/gRPC-book-example/server/db"
 	pb "github.com/backstopmedia/gRPC-book-example/server/proto"
+	"github.com/grpc-ecosystem/grpc-gateway/runtime"
 	"github.com/sirupsen/logrus"
 
 	"github.com/urfave/cli"
@@ -28,6 +31,7 @@ func main() {
 	app.Name = "grpc-example"
 	app.Commands = []cli.Command{
 		grpcServerCmd(),
+		gatewayServerCmd(),
 	}
 
 	if err := app.Run(os.Args); err != nil {
@@ -78,6 +82,39 @@ func grpcServerCmd() cli.Command {
 			}
 
 			return nil
+		},
+	}
+}
+
+func gatewayServerCmd() cli.Command {
+	return cli.Command{
+		Name:  "gw-server",
+		Usage: "starts a Gateway server for Starfriends",
+		Flags: []cli.Flag{
+			cli.IntFlag{
+				Name:  "port",
+				Value: 8081,
+			},
+			cli.StringFlag{
+				Name:  "grpc-endpoint",
+				Value: "localhost:8080",
+				Usage: "the address of the running gRPC server to transcode to",
+			},
+		},
+		Action: func(c *cli.Context) error {
+			ctx := context.Background()
+			ctx, cancel := context.WithCancel(ctx)
+			defer cancel()
+
+			mux := runtime.NewServeMux()
+			opts := []grpc.DialOption{grpc.WithInsecure()}
+			err := pb.RegisterStarfriendsHandlerFromEndpoint(ctx, mux, c.String("grpc-endpoint"), opts)
+			if err != nil {
+				return err
+			}
+
+			logrus.Printf("Starting JSON Gateway server on port %d...", c.Int("port"))
+			return http.ListenAndServe(fmt.Sprintf(":%d", c.Int("port")), mux)
 		},
 	}
 }

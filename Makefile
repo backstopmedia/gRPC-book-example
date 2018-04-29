@@ -37,5 +37,8 @@ rpc-server: server/main.go server/api/*.go server/proto/sfapi.pb.go
 run-server: rpc-server
 	./rpc-server grpc-server
 
+run-gateway: rpc-server
+	./rpc-server gw-server
+
 test: server/proto/sfapi.pb.go server/proto/json_db.pb.go server/api/mocks/provider.go
 	@go test -v -cover ./server/api ./server/db
