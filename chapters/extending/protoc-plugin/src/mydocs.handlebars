@@ -1,0 +1,58 @@
+# {{pb_package}}
+
+Here you could put any kind of content you like.
+
+Maybe put instructions about cloning your org's primary proto IDL repo, or instructions on getting started with tools, or whatever you like.
+
+{{#if dependencyList.length}}
+## Dependencies
+
+{{#each dependencyList}}
+* `{{ this }}`
+{{/each}}
+{{/if}}
+
+{{#if messageTypeList.length}}
+## Messages
+
+{{#each messageTypeList}}
+### {{name}}
+{{#if fieldList.length}}
+{{messageTable this @key}}
+
+{{else}}
+No fields
+
+{{/if}}
+{{/each}}
+
+{{/if}}
+
+{{#if enumTypeList.length}}
+## Enums
+
+{{#each enumTypeList}}
+
+### {{name}}
+
+{{#each valueList}}
+* `{{name}}`: {{number}}
+{{/each}}
+
+
+{{/each}}
+{{/if}}
+
+{{#if serviceList.length}}
+## Sevices
+
+`~` denotes a streaming input/outut.
+
+{{#each serviceList}}
+### {{name}}
+{{serviceTable this @key}}
+
+{{/each}}
+{{else}}
+No services
+{{/if}}

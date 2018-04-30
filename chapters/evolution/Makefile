@@ -27,4 +27,3 @@ build: $(BUILD_DEPS)
 
 run: build
 	@bin/server
-

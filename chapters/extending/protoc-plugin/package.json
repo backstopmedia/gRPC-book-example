@@ -1,0 +1,19 @@
+{
+  "name": "protoc-example",
+  "private": true,
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "protoc -I ../../../proto/ ../../../proto/sfapi.proto --doc_out=../../../ --doc_opt=markdown,sfapi.md --lint_out=.",
+    "start": "protoc -I ../../../proto/ ../../../proto/sfapi.proto --mydocs_out=example_out --plugin=./src/protoc-gen-mydocs"
+  },
+  "keywords": [],
+  "author": "David Konsumer <konsumer@jetboystudio.com> (http://konsumer.js.org/)",
+  "license": "MIT",
+  "dependencies": {
+    "handlebars": "^4.0.11",
+    "json-to-markdown": "^1.0.4",
+    "protoc-plugin": "0.0.6"
+  }
+}

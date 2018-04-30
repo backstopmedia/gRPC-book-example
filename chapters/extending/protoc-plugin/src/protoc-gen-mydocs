@@ -1,0 +1,115 @@
+#!/usr/bin/env node
+const protocPlugin = require('protoc-plugin')
+const Handlebars = require('handlebars')
+const { basename } = require('path')
+const { readFileSync } = require('fs')
+const tableMarkdown = require('json-to-markdown')
+
+const fieldMap = {
+  1: 'Double',
+  2: 'Float',
+  3: 'Int64',
+  4: 'Uint64',
+  5: 'Int32',
+  6: 'Fixed64',
+  7: 'Fixed32',
+  8: 'Bool',
+  9: 'String',
+  12: 'Bytes',
+  13: 'Uint32',
+  15: 'Sfixed32',
+  16: 'Sfixed64',
+  17: 'Sint32',
+  18: 'Sint64'
+}
+
+// get a reasonable display type-name string for a field or string
+const getTypeName = (field, func) => {
+  const proto = func.data.root
+  if (typeof field === 'string') {
+    return field.replace(`.${proto.pb_package}.`, '')
+  }
+  if (field.type === 11 || field.type === 14) {
+    return field.typeName.replace(`.${proto.pb_package}.`, '')
+  }
+  return fieldMap[ field.type ] || `Unknown (${field.type})`
+}
+
+// build a markdown-table from a message
+const messageTable = (message, m, func) => {
+  const proto = func.data.root
+  return tableMarkdown(message.fieldList.map((field, f) => {
+    let Type
+    if (field.type === 11 || field.type === 14) {
+      const typeName = getTypeName(field, func)
+      Type = `[${typeName}](#${anchorName(typeName)})`
+    } else {
+      Type = fieldMap[ field.type ] || `Unknown (${field.type})`
+    }
+    return {
+      Number: field.number,
+      Type,
+      Name: field.name,
+      Description: protocPlugin.findCommentByPath([4, m, 2, f], proto.sourceCodeInfo.locationList)
+    }
+  }), ['Number', 'Name', 'Type', 'Description'])
+}
+
+// build a markdown-table from a service
+const serviceTable = (service, s, func) => {
+  const proto = func.data.root
+  const rows = service.methodList.map((method, r) => {
+    const inputType = getTypeName(method.inputType, func)
+    const outputType = getTypeName(method.outputType, func)
+    const Input = `[${method.clientStreaming ? '~' : ''}${inputType}](#${anchorName(inputType)})`
+    const Output = `[${method.serverStreaming ? '~' : ''}${outputType}](#${anchorName(outputType)})`
+    const Options = optionsToInfo(method.options)
+    return {
+      Name: method.name,
+      Input,
+      Output,
+      Options,
+      Description: protocPlugin.findCommentByPath([6, s, 2, r], proto.sourceCodeInfo.locationList)
+    }
+  })
+  return tableMarkdown(rows, ['Name', 'Input', 'Output', 'Options', 'Description'])
+}
+
+// get the name of an anchor-tag for types
+const anchorName = string => string.toLowerCase().replace(/[_\- .]/g, '')
+
+// get info-text for service options
+const optionsToInfo = options => {
+  const out = []
+  if (options.http) {
+    ;['get', 'post', 'put', 'pb_delete', 'patch', 'body'].forEach(opt => {
+      if (options.http[opt]) {
+        out.push(`**${opt.replace('pb_').toUpperCase()}** ${options.http[opt]}`)
+      }
+    })
+  }
+  return out.join(', ')
+}
+
+Handlebars.registerHelper('getTypeName', getTypeName)
+Handlebars.registerHelper('anchorName', anchorName)
+Handlebars.registerHelper('messageTable', messageTable)
+Handlebars.registerHelper('serviceTable', serviceTable)
+
+const tpl = Handlebars.compile(readFileSync(`${__dirname}/mydocs.handlebars`).toString())
+
+protocPlugin(protos => {
+  // find the enums inside messages, and put them at the top
+  return protos.map(proto => {
+    proto.messageTypeList.forEach(m => {
+      m.enumTypeList.forEach(e => {
+        e.name = `${m.name}.${e.name}`
+        proto.enumTypeList.push(e)
+      })
+    })
+    return {
+      name: `${basename(proto.name, '.proto')}.md`,
+      content: tpl(proto)
+    }
+  })
+})
