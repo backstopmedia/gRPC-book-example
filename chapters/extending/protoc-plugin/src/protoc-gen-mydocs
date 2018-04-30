@@ -84,7 +84,7 @@ const optionsToInfo = options => {
   if (options.http) {
     ;['get', 'post', 'put', 'pb_delete', 'patch', 'body'].forEach(opt => {
       if (options.http[opt]) {
-        out.push(`**${opt.replace('pb_').toUpperCase()}** ${options.http[opt]}`)
+        out.push(`**${opt.replace('pb_', '').toUpperCase()}** ${options.http[opt]}`)
       }
     })
   }
