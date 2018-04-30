@@ -99,8 +99,8 @@ Handlebars.registerHelper('serviceTable', serviceTable)
 const tpl = Handlebars.compile(readFileSync(`${__dirname}/mydocs.handlebars`).toString())
 
 protocPlugin(protos => {
-  // find the enums inside messages, and put them at the top
   return protos.map(proto => {
+    // find the enums inside messages, and put them at the top
     proto.messageTypeList.forEach(m => {
       m.enumTypeList.forEach(e => {
         e.name = `${m.name}.${e.name}`
